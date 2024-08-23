@@ -1,0 +1,69 @@
+/* Universal Styling */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+/* Custom Variables */
+
+:root {
+    --ff-primary: 'IBM Plex Sans', serif;
+    
+	--fw-light: 300;
+    --fw-reg: 400;
+	--fw-med: 600;
+    --fw-bold: 700;
+    
+	--color-white: #fff;
+    --color-light-brown1: #cda478;
+	--color-light-brown2: #c19f7b;
+    --color-dark-brown1: #65431e;
+	--color-dark-brown2: #644c32;
+    
+    --fs-h1: 3rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.25rem;
+    --fs-body: 1rem;
+
+	--gradient-light: linear-gradient(
+	-45deg, 
+	#ccb296, 
+	#d0a679,
+	#d0a679, 
+	#b58a5b, 
+	#bb835c, 
+	#ac7e4b 
+	);
+
+	--gradient-dark: linear-gradient(
+	-45deg, 
+	#624220, 
+	#4a2f12,
+	#422608, 
+	#361f08, 
+	#321b0b, 
+	#331406 
+	);
+}
+
+body {
+	background: var(--gradient-light);
+	background-size: 400% 400%;
+	animation: gradient 10s ease-in-out infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
