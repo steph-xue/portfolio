@@ -2,8 +2,9 @@ import React from "react"
 
 function Footer() {
     return (
-        <footer>
-            <p>© 2021</p>
+        <footer className="footer">
+            <p>© 2024 - Stephanie Xue</p>
+            
         </footer>
     );
 }
