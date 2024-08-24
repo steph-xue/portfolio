@@ -2,9 +2,9 @@ import React from "react"
 
 function Projects() {
     return (
-        <div>
-            <h1>Projects</h1>
-            <p>
+        <div className="projects-page">
+            <h1 className="projects-title">Projects</h1>
+            <p className="projects-description">
                 Here are some of my projects:
             </p>
         </div>

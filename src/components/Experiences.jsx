@@ -2,11 +2,11 @@ import React from "react"
 
 function Experiences() {
     return (
-        <div>
-        <h1>Experiences</h1>
-        <p>
-            I am currently a Software Engineer Intern at Facebook.
-        </p>
+        <div className="experiences-page">
+            <h1 className="experiences-title">Experiences</h1>
+            <p className="experiences-description">
+                I am currently a Software Engineer Intern at Facebook.
+            </p>
         </div>
     );
  }
