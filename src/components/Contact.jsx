@@ -49,7 +49,8 @@ function Contact() {
             <div className="contact-form-container">
                 <h2 className="contact-form-title">Send Me A Message</h2>
                 <div className="contact-line"></div>
-                <form className="contact-form">
+                <form className="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="7622f452-4a96-4968-b3dc-5d901386877e" />
                     <div className="contact-form-input-container">
                         <label className="contact-form-label" htmlFor="contact-name">Name:</label>
                         <input className="contact-form-input" type="text" name="name" id="contact-name" placeholder="Name" required />
