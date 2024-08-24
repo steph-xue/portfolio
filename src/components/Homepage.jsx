@@ -65,6 +65,8 @@ function Homepage() {
     // Render the Homepage component
     return (
         <div className="homepage">
+
+            {/* Homepage title and description */}
             <div className="homepage-title">
                 <span id="text"></span>
                 <div className="console-underscore" id="console">&#95;</div>
