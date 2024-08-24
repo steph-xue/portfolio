@@ -307,9 +307,13 @@ body {
 .contact-page {
 	display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-	padding: 1em 2em;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-block: 0;
+	margin: 0;
+	flex-grow: 1;
 }
 
 .contact-title {
@@ -339,7 +343,7 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding-bottom: 3em;
+	padding-bottom: 2em;
 }
 
 .contact-image {
@@ -414,24 +418,24 @@ body {
 .contact-line {
 	border: 1.5px solid var(--color-dark-brown1);
 	border-radius: 50px;
-	width: 30vw;
+	width: 40vw;
 	margin-bottom: 0.5em;
 }
 
 .contact-form {
 	display: flex;
 	flex-direction: column;
-	gap: 0.3em;
+	gap: 0.1em;
 	justify-content: center;
 	align-items: center;
-	border: 1px solid red;
-	width: 70vw;
+	width: 80vw;
 }
 
 .contact-form-input-container {
 	display: flex;
 	flex-direction: column;
 	gap: 0.2em;
+	width: 100%;
 }
 
 .contact-form-label {
@@ -475,6 +479,12 @@ body {
 }
 
 @media (min-width: 800px) {
+	.contact-form-input-container {
+		width: 70vw;
+	}
+}
+
+@media (min-width: 1200px) {
 	.contact-form-input-container {
 		width: 50vw;
 	}
