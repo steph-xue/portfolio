@@ -166,9 +166,9 @@ body {
 	font-size: var(--fs-xxl);
 	font-weight: var(--fw-bold);
 	text-align: center;
-	margin-bottom: 0;
+	margin-bottom: 5em;
 	height:200px;
-	width: 900px;
+	width: 550px;
 	display: block;
 	color: var(--color-dark-brown1);
 	margin: auto;
@@ -185,12 +185,16 @@ body {
 	text-align: center;
 	width: 550px;
 	margin-top: 10em;
-	margin-bottom: 2em;
+	margin-bottom: 4em;
 	padding-left: 2em;
 	padding-right: 2em;
 }
 
 @media (min-width: 800px) {
+	.homepage-title {
+		width: 900px;
+	}
+	
 	.homepage-description{
 		width: 900px;
 	}
