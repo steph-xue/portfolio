@@ -6,6 +6,8 @@ import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 function Footer() {
+
+    // Render the Footer component
     return (
         <footer className="footer">
             <p className="copyright">© 2024 - Stephanie Xue</p>

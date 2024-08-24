@@ -153,19 +153,38 @@ body {
     justify-content: center;
     align-items: center;
 	padding: 1em 2em;
+	margin-top: 10em;
+	width: 100%;
+	height: 100%;
+}
+
+.hidden {
+	opacity: 0;
 }
 
 .homepage-title {
 	font-size: var(--fs-xxl);
 	font-weight: var(--fw-bold);
 	text-align: center;
-	margin-top: 1.5em;
 	margin-bottom: 0;
+	height:200px;
+	width: 900px;
+	display: block;
+	color: var(--color-dark-brown1);
+	margin: auto;
+}
+
+.console-underscore {
+	display:inline-block;
+	position:relative;
+	top:-0.14em;
+	left:10px;
 }
 
 .homepage-description {
 	text-align: center;
 	width: 550px;
+	margin-top: 10em;
 	margin-bottom: 2em;
 	padding-left: 2em;
 	padding-right: 2em;
@@ -333,11 +352,12 @@ body {
 	border: none;
 	padding: 1em 1.5em;
 	text-align: left;
-	transition: background 0.5s ease-in-out;
+	transition: background 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
 }
 
 .contact-button:hover, .contact-button:focus {
 	background-color: var(--color-white-opacity2);
+	box-shadow: var(--color-brown-opacity) 0px 5px 15px 0px;
 }
 
 .contact-icon {
@@ -420,3 +440,6 @@ body {
 .icon:hover, .icon:focus {
 	opacity: 0.7;
 }
+
+
+

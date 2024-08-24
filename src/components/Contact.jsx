@@ -6,13 +6,15 @@ import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 function Contact() {   
-  return (
+    
+    // Render the Contact component
+    return (
     <div className="contact-page">
-      <h1 className="contact-title">Contact Me.</h1>
-      <p className="contact-description">
+    <h1 className="contact-title">Contact Me.</h1>
+    <p className="contact-description">
         If you'd like to get in touch, feel free to send me an email or connect with me on LinkedIn, Github, or Instagram. I'm always open to discussing new projects and networking with like-minded individuals.
-      </p>
-      <div className="contact-image-button-container">
+    </p>
+    <div className="contact-image-button-container">
         <img className="contact-image" src="/images/contact.png" alt="contact" />
         <div className="contact-buttons">
             <a className="contact-button" href="mailto:stephaniexue3@gmail.com">
@@ -36,7 +38,7 @@ function Contact() {
                 <span className="sm-contact-label">- www.instagram.com/stephxue_</span>
             </a>
         </div>
-      </div>
+    </div>
     </div>
     );
 }

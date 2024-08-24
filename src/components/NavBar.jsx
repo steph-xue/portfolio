@@ -23,6 +23,7 @@ function NavBar() {
         };
     }, []);
 
+    // Render the NavBar component
     return (
         <nav className="navbar" >
             <ul className={navbarActive ? "navbar-list navbar-list-active" : "navbar-list"}>
