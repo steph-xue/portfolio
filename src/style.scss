@@ -16,11 +16,11 @@
     --color-dark-brown1: #65431e;
 	--color-dark-brown2: #644c32;
     
-    --fs-xxxl: 4rem;
+    --fs-xxxl: 3.5rem;
 	--fs-xxl: 3rem;
 	--fs-xl: 2.5rem;
     --fs-l: 2rem;
-    --fs-m: 1rem;
+    --fs-m: 0.8rem;
     --fs-s: 0.6rem;
 
 	--gradient-light: linear-gradient(
@@ -53,11 +53,11 @@
 
 @media (min-width: 800px) {
     :root {
-		--fs-xxxl: 6rem;
+		--fs-xxxl: 5rem;
 		--fs-xxl: 4rem;
         --fs-xl: 3rem;
         --fs-l: 2rem;
-        --fs-m: 1.2rem;
+        --fs-m: 1rem;
         --fs-s: 0.8rem;
     }
 }
@@ -154,6 +154,7 @@ body {
 /* Content */
 .content {
 	flex-grow: 1;
+	min-height: 80vh;
 }
 
 /* Homepage */
@@ -193,7 +194,7 @@ body {
 
 .homepage-description {
 	text-align: center;
-	width: 550px;
+	width: 500px;
 	margin-top: 10em;
 	margin-bottom: 1em;
 	padding-left: 2em;
@@ -532,6 +533,7 @@ body {
 .contact-image {
 	width: 25em;
 	height: auto;
+	margin-left: 2em;
 	margin-bottom: 2em;
 	transition: transform 0.5s ease-in-out;
 }
@@ -545,7 +547,7 @@ body {
 	flex-direction: column;
 	gap: 1em;
 	padding-bottom: 2em;
-	min-width: 600px;
+	min-width: 500px;
 }
 
 .contact-button {
