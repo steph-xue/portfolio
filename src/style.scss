@@ -169,7 +169,7 @@ body {
     justify-content: flex-start;
     align-items: center;
 	padding: 1em 2em;
-	margin-top: 15em;
+	margin-top: 16em;
 	width: 100%;
 	height: 100%;
 }
@@ -183,7 +183,7 @@ body {
 	font-weight: var(--fw-bold);
 	text-align: center;
 	height: 5em;
-	width: 12em;
+	width: 8em;
 	display: block;
 	color: var(--color-dark-brown1);
 	margin: auto;
@@ -206,9 +206,6 @@ body {
 }
 
 @media (min-width: 400px) {
-	.homepage {
-		margin-top: 16em;
-	}
 	
 	.homepage-title {
 		width: 14em;
