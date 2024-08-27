@@ -39,7 +39,7 @@ export default [
         id: 7,
         name: "fushimi-inari",
         title: "Fushimi Inari Shrine, Kyoto, Japan",
-        source: "/images/travel/fushimi-inari.jpg",
+        source: "/images/travel/fushimi.jpg",
     }, 
     {
         id: 8,
