@@ -206,13 +206,15 @@ body {
 }
 
 @media (min-width: 400px) {
-	
 	.homepage-title {
 		width: 14em;
+		height: 4em;
 	}
 
 	.homepage-description{
 		width: 38em;
+		margin-top: 6em;
+		margin-bottom: 6em;
 	}
 }
 
