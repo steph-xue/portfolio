@@ -580,7 +580,7 @@ a {
 .gallery {
 	width: 30em;
 	padding: 0;
-	margin-block: 1em;
+	margin-block: 2em;
 }
 
 .project-text, .project-container-link {
@@ -605,8 +605,13 @@ a {
 	margin: 0.5em 1em 1em 1em;
 }
 
-.project-languages, .project-additional-info, .project-github, .project-link {
+.project-languages, .project-additional-info1, .project-additional-info2, .project-github, .project-link {
 	margin: 0.2em;
+	text-align: center;
+}
+
+.project-languages, .project-additional-info2 {
+	margin-bottom: 1em;
 }
 
 @media (min-width: 1200px) {

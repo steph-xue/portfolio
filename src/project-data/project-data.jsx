@@ -200,8 +200,8 @@ export default [
         activeLink: "https://meme-generator-sx.netlify.app",
         images: [
             {
-                original: "/images/projects/meme-generator.png",
-                thumbnail: "/images/projects/meme-generator.png",
+                original: "/images/projects/meme-generator/meme-generator.png",
+                thumbnail: "/images/projects/meme-generator/meme-generator.png",
             }
         ]
     },
@@ -227,10 +227,6 @@ export default [
             {
                 original: "/images/projects/react-notes/preview.png",
                 thumbnail: "/images/projects/react-notes/preview.png",
-            },
-            {
-                original: "/images/projects/react-notes/delete.png",
-                thumbnail: "/images/projects/react-notes/delete.png",
             }
         ]
     },
@@ -241,7 +237,7 @@ export default [
         description: 
             "The digital business card project is a static website that displays some information about myself and my interests, with links to my email, linkedin, and other social media platforms including twitter, facebook, instagram and github.",
         languages: "JavaScript, JSX, HTML, CSS",
-        additionalInfo: "React, Bootstrap, Vite",
+        additionalInfo: "React, Bootstrap, Vite, Netlify",
         github: "https://github.com/steph-xue/digital-business-card",
         activeLink: "https://digital-business-card-steph.netlify.app",
         images: [
@@ -258,7 +254,7 @@ export default [
         description: 
             "The travel journal project is a static website that displays various travel destinations and I have visited in the past. Each destination displays a photo, the location city and country, a link to the location's Google Maps URL, travel dates, and a description with fun facts about the destination.",
         languages: "JavaScript, JSX, HTML, CSS",
-        additionalInfo: "React, Vite",
+        additionalInfo: "React, Vite, Netlify",
         github: "https://github.com/steph-xue/travel-journal",
         activeLink: "https://travel-journal-sx.netlify.app",
         images: [
@@ -275,7 +271,7 @@ export default [
         description: 
             "The tenzies game is a dynamic web application where the objective of the game is to roll the dice as fast as possible until all dice are the same. The player who gets all dice on the same number and yells 'Tenzi!' the fastest is the winner. You can play against other people or play against yourself and try to beat your best time. The usercan click each die to freeze it at its current value between rolls. The user can then click on the roll button to re-roll the unheld dice. ",
         languages: "JavaScript, JSX, HTML, CSS",
-        additionalInfo: "React, React-confetti, NanoID, Vite",
+        additionalInfo: "React, React-confetti, NanoID, Vite, Netflify",
         github: "https://github.com/steph-xue/tenzies-game",
         activeLink: "https://main--tenzies-game-sx.netlify.app/",
         images: [
@@ -304,7 +300,7 @@ export default [
         description: 
             "The quizzical project generates random quiz questions for the player to answer. The player can choose their desired level of difficulty of quiz questions (easy, medium, hard) and a category of questions (wide selection from geography to pop culture). They can then click 'start game' and the web application will generate a random set of 5 questions for the player to answer. These questions will either be in multiple choice or true/false format. After the player is done answering the questions, they can click on the 'check answers' button and the quiz will calculate their total score and display which questions the player had answered correctly and incorrectly. The Open Trivia Database API 'https://opentdb.com/api_config.php' was used to retrieve an array of random quiz questions from their database depending on the type of difficulty and category of questions selected. ",
         languages: "JavaScript, JSX, HTML, CSS",
-        additionalInfo: "React, React-confetti, Html-entities, NanoID, Bootstrap, Open Trivia Database, Vite",
+        additionalInfo: "React, React-confetti, Html-entities, NanoID, Bootstrap, Open Trivia Database, Vite, Netflify",
         github: "https://github.com/steph-xue/quizzical",
         activeLink: "https://quizzical-sx.netlify.app",
         images: [
