@@ -46,7 +46,7 @@ function Projects() {
                             JavaScript, JSX, HTML, CSS
                         </p>
                         <p className="project-additional-info">
-                            <strong>Frameworks & Dependencies: </strong>
+                            <strong>Frameworks/Dependencies/Databases/APIs/Cloud Services: </strong>
                             React, Vite, NanoID, React-confetti 
                         </p>
                         <p className="project-github">

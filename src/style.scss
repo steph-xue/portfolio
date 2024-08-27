@@ -22,7 +22,7 @@
     
     --fs-xxxl: 2.4rem;
 	--fs-xxl: 2.2rem;
-	--fs-xl: 2rem;
+	--fs-xl: 1.5rem;
     --fs-l: 1rem;
     --fs-m: 0.8rem;
     --fs-s: 0.6rem;
@@ -59,7 +59,7 @@
     :root {
 		--fs-xxxl: 5rem;
 		--fs-xxl: 4rem;
-        --fs-xl: 3rem;
+        --fs-xl: 2rem;
         --fs-l: 1.3rem;
         --fs-m: 1rem;
         --fs-s: 0.8rem;
@@ -594,14 +594,15 @@ a {
 }
 
 .project-title {
+	font-size: var(--fs-xl);
+	font-weight: var(--fw-med);
 	text-align: center;
 	margin: 0;
 	padding: 0;
-	padding-top: 0.5em;
 }
 
 .project-description {
-	margin: 1em;
+	margin: 0.5em 1em 1em 1em;
 }
 
 .project-languages, .project-additional-info, .project-github, .project-link {
