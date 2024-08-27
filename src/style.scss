@@ -613,15 +613,21 @@ body {
 
 .contact-description {
 	text-align: center;
-	width: 550px;
+	width: 26em;
 	margin-bottom: 3em;
 	padding-left: 2em;
 	padding-right: 2em;
 }
 
+@media (min-width: 400px) {
+	.contact-description{
+		width: 38em;
+	}
+} 
+
 @media (min-width: 800px) {
 	.contact-description{
-		width: 900px;
+		width: 56em;
 	}
 } 
 
@@ -650,7 +656,14 @@ body {
 	flex-direction: column;
 	gap: 1em;
 	padding-bottom: 2em;
-	min-width: 500px;
+	width: 20em;
+	border: 1px solid red;
+}
+
+@media (min-width: 600px) {
+	.contact-buttons {
+		width: 31em;
+	}
 }
 
 .contact-button {
