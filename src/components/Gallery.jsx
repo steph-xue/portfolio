@@ -8,7 +8,7 @@ function Gallery() {
 
             {/* Travel image gallery */}
             <div className="travel-gallery">
-                <h2 className="travel-title">Travel</h2>
+                <h2 className="travel-title">Travel Photography</h2>
                 <div className="travel-pics">
                     <img src="/images/travel/arashiyama.jpg" alt="arashiyama" className="travel-image" />
                     <img src="/images/travel/cabo.jpg" alt="cabo" className="travel-image" />

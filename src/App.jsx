@@ -51,7 +51,7 @@ const router = createBrowserRouter([
 // Render a Layout component that includes the Navbar, Footer, and a placeholder (Outlet) for the routed content
 function Layout() {
   return (
-    <div className="page-container">
+    <div>
       <NavBar />
       <div className="content">
         <Outlet /> 
@@ -64,7 +64,7 @@ function Layout() {
 // Render the App component with the router configuration
 function App() {
   return (
-    <main>
+    <main className="page-container">
       <RouterProvider router={router} />
     </main>
   );
