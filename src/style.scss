@@ -21,7 +21,7 @@
 	--fs-xl: 2.5rem;
     --fs-l: 2rem;
     --fs-m: 1rem;
-    --fs-s: 0.8rem;
+    --fs-s: 0.6rem;
 
 	--gradient-light: linear-gradient(
 	-45deg, 
@@ -54,11 +54,11 @@
 @media (min-width: 800px) {
     :root {
 		--fs-xxxl: 6rem;
-		--fs-xxl: 5rem;
-        --fs-xl: 4rem;
+		--fs-xxl: 4rem;
+        --fs-xl: 3rem;
         --fs-l: 2rem;
         --fs-m: 1.2rem;
-        --fs-s: 1rem;
+        --fs-s: 0.8rem;
     }
 }
 
@@ -163,7 +163,7 @@ body {
     justify-content: center;
     align-items: center;
 	padding: 1em 2em;
-	margin-top: 8em;
+	margin-top: 7em;
 	width: 100%;
 	height: 100%;
 }
@@ -176,8 +176,8 @@ body {
 	font-size: var(--fs-xxxl);
 	font-weight: var(--fw-bold);
 	text-align: center;
-	margin-bottom: 5em;
-	height:200px;
+	margin-bottom: 4em;
+	height: 200px;
 	width: 550px;
 	display: block;
 	color: var(--color-dark-brown1);
@@ -195,7 +195,7 @@ body {
 	text-align: center;
 	width: 550px;
 	margin-top: 10em;
-	margin-bottom: 2em;
+	margin-bottom: 1em;
 	padding-left: 2em;
 	padding-right: 2em;
 }
