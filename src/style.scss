@@ -154,7 +154,6 @@ body {
 /* Content */
 .content {
 	flex-grow: 1;
-	min-height: 100vh;
 }
 
 /* Homepage */
@@ -182,7 +181,6 @@ body {
 	display: block;
 	color: var(--color-dark-brown1);
 	margin: auto;
-	border: 1px solid blue;
 }
 
 .console-underscore {
@@ -199,7 +197,6 @@ body {
 	margin-bottom: 5em;
 	padding-left: 2em;
 	padding-right: 2em;
-	border: 1px solid red;
 }
 
 @media (min-width: 800px) {
