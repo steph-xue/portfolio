@@ -241,7 +241,7 @@ export default [
         description: 
             "The digital business card project is a static website that displays some information about myself and my interests, with links to my email, linkedin, and other social media platforms including twitter, facebook, instagram and github.",
         languages: "JavaScript, JSX, HTML, CSS",
-        additionalInfo: "React, Vite",
+        additionalInfo: "React, Bootstrap, Vite",
         github: "https://github.com/steph-xue/digital-business-card",
         activeLink: "https://digital-business-card-steph.netlify.app",
         images: [
@@ -304,7 +304,7 @@ export default [
         description: 
             "The quizzical project generates random quiz questions for the player to answer. The player can choose their desired level of difficulty of quiz questions (easy, medium, hard) and a category of questions (wide selection from geography to pop culture). They can then click 'start game' and the web application will generate a random set of 5 questions for the player to answer. These questions will either be in multiple choice or true/false format. After the player is done answering the questions, they can click on the 'check answers' button and the quiz will calculate their total score and display which questions the player had answered correctly and incorrectly. The Open Trivia Database API 'https://opentdb.com/api_config.php' was used to retrieve an array of random quiz questions from their database depending on the type of difficulty and category of questions selected. ",
         languages: "JavaScript, JSX, HTML, CSS",
-        additionalInfo: "React, React-confetti, Html-entities, NanoID, Open Trivia Database, Vite",
+        additionalInfo: "React, React-confetti, Html-entities, NanoID, Bootstrap, Open Trivia Database, Vite",
         github: "https://github.com/steph-xue/quizzical",
         activeLink: "https://quizzical-sx.netlify.app",
         images: [
