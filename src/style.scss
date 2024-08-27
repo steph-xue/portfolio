@@ -154,17 +154,17 @@ body {
 /* Content */
 .content {
 	flex-grow: 1;
-	min-height: 80vh;
+	min-height: 100vh;
 }
 
 /* Homepage */
 .homepage {
 	display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 	padding: 1em 2em;
-	margin-top: 7em;
+	margin-top: 15em;
 	width: 100%;
 	height: 100%;
 }
@@ -177,12 +177,12 @@ body {
 	font-size: var(--fs-xxxl);
 	font-weight: var(--fw-bold);
 	text-align: center;
-	margin-bottom: 4em;
-	height: 200px;
+	height: 250px;
 	width: 550px;
 	display: block;
 	color: var(--color-dark-brown1);
 	margin: auto;
+	border: 1px solid blue;
 }
 
 .console-underscore {
@@ -195,10 +195,11 @@ body {
 .homepage-description {
 	text-align: center;
 	width: 500px;
-	margin-top: 10em;
-	margin-bottom: 1em;
+	margin-top: 5em;
+	margin-bottom: 5em;
 	padding-left: 2em;
 	padding-right: 2em;
+	border: 1px solid red;
 }
 
 @media (min-width: 800px) {
