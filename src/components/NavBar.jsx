@@ -8,7 +8,6 @@ function NavBar() {
 
     // Function to change the navbar based on the user's scroll position
     function changeNavbar() {
-        console.log(window.scrollY);
         if (window.scrollY > 0) {
             setNavbarActive(true);
         } else {

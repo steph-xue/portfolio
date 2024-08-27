@@ -1,7 +1,51 @@
 import React from "react"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCircleXmark } from '@fortawesome/free-solid-svg-icons'
+import travelData from "../image-data/travel-data.jsx"
+import foodData from "../image-data/food-data.jsx"
+import catData from "../image-data/cat-data.jsx"
 import Gallery from "./Gallery.jsx"
 
 function About() {
+
+    // State variables to store each category of images (each storing 6 image objects)
+    const [travelImages, setTravelImages] = React.useState(selectRandomImages(travelData));
+    const [foodImages, setFoodImages] = React.useState(selectRandomImages(foodData));
+    const [catImages, setCatImages] = React.useState(selectRandomImages(catData));
+
+    // State variable to store whether the image is displayed in full
+    const [showImage, setShowImage] = React.useState(false);
+
+    // State variable to store the URL and title of the image to be displayed in full
+    const [imageURL, setImageURL] = React.useState("");
+    const [imageTitle, setImageTitle] = React.useState("");
+
+    // Function to select 6 random image objects from the images database
+    function selectRandomImages(data) {
+        
+        const imagesArray = [];
+        while (imagesArray.length < 6) {
+            const randomIndex = Math.floor(Math.random() * data.length);
+            const randomImage = data[randomIndex];
+            if (!imagesArray.includes(randomImage)) {
+                imagesArray.push(randomImage);
+            }
+        }
+        return imagesArray;
+    }
+
+    // Function to toggle the selected image (as open full image or close full image)
+    function toggleImage(imageSource, imageTitle) {
+        if (showImage) {
+            setShowImage(false);
+            setImageURL("");
+            setImageTitle("");
+        } else {
+            setShowImage(true);
+            setImageURL(imageSource);
+            setImageTitle(imageTitle);
+        }
+    }
 
     // Render the About component
     return (
@@ -42,7 +86,22 @@ function About() {
             </div>
 
             {/* Image gallery */}
-            <Gallery /> 
+            <Gallery 
+                travelImages={travelImages} 
+                foodImages={foodImages} 
+                catImages={catImages}
+                toggleImage={toggleImage}
+            /> 
+
+            {/* Full image display if image is clicked on */}
+            {
+                showImage &&
+                <div className="full-image-container">
+                    <FontAwesomeIcon className="close-icon" icon={faCircleXmark} onClick={toggleImage} />
+                    <img src={imageURL} alt="full-image" className="full-image" />
+                    <p className="full-image-title">{imageTitle}</p>
+                </div>
+            }
         </div>
     );
 }

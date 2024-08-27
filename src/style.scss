@@ -14,7 +14,7 @@
     --color-light-brown1: #cda478;
 	--color-light-brown2: rgb(200, 167, 127);
     --color-dark-brown1: #65431e;
-	--color-dark-brown2: #644c32;
+	--color-dark-brown2: #815d38;
     
     --fs-xxxl: 3.5rem;
 	--fs-xxl: 3rem;
@@ -329,7 +329,7 @@ body {
 	display: grid;
 	grid-template-columns: 1fr;
 	margin-top: 0;
-	margin-bottom: 3em;
+	margin-bottom: 4em;
 }
 
 .travel-title, .food-title, .cat-title {
@@ -418,6 +418,43 @@ body {
 
 .travel-pics:hover, .travel-pics:focus, .food-pics:hover, .food-pics:focus, .cat-pics:hover, .cat-pics:focus {
 	transform: scale(1.05);
+}
+
+.full-image-container {
+    position: fixed;
+    background: var(--color-dark-brown2);
+    color: var(--color-white);
+	border-radius: 20px;
+    top: 2%;
+    bottom: 2%;
+    left: 5%;
+    right: 5%;
+    z-index: 100;
+}
+
+.full-image {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 35em;
+	border-radius: 10px;
+}
+
+.close-icon {
+	position: absolute;
+	top: 1em;
+	right: 1em;
+	font-size: 1.5rem;
+	cursor: pointer;
+}
+
+.full-image-title {
+	font-size: var(--fs-l);
+	font-weight: var(--fw-med);
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 0;
 }
 
 
