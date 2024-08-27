@@ -579,7 +579,6 @@ a {
 
 .gallery {
 	width: 30em;
-	height: auto;
 	padding: 0;
 	margin-block: 1em;
 }
@@ -663,6 +662,29 @@ a {
 .project-active-link:hover, .project-active-link:focus,
 .github-active-link:hover, .github-active-link:focus {
 	opacity: 0.8;
+}
+
+.image-gallery-left-nav,
+.image-gallery-right-nav {
+
+  .image-gallery-svg {
+    height: 60px !important;
+    width: 30px !important;
+  }
+
+  @media (max-width: $ig-small-screen) {
+    .image-gallery-svg {
+      height: 40px !important;
+      width: 13px !important;
+    }
+  }
+
+  @media (max-width: $ig-xsmall-screen) {
+    .image-gallery-svg {
+      height: 24px !important;
+      width: 12px !important;
+    }
+  }
 }
 
 

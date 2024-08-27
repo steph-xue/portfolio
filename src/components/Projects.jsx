@@ -63,10 +63,6 @@ function Projects() {
                     <div className="gallery">
                         <ImageGallery 
                             items={images} 
-                            originalHeight={500}
-                            originalWidth={500}
-                            thumbnailWidth={500}
-                            thumbnailHeight={500}
                             originalTitle="tenzies-game"
                             thumbnailPosition="left"
                             slideInterval={4000}
