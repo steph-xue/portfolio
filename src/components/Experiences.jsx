@@ -7,7 +7,7 @@ function Experiences() {
         <div className="experiences-page">
             <h1 className="experiences-title">Experiences</h1>
             <p className="experiences-description">
-                I am currently a Software Engineer Intern at Facebook.
+                Here are some of my experiences:
             </p>
         </div>
     );
