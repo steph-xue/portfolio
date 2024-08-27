@@ -436,24 +436,48 @@ body {
     z-index: 100;
 }
 
+.full-image-title {
+	font-size: var(--fs-l);
+	font-weight: var(--fw-med);
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
 .full-image {
-	width: 12em;
-	height: 18em;
+	width: 10em;
+	height: 14em;
 	border-radius: 10px;
+}
+
+@media (min-height: 400px) {
+	.full-image {
+		width: 16em;
+		height: 22em;
+	}
 }
 
 @media (min-height: 600px) {
 	.full-image {
-		width: 28em;
-		height: 38em;
+		width: 22em;
+		height: 30em;
+	}
+
+	.full-image-title {
+		margin-top: 1em;
+		margin-bottom: 1em;
 	}
 }
 
-.full-image-title {
-	font-size: var(--fs-l);
-	font-weight: var(--fw-med);
-	margin-top: 2em;
-	margin-bottom: 2em;
+@media (min-height: 800px) {
+	.full-image {
+		width: 32em;
+		height: 42em;
+	}
+
+	.full-image-title {
+		margin-top: 2em;
+		margin-bottom: 2em;
+	}
 }
 
 .close-icon {
