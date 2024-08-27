@@ -24,22 +24,22 @@ function Contact() {
                 <div className="contact-buttons">
                     <a className="contact-button" href="mailto:stephaniexue3@gmail.com">
                         <FontAwesomeIcon className="contact-icon" icon={faEnvelope} />
-                        <span><strong>Email </strong></span> 
+                        <span className="head-contact-label"><strong>Email </strong></span> 
                         <span className="sm-contact-label">- stephaniexue3@gmail.com</span>
                     </a>
                     <a className="contact-button" href="https://github.com/steph-xue">
                         <FontAwesomeIcon className="contact-icon" icon={faGithub} />
-                        <span><strong>Github </strong></span>
+                        <span className="head-contact-label"><strong>Github </strong></span>
                         <span className="sm-contact-label">- www.github.com/steph-xue</span>
                     </a>
                     <a className="contact-button" href="https://www.linkedin.com/in/stephanie-x-639182188/">
                         <FontAwesomeIcon className="contact-icon" icon={faLinkedin} />
-                        <span><strong>Linkedin </strong></span>
+                        <span className="head-contact-label"><strong>Linkedin </strong></span>
                         <span className="sm-contact-label">- www.linkedin.com/in/stephanie-x-639182188</span>
                     </a>
                     <a className="contact-button" href="https://www.instagram.com/stephxue_">
                         <FontAwesomeIcon className="contact-icon" icon={faInstagram} />
-                        <span><strong>Instagram </strong></span>
+                        <span className="head-contact-label"><strong>Instagram </strong></span>
                         <span className="sm-contact-label">- www.instagram.com/stephxue_</span>
                     </a>
                 </div>

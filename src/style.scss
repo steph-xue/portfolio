@@ -640,11 +640,17 @@ body {
 }
 
 .contact-image {
-	width: 25em;
+	width: 20em;
 	height: auto;
 	margin-left: 2em;
 	margin-bottom: 2em;
 	transition: transform 0.5s ease-in-out;
+}
+
+@media (min-width: 400px) {
+	.contact-image {
+		width: 25em;
+	}
 }
 
 .contact-image:hover, .contact-image:focus {
@@ -685,6 +691,17 @@ body {
 .contact-icon {
 	font-size: 1.5rem;
 	margin-right: 0.5em;
+}
+
+.head-contact-label {
+	font-size: var(--fs-s);
+	font-weight: var(--fw-med);
+}
+
+@media (min-width: 400px) {
+	.head-contact-label {
+		font-size: var(--fs-m);
+	}
 }
 
 .sm-contact-label {
