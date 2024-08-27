@@ -355,6 +355,7 @@ body {
 	margin: 0;
 	line-height: 0;
 	overflow: hidden;
+	border-radius: 10px;
 }
 
 .travel-image1, .travel-image2, .travel-image3, .travel-image4, .travel-image5, .travel-image6,
@@ -412,7 +413,7 @@ body {
 .food-image4:hover, .food-image4:focus, .food-image5:hover, .food-image5:focus, .food-image6:hover, .food-image6:focus,
 .cat-image1:hover, .cat-image1:focus, .cat-image2:hover, .cat-image2:focus, .cat-image3:hover, .cat-image3:focus,
 .cat-image4:hover, .cat-image4:focus, .cat-image5:hover, .cat-image5:focus, .cat-image6:hover, .cat-image6:focus {
-	transform: scale(1.2);
+	transform: scale(1.1);
 	opacity: 0.8;
 }
 
