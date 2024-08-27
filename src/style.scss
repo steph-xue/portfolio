@@ -268,7 +268,7 @@ body {
 }
 
 .profile-image:hover, .profile-image:focus, .profile-cat-image:hover, .profile-cat-image:focus {
-	transform: scale(1.1);
+	transform: scale(1.05);
 	filter: brightness(110%);
 }
 
@@ -345,6 +345,7 @@ body {
 	grid-template-areas: 
 			"a b c d e f"
 			"g h i j k l";
+	transition: transform 1s ease-in-out;
 }
 
 .travel-image, .food-image, .cat-image {
@@ -352,10 +353,30 @@ body {
 	height: auto;
 	padding: 0;
 	margin: 0;
+	line-height: 0;
+	overflow: hidden;
+}
+
+.travel-image1, .travel-image2, .travel-image3, .travel-image4, .travel-image5, .travel-image6,
+.food-image1, .food-image2, .food-image3, .food-image4, .food-image5, .food-image6,
+.cat-image1, .cat-image2, .cat-image3, .cat-image4, .cat-image5, .cat-image6 {
+	width: 5em;
+	height: auto;
+	padding: 0;
+	margin: 0;
+	line-height: 0;
+	cursor: pointer;
+	transition: transform 0.6s ease-in-out;
 }
 
 @media (min-width: 800px) {
 	.travel-image, .food-image, .cat-image {
+		width: 6em;
+	}
+
+	.travel-image1, .travel-image2, .travel-image3, .travel-image4, .travel-image5, .travel-image6,
+	.food-image1, .food-image2, .food-image3, .food-image4, .food-image5, .food-image6,
+	.cat-image1, .cat-image2, .cat-image3, .cat-image4, .cat-image5, .cat-image6 {
 		width: 6em;
 	}
 }
@@ -363,7 +384,7 @@ body {
 @media (min-width: 1700px) {
 	.gallery-section {
 		grid-template-columns: repeat(3, 1fr);
-		gap: 1em;
+		column-gap: 2em;
 		margin-top: 2em;
 	}
 
@@ -377,11 +398,26 @@ body {
 	.travel-image, .food-image, .cat-image {
 		width: 8em;
 	}
+
+	.travel-image1, .travel-image2, .travel-image3, .travel-image4, .travel-image5, .travel-image6,
+	.food-image1, .food-image2, .food-image3, .food-image4, .food-image5, .food-image6,
+	.cat-image1, .cat-image2, .cat-image3, .cat-image4, .cat-image5, .cat-image6 {
+		width: 8em;
+	}
 }
 
-.travel-pics:hover, .food-pics:hover, .cat-pics:hover {
+.travel-image1:hover, .travel-image1:focus, .travel-image2:hover, .travel-image2:focus, .travel-image3:hover, .travel-image3:focus,
+.travel-image4:hover, .travel-image4:focus, .travel-image5:hover, .travel-image5:focus, .travel-image6:hover, .travel-image6:focus,
+.food-image1:hover, .food-image1:focus, .food-image2:hover, .food-image2:focus, .food-image3:hover, .food-image3:focus,
+.food-image4:hover, .food-image4:focus, .food-image5:hover, .food-image5:focus, .food-image6:hover, .food-image6:focus,
+.cat-image1:hover, .cat-image1:focus, .cat-image2:hover, .cat-image2:focus, .cat-image3:hover, .cat-image3:focus,
+.cat-image4:hover, .cat-image4:focus, .cat-image5:hover, .cat-image5:focus, .cat-image6:hover, .cat-image6:focus {
+	transform: scale(1.2);
+	opacity: 0.8;
+}
+
+.travel-pics:hover, .travel-pics:focus, .food-pics:hover, .food-pics:focus, .cat-pics:hover, .cat-pics:focus {
 	transform: scale(1.05);
-	overlay: none;
 }
 
 
@@ -496,6 +532,11 @@ body {
 	width: 25em;
 	height: auto;
 	margin-bottom: 2em;
+	transition: transform 0.5s ease-in-out;
+}
+
+.contact-image:hover, .contact-image:focus {
+	transform: scale(1.05);
 }
 
 .contact-buttons {
@@ -514,12 +555,13 @@ body {
 	border: none;
 	padding: 1em 1.5em;
 	text-align: left;
-	transition: background 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+	transition: background 0.5s ease-in-out, box-shadow 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
 
 .contact-button:hover, .contact-button:focus {
 	background-color: var(--color-white-opacity2);
 	box-shadow: var(--color-brown-opacity) 0px 5px 15px 0px;
+	transform: scale(1.05);
 }
 
 .contact-icon {
