@@ -1,6 +1,23 @@
 import React from "react"
+import ImageGallery from "react-image-gallery"
+import "react-image-gallery/styles/css/image-gallery.css"
 
 function Projects() {
+
+    const images = [
+        {
+            original: "/images/projects/tenzies-game/game.png",
+            thumbnail: "/images/projects/tenzies-game/game.png",
+        },
+        {
+            original: "/images/projects/tenzies-game/tenzies-win.png",
+            thumbnail: "/images/projects/tenzies-game/tenzies-win.png",
+        },
+        {
+            original: "/images/projects/tenzies-game/start-game.png",
+            thumbnail: "/images/projects/tenzies-game/start-game.png",
+        },
+    ];
 
     // Render the Projects component
     return (
@@ -13,7 +30,7 @@ function Projects() {
             <h2 className="projects-subtitle">Here are some of the projects I have been working on: </h2>
 
             {/* Project section */}
-            <a className="project-container-link" href="https://github.com/steph-xue/tenzies-game">
+            {/*<a className="project-container-link" href="https://github.com/steph-xue/tenzies-game"> */}
                 <div className="project-container">
                     <div className="project-text">
                         <h2 className="project-title">Tenzies Game</h2>
@@ -41,9 +58,22 @@ function Projects() {
                             <a className="project-active-link" href="https://main--tenzies-game-sx.netlify.app/">https://main--tenzies-game-sx.netlify.app</a>
                         </p>
                     </div>
-                    <img src="/images/projects/tenzies-game/game.png" alt="tenzies-game" className="project-image" />
+
+                    {/* Image gallery for project*/}
+                    <div className="gallery">
+                        <ImageGallery 
+                            items={images} 
+                            originalHeight={500}
+                            originalWidth={500}
+                            thumbnailWidth={500}
+                            thumbnailHeight={500}
+                            originalTitle="tenzies-game"
+                            thumbnailPosition="left"
+                            slideInterval={4000}
+                        />
+                    </div>
                 </div>
-            </a>
+            {/*</a> */}
         </div>
     );
 }
