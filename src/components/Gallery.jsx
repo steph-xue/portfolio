@@ -1,10 +1,72 @@
 import React from "react"
+import travelData from "./image-data/travel-data"
+import foodData from "./image-data/food-data"
+import catData from "./image-data/cat-data"
 
 function Gallery() {
 
+    // State variables to store each category of images (each storing 6 image objects)
+    const [travelImages, setTravelImages] = React.useState(selectRandomImages(travelData));
+    const [foodImages, setFoodImages] = React.useState(selectRandomImages(foodData));
+    const [catImages, setCatImages] = React.useState(selectRandomImages(catData));
+
+    // Function to select 6 random image objects from the images database
+    function selectRandomImages(data) {
+        
+        const imagesArray = [];
+        while (imagesArray.length < 6) {
+            const randomIndex = Math.floor(Math.random() * data.length);
+            const randomImage = data[randomIndex];
+            if (!imagesArray.includes(randomImage)) {
+                imagesArray.push(randomImage);
+            }
+        }
+        return imagesArray;
+    }
+
+    const travelImagesElements = travelImages.map((image, index) => {
+        return (
+            <div className="travel-image">
+                <img 
+                    src={image.source} 
+                    alt={image.name} 
+                    className={`travel-image${index + 1}`} 
+                    onClick={(event) => openFullscreen(event)}
+                />
+            </div>
+        )
+    })
+
+    const foodImagesElements = foodImages.map((image, index) => {
+        return (
+            <div className="food-image">
+                <img 
+                    src={image.source} 
+                    alt={image.name} 
+                    className={`food-image${index + 1}`} 
+                    onClick={(event) => openFullscreen(event)}
+                />
+            </div>
+        )
+    })
+
+    const catImagesElements = catImages.map((image, index) => {
+        return (
+            <div className="cat-image">
+                <img 
+                    src={image.source} 
+                    alt={image.name} 
+                    className={`cat-image${index + 1}`} 
+                    onClick={(event) => openFullscreen(event)}
+                />
+            </div>
+        )
+    })
+
+    // Function to open the selected image in fullscreen
     function openFullscreen (event) {
-        event.target.requestFullscreen()
-      }
+        event.target.requestFullscreen();
+    }
 
     // Render the image gallery
     return (
@@ -14,54 +76,7 @@ function Gallery() {
             <div className="travel-gallery">
                 <h2 className="travel-title">Travel Photography</h2>
                 <div className="travel-pics">
-                    <div className="travel-image">
-                        <img 
-                            src="/images/travel/arashiyama.jpg" 
-                            alt="arashiyama" 
-                            className="travel-image1" 
-                            onClick={(event) => openFullscreen(event)}
-                        />
-                    </div>
-                    <div className="travel-image">
-                        <img 
-                            src="/images/travel/cabo.jpg" 
-                            alt="cabo" 
-                            className="travel-image2" 
-                            onClick={(event) => openFullscreen(event)}
-                        />
-                    </div>
-                    <div className="travel-image">
-                        <img 
-                            src="/images/travel/english-bay.jpg" 
-                            alt="english-bay" 
-                            className="travel-image3" 
-                            onClick={(event) => openFullscreen(event)}
-                        />
-                    </div>
-                    <div className="travel-image">
-                        <img 
-                            src="/images/travel/halcyon.jpg" 
-                            alt="halcyon" 
-                            className="travel-image4" 
-                            onClick={(event) => openFullscreen(event)}
-                        />
-                    </div>
-                    <div className="travel-image">
-                        <img 
-                            src="/images/travel/osaka-castle.jpg" 
-                            alt="osaka-castle" 
-                            className="travel-image5" 
-                            onClick={(event) => openFullscreen(event)}
-                        />
-                    </div>
-                    <div className="travel-image">
-                        <img 
-                            src="/images/travel/seattle-market.jpg" 
-                            alt="seattle-market" 
-                            className="travel-image6"
-                            onClick={(event) => openFullscreen(event)}
-                        />
-                    </div>
+                    {travelImagesElements}
                 </div>
             </div>
 
@@ -69,54 +84,7 @@ function Gallery() {
             <div className="food-gallery">
                 <h2 className="food-title">Good Eats</h2>
                 <div className="food-pics">
-                    <div className="food-image">
-                        <img 
-                            src="/images/food/ask-for-luigi.jpg" 
-                            alt="ask-for-luigi" 
-                            className="food-image1" 
-                            onClick={(event) => openFullscreen(event)}
-                        />
-                    </div>
-                    <div className="food-image">
-                        <img 
-                            src="/images/food/lanzhou.jpg" 
-                            alt="lanzhou" 
-                            className="food-image2" 
-                            onClick={(event) => openFullscreen(event)}
-                        />
-                    </div>
-                    <div className="food-image">
-                        <img 
-                            src="/images/food/mello.jpg" 
-                            alt="mello" 
-                            className="food-image3" 
-                            onClick={(event) => openFullscreen(event)}
-                        />
-                    </div>
-                    <div className="food-image">
-                        <img 
-                            src="/images/food/zoomak.jpg" 
-                            alt="zoomak" 
-                            className="food-image4" 
-                            onClick={(event) => openFullscreen(event)}
-                        />
-                    </div>
-                    <div className="food-image">
-                        <img 
-                            src="/images/food/new-fuji.jpg" 
-                            alt="new-fuji" 
-                            className="food-image5" 
-                            onClick={(event) => openFullscreen(event)}
-                        />
-                    </div>
-                    <div className="food-image">
-                        <img 
-                            src="/images/food/little-pieces.jpg" 
-                            alt="little-pieces" 
-                            className="food-image6" 
-                            onClick={(event) => openFullscreen(event)}
-                        />
-                    </div>
+                    {foodImagesElements}
                 </div>
             </div>
 
@@ -124,54 +92,7 @@ function Gallery() {
             <div className="cat-gallery">
                 <h2 className="cat-title">My Beloved Cat</h2>
                 <div className="cat-pics">
-                    <div className="cat-image">
-                        <img 
-                            src="/images/cat/cat1.jpg" 
-                            alt="cat1" 
-                            className="cat-image1" 
-                            onClick={(event) => openFullscreen(event)}
-                        />
-                    </div>
-                    <div className="cat-image">
-                        <img 
-                            src="/images/cat/cat2.jpg" 
-                            alt="cat2" 
-                            className="cat-image2" 
-                            onClick={(event) => openFullscreen(event)}
-                        />
-                    </div>
-                    <div className="cat-image">
-                        <img 
-                            src="/images/cat/cat3.jpg" 
-                            alt="cat3" 
-                            className="cat-image3" 
-                            onClick={(event) => openFullscreen(event)}
-                        />
-                    </div>
-                    <div className="cat-image">
-                        <img 
-                            src="/images/cat/cat4.jpg" 
-                            alt="cat4" 
-                            className="cat-image4" 
-                            onClick={(event) => openFullscreen(event)}
-                        />
-                    </div>
-                    <div className="cat-image">
-                        <img 
-                            src="/images/cat/cat5.jpg" 
-                            alt="cat5" 
-                            className="cat-image5" 
-                            onClick={(event) => openFullscreen(event)}
-                        />
-                    </div>
-                    <div className="cat-image">
-                        <img 
-                            src="/images/cat/cat6.jpg" 
-                            alt="cat6" 
-                            className="cat-image6" 
-                            onClick={(event) => openFullscreen(event)}
-                        />
-                    </div>
+                    {catImagesElements}
                 </div>
             </div>
 
