@@ -444,22 +444,17 @@ body {
 }
 
 .full-image {
-	width: 8em;
+	width: 10em;
 	height: 12em;
 	border-radius: 10px;
+	justify-self: center;
 }
 
 @media (min-height: 400px) {
 	.full-image {
-		width: 16em;
+		width: 17em;
 		height: 22em;
-	}
-}
-
-@media (min-height: 600px) {
-	.full-image {
-		width: 22em;
-		height: 30em;
+		justify-self: center;
 	}
 
 	.full-image-title {
@@ -468,15 +463,19 @@ body {
 	}
 }
 
+@media (min-height: 600px) {
+	.full-image {
+		width: 22em;
+		height: 30em;
+		justify-self: center;
+	}
+}
+
 @media (min-height: 800px) {
 	.full-image {
 		width: 30em;
 		height: 40em;
-	}
-
-	.full-image-title {
-		margin-top: 2em;
-		margin-bottom: 2em;
+		justify-self: center;
 	}
 }
 
