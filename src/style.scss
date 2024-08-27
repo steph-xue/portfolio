@@ -424,7 +424,7 @@ body {
     position: fixed;
 	display: flex;
 	flex-direction: column;
-	justify-content: flex-start;
+	justify-content: center;
 	align-items: center;
     background: var(--color-dark-brown2);
     color: var(--color-white);
@@ -447,14 +447,12 @@ body {
 	width: 10em;
 	height: 12em;
 	border-radius: 10px;
-	justify-self: center;
 }
 
 @media (min-height: 400px) {
 	.full-image {
 		width: 17em;
 		height: 22em;
-		justify-self: center;
 	}
 
 	.full-image-title {
@@ -467,7 +465,6 @@ body {
 	.full-image {
 		width: 22em;
 		height: 30em;
-		justify-self: center;
 	}
 }
 
@@ -475,7 +472,6 @@ body {
 	.full-image {
 		width: 30em;
 		height: 40em;
-		justify-self: center;
 	}
 }
 
