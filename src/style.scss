@@ -182,11 +182,12 @@ body {
 	font-size: var(--fs-xxxl);
 	font-weight: var(--fw-bold);
 	text-align: center;
-	height: 250px;
-	width: 325px;
+	height: 10em;
+	width: 14em;
 	display: block;
 	color: var(--color-dark-brown1);
 	margin: auto;
+	border: 1px solid red;
 }
 
 .console-underscore {
@@ -198,11 +199,12 @@ body {
 
 .homepage-description {
 	text-align: center;
-	width: 325px;
+	width: 34em;
 	margin-top: 5em;
 	margin-bottom: 5em;
 	padding-left: 2em;
 	padding-right: 2em;
+	border: 1px solid red;
 }
 
 @media (min-width: 400px) {
@@ -211,21 +213,21 @@ body {
 	}
 	
 	.homepage-title {
-		width: 550px;
+		width: 14em;
 	}
 
 	.homepage-description{
-		width: 500px;
+		width: 38em;
 	}
 }
 
 @media (min-width: 800px) {
 	.homepage-title {
-		width: 900px;
+		width: 11em;
 	}
 	
 	.homepage-description{
-		width: 900px;
+		width: 56em;
 		margin-top: 8em;
 		margin-bottom: 8em;
 	}
