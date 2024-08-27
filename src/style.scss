@@ -16,12 +16,12 @@
     --color-dark-brown1: #65431e;
 	--color-dark-brown2: #644c32;
     
-    --fs-xxxl: 5rem;
-	--fs-xxl: 3.5rem;
-	--fs-xl: 3rem;
+    --fs-xxxl: 4rem;
+	--fs-xxl: 3rem;
+	--fs-xl: 2.5rem;
     --fs-l: 2rem;
-    --fs-m: 1.2rem;
-    --fs-s: 1rem;
+    --fs-m: 1rem;
+    --fs-s: 0.8rem;
 
 	--gradient-light: linear-gradient(
 	-45deg, 
@@ -53,12 +53,12 @@
 
 @media (min-width: 800px) {
     :root {
-		--fs-xxxl: 7rem;
-		--fs-xxl: 5.5rem;
-        --fs-xl: 4.5rem;
-        --fs-l: 3rem;
-        --fs-m: 1.4rem;
-        --fs-s: 1.125rem;
+		--fs-xxxl: 6rem;
+		--fs-xxl: 5rem;
+        --fs-xl: 4rem;
+        --fs-l: 2rem;
+        --fs-m: 1.2rem;
+        --fs-s: 1rem;
     }
 }
 
