@@ -30,9 +30,9 @@ function Projects() {
             <h2 className="projects-subtitle">Here are some of the projects I have been working on: </h2>
 
             {/* Project section */}
-            {/*<a className="project-container-link" href="https://github.com/steph-xue/tenzies-game"> */}
-                <div className="project-container">
-                    <div className="project-text">
+            <div className="project-container">
+                <div className="project-text">
+                    <a className="project-container-link" href="https://github.com/steph-xue/tenzies-game">
                         <h2 className="project-title">Tenzies Game</h2>
                         <p className="project-description">
                             The tenzies game is a dynamic web application where the objective of the game is to roll the dice as fast as 
@@ -55,9 +55,10 @@ function Projects() {
                         </p>
                         <p className="project-link">
                             <strong>Try It Out Here: </strong>
-                            <a className="project-active-link" href="https://main--tenzies-game-sx.netlify.app/">https://main--tenzies-game-sx.netlify.app</a>
+                            <a className="project-active-link" href="https://main--tenzies-game-sx.netlify.app">https://main--tenzies-game-sx.netlify.app</a>
                         </p>
-                    </div>
+                    </a>
+                </div>
 
                     {/* Image gallery for project*/}
                     <div className="gallery">
@@ -67,9 +68,8 @@ function Projects() {
                             thumbnailPosition="left"
                             slideInterval={4000}
                         />
-                    </div>
                 </div>
-            {/*</a> */}
+             </div>
         </div>
     );
 }

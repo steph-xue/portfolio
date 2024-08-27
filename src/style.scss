@@ -583,7 +583,7 @@ a {
 	margin-block: 1em;
 }
 
-.project-text {
+.project-text, .project-container-link {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
@@ -622,7 +622,7 @@ a {
 		margin-left: 3em;
 	}
 
-	.project-text {
+	.project-text, .project-container-link {
 		width: 40vw;
 		margin-left: 2em;
 		margin-right: 2em;
@@ -636,7 +636,7 @@ a {
 }
 
 @media (min-width: 1500px) {
-	.project-text {
+	.project-text, .project-container-link {
 		width: 55vw;
 	}
 
