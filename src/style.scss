@@ -19,7 +19,7 @@
     --fs-xxxl: 3.5rem;
 	--fs-xxl: 3rem;
 	--fs-xl: 2.5rem;
-    --fs-l: 2rem;
+    --fs-l: 1rem;
     --fs-m: 0.8rem;
     --fs-s: 0.6rem;
 
@@ -56,7 +56,7 @@
 		--fs-xxxl: 5rem;
 		--fs-xxl: 4rem;
         --fs-xl: 3rem;
-        --fs-l: 2rem;
+        --fs-l: 1.5rem;
         --fs-m: 1rem;
         --fs-s: 0.8rem;
     }
@@ -525,7 +525,7 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding-bottom: 2em;
+	padding-bottom: 0;
 }
 
 .contact-image {
@@ -582,7 +582,7 @@ body {
             "a b";
 		grid-template-columns: 1fr 1fr;
 		gap: 2em;
-		margin-bottom: 5em;
+		margin-bottom: 1em;
 	}
 
 	.contact-image {
@@ -595,7 +595,7 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	width: 100%;
+	margin-top: 2em;
 }
 
 .contact-form-title {
@@ -607,8 +607,8 @@ body {
 .contact-line {
 	border: 1.5px solid var(--color-dark-brown1);
 	border-radius: 50px;
-	width: 40vw;
-	margin-bottom: 0.5em;
+	width: 30em;
+	margin-bottom: 0;
 }
 
 .contact-form {
@@ -617,14 +617,14 @@ body {
 	gap: 0.1em;
 	justify-content: center;
 	align-items: center;
-	width: 80vw;
 }
+
 
 .contact-form-input-container {
 	display: flex;
 	flex-direction: column;
 	gap: 0.2em;
-	width: 100%;
+	width: 40em;
 }
 
 .contact-form-label {
@@ -665,18 +665,6 @@ body {
 .arrow-icon {
 	font-size: 1.2rem;
 	margin-left: 0.8em;
-}
-
-@media (min-width: 800px) {
-	.contact-form-input-container {
-		width: 60vw;
-	}
-}
-
-@media (min-width: 1200px) {
-	.contact-form-input-container {
-		width: 45vw;
-	}
 }
 
 
