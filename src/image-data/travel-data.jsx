@@ -20,13 +20,13 @@ export default [
     {
         id: 4,
         name: "cabo-san-jose",
-        title: "Cabo San Jose, Mexico",
+        title: "Cabo San José, Mexico",
         source: "/images/travel/cabo-san-jose.jpg",
     },
     {
         id: 5,
         name: "cabo",
-        title: "Cabo Sunset, Mexico",
+        title: "Sunset in Cabo San Lucas, Mexico",
         source: "/images/travel/cabo.jpg",
     },
     {
