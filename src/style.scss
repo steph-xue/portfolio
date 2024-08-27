@@ -125,7 +125,7 @@ body {
 	list-style: none;
     display: flex;
 	align-items: center;
-	gap: 0.2vw;
+	gap: 0.1vw;
 	margin: 0;
 	padding-right: 1em;
 	padding-left: 1em;
@@ -183,11 +183,12 @@ body {
 	font-weight: var(--fw-bold);
 	text-align: center;
 	height: 250px;
-	width: 550px;
+	width: 400px;
 	display: block;
 	color: var(--color-dark-brown1);
 	margin: auto;
 }
+
 
 .console-underscore {
 	display: inline-block;
@@ -198,11 +199,21 @@ body {
 
 .homepage-description {
 	text-align: center;
-	width: 500px;
+	width: 350px;
 	margin-top: 8em;
 	margin-bottom: 8em;
 	padding-left: 2em;
 	padding-right: 2em;
+}
+
+@media (min-width: 400px) {
+	.homepage-title {
+		width: 550px;
+	}
+
+	.homepage-description{
+		width: 500px;
+	}
 }
 
 @media (min-width: 800px) {
