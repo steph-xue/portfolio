@@ -98,8 +98,8 @@ function About() {
                 showImage &&
                 <div className="full-image-container">
                     <FontAwesomeIcon className="close-icon" icon={faCircleXmark} onClick={toggleImage} />
-                    <img src={imageURL} alt="full-image" className="full-image" />
                     <p className="full-image-title">{imageTitle}</p>
+                    <img src={imageURL} alt="full-image" className="full-image" />
                 </div>
             }
         </div>
