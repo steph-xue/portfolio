@@ -1,6 +1,7 @@
 import React from "react"
 import ImageGallery from "react-image-gallery"
 import "react-image-gallery/styles/css/image-gallery.css"
+import AOS from 'aos'
 import data from "../project-data/project-data";
 
 function Projects() {
@@ -8,10 +9,13 @@ function Projects() {
     // Set state for the project data (project objects)
     const [projectData, setProjectData] = React.useState(data.reverse());
 
+    // Initialize AOS (Animate on Scroll) library
+    AOS.init();
 
+    // Map the project data to create the project elements
     const projectDataElements = projectData.map((project, index) => {
         return (
-            <div className="project-container" key={project.title + index}>
+            <div className="project-container" key={project.title + index} data-aos="zoom-in-up">
 
                 {/* Project text */}
                 <div className="project-text">
