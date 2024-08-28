@@ -547,7 +547,7 @@ a {
 	font-size: var(--fs-xxl);
 	font-weight: var(--fw-bold);
 	text-align: center;
-	margin-top: 1em;
+	margin-top: 2em;
 	margin-bottom: 0;
 }
 
@@ -556,7 +556,7 @@ a {
 	font-weight: var(--fw-med);
 	text-align: center;
 	margin-top: 2em;
-	margin-bottom: 1em;
+	margin-bottom: 0.5em;
 }
 
 .project-container {
@@ -566,6 +566,7 @@ a {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	max-width: 90vw;
 	padding: 1em 2em;
 	margin: 2em;
 	cursor: pointer;
@@ -597,14 +598,14 @@ a {
 	font-size: var(--fs-xl);
 	font-weight: var(--fw-med);
 	text-align: center;
-	margin-top: 0;
+	margin-top: 1em;
 	margin-bottom: 0.5em;
 	padding: 0;
 }
 
 .project-description {
 	text-align: center;
-	margin: 0.5em 1em 1.5em 1em;
+	margin: 0.5em 1em 2em 1em;
 }
 
 .project-languages, .project-additional-info1, .project-additional-info2, .project-github, .project-link {
@@ -621,10 +622,14 @@ a {
 }
 
 @media (min-width: 400px) {
-	.projects-subtitle {
-		font-size: var(--fs-m);
+	.project-container {
+		max-width: 100vw;
 	}
 	
+	.projects-subtitle {
+		font-size: var(--fs-l);
+	}
+
 	.gallery {
 		width: 30em;
 	}
@@ -744,8 +749,7 @@ a {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-	padding-left: 2em;
-	padding-right: 2em;
+	padding: 1em 2em;
 	padding-block: 0;
 	margin: 0;
 	flex-grow: 1;

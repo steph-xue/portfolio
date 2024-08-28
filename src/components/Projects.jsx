@@ -8,6 +8,7 @@ function Projects() {
     // Set state for the project data (project objects)
     const [projectData, setProjectData] = React.useState(data.reverse());
 
+
     const projectDataElements = projectData.map((project, index) => {
         return (
             <div className="project-container" key={project.title + index}>
