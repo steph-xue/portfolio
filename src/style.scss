@@ -556,7 +556,7 @@ a {
 	font-weight: var(--fw-med);
 	text-align: center;
 	margin-top: 2em;
-	margin-bottom: 0.5em;
+	margin-bottom: 0;
 }
 
 .project-container {
@@ -568,7 +568,10 @@ a {
 	align-items: center;
 	max-width: 90vw;
 	padding: 1em 1em;
-	margin: 2em, 0, 4em, 0;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
 	cursor: pointer;
 	transition: transform 0.6s ease-in-out, background 0.6s ease-in-out;
 }
