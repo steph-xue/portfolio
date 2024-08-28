@@ -9,7 +9,7 @@ function Footer(props) {
 
     // Render the Footer component
     return (
-        <footer className="footer">
+        <footer className={props.darkMode ? "footer-dark footer" : "footer-light footer"}>
             <p className="copyright">© 2024 - Stephanie Xue</p>
             <div className="icons">
                 <a className="icon-link" href="https://github.com/steph-xue">

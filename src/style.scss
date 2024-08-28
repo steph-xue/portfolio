@@ -20,6 +20,7 @@
 	--color-light-brown4: rgb(161, 127, 85);
     --color-dark-brown1: #65431e;
 	--color-dark-brown2: #815d38;
+	--color-dark-brown3: #35200c;
     
     --fs-xxxl: 2.4rem;
 	--fs-xxl: 2.2rem;
@@ -1088,6 +1089,16 @@ a {
 	width: 100vw;
 	background-color: var(--color-light-brown1);
 	padding: 0;
+}
+
+.footer-dark {
+	background-color: var(--color-dark-brown3);
+	color: var(--color-light-brown4);
+}
+
+.footer-light {
+	background-color: var(--color-light-brown1);
+	color: var(--color-dark-brown1);
 }
 
 .icons {
