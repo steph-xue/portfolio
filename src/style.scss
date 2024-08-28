@@ -566,7 +566,7 @@ a {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	max-width: 90vw;
+	max-width: 80vw;
 	padding: 1em 2em;
 	margin: 2em;
 	cursor: pointer;
@@ -598,7 +598,7 @@ a {
 	font-size: var(--fs-xl);
 	font-weight: var(--fw-med);
 	text-align: center;
-	margin-top: 1em;
+	margin-top: 0;
 	margin-bottom: 0.5em;
 	padding: 0;
 }
@@ -667,6 +667,11 @@ a {
 @media (min-width: 1500px) {
 	.project-text, .project-container-link {
 		width: 45vw;
+		margin-left: 5em;
+	}
+
+	.project-title {
+		margin-top: 0.5em;
 	}
 }
 
