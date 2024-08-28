@@ -15,7 +15,7 @@ function Projects() {
     // Map the project data to create the project elements
     const projectDataElements = projectData.map((project, index) => {
         return (
-            <div className="project-container" key={project.title + index} data-aos="zoom-in-up">
+            <div className="project-container" key={project.title + index} data-aos="zoom-in">
 
                 {/* Project text */}
                 <div className="project-text">
