@@ -578,7 +578,7 @@ a {
 }
 
 .gallery {
-	width: 30em;
+	width: 20em;
 	padding: 0;
 	margin-block: 2em;
 }
@@ -614,6 +614,20 @@ a {
 
 .project-languages, .project-additional-info2 {
 	margin-bottom: 1em;
+}
+
+.project-github, .project-link {
+	font-size: var(--fs-s);
+}
+
+@media (min-width: 400px) {
+	.gallery {
+		width: 30em;
+	}
+
+	.project-github, .project-link {
+		font-size: var(--fs-m);
+	}
 }
 
 @media (min-width: 1300px) {
