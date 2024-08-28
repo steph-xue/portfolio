@@ -552,7 +552,7 @@ a {
 }
 
 .projects-subtitle {
-	font-size: var(--fs-l);
+	font-size: var(--fs-m);
 	font-weight: var(--fw-med);
 	text-align: center;
 	margin-top: 2em;
@@ -578,7 +578,7 @@ a {
 }
 
 .gallery {
-	width: 20em;
+	width: 25em;
 	padding: 0;
 	margin-block: 2em;
 }
@@ -621,6 +621,10 @@ a {
 }
 
 @media (min-width: 400px) {
+	.projects-subtitle {
+		font-size: var(--fs-m);
+	}
+	
 	.gallery {
 		width: 30em;
 	}
