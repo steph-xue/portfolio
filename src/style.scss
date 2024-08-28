@@ -567,8 +567,7 @@ a {
 	justify-content: center;
 	align-items: center;
 	padding: 1em 2em;
-	margin-top: 2em;
-	margin-bottom: 2em;
+	margin: 2em;
 	cursor: pointer;
 	transition: transform 0.6s ease-in-out, background 0.6s ease-in-out;
 }
@@ -579,7 +578,7 @@ a {
 }
 
 .gallery {
-	width: 35em;
+	width: 30em;
 	padding: 0;
 	margin-block: 2em;
 }
