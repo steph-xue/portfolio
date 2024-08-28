@@ -611,14 +611,11 @@ a {
 .project-languages, .project-additional-info1, .project-additional-info2, .project-github, .project-link {
 	margin: 0.2em;
 	text-align: center;
+	font-size: var(--fs-s);
 }
 
 .project-languages, .project-additional-info2 {
 	margin-bottom: 1em;
-}
-
-.project-github, .project-link {
-	font-size: var(--fs-s);
 }
 
 @media (min-width: 400px) {
@@ -634,7 +631,7 @@ a {
 		width: 30em;
 	}
 
-	.project-github, .project-link {
+	.project-languages, .project-additional-info1, .project-additional-info2, .project-github, .project-link {
 		font-size: var(--fs-m);
 	}
 }
