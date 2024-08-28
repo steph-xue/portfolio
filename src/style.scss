@@ -585,6 +585,11 @@ a {
 	width: 25em;
 	padding: 0;
 	margin-block: 2em;
+	transition: transform 0.5s ease-in-out;
+}
+
+.gallery:hover, .gallery:focus {
+	transform: scale(1.1);
 }
 
 .project-text, .project-container-link {
