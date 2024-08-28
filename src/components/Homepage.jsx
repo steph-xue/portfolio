@@ -1,41 +1,31 @@
 import React from "react";
 
-function Homepage() {
+function Homepage(props) {
 
     // Call consoleText after the component has been mounted
     React.useEffect(() => {
         consoleText(
             ['Hello There.', 'My Name is Stephanie.', 'Welcome To My Homepage!'],
             'text', 
-            ['var(--color-dark-brown1)','var(--color-dark-brown1)','var(--color-dark-brown1)']);
-    }, []);
+    )}, []);
 
     // Function to animate text in the console
-    function consoleText(words, id, colors) {
-        if (colors === undefined) colors = ['#fff'];
+    function consoleText(words, id) {
         var visible = true;
         var con = document.getElementById('console');
         var letterCount = 1;
         var x = 1;
         var waiting = false;
         var target = document.getElementById(id);
-        if (target) {
-            target.setAttribute('style', 'color:' + colors[0]);
-        } else {
-            console.error("Element with id " + id + " not found.");
-            return;
-        }
+
         window.setInterval(function () {
             if (letterCount === 0 && waiting === false) {
                 waiting = true;
                 target.innerHTML = words[0].substring(0, letterCount);
                 window.setTimeout(function () {
-                    var usedColor = colors.shift();
-                    colors.push(usedColor);
                     var usedWord = words.shift();
                     words.push(usedWord);
                     x = 1;
-                    target.setAttribute('style', 'color:' + colors[0]);
                     letterCount += x;
                     waiting = false;
                 }, 1000);
@@ -67,7 +57,7 @@ function Homepage() {
         <div className="homepage">
 
             {/* Homepage title and description */}
-            <div className="homepage-title">
+            <div className={props.darkMode ? "homepage-title title-dark" : "homepage-title title-light"}>
                 <span id="text"></span>
                 <div className="console-underscore" id="console">&#95;</div>
             </div>

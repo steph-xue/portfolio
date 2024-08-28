@@ -17,6 +17,7 @@
     --color-light-brown1: #cda478;
 	--color-light-brown2: rgb(200, 167, 127);
 	--color-light-brown3: #c39a6b;
+	--color-light-brown4: rgb(161, 127, 85);
     --color-dark-brown1: #65431e;
 	--color-dark-brown2: #815d38;
     
@@ -84,8 +85,6 @@ body {
     font-family: var(--ff-primary);
     font-size: var(--fs-m);
     line-height: 1.6;
-	color: var(--color-dark-brown1);
-	background: var(--gradient-light);
 	background-size: 400% 400%;
 	animation: gradient 10s ease-in-out infinite;
 }
@@ -108,6 +107,17 @@ body {
 	justify-content: space-between;
 	align-items: center;
 	min-height: 100vh;
+	background: var(--gradient-light);
+}
+
+.light-page {
+	background: var(--gradient-light);
+	color: var(--color-dark-brown1);
+}
+
+.dark-page {
+	background: var(--gradient-dark);
+	color: var(--color-light-brown4);
 }
 
 a {
@@ -134,7 +144,6 @@ a {
 	font-weight: var(--fw-med);
 	list-style: none;
     display: flex;
-	align-items: center;
 	gap: 0.1vw;
 	margin: 0;
 	padding-right: 1em;
@@ -163,6 +172,57 @@ a {
 		gap: 0.6vw;
 	}
 }
+
+.toggler {
+	display: flex;
+	align-items: center;
+	margin-left: 2em;
+	opacity: 0.8;
+  }
+  
+  .toggler-dark, .toggler-light {
+	font-size: 1.1em;
+  }
+  
+  .toggler-slider {
+	width: 28px;
+	height: 14px;
+	background-color: var(--color-light-brown1);
+	border-radius: 2rem;
+	margin-inline: 7px;
+	cursor: pointer;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	border: 2px solid var(--color-dark-brown1);
+	box-sizing: content-box;
+  }
+
+  .toggler-slider-circle {
+	height: 14px;
+	width: 14px;
+	background-color: var(--color-dark-brown1);
+	border-radius: 50%;
+  }
+  
+  nav.dark .toggler-slider {
+	border-color: var(--color-light-brown2);
+	background-color: var(--color-light-brown2);
+	justify-content: flex-end;
+  }
+  
+  nav.dark .toggler-slider-circle {
+	background-color: var(--color-dark-brown1)
+  }
+  
+  nav.dark .toggler-light {
+	color: var(--color-light-brown2);
+  }
+  
+  nav.dark .toggler-dark {
+	color: var(--color-light-brown2);
+  }
+
 
 /* Content */
 .content {
@@ -193,8 +253,15 @@ a {
 	height: 5em;
 	width: 6.5em;
 	display: block;
-	color: var(--color-dark-brown1);
 	margin: auto;
+}
+
+.title-dark {
+	color: var(--color-light-brown4) !important;
+}
+
+.title-light {
+	color: var(--color-dark-brown1) !important;
 }
 
 .console-underscore {
@@ -635,6 +702,7 @@ a {
 	
 	.projects-subtitle {
 		font-size: var(--fs-l);
+		font-weight: var(--fw-bold);
 	}
 
 	.gallery {

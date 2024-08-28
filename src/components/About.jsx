@@ -6,7 +6,7 @@ import foodData from "../image-data/food-data.jsx"
 import catData from "../image-data/cat-data.jsx"
 import Gallery from "./Gallery.jsx"
 
-function About() {
+function About(props) {
 
     // State variables to store each category of images (each storing 6 image objects)
     const [travelImages, setTravelImages] = React.useState(selectRandomImages(travelData));

@@ -6,7 +6,7 @@ import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
-function Contact() {   
+function Contact(props) {   
 
     // Render the Contact component
     return (

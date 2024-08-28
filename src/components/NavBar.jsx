@@ -1,7 +1,10 @@
 import React from "react"
 import { NavLink } from "react-router-dom"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faMoon } from '@fortawesome/free-regular-svg-icons'
+import { faSun } from '@fortawesome/free-regular-svg-icons'
 
-function NavBar() {
+function NavBar(props) {
 
     // Set the initial state of the navbar to be inactive when not scrolling (not highlighted)
     const [navbarActive, setNavbarActive] = React.useState(false);
@@ -25,7 +28,9 @@ function NavBar() {
 
     // Render the NavBar component
     return (
-        <nav className="navbar" >
+        <nav className={props.darkMode ? "navbar dark": "navbar"} >
+
+            {/* Navbar */}
             <ul className={navbarActive ? "navbar-list navbar-list-active" : "navbar-list"}>
                 <li className="navbar-list-item">
                     <NavLink 
@@ -62,6 +67,15 @@ function NavBar() {
                         Contact
                     </NavLink>
                 </li>
+
+                {/* Dark mode toggler */}
+                <div className="toggler">
+                    <FontAwesomeIcon className="toggler-light" icon={faSun} />
+                    <div className="toggler-slider" onClick={props.toggleDarkMode}>
+                        <div className="toggler-slider-circle"></div>
+                    </div>
+                    <FontAwesomeIcon className="toggler-dark" icon={faMoon} />
+                </div>
             </ul>
         </nav>
     );

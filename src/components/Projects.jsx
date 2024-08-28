@@ -4,7 +4,7 @@ import "react-image-gallery/styles/css/image-gallery.css"
 import AOS from 'aos'
 import data from "../project-data/project-data";
 
-function Projects() {
+function Projects(props) {
 
     // Reverse the project data array once during the initial state setup
     const [projectData] = React.useState(() => data.slice().reverse());

@@ -14,58 +14,67 @@ import Footer from "./components/Footer.jsx";
 import Error from "./components/Error.jsx";
 
 // Router configuration
-const router = createBrowserRouter([
+const router = (darkMode, toggleDarkMode) => createBrowserRouter([
   {
     path: "/",
-    element: <Layout />,
+    element: <Layout darkMode={darkMode} toggleDarkMode={toggleDarkMode} />,
     children: [
       {
         path: "/",
-        element: <Homepage />,
-        errorElement: <Error />,
+        element: <Homepage darkMode={darkMode} toggleDarkMode={toggleDarkMode} />,
+        errorElement: <Error darkMode={darkMode} toggleDarkMode={toggleDarkMode} />,
       },
       {
         path: "/about",
-        element: <About />,
+        element: <About darkMode={darkMode} toggleDarkMode={toggleDarkMode} />,
       },
       {
         path: "/projects",
-        element: <Projects />,
+        element: <Projects darkMode={darkMode} toggleDarkMode={toggleDarkMode} />,
       },
       {
         path: "/experiences",
-        element: <Experiences />,
+        element: <Experiences darkMode={darkMode} toggleDarkMode={toggleDarkMode} />,
       },
       {
         path: "/contact",
-        element: <Contact />,
+        element: <Contact darkMode={darkMode} toggleDarkMode={toggleDarkMode} />,
       },
       {
         path: "*",  
-        element: <Error />,
+        element: <Error darkMode={darkMode} toggleDarkMode={toggleDarkMode} />,
       },
     ],
   },
 ]);
 
 // Render a Layout component that includes the Navbar, Footer, and a placeholder (Outlet) for the routed content
-function Layout() {
+function Layout(props) {
   return (
     <div>
-      <NavBar />
+      <NavBar darkMode={props.darkMode} toggleDarkMode={props.toggleDarkMode} />
       <div className="content">
         <Outlet /> 
       </div>
-      <Footer />
+      <Footer darkMode={props.darkMode} toggleDarkMode={props.toggleDarkMode} />
     </div>
   );
 }
 
 // Render the App component with the router configuration
 function App() {
+
+  // Set state for dark mode
+  const [darkMode, setDarkMode] = React.useState(false);
+  
+  // Function to toggle dark mode
+  function toggleDarkMode() {
+    setDarkMode(prevMode => !prevMode);
+  }
+
   return (
-    <main className="page-container">
-      <RouterProvider router={router} />
+    <main className={darkMode ? "dark-page page-container" : "light-page page-container"}>
+      <RouterProvider router={router(darkMode, toggleDarkMode)} />
     </main>
   );
 }

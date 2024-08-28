@@ -1,6 +1,6 @@
 import React from "react"
 
-function Experiences() {
+function Experiences(props) {
 
     // Render the Experiences component
     return (
