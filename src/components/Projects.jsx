@@ -6,8 +6,11 @@ import data from "../project-data/project-data";
 
 function Projects() {
 
+    // Reverse the project data array
+    const reversedData = data.reverse();
+
     // Set state for the project data (project objects)
-    const [projectData, setProjectData] = React.useState(data.reverse());
+    const [projectData, setProjectData] = React.useState(reversedData);
 
     // Initialize AOS (Animate on Scroll) library
     AOS.init();
