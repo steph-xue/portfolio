@@ -209,21 +209,20 @@ a {
   .toggler-slider {
 	width: 22px;
 	height: 10px;
-	background-color: var(--color-light-brown1);
+	background-color: var(--color-dark-brown1);
 	border-radius: 2rem;
 	margin-inline: 7px;
 	cursor: pointer;
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
-	border: 2px solid var(--color-dark-brown1);
 	box-sizing: content-box;
   }
 
   .toggler-slider-circle {
 	height: 10px;
 	width: 10px;
-	background-color: var(--color-dark-brown1);
+	background-color: var(--color-light-brown1);
 	border-radius: 50%;
   }
 
@@ -233,13 +232,15 @@ a {
 	}
 
 	.toggler-slider {
-		width: 28px;
-		height: 14px;
+		width: 30px;
+		height: 16px;
+		margin-left: 0.4em;
+		margin-right: 0.4em;
 	}
 
 	.toggler-slider-circle {
-		height: 14px;
-		width: 14px;
+		height: 16px;
+		width: 16px;
 	}
   }
   
