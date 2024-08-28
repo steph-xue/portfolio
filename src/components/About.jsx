@@ -96,7 +96,7 @@ function About(props) {
             {/* Full image display if image is clicked on */}
             {
                 showImage &&
-                <div className="full-image-container">
+                <div className={props.darkMode ? "full-image-container dark-container" : "full-image-container light-container"}>
                     <FontAwesomeIcon className="close-icon" icon={faCircleXmark} onClick={toggleImage} />
                     <p className="full-image-title">{imageTitle}</p>
                     <img src={imageURL} alt="full-image" className="full-image" />

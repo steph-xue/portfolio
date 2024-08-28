@@ -69,7 +69,6 @@ function Gallery(props) {
                 </div>
             </div>
 
-        
         </div>
     );
 }

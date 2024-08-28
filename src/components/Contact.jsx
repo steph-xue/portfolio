@@ -22,22 +22,34 @@ function Contact(props) {
             <div className="contact-image-button-container">
                 <img className="contact-image" src="/images/contact.png" alt="contact" />
                 <div className="contact-buttons">
-                    <a className="contact-button" href="mailto:stephaniexue3@gmail.com">
+                    <a 
+                        className={props.darkMode ? "contact-button dark-button" : "contact-button light-button"}
+                        href="mailto:stephaniexue3@gmail.com"
+                    >
                         <FontAwesomeIcon className="contact-icon" icon={faEnvelope} />
                         <span className="head-contact-label"><strong>Email </strong></span> 
                         <span className="sm-contact-label">- stephaniexue3@gmail.com</span>
                     </a>
-                    <a className="contact-button" href="https://github.com/steph-xue">
+                    <a 
+                        className={props.darkMode ? "contact-button dark-button" : "contact-button light-button"}
+                        href="https://github.com/steph-xue"
+                    >
                         <FontAwesomeIcon className="contact-icon" icon={faGithub} />
                         <span className="head-contact-label"><strong>Github </strong></span>
                         <span className="sm-contact-label">- www.github.com/steph-xue</span>
                     </a>
-                    <a className="contact-button" href="https://www.linkedin.com/in/stephanie-x-639182188/">
+                    <a 
+                        className={props.darkMode ? "contact-button dark-button" : "contact-button light-button"}
+                        href="https://www.linkedin.com/in/stephanie-x-639182188/"
+                    >
                         <FontAwesomeIcon className="contact-icon" icon={faLinkedin} />
                         <span className="head-contact-label"><strong>Linkedin </strong></span>
                         <span className="sm-contact-label">- www.linkedin.com/in/stephanie-x-639182188</span>
                     </a>
-                    <a className="contact-button" href="https://www.instagram.com/stephxue_">
+                    <a 
+                        className={props.darkMode ? "contact-button dark-button" : "contact-button light-button"}
+                        href="https://www.instagram.com/stephxue_"
+                    >
                         <FontAwesomeIcon className="contact-icon" icon={faInstagram} />
                         <span className="head-contact-label"><strong>Instagram </strong></span>
                         <span className="sm-contact-label">- www.instagram.com/stephxue_</span>
