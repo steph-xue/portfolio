@@ -31,38 +31,72 @@ function NavBar(props) {
         <nav className={props.darkMode ? "navbar dark": "navbar"} >
 
             {/* Navbar */}
-            <ul className={navbarActive ? "navbar-list navbar-list-active" : "navbar-list"}>
+            <ul 
+                className={
+                    `navbar-list ${navbarActive ? (props.darkMode ? "navbar-list-active-dark" : "navbar-list-active-light") : ""}`
+                }
+            >
                 <li className="navbar-list-item">
                     <NavLink 
-                        className={({ isActive }) => isActive ? "navbar-list-link nav-active" : "navbar-list-link"} 
+                        className={({ isActive }) => 
+                            isActive 
+                                ? props.darkMode 
+                                    ? "navbar-list-link nav-active-dark" 
+                                    : "navbar-list-link nav-active-light"
+                                : "navbar-list-link"
+                        }
                         to="/">
                         Homepage
                     </NavLink>
                 </li>
                 <li className="navbar-list-item">
                     <NavLink 
-                        className={({ isActive }) => isActive ? "navbar-list-link nav-active" : "navbar-list-link"} 
+                        className={({ isActive }) => 
+                            isActive 
+                                ? props.darkMode 
+                                    ? "navbar-list-link nav-active-dark" 
+                                    : "navbar-list-link nav-active-light"
+                                : "navbar-list-link"
+                        }
                         to="/about">
                         About
                     </NavLink>
                 </li>
                 <li className="navbar-list-item">
                     <NavLink 
-                        className={({ isActive }) => isActive ? "navbar-list-link nav-active" : "navbar-list-link"} 
+                        className={({ isActive }) => 
+                            isActive 
+                                ? props.darkMode 
+                                    ? "navbar-list-link nav-active-dark" 
+                                    : "navbar-list-link nav-active-light"
+                                : "navbar-list-link"
+                        }
                         to="/projects">
                         Projects
                     </NavLink>
                 </li>
                 <li className="navbar-list-item">
                     <NavLink 
-                        className={({ isActive }) => isActive ? "navbar-list-link nav-active" : "navbar-list-link"} 
+                        className={({ isActive }) => 
+                            isActive 
+                                ? props.darkMode 
+                                    ? "navbar-list-link nav-active-dark" 
+                                    : "navbar-list-link nav-active-light"
+                                : "navbar-list-link"
+                        }
                         to="/experiences">
                         Experiences
                     </NavLink>
                 </li>
                 <li className="navbar-list-item">
                     <NavLink 
-                        className={({ isActive }) => isActive ? "navbar-list-link nav-active" : "navbar-list-link"} 
+                        className={({ isActive }) => 
+                            isActive 
+                                ? props.darkMode 
+                                    ? "navbar-list-link nav-active-dark" 
+                                    : "navbar-list-link nav-active-light"
+                                : "navbar-list-link"
+                        }
                         to="/contact">
                         Contact
                     </NavLink>

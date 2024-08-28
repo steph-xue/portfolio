@@ -1,7 +1,6 @@
 import React from "react"
 import ImageGallery from "react-image-gallery"
 import "react-image-gallery/styles/css/image-gallery.css"
-import AOS from 'aos'
 import data from "../project-data/project-data";
 
 function Projects(props) {
@@ -9,15 +8,13 @@ function Projects(props) {
     // Reverse the project data array once during the initial state setup
     const [projectData] = React.useState(() => data.slice().reverse());
 
-    // Initialize AOS (Animate on Scroll) library
-    React.useEffect(() => {
-        AOS.init();
-    }, []);
-
     // Map the project data to create the project elements
     const projectDataElements = projectData.map((project, index) => {
         return (
-            <div className="project-container" key={project.title + index} data-aos="zoom-in">
+            <div 
+                className={props.darkMode ? "project-container-dark" : "project-container-light"} 
+                key={project.title + index} 
+            >
 
                 {/* Project text */}
                 <div className="project-text">
@@ -34,12 +31,16 @@ function Projects(props) {
                         </div>
                         <p className="project-github">
                             <strong>Github Link: </strong>
-                            <a className="github-active-link" href={project.github}>{project.github}</a>
+                            <a className={props.darkMode ? "github-active-link dark-github" : "github-active-link light-github"} href={project.github}>
+                                {project.github}
+                            </a>
                         </p>
                         { project.activeLink &&
                             <p className="project-link">
                                 <strong>Try It Out Here: </strong>
-                                <a className="project-active-link" href={project.activeLink}>{project.activeLink}</a>
+                                <a className={props.darkMode ? "project-active-link dark-link" : "project-active-link light-link"} href={project.activeLink}>
+                                    {project.activeLink}
+                                </a>
                             </p>
                         }
                     </a>
