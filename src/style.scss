@@ -87,6 +87,26 @@ body {
     font-family: var(--ff-primary);
     font-size: var(--fs-m);
     line-height: 1.6;
+}
+
+.page-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.light-page {
+	background: var(--gradient-light);
+	color: var(--color-dark-brown1);
+	background-size: 400% 400%;
+	animation: gradient 10s ease-in-out infinite;
+}
+
+.dark-page {
+	background: var(--gradient-dark);
+	color: var(--color-light-brown4);
 	background-size: 400% 400%;
 	animation: gradient 10s ease-in-out infinite;
 }
@@ -101,25 +121,6 @@ body {
 	100% {
 		background-position: 0% 50%;
 	}
-}
-
-.page-container {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: center;
-	min-height: 100vh;
-	background: var(--gradient-light);
-}
-
-.light-page {
-	background: var(--gradient-light);
-	color: var(--color-dark-brown1);
-}
-
-.dark-page {
-	background: var(--gradient-dark);
-	color: var(--color-light-brown4);
 }
 
 a {
