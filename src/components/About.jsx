@@ -60,8 +60,13 @@ function About(props) {
                 <div className="about-container-1-text">
                     <h2 className="about-subtitle">I'm an aspiring software developer based in Vancouver, Canada.</h2>
                     <p className="about-description">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        As a current UBC Bachelor of Computer Science (BCS) student with previous background in healthcare as a pharmacist,
+                        I have a strong enthusiasm for technology, software development, web development, UX/UI design, artificial intelligence,
+                        healthcare innovation, creative problem solving. I am passionate about leveraging technology to help streamline processes,
+                        automate tasks, bridge gaps, and develop innovative solutions to address real-world problems. As a life-long learner, 
+                        I am always excited to explore new ideas, expand my skillset, and push the boundaries of my knowledge. I thrive on
+                        challenging myself through pursing new projects and collaborating with like-minded individuals to foster both personal
+                        and professional growth.
                     </p>
                 </div>
             </div>
@@ -69,8 +74,13 @@ function About(props) {
             {/* About more info */}
             <div className="about-container-2">
                 <p className="about-more-info">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Given my background as a pharmacist, I have had various experiences in community, hospital, ambulatory care, and research 
+                    settings across multiple therapeutic areas such as cardiology, neurology, mental health, and diabetes. These experiences have
+                    equipped me with valuable direct patient care experiences and have allowed me to gain a comprehensive understanding of different
+                    healthcare processes, software, and emerging technologies. My previous experience in healthcare has provided me with a unique 
+                    perspective on how technology can be harnessed to enhance patient care and improve operational efficiency. This perspective
+                    fuels my commitment to leveraging technology in ways that can help address real-world challenges and make a meaningful impact
+                    in our society.
                 </p>
             </div>
 
@@ -79,8 +89,16 @@ function About(props) {
                 <img src="/images/profile-cat.png" alt="profile-cat" className="profile-cat-image" />
                 <div className="about-container-3-text">
                     <p className="about-interests">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        In my downtime, you will often find me trying to craft the perfect cup of coffee or matcha latte, 
+                        listening to and playing music, immersing myself in a cozy video game, and spending quality time 
+                        with my loved ones. I also enjoy visiting new coffee shops, traveling, and uncovering hidden gems 
+                        both in and out of the city, always in search of inspiration and new experiences. My creativity also 
+                        finds its expression in photography, digital art, and design. I love capturing memories and the beauty 
+                        of the world around me in photos, whether that be food, scenery, or cherished moments with loved ones. 
+                        I also enjoy digital art and design as a medium for bringing my ideas to life, and have been trying to 
+                        learn and experiment with different styles and techniques. Additionally, I have an adorable cat named Rhea who is 
+                        an American Shorthair and Maine Coon mix. She has an endearing and loving personality, who loves to spending
+                        her time cuddling, taking naps, snacking on yummy treats, and basking in the sun.
                     </p>
                 </div>
             </div>

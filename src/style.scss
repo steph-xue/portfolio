@@ -90,7 +90,7 @@ html, body {
 body {
     font-family: var(--ff-primary);
     font-size: var(--fs-m);
-    line-height: 1.6;
+    line-height: 1.8;
 }
 
 .page-container {
@@ -370,7 +370,7 @@ a {
 	justify-content: center;
 	align-items: center;
 	margin-top: 1em;
-	margin-bottom: 2em;
+	margin-bottom: 1em;
 }
 
 .about-container-1-text, .about-container-3-text {
@@ -461,7 +461,19 @@ a {
 	}
 
 	.about-more-info {
-		width: 72vw;
+		width: 78vw;
+	}
+}
+
+@media (min-width: 1400px) {
+	.about-more-info {
+		width: 75vw;
+	}
+}
+
+@media (min-width: 1600px) {
+	.about-more-info {
+		width: 70vw;
 	}
 }
 
