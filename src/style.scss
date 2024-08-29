@@ -168,14 +168,18 @@ a {
 	background: var(--color-dark-brown3);
 }
 
-.navbar-list-link {
+.navbar-list-link-light, .navbar-list-link-dark {
 	padding: 0.5em 1em;
 	border-radius: 50px;
 	transition: background 0.6s ease-in-out;
 }
 
-.navbar-list-link:hover {
+.navbar-list-link-light:hover {
     background: var(--color-white-opacity1);
+}
+
+.navbar-list-link-dark:hover {
+    background: var(--color-brown-opacity3);
 }
 
 .nav-active-light {
@@ -696,7 +700,7 @@ a {
 }
 
 .project-container-dark {
-	background-color: var(--color-brown-opacity3);
+	background-color: var(--color-dark-brown5);
 	color: var(--color-dark-brown3);
 	border-radius: 20px;
 	display: flex;
@@ -714,7 +718,7 @@ a {
 }
 
 .project-container-dark:hover, .project-container-dark:focus {
-	background-color: var(--color-dark-brown5);
+	background-color: var(--color-brown-opacity3);
 	transform: scale(1.02);
 }
 
@@ -1005,9 +1009,15 @@ a {
 	color: var(--color-dark-brown3);
 }
 
-.contact-button:hover, .contact-button:focus {
+.light-button:hover, .light-button:focus {
 	background-color: var(--color-white-opacity2);
 	box-shadow: var(--color-brown-opacity1) 0px 5px 15px 0px;
+	transform: scale(1.05);
+}
+
+.dark-button:hover, .dark-button:focus {
+	background-color: var(--color-brown-opacity3);
+	box-shadow: var(--color-dark-brown4) 0px 10px 15px 0px;
 	transform: scale(1.05);
 }
 

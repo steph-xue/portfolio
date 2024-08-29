@@ -41,9 +41,11 @@ function NavBar(props) {
                         className={({ isActive }) => 
                             isActive 
                                 ? props.darkMode 
-                                    ? "navbar-list-link nav-active-dark" 
-                                    : "navbar-list-link nav-active-light"
-                                : "navbar-list-link"
+                                    ? "navbar-list-link-dark nav-active-dark" 
+                                    : "navbar-list-link-light nav-active-light"
+                                : props.darkMode 
+                                    ? "navbar-list-link-dark"
+                                    : "navbar-list-link-light"
                         }
                         to="/">
                         Homepage
@@ -54,9 +56,11 @@ function NavBar(props) {
                         className={({ isActive }) => 
                             isActive 
                                 ? props.darkMode 
-                                    ? "navbar-list-link nav-active-dark" 
-                                    : "navbar-list-link nav-active-light"
-                                : "navbar-list-link"
+                                    ? "navbar-list-link-dark nav-active-dark" 
+                                    : "navbar-list-link-light nav-active-light"
+                                : props.darkMode 
+                                    ? "navbar-list-link-dark"
+                                    : "navbar-list-link-light"
                         }
                         to="/about">
                         About
@@ -67,9 +71,11 @@ function NavBar(props) {
                         className={({ isActive }) => 
                             isActive 
                                 ? props.darkMode 
-                                    ? "navbar-list-link nav-active-dark" 
-                                    : "navbar-list-link nav-active-light"
-                                : "navbar-list-link"
+                                    ? "navbar-list-link-dark nav-active-dark" 
+                                    : "navbar-list-link-light nav-active-light"
+                                : props.darkMode 
+                                    ? "navbar-list-link-dark"
+                                    : "navbar-list-link-light"
                         }
                         to="/projects">
                         Projects
@@ -80,9 +86,11 @@ function NavBar(props) {
                         className={({ isActive }) => 
                             isActive 
                                 ? props.darkMode 
-                                    ? "navbar-list-link nav-active-dark" 
-                                    : "navbar-list-link nav-active-light"
-                                : "navbar-list-link"
+                                    ? "navbar-list-link-dark nav-active-dark" 
+                                    : "navbar-list-link-light nav-active-light"
+                                : props.darkMode 
+                                    ? "navbar-list-link-dark"
+                                    : "navbar-list-link-light"
                         }
                         to="/experiences">
                         Experiences
@@ -93,9 +101,11 @@ function NavBar(props) {
                         className={({ isActive }) => 
                             isActive 
                                 ? props.darkMode 
-                                    ? "navbar-list-link nav-active-dark" 
-                                    : "navbar-list-link nav-active-light"
-                                : "navbar-list-link"
+                                    ? "navbar-list-link-dark nav-active-dark" 
+                                    : "navbar-list-link-light nav-active-light"
+                                : props.darkMode 
+                                    ? "navbar-list-link-dark"
+                                    : "navbar-list-link-light"
                         }
                         to="/contact">
                         Contact
