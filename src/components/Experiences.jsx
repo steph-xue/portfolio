@@ -1,6 +1,11 @@
 import React from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
+import { faComputer } from '@fortawesome/free-solid-svg-icons'
+import { faUserGraduate } from '@fortawesome/free-solid-svg-icons'
+import { faUserDoctor } from '@fortawesome/free-solid-svg-icons'
+import { faSuitcaseMedical } from '@fortawesome/free-solid-svg-icons'
+import { faBookOpen } from '@fortawesome/free-solid-svg-icons'
 import hData from "../experiences-data/healthcare-data";
 import rData from "../experiences-data/research-data";
 
@@ -69,7 +74,10 @@ function Experiences(props) {
 
             {/* Technical skills section */}
             <div className={props.darkMode ? "technical-skills experiences-container-dark" : "technical-skills experiences-container-light"}>
-                <h2 className="technical-skills-title">Technical Skills</h2>
+                <h2 className="technical-skills-title">
+                    Technical Skills
+                    <FontAwesomeIcon className="skills-icon" icon={faComputer} />
+                </h2>
                 <div className="skills-text">
                     <div className="skills-category skills-languages">
                         <h3 className="skills-category-title">Programming Languages</h3>
@@ -108,7 +116,10 @@ function Experiences(props) {
 
             {/* Education section */}
             <div className={props.darkMode ? "education experiences-container-dark" : "education experiences-container-light"}>
-                <h2 className="education-title">Education</h2>
+                <h2 className="education-title">
+                    Education
+                    <FontAwesomeIcon className="skills-icon" icon={faUserGraduate} />
+                </h2>
                 <div className="education-text">
                     <div className="education-university-title">
                         <h3 className="education-university-name">The University of British Columbia (UBC)</h3>
@@ -153,13 +164,20 @@ function Experiences(props) {
 
             {/* Healthcare experiences section */}
             <div className={props.darkMode ? "healthcare experiences-container-dark" : "healthcare experiences-container-light"}>
-                <h2 className="healthcare-title">Healthcare Experience</h2>
+                <h2 className="healthcare-title">
+                    Healthcare Experience
+                    <FontAwesomeIcon className="skills-icon" icon={faUserDoctor} />
+                    <FontAwesomeIcon className="skills-icon health-icon" icon={faSuitcaseMedical} />
+                </h2>
                 {healthcareDataElements}
             </div>
 
             {/* Research experiences section */}
             <div className={props.darkMode ? "research experiences-container-dark" : "research experiences-container-light"}>
-                <h2 className="research-title">Research Experience</h2>
+                <h2 className="research-title">
+                    Research Experience
+                    <FontAwesomeIcon className="skills-icon" icon={faBookOpen} />
+                </h2>
                 {researchDataElements}
             </div>
         </div>

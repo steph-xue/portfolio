@@ -908,7 +908,7 @@ a {
 	font-weight: var(--fw-bold);
 	text-align: center;
 	margin-top: 2em;
-	margin-bottom: 0;
+	margin-bottom: 0.5em;
 }
 
 .experiences-container-light {
@@ -968,6 +968,15 @@ a {
 	width: 100%;
 	margin: 2em 0 1.5em 0;
 	padding: 0;
+}
+
+.skills-icon {
+	font-size: var(--fs-xl);
+	margin-left: 0.5em;
+}
+
+.health-icon {
+	margin-left: 0.2em !important;
 }
 
 .technical-skills-title {
@@ -1141,7 +1150,7 @@ a {
 }
 
 .healthcare {
-	margin-bottom: 1em;
+	margin-bottom: 2em;
 }
 
 .healthcare-title {
