@@ -1081,21 +1081,20 @@ a {
 }
 
 .education-university-title {
-	font-size: var(--fs-l);
 	margin-bottom: 1.5em;
 }
 
-@media (min-width: 400px) {
-	.education-university-title {
-		font-size: var(--fs-xl);
-	}
-}
-
 .education-university-name {
-	font-size: var(--fs-l);
+	font-size: var(--fs-m);
 	font-weight: var(--fw-med);
 	margin: 0;
 	padding: 0;
+}
+
+@media (min-width: 400px) {
+	.education-university-name {
+		font-size: var(--fs-l);
+	}
 }
 
 .education-university-location {
@@ -1183,6 +1182,7 @@ a {
 	font-size: var(--fs-xl);
 	font-weight: var(--fw-med);
 	margin: 0 0 1em 0;
+	width: 110%;
 }
 
 .research-title {
