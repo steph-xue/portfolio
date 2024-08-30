@@ -928,6 +928,22 @@ a {
 	transform: scale(1.02);
 }
 
+.separator-line1 {
+	border: 1px solid var(--color-dark-brown1);
+	border-radius: 50px;
+	width: 100%;
+	margin: -1em 0 1em 0;
+	padding: 0;
+}
+
+.separator-line2 {
+	border: 1px solid var(--color-dark-brown1);
+	border-radius: 50px;
+	width: 100%;
+	margin: 2em 0 1.5em 0;
+	padding: 0;
+}
+
 .technical-skills-title {
 	font-size: var(--fs-xl);
 	font-weight: var(--fw-med);
@@ -1022,21 +1038,14 @@ a {
 }
 
 .education-university-location {
+	font-size: var(--fs-m);
 	margin: 0;
 	padding: 0;
 }
 
 .location-icon {
-	font-size: var(--fs-s);
+	font-size: var(--fs-m);
 	margin-right: 0.5em;
-}
-
-.education-line {
-	border: 1px solid var(--color-dark-brown1);
-	border-radius: 50px;
-	width: 100%;
-	margin: -1em 0 1em 0;
-	padding: 0;
 }
 
 .education-item-section {
@@ -1090,6 +1099,42 @@ a {
 	.education-item-info, .awards {
 		width: 110%;
 	}
+}
+
+.healthcare-title {
+	font-size: var(--fs-xl);
+	font-weight: var(--fw-med);
+	margin: 0 0 0.5em 0;
+}
+
+.research-title {
+	font-size: var(--fs-xl);
+	font-weight: var(--fw-med);
+	margin: 0 0 0.5em 0;
+}
+
+.experience-container {
+	margin: 0 0 1em 0;
+}
+
+.experience-text {
+	width: 80vw;
+}
+
+.experience-title {
+	font-size: var(--fs-l);
+	font-weight: var(--fw-med);
+	margin: 0 0 0 0;
+}
+
+.experience-location {
+	margin: 0;
+	padding: 0;
+}
+
+.experience-date {
+	margin: 0 0 -0.2em 0;
+	padding: 0;
 }
 
 

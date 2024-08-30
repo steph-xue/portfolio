@@ -12,6 +12,56 @@ function Experiences(props) {
     // Reverse the research data array once during the initial state setup
     const [researchData] = React.useState(() => rData.slice().reverse());
 
+    // Map the healthcare data to create the healthcare elements
+    const healthcareDataElements = healthcareData.map((experience, index) => {
+        return (
+            <div
+                className="experience-container"
+                key={experience.title + index}
+            >
+                <div className="experience-text">
+                    <h2 className="experience-title">{experience.title}</h2>
+                    <div className="experience-location">
+                        <FontAwesomeIcon className="location-icon" icon={faLocationDot} />
+                        {experience.location}
+                    </div>
+                    <p className="experience-date">{experience.dates}</p>
+                    <ul className="experience-description">
+                        {experience.description.map((point, index) => (
+                            <li key={point + index} className="experience-point">{point}</li>
+                        ))}
+                    </ul>
+                    <div className="separator-line2"></div>
+                </div>
+            </div>
+        );
+    });
+
+    // Map the research data to create the research elements
+    const researchDataElements = researchData.map((experience, index) => {
+        return (
+            <div
+                className="experience-container"
+                key={experience.title + index}
+            >
+                <div className="experience-text">
+                    <h2 className="experience-title">{experience.title}</h2>
+                    <div className="experience-location">
+                        <FontAwesomeIcon className="location-icon" icon={faLocationDot} />
+                        {experience.location}
+                    </div>
+                    <p className="experience-date">{experience.dates}</p>
+                    <ul className="experience-description">
+                        {experience.description.map((point, index) => (
+                            <li key={point + index} className="experience-point">{point}</li>
+                        ))}
+                    </ul>
+                    <div className="separator-line2"></div>
+                </div>
+            </div>
+        );
+    });
+
     // Render the Experiences component
     return (
         <div className="experiences-page">
@@ -67,7 +117,7 @@ function Experiences(props) {
                             Vancouver, BC, Canada
                         </p>
                     </div>
-                    <div className="education-line"></div>
+                    <div className="separator-line1"></div>
                     <div className="education-item-section">
                         <div className="education-item-description">
                             <p className="education-item-title">Bachelor of Computer Science (BCS) </p>
@@ -104,11 +154,13 @@ function Experiences(props) {
             {/* Healthcare experiences section */}
             <div className="healthcare experiences-container">
                 <h2 className="healthcare-title">Healthcare Experience</h2>
+                {healthcareDataElements}
             </div>
 
             {/* Research experiences section */}
             <div className="research experiences-container">
                 <h2 className="research-title">Research Experience</h2>
+                {researchDataElements}
             </div>
         </div>
     );

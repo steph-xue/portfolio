@@ -16,7 +16,7 @@ export default [
         location: "2230 West Broadway, Vancouver, BC, Canada",
         dates: "Aug 2019 – Jan 2020",
         description: [
-            "» Used Kroll and PharmaNet pharmacy software for processing prescriptions, answered telephone and in-person patient inquiries, counselled patients on medications, collaborated with health care professionals including physicians to resolve drug therapy issues, and ordered stock through manufacturers like McKesson and Imperial, in a fast-paced pharmacy setting"
+            "Used Kroll and PharmaNet pharmacy software for processing prescriptions, answered telephone and in-person patient inquiries, counselled patients on medications, collaborated with health care professionals including physicians to resolve drug therapy issues, and ordered stock through manufacturers like McKesson and Imperial, in a fast-paced pharmacy setting"
         ]
     },
     {

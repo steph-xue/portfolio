@@ -25,4 +25,5 @@ export default [
             "Developed a retrospective cohort study protocol to collect patient data from the electronic Patient Care Information System with a statistical analysis plan to use independent t-tests, chi-squared tests, and univariate/multivariate analysis",
             "The protocol was submitted for administrative and ethical review through UBC RISe ethics and was very well received by clinical pharmacists across the BC Lower Mainland upon presenting the clinical research project"
         ]
-    },
+    }
+];
