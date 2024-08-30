@@ -30,7 +30,7 @@ Homepage Dark Mode
 About Me Page
 &nbsp;
 ![About Me 2](./images/about-me-2.png?raw=true "About Me 2")
-About Me Page Continued with Photo Gallery
+About Me Page Continued With Photo Gallery
 <br><br>
 &nbsp;
 
