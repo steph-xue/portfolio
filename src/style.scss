@@ -921,7 +921,7 @@ a {
 	width: 90vw;
 	padding: 2em 3em;
 	margin-top: 2em;
-	margin-bottom: 2em;
+	margin-bottom: 4em;
 	margin-left: -0.2em;
 	margin-right: -0.2em;
 	transition: transform 0.6s ease-in-out, background-color 0.6s ease-in-out;
@@ -943,7 +943,7 @@ a {
 	width: 90vw;
 	padding: 2em 3em;
 	margin-top: 2em;
-	margin-bottom: 2em;
+	margin-bottom: 4em;
 	margin-left: -0.2em;
 	margin-right: -0.2em;
 	transition: transform 0.6s ease-in-out, background-color 0.6s ease-in-out;
@@ -952,6 +952,12 @@ a {
 .experiences-container-dark:hover, .experiences-container-dark:focus {
 	background-color: var(--color-brown-opacity3);
 	transform: scale(1.02);
+}
+
+@media (min-width: 400px) {
+	.experiences-container-light, .experiences-container-dark {
+		margin-bottom: 2em;
+	}
 }
 
 .separator-line1 {
