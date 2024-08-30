@@ -1041,7 +1041,19 @@ a {
 }
 
 .education-text {
-	width: 80vw;
+	width: 70vw;
+}
+
+@media (min-width: 400px) {
+	.education-text {
+		width: 75vw;
+	}
+}
+
+@media (min-width: 600px) {
+	.education-text {
+		width: 80vw;
+	}
 }
 
 .education-title {
@@ -1088,20 +1100,20 @@ a {
 
 .education-item-title {
 	font-weight: var(--fw-bold);
-	width: 190%;
+	width: 200%;
 	margin: 0 0 -1em 0;
 	padding: 0;
 }
 
 .education-item-info {
-	width: 190%;
+	width: 200%;
 	margin: 0;
 	padding: 0;
 }
 
 .awards {
 	font-size: var(--fs-s);
-	width: 190%;
+	width: 200%;
 	margin: 0 0 0 2em;
 	padding: 0;
 }
@@ -1149,13 +1161,31 @@ a {
 }
 
 .experience-text {
-	width: 80vw;
+	width: 70vw;
+}
+
+@media (min-width: 400px) {
+	.experience-text {
+		width: 75vw;
+	}
+}
+
+@media (min-width: 600px) {
+	.experience-text {
+		width: 80vw;
+	}
 }
 
 .experience-title {
-	font-size: var(--fs-l);
+	font-size: var(--fs-m);
 	font-weight: var(--fw-med);
 	margin: 0 0 0 0;
+}
+
+@media (min-width: 400px) {
+	.experience-title {
+		font-size: var(--fs-l);
+	}
 }
 
 .experience-location {
