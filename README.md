@@ -1,6 +1,6 @@
 # Portfolio - Stephanie Xue
 
-My portfolio is a dynamic single-page web application built using the front-end JavaScript library, React. There is a navigation bar at the top that allows you to move between different sections of the web application, including the homepage, the about me page, the projects page, the experiences page, and the contact me page. The homepage displays an animated terminal-like welcome message to the user. The about me page contains some information about myself, my background, and my interests. This page also contains a photo gallery of some pictures I have taken, including travel photos, food photos, and photos of my beloved cat, Rhea. The projects page showcases some of the projects I have been working on. Each project contains some screenshot images that you can view in a carousel or slideshow, a descripion of the project and languages/tools used, a link to the github page, and an active web link if there is one avaliable. The experiences page lists some of my experiences including my technical skills, education, healthcare experience, and research experience. The contact me page includes links to my email, github, linkedIn, and instagram. There is also a feature on the contact me page to send a message to my email. The footer of the web application also contains icons with links to my social media webpages. There is also a toggle button at the top right of the navigation bar that allows you to toggle between light mode and dark mode.
+My portfolio is a dynamic single-page web application built using the front-end JavaScript library, React. There is a navigation bar at the top that allows you to move between different sections of the web application, including the homepage, the about me page, the projects page, the experiences page, and the contact me page. The homepage displays an animated terminal-like welcome message to the user. The about me page contains some information about myself, my background, and my interests. This page also contains a photo gallery of some pictures I have taken, including travel photos, food photos, and photos of my beloved cat, Rhea. The projects page showcases some of the projects I have been working on. Each project contains some screenshot images that you can view in a carousel or slideshow, a descripion of the project and languages/tools used, a link to the github page, and an active web link if there is one avaliable. The experiences page lists some of my experiences including my technical skills, education, healthcare experience, and research experience. The contact me page includes links to my email, github, linkedIn, and instagram. There is also a feature on the contact me page to send a message to my email. The footer of the web application also contains icons with links to my social media webpages. There is also a toggle button at the top right of the navigation bar that allows you to switch between light mode and dark mode.
 &nbsp;
 
 Can access on: https://portfolio-steph-xue.netlify.app
@@ -52,12 +52,22 @@ Contact me.
 <br><br>
 
 ## Special Features
- - Animated background
- - Animated homepage title
- - Navbar color scrolling
- - Image gallery
- - Projects screenshot carousel
  - Light/dark mode
+   - There is a toggle button at the top right of the navigation bar that allows you to switch between light mode and dark mode
+ - Animated background
+   - The background of the web application is an animated gradient that introduces a subtle change in colors (for both light and dark modes)  
+ - Animated homepage title
+   - The homepage displays an animated terminal-like welcome message to the user
+ - Animated photos, buttons, containers
+   - The photos, buttons, and containers have different hover and focus effects that give it a more interactive feel
+ - Navbar scrolling animation
+   - The navbar displays a seemless transition when the user scrolls down from the top of the page which changes the color of the background of the navbar and brings it along with the user
+ - Image gallery
+   - The about me page contains an image gallery that generates a selection of random photos to view every time the page is refreshed
+   - Each photo when clicked on will bring a closer view of the image with its description
+ - Projects screenshot carousel
+   - The projects page contains a screenshot carousel for each project
+   - The screenshot carosel allows the user to scroll through thumbnails of different screenshot images of the project to view, open the image in full screen, as well as press play to view an animated slide show of all the project images
 <br><br>
 
 ## Languages & Frameworks
