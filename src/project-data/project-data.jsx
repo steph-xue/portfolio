@@ -326,4 +326,49 @@ export default [
             }
         ]
     },
+    {
+        id: 12,
+        name: "portfolio",
+        title: "My Personal Website",
+        description: 
+            "My personal website (the website you are on right now) is a dynamic single-page web application built using the front-end JavaScript library, React. There is a navigation bar at the top that allows you to move between different sections of the web application, including the homepage, the about me page, the projects page, the experiences page, and the contact me page. There is also a toggle button at the top right of the navigation bar that allows you to switch between light mode and dark mode. ",
+        languages: "JavaScript, JSX, HTML, CSS",
+        additionalInfo: "React, React-router, React-image-gallery, Vite, Netflify",
+        github: "https://github.com/steph-xue/portfolio",
+        activeLink: "https://stephxue.com/",
+        images: [
+            {
+                original: "/images/projects/portfolio/homepage-light.png",
+                thumbnail: "/images/projects/portfolio/homepage-light.png",
+            },
+            {
+                original: "/images/projects/portfolio/homepage-dark.png",
+                thumbnail: "/images/projects/portfolio/homepage-dark.png",
+            },
+            {
+                original: "/images/projects/portfolio/about-me-1.png",
+                thumbnail: "/images/projects/portfolio/about-me-1.png",
+            },
+            {
+                original: "/images/projects/portfolio/about-me-2.png",
+                thumbnail: "/images/projects/portfolio/about-me-2.png",
+            },
+            {
+                original: "/images/projects/portfolio/image-gallery.png",
+                thumbnail: "/images/projects/portfolio/image-gallery.png",
+            },
+            {
+                original: "/images/projects/portfolio/projects.png",
+                thumbnail: "/images/projects/portfolio/projects.png",
+            },
+            {
+                original: "/images/projects/portfolio/experiences.png",
+                thumbnail: "/images/projects/portfolio/experiences.png",
+            },
+            {
+                original: "/images/projects/portfolio/contact-me.png",
+                thumbnail: "/images/projects/portfolio/contact-me.png",
+            },
+        ]
+    },
 ]
