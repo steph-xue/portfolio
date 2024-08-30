@@ -1,12 +1,12 @@
 # Portfolio - Stephanie Xue
 
-My portfolio is a dynamic web application built using the front-end JavaScript library, React. There is a navigation bar at the top that allows you to navigate to different sections of the web application, including the homepage, the about me page, the projects page, the experiences page, and the contact me page. The homepage
+My portfolio is a dynamic single-page web application built using the front-end JavaScript library, React. There is a navigation bar at the top that allows you to move between different sections of the web application, including the homepage, the about me page, the projects page, the experiences page, and the contact me page. The homepage displays an animated terminal-like welcome message to the user. The about me page contains some information about myself, my background, and my interests. This page also contains a photo gallery of some pictures I have taken, including travel photos, food photos, and photos of my beloved cat, Rhea. The projects page showcases some of the projects I have been working on. Each project contains some screenshot images that you can view in a carousel or slideshow, a descripion of the project and languages/tools used, a link to the github page, and an active web link if there is one avaliable. The experiences page lists some of my experiences including my technical skills, education, healthcare experience, and research experience. THe contact me page includes links to my email, github, linkedIn, and instagram. There is also a feature on the contact me page to send a message to my email. The footer of the web application also contains icons with links to my social media webpages. There is also a toggle button at the top right of the navigation bar that allows you to toggle between light mode and dark mode.
 &nbsp;
 
-Can access on: [https://quizzical-sx.netlify.app/](https://portfolio-steph-xue.netlify.app)
+Can access on: https://portfolio-steph-xue.netlify.app
 <br><br>
 
-## Here are the sections you can navigate through:
+## Sections you can Navigate:
 
 **Homepage**
   - The player can choose their desired level of difficulty of quiz questions and a category of questions and click start to begin the quiz
