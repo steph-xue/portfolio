@@ -80,9 +80,9 @@ Contact me.
 - Install the latest version of vite which can be done by typing in the command line 'npm install -D vite'
 - Install the dependencies by running the following commands:
   - React-router
-    - 'npm install react-confetti'
+    - 'npm install react-router' and 'npm install react-router-dom'
   - React-image-gallery
-    - 'npm install react-router-dom'
+    - 'npm install react-image-gallery'
 - The web application can be run on your local server by typing in the command line 'npm run dev'
 
 ## How to Deploy
