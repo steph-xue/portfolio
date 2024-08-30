@@ -1163,7 +1163,13 @@ a {
 }
 
 .healthcare {
-	margin-bottom: 2em;
+	margin-bottom: 4em;
+}
+
+@media (min-width: 400px) {
+	.healthcare {
+		margin-bottom: 2em;
+	}
 }
 
 .healthcare-title {
