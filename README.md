@@ -14,6 +14,7 @@ Can access on: https://portfolio-steph-xue.netlify.app
 <br><br>
 ![Homepage Light ](./images/homepage-light.png?raw=true "Homepage Light")
 Homepage Light Mode
+&nbsp;
 ![Homepage Dark ](./images/homepage-dark.png?raw=true "Homepage Dark")
 Homepage Dark Mode
 <br><br>
@@ -27,8 +28,9 @@ Homepage Dark Mode
 <br><br>
 ![About Me 1](./images/about-me-1.png?raw=true "About Me 1")
 About Me Page
+&nbsp;
 ![About Me 2](./images/about-me-2.png?raw=true "About Me 2")
-About Me Page Continued with the Photo Gallery
+About Me Page Continued with Photo Gallery
 <br><br>
 &nbsp;
 
