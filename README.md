@@ -68,9 +68,11 @@ Contact me.
       
 ## Dependencies 
   - React-router
-    - R
+    - Enables 'client side routing' to build single page web applications
+    - Client side routing allows your app to update the URL from a link click without making another request for another document from the server. Instead, your app can immediately render some new UI and make data requests with fetch to update the page with new information
   - React-image-gallery
-    - R
+    - React component for building image galleries and carousels
+    - More information at https://www.npmjs.com/package/react-image-gallery
       
 ## How to Run Locally
 - Install the latest version of node.js (JavaScript runtime server)
