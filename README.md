@@ -1,6 +1,6 @@
 # Portfolio - Stephanie Xue
 
-My portfolio is a dynamic single-page web application built using the front-end JavaScript library, React. There is a navigation bar at the top that allows you to move between different sections of the web application, including the homepage, the about me page, the projects page, the experiences page, and the contact me page. The homepage displays an animated terminal-like welcome message to the user. The about me page contains some information about myself, my background, and my interests. This page also contains a photo gallery of some pictures I have taken, including travel photos, food photos, and photos of my beloved cat, Rhea. The projects page showcases some of the projects I have been working on. Each project contains some screenshot images that you can view in a carousel or slideshow, a descripion of the project and languages/tools used, a link to the github page, and an active web link if there is one avaliable. The experiences page lists some of my experiences including my technical skills, education, healthcare experience, and research experience. THe contact me page includes links to my email, github, linkedIn, and instagram. There is also a feature on the contact me page to send a message to my email. The footer of the web application also contains icons with links to my social media webpages. There is also a toggle button at the top right of the navigation bar that allows you to toggle between light mode and dark mode.
+My portfolio is a dynamic single-page web application built using the front-end JavaScript library, React. There is a navigation bar at the top that allows you to move between different sections of the web application, including the homepage, the about me page, the projects page, the experiences page, and the contact me page. The homepage displays an animated terminal-like welcome message to the user. The about me page contains some information about myself, my background, and my interests. This page also contains a photo gallery of some pictures I have taken, including travel photos, food photos, and photos of my beloved cat, Rhea. The projects page showcases some of the projects I have been working on. Each project contains some screenshot images that you can view in a carousel or slideshow, a descripion of the project and languages/tools used, a link to the github page, and an active web link if there is one avaliable. The experiences page lists some of my experiences including my technical skills, education, healthcare experience, and research experience. The contact me page includes links to my email, github, linkedIn, and instagram. There is also a feature on the contact me page to send a message to my email. The footer of the web application also contains icons with links to my social media webpages. There is also a toggle button at the top right of the navigation bar that allows you to toggle between light mode and dark mode.
 &nbsp;
 
 Can access on: https://portfolio-steph-xue.netlify.app
@@ -9,61 +9,55 @@ Can access on: https://portfolio-steph-xue.netlify.app
 ## Sections you can Navigate:
 
 **Homepage**
-  - The player can choose their desired level of difficulty of quiz questions and a category of questions and click start to begin the quiz
+  - Homepage
 <br><br>
 ![Homepage Light ](./images/homepage-light.png?raw=true "Homepage Light")
-The start page includes the selection of difficulties and categories of questions.
+Homepage light.
 ![Homepage Dark ](./images/homepage-dark.png?raw=true "Homepage Dark")
-The start page includes the selection of difficulties and categories of questions.
+Homepage dark.
 <br><br>
 &nbsp;
 
 **About Me**
-  - The player can choose the difficulty of questions generated:
-    - Easy
+  - About me
 <br><br>
 ![About Me 1](./images/about-me-1.png?raw=true "About Me 1")
-The player can choose their desired level of questions from the following: easy, medium, hard.
+About me 1.
 ![About Me 2](./images/about-me-2.png?raw=true "About Me 2")
-The player can choose their desired level of questions from the following: easy, medium, hard.
+About me 2.
 <br><br>
 &nbsp;
 
 **Projects**
-  - The player can choose their desired category of questions:
-    - All
-    - General Knowledge
+  - Projects
 <br><br>
 ![Projects](./images/projects.png?raw=true "Projects")
-The player can choose their desired category of questions ranging from geography to pop culture.
+Projects
 <br><br>
 &nbsp;
 
 **Experiences**
- - The quiz will then generate a random array of 5 multiple choice or true/false questions based on the difficulty and category of questions choosen
- - The data of quiz questions is retrieved from the Open Trivia Database API 
+ - Experiences
 <br><br>
 ![Experiences](./images/experiences.png?raw=true "Experiences")
-A random list of 5 questions will be generated based on the difficulty and category of questions choosen.
+Experiences
 <br><br>
 &nbsp;
 
 **Contact Me**
- - After the player is done answering the questions, they can click on the 'check answers' button to check which questions they got correct and incorrect
- - The quiz will then display all questions the player had answered correctly and incorrectly
-   - The result for each question will be displayed as 'correct' or 'incorrect' 
-   - Answers that the player got wrong will have the button marked in red
-   - Answers that the player got right will have the button marked in green
-   - If the player got the answer wrong, the actual correct answer button will be marked in a lighter green
- -  The quiz will calculate their total score out of the total of quiz questions (out of 5)
+ - Contact Me
 <br><br>
 ![Contact Me](./images/contact-me.png?raw=true "Contact Me")
-The player can check their answers and score after completing the quiz.
+Contact me.
 <br><br>
 
-## Other Features
- - After the player is done answering the questions, they can click on the 'check answers' button to check which questions they got correct and incorrect
- - The
+## Special Features
+ - Animated background
+ - Animated homepage title
+ - Navbar color scrolling
+ - Image gallery
+ - Projects screenshot carousel
+ - Light/dark mode
 <br><br>
 
 ## Languages & Frameworks
@@ -73,22 +67,20 @@ The player can check their answers and score after completing the quiz.
   - Vite is a local development server that has support for frameworks like React and Vue.js, and programming languages like JavaScript and TypeScript 
       
 ## Dependencies 
-  - React-confetti
-    - Displays rainbow confetti that falls from the top of the page
-  - Html-entities
-    - Can encode and decode text replacing html entities to characters
-  - Nano ID
-    - A tiny, secure, URL-friendly, unique string ID generator for JavaScript
+  - React-router
+    - R
+  - React-image-gallery
+    - R
       
 ## How to Run Locally
 - Install the latest version of node.js (JavaScript runtime server)
 - Install the latest version of npm (JavaScript package manager)
 - Install the latest version of vite which can be done by typing in the command line 'npm install -D vite'
 - Install the dependencies by running the following commands:
-  - React-confetti
+  - React-router
     - 'npm install react-confetti'
-  - Html-entities
-    - 'npm install html-entities'
+  - React-image-gallery
+    - 'npm install react-router-dom'
 - The web application can be run on your local server by typing in the command line 'npm run dev'
 
 ## How to Deploy
