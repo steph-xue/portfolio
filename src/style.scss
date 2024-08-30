@@ -1181,8 +1181,15 @@ a {
 .healthcare-title {
 	font-size: var(--fs-xl);
 	font-weight: var(--fw-med);
-	margin: 0 0 1em 0;
+	margin: 0 0 1em 1em;
 	width: 130%;
+}
+
+@media (min-width: 400px) {
+	.healthcare-title {
+		margin: 0 0 1em 0;
+		width: 100%;
+	}
 }
 
 .research-title {
