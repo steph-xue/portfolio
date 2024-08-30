@@ -74,8 +74,8 @@ function About(props) {
             {/* About more info */}
             <div className="about-container-2">
                 <p className="about-more-info">
-                    Given my background as a pharmacist, I have had various experiences in community, hospital, ambulatory care, and research 
-                    settings across multiple therapeutic areas such as cardiology, neurology, mental health, and diabetes. These experiences have
+                    I have had various experiences in community, hospital, ambulatory care, and research settings across multiple therapeutic areas 
+                    such as cardiology, neurology, mental health, and diabetes, given my background in healthcare. These experiences have
                     equipped me with valuable direct patient care experiences and have allowed me to gain a comprehensive understanding of different
                     healthcare processes, software, and emerging technologies. My previous experience in healthcare has provided me with a unique 
                     perspective on how technology can be harnessed to enhance patient care and improve operational efficiency. This perspective
