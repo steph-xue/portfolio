@@ -136,7 +136,7 @@ function Experiences(props) {
                                 <li className="education-item-info">Currently attending</li>
                             </ul>
                         </div>
-                        <p className="education-item-date">From 2024</p>
+                        <p className="education-item-date">2024 - Present</p>
                     </div>
                     <div className="education-item-section">
                         <div className="education-item-description">
