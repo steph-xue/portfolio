@@ -1,8 +1,16 @@
 import React from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
+import hData from "../experiences-data/healthcare-data";
+import rData from "../experiences-data/research-data";
 
 function Experiences(props) {
+
+    // Reverse the healthcare data array once during the initial state setup
+    const [healthcareData] = React.useState(() => hData.slice().reverse());
+
+    // Reverse the research data array once during the initial state setup
+    const [researchData] = React.useState(() => rData.slice().reverse());
 
     // Render the Experiences component
     return (
