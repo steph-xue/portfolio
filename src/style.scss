@@ -1233,10 +1233,10 @@ a {
 	flex-direction: column;
 	gap: 1em;
 	padding-bottom: 2em;
-	width: 26em;
+	width: 24em;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 400px) {
 	.contact-buttons {
 		width: 31em;
 	}
