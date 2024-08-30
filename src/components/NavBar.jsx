@@ -93,7 +93,7 @@ function NavBar(props) {
                                     : "navbar-list-link-light"
                         }
                         to="/experiences">
-                        Experience
+                        Experiences
                     </NavLink>
                 </li>
                 <li className="navbar-list-item">

@@ -65,10 +65,10 @@ function Experiences(props) {
     // Render the Experiences component
     return (
         <div className="experiences-page">
-            <h1 className="experiences-title">Experience</h1>
+            <h1 className="experiences-title">Experiences</h1>
 
             {/* Technical skills section */}
-            <div className="technical-skills experiences-container">
+            <div className={props.darkMode ? "technical-skills experiences-container-dark" : "technical-skills experiences-container-light"}>
                 <h2 className="technical-skills-title">Technical Skills</h2>
                 <div className="skills-text">
                     <div className="skills-category skills-languages">
@@ -107,7 +107,7 @@ function Experiences(props) {
             </div>
 
             {/* Education section */}
-            <div className="education experiences-container">
+            <div className={props.darkMode ? "education experiences-container-dark" : "education experiences-container-light"}>
                 <h2 className="education-title">Education</h2>
                 <div className="education-text">
                     <div className="education-university-title">
@@ -152,13 +152,13 @@ function Experiences(props) {
             </div>
 
             {/* Healthcare experiences section */}
-            <div className="healthcare experiences-container">
+            <div className={props.darkMode ? "healthcare experiences-container-dark" : "healthcare experiences-container-light"}>
                 <h2 className="healthcare-title">Healthcare Experience</h2>
                 {healthcareDataElements}
             </div>
 
             {/* Research experiences section */}
-            <div className="research experiences-container">
+            <div className={props.darkMode ? "research experiences-container-dark" : "research experiences-container-light"}>
                 <h2 className="research-title">Research Experience</h2>
                 {researchDataElements}
             </div>
