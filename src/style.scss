@@ -1180,21 +1180,16 @@ a {
 }
 
 .healthcare-title {
-	font-size: var(--fs-l);
+	font-size: var(--fs-xl);
 	font-weight: var(--fw-med);
 	margin: 0 0 1em 0;
-}
-
-@media (min-width: 400px) {
-	.healthcare-title {
-		font-size: var(--fs-xl);
-	}
 }
 
 .research-title {
 	font-size: var(--fs-xl);
 	font-weight: var(--fw-med);
 	margin: 0 0 1em 0;
+	padding: 0;
 }
 
 .experience-container {
