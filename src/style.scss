@@ -1109,63 +1109,44 @@ a {
 }
 
 .education-item-section {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	gap: 10em;
-	margin: 0;
-	padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+    gap: 2em;
 }
 
 .education-item-description {
-	margin: 0;
-	padding: 0;
+    flex: 1;
+    margin: 0;
+    padding: 0;
 }
 
 .education-item-title {
-	font-weight: var(--fw-bold);
-	width: 200%;
-	margin: 0 0 -1em 0;
-	padding: 0;
+    font-weight: var(--fw-bold);
+    margin: 0 0 -1em 0;
+    padding: 0;
 }
 
 .education-item-info {
-	width: 200%;
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .awards {
-	font-size: var(--fs-s);
-	width: 200%;
-	margin: 0 0 0 2em;
-	padding: 0;
+    font-size: var(--fs-s);
+    margin: 0 0 0 2em;
+    padding: 0;
 }
 
 .education-item-date {
-	align-self: flex-start;
-	margin: 0;
-	padding: 0;
-	margin-left: auto;
-	min-width: 6em;
-}
-
-@media (min-width: 400px) {
-	.education-item-title, .education-item-info, .awards {
-		width: 130%;
-	}
-}
-
-@media (min-width: 800px) {
-	.education-item-title, .education-item-info, .awards {
-		width: 120%;
-	}
-}
-
-@media (min-width: 1000px) {
-	.education-item-title, .education-item-info, .awards {
-		width: 110%;
-	}
+    margin: 0;
+    padding: 0;
+    margin-left: 1em;
+    min-width: 6em;
+    text-align: right;
+    align-self: flex-start;
 }
 
 .healthcare {
