@@ -983,6 +983,13 @@ a {
 
 .health-icon {
 	margin-left: 0.2em !important;
+	font-size: var(--fs-l);
+}
+
+@media (min-width: 400px) {
+	.health-icon {
+		font-size: var(--fs-xl);
+	}
 }
 
 .technical-skills-title {
@@ -1160,9 +1167,15 @@ a {
 }
 
 .healthcare-title {
-	font-size: var(--fs-xl);
+	font-size: var(--fs-l);
 	font-weight: var(--fw-med);
 	margin: 0 0 1em 0;
+}
+
+@media (min-width: 400px) {
+	.healthcare-title {
+		font-size: var(--fs-xl);
+	}
 }
 
 .research-title {
