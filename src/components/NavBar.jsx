@@ -18,6 +18,11 @@ function NavBar(props) {
         }
     }
 
+    // Function to reset the scroll position to the top of the page
+    function resetTop() {
+        window.scrollTo(0, 0);
+    }
+
     // Add an event listener to the window object to listen for scroll events to change the navbar
     React.useEffect(() => {
         window.addEventListener('scroll', changeNavbar);
@@ -47,7 +52,9 @@ function NavBar(props) {
                                     ? "navbar-list-link-dark"
                                     : "navbar-list-link-light"
                         }
-                        to="/">
+                        to="/"
+                        onClick={resetTop}
+                    >
                         Homepage
                     </NavLink>
                 </li>
@@ -62,7 +69,9 @@ function NavBar(props) {
                                     ? "navbar-list-link-dark"
                                     : "navbar-list-link-light"
                         }
-                        to="/about">
+                        to="/about"
+                        onClick={resetTop}
+                    >
                         About
                     </NavLink>
                 </li>
@@ -77,7 +86,9 @@ function NavBar(props) {
                                     ? "navbar-list-link-dark"
                                     : "navbar-list-link-light"
                         }
-                        to="/projects">
+                        to="/projects"
+                        onClick={resetTop}
+                    >
                         Projects
                     </NavLink>
                 </li>
@@ -92,7 +103,9 @@ function NavBar(props) {
                                     ? "navbar-list-link-dark"
                                     : "navbar-list-link-light"
                         }
-                        to="/experiences">
+                        to="/experiences"
+                        onClick={resetTop}
+                    >
                         Experiences
                     </NavLink>
                 </li>
@@ -107,7 +120,9 @@ function NavBar(props) {
                                     ? "navbar-list-link-dark"
                                     : "navbar-list-link-light"
                         }
-                        to="/contact">
+                        to="/contact"
+                        onClick={resetTop}
+                    >
                         Contact
                     </NavLink>
                 </li>
