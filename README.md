@@ -6,7 +6,7 @@ My portfolio is a dynamic single-page web application built using the front-end 
 Can access on: https://portfolio-steph-xue.netlify.app
 <br><br>
 
-## Sections you can Navigate:
+## Sections You Can Navigate:
 
 **Homepage**
   - Homepage
