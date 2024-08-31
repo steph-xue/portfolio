@@ -62,8 +62,8 @@ function Homepage(props) {
                 <div className="console-underscore" id="console">&#95;</div>
             </div>
             <p className="homepage-description">
-                I am an aspiring software developer with a previous background in healthcare. I am passionate about levaraging
-                technology to help automate tasks, bridge gaps, and develop innovative user-centric solutions!
+                I am a UBC Bachelor of Computer Science (BCS) student with a previous background in healthcare. I am passionate about 
+                levaraging technology to help automate tasks, bridge gaps, and develop innovative user-centric solutions!
             </p>
         </div>
     );

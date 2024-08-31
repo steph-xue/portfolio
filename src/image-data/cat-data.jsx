@@ -59,5 +59,76 @@ export default [
         title: "Fluffball Rhea",
         source: "/images/cat/cat10.jpg",
     }, 
-    
+    {
+        id: 11,
+        name: "cat11",
+        title: "Rhea resting in her soft teddy bear house",
+        source: "/images/cat/cat11.jpg",
+    }, 
+    {
+        id: 12,
+        name: "cat12",
+        title: "The cutest Rhea",
+        source: "/images/cat/cat12.jpg",
+    },
+    {
+        id: 13,
+        name: "cat13",
+        title: "Rhea chilling in her checkered cardboard house",
+        source: "/images/cat/cat13.jpg",
+    },
+    {
+        id: 14,
+        name: "cat14",
+        title: "Rhea cozying up on the couch in the evening",
+        source: "/images/cat/cat14.jpg",
+    },
+    {
+        id: 15,
+        name: "cat15",
+        title: "Rhea getting ready for bed",
+        source: "/images/cat/cat15.jpg",
+    },
+    {
+        id: 16,
+        name: "cat16",
+        title: "Rhea as a cute piece of toast",
+        source: "/images/cat/cat16.jpg",
+    },
+    {
+        id: 17,
+        name: "cat17",
+        title: "Crescent moon Rhea",
+        source: "/images/cat/cat17.jpg",
+    },
+    {
+        id: 18,
+        name: "cat18",
+        title: "Rhea patiently waiting for me to feed her treats",
+        source: "/images/cat/cat18.jpg",
+    },
+    {
+        id: 19,
+        name: "cat19",
+        title: "Rhea sitting in her favourite spot my desk chair",
+        source: "/images/cat/cat19.jpg",
+    },
+    {
+        id: 20,
+        name: "cat20",
+        title: "Rhea in her fuzzy checkered cat tunnel",
+        source: "/images/cat/cat20.jpg",
+    },
+    {
+        id: 21,
+        name: "cat21",
+        title: "Rhea playing with her favourite plush fish toy",
+        source: "/images/cat/cat21.jpg",
+    },
+    {
+        id: 22,
+        name: "cat22",
+        title: "Rhea chilling on the fluffy carpet",
+        source: "/images/cat/cat22.jpg",
+    }
 ]
