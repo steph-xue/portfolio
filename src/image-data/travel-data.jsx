@@ -177,7 +177,7 @@ export default [
         id: 30,
         name: "cabo-art-walk",
         title: "Cabos San Lucas Art Walk, Mexico",
-        source: "/images/travel/abo-art-walk.jpg",
+        source: "/images/travel/cabo-art-walk.jpg",
     }, 
     {
         id: 31,
