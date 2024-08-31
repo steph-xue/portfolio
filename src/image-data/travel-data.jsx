@@ -128,7 +128,7 @@ export default [
     {
         id: 22,
         name: "disney-sea",
-        title: "DiseySea, Tokyo, Japan",
+        title: "DisneySea, Tokyo, Japan",
         source: "/images/travel/disney-sea.jpg",
     }, 
     {
@@ -205,7 +205,8 @@ export default [
     }, 
     {
         id: 35,
-        name: "Urayasu-Onsen, Tokyo, Japan",
+        name: "urayasu-onsen",
+        title: "Urayasu Onsen, Tokyo, Japan",
         source: "/images/travel/urayasu-onsen.jpg",
     },
     {
