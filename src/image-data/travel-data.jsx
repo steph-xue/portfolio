@@ -87,7 +87,7 @@ export default [
         id: 15,
         name: "shinjuku-garden",
         title: "Shinjuku Gyoen Garden, Tokyo, Japan",
-        source: "/images/travel/shinjuku-garden.jpg",
+        source: "/images/travel/shinjuku-garden1.jpg",
     }, 
     {
         id: 16,
