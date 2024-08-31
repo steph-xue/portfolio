@@ -110,7 +110,7 @@ export default [
     {
         id: 19,
         name: "cat19",
-        title: "Rhea sitting in her favourite spot my desk chair",
+        title: "Rhea sitting in her favourite spot in my desk chair",
         source: "/images/cat/cat19.jpg",
     },
     {
