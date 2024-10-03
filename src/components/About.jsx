@@ -79,7 +79,7 @@ function About(props) {
                     equipped me with valuable direct patient care experiences and have allowed me to gain a comprehensive understanding of different
                     healthcare software and emerging technologies. My previous experiences have provided me with a unique 
                     perspective on how technology can be harnessed to enhance patient care and improve operational efficiency. This perspective
-                    fuels my commitment to leveraging technology in ways that can help address real-world challenges and make a meaningful impact
+                    fuels my commitment to leverage technology in ways that can help address real-world challenges and make a meaningful impact
                     in our society.
                 </p>
             </div>
