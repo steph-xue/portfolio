@@ -110,7 +110,8 @@ function About(props) {
                 catImages={catImages}
                 toggleImage={toggleImage}
             /> 
-            <p className="gallery-description">Reload the page to view more randomly generated photos!</p>
+            <p className="gallery-description g1">» Click on each image to view the full image and description</p>
+            <p className="gallery-description g2">» Reload the page to view more randomly generated photos</p>
 
             {/* Full image display if image is clicked on */}
             {
