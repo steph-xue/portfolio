@@ -63,7 +63,7 @@ export default [
         name: "shoppers-intern-assistant",
         title: "Shoppers Drug Mart #2275 – Community Pharmacy Intern & Pharmacy Assistant",
         location: "1202 West Pender St, Vancouver, BC, Canada",
-        dates: "May 2022 – Jun 2022 ",
+        dates: "May 2020 – Jun 2022 ",
         description: [
             "Developed an educational initiative on the BC smoking cessation program using informative brochures and infographics",
             "Performed clinical consults, conducted medication review services to enhance patients’ understanding of their medications, created comprehensive medication management plans to optimize drug therapy, and administered vaccines",
