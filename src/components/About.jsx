@@ -62,7 +62,7 @@ function About(props) {
                     <p className="about-description">
                         As a UBC Bachelor of Computer Science (BCS) student with previous background in healthcare as a pharmacist,
                         I have a strong enthusiasm for technology, software development, web development, UX/UI design, artificial intelligence,
-                        healthcare innovation, creative problem solving. I am passionate about leveraging technology to help streamline processes,
+                        healthcare innovation, and creative problem solving. I am passionate about leveraging technology to help streamline processes,
                         automate tasks, bridge gaps, and develop innovative solutions to address real-world problems. As a life-long learner, 
                         I am always excited to explore new ideas, expand my skillset, and push the boundaries of my knowledge. I thrive on
                         challenging myself through pursing new projects and collaborating with like-minded individuals to foster both personal
