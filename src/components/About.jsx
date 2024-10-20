@@ -93,10 +93,10 @@ function About(props) {
                         listening to and playing music, immersing myself in a cozy video game, and spending quality time 
                         with my loved ones. I also enjoy visiting new coffee shops, traveling, and uncovering hidden gems 
                         both in and out of the city, always in search of inspiration and new experiences. My creativity also 
-                        finds its expression in photography, digital art, and design. I love capturing memories and the beauty 
+                        finds its expression in photography, design, and digital art. I love capturing memories and the beauty 
                         of the world around me in photos, whether that be food, scenery, or cherished moments with loved ones. 
-                        I also enjoy digital art and design as a medium for bringing my ideas to life, and have been trying to 
-                        learn and experiment with different styles and techniques. Additionally, I have an adorable cat named Rhea who is 
+                        I also enjoy art and design as a medium for bringing my ideas to life, and have been trying to learn and 
+                        experiment with new digital art styles and techniques. Additionally, I have an adorable cat named Rhea who is 
                         an American Shorthair and Maine Coon mix. She has an endearing and loving personality, who loves to spending
                         her time cuddling, taking naps, snacking on yummy treats, and basking in the sun.
                     </p>
