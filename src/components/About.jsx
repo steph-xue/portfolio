@@ -77,10 +77,19 @@ function About(props) {
                     Given my healthcare background, I have had various experiences in community, hospital, ambulatory care, and research
                     settings across multiple therapeutic areas such as cardiology, neurology, mental health, and diabetes. These experiences have
                     equipped me with valuable direct patient care experiences and have allowed me to gain a comprehensive understanding of different
-                    healthcare software and emerging technologies. My previous experiences have provided me with a unique 
-                    perspective on how technology can be harnessed to enhance patient care and improve operational efficiency. This perspective
-                    fuels my commitment to leverage technology in ways that can help address real-world challenges and make a meaningful impact
-                    in our society.
+                    healthcare software and emerging technologies. My previous experiences have provided me with a unique perspective on how 
+                    technology can be harnessed to enhance patient care and improve operational efficiency. This perspective fuels my commitment
+                    to leverage technology in ways that can help address real-world challenges and make a meaningful impact in our society. I am
+                    motivated by the idea that thoughtful innovation can empower individuals and communities to achieve more and overcome existing
+                    barriers. By blending my past experiences, problem-solving skills, technical expertise, and creativity, I hope to create systems
+                    that inspire meaningful change, enhance efficiency, and contribute to a more collaborative and inclusive future.
+
+
+
+
+
+
+
                 </p>
             </div>
 
