@@ -5,7 +5,7 @@ function Homepage(props) {
     // Call consoleText after the component has been mounted
     React.useEffect(() => {
         consoleText(
-            ['Hello There.', 'My Name is Stephanie.', 'Welcome To My Homepage!'],
+            ['Hello There.', 'My Name is Steph.', 'Welcome To My Homepage!'],
             'text', 
     )}, []);
 
