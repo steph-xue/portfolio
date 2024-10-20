@@ -83,13 +83,6 @@ function About(props) {
                     motivated by the idea that thoughtful innovation can empower individuals and communities to achieve more and overcome existing
                     barriers. By blending my past experiences, problem-solving skills, technical expertise, and creativity, I hope to create systems
                     that inspire meaningful change, enhance efficiency, and contribute to a more collaborative future.
-
-
-
-
-
-
-
                 </p>
             </div>
 
