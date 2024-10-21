@@ -15,7 +15,7 @@ function Footer(props) {
                 <a className="icon-link" href="https://github.com/steph-xue">
                     <FontAwesomeIcon className="icon" icon={faGithub} />
                 </a>
-                <a className="icon-link" href="https://www.linkedin.com/in/stephanie-x-639182188/">
+                <a className="icon-link" href="https://www.linkedin.com/in/stephxue/">
                     <FontAwesomeIcon className="icon" icon={faLinkedin} />
                 </a>
                 <a className="icon-link" href="https://www.instagram.com/stephxue_">

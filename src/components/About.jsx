@@ -60,7 +60,7 @@ function About(props) {
                 <div className="about-container-1-text">
                     <h2 className="about-subtitle">I'm a currently a UBC Bachelor of Computer Science (BCS) student based in Vancouver, Canada.</h2>
                     <p className="about-description">
-                        As a UBC Bachelor of Computer Science (BCS) student with previous background in healthcare as a pharmacist,
+                        As a UBC Bachelor of Computer Science (BCS) second degree student with previous background in healthcare as a pharmacist,
                         I have a strong enthusiasm for technology, software development, web development, UX/UI design, artificial intelligence,
                         healthcare innovation, and creative problem solving. I am passionate about leveraging technology to help streamline processes,
                         automate tasks, bridge gaps, and develop innovative solutions to address real-world problems. As a life-long learner, 

@@ -40,7 +40,7 @@ function Contact(props) {
                     </a>
                     <a 
                         className={props.darkMode ? "contact-button dark-button" : "contact-button light-button"}
-                        href="https://www.linkedin.com/in/stephanie-x-639182188/"
+                        href="https://www.linkedin.com/in/stephxue/"
                     >
                         <FontAwesomeIcon className="contact-icon" icon={faLinkedin} />
                         <span className="head-contact-label"><strong>Linkedin </strong></span>
