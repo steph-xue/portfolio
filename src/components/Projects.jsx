@@ -18,7 +18,7 @@ function Projects(props) {
 
                 {/* Project text */}
                 <div className="project-text">
-                    <a className="project-container-link" href="https://github.com/steph-xue/tenzies-game">
+                    <a className="project-container-link" href={project.github}>
                         <h2 className="project-title">{project.title}</h2>
                         <p className="project-description">{project.description}</p>
                         <p className="project-languages">
