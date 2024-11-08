@@ -93,7 +93,7 @@ function Experiences(props) {
                     </div>
                     <div className="skills-category skills-development">
                         <h3 className="skills-category-title">Development Practices/Tools</h3>
-                        <p className="skills-category-items">Git, Vite</p>
+                        <p className="skills-category-items">Git, Vite, VS Code</p>
                     </div>
                     <div className="skills-category skills-storage">
                         <h3 className="skills-category-title">Storage</h3>
