@@ -85,7 +85,7 @@ function Experiences(props) {
                     </div>
                     <div className="skills-category skills-frontend">
                         <h3 className="skills-category-title">Frontend</h3>
-                        <p className="skills-category-items">HTML5, CSS3, React, Bootstrap</p>
+                        <p className="skills-category-items">HTML5, CSS3, React.js, Vite, Bootstrap</p>
                     </div>
                     <div className="skills-category skills-backend">
                         <h3 className="skills-category-title">Backend</h3>
@@ -93,11 +93,11 @@ function Experiences(props) {
                     </div>
                     <div className="skills-category skills-development">
                         <h3 className="skills-category-title">Development Practices/Tools</h3>
-                        <p className="skills-category-items">Git, Vite, VS Code</p>
+                        <p className="skills-category-items">Git, Github Copilot, Visual Studio Code</p>
                     </div>
                     <div className="skills-category skills-storage">
                         <h3 className="skills-category-title">Storage</h3>
-                        <p className="skills-category-items">SQL (SQLite), Firebase, Dropbox, Google Drive</p>
+                        <p className="skills-category-items">SQL (SQLite)</p>
                     </div>
                     <div className="skills-category skills-design">
                         <h3 className="skills-category-title">Design Tools</h3>
@@ -105,7 +105,7 @@ function Experiences(props) {
                     </div>
                     <div className="skills-category skills-cloud">
                         <h3 className="skills-category-title">Cloud Hosting</h3>
-                        <p className="skills-category-items">Netlify</p>
+                        <p className="skills-category-items">Netlify, Render</p>
                     </div>
                     <div className="skills-category skills-collaboration">
                         <h3 className="skills-category-title">Collaboration</h3>
