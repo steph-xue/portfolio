@@ -96,7 +96,7 @@ function Experiences(props) {
                         <p className="skills-category-items">Git, Github Copilot, Visual Studio Code</p>
                     </div>
                     <div className="skills-category skills-storage">
-                        <h3 className="skills-category-title">Storage</h3>
+                        <h3 className="skills-category-title">Databases</h3>
                         <p className="skills-category-items">SQL (SQLite)</p>
                     </div>
                     <div className="skills-category skills-design">
