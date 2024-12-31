@@ -80,11 +80,11 @@ function Experiences(props) {
             >
                 <div className="awards-item-text">
                     <h2 className="awards-item-title">{award.title}</h2>
-                    <p className="awards-item-date">{award.dates}</p>
                     <ul className="awards-item-description">
                         <li>{award.description}</li>
                     </ul>
                 </div>
+                <p className="awards-item-date">{award.dates}</p>
             </div>
         );
     });

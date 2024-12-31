@@ -285,7 +285,7 @@ a {
     justify-content: flex-start;
     align-items: center;
 	padding: 1em 2em;
-	margin-top: 16em;
+	margin-top: 25vh;
 	width: 100%;
 	height: 100%;
 }
@@ -322,7 +322,7 @@ a {
 .homepage-description {
 	text-align: center;
 	width: 26em;
-	margin-top: 8em;
+	margin-top: 8vh;
 	margin-bottom: 8em;
 	padding-left: 2em;
 	padding-right: 2em;
@@ -337,7 +337,7 @@ a {
 
 	.homepage-description{
 		width: 45em;
-		margin-top: 25em;
+		margin-top: 40vh;
 		margin-bottom: 6em;
 	}
 }
@@ -1204,59 +1204,52 @@ a {
     margin-left: 1em;
     min-width: 6em;
     text-align: right;
-    align-self: flex-start;
-}
-
-.awards {
-	margin-bottom: 2em;
-}
-
-.awards-item-text {
-	width: 75vw;
-}
-
-@media (min-width: 600px) {
-	.awards-item-text {
-		width: 80vw;
-	}
-}
-
-.awards-title {
-	font-size: var(--fs-xl);
-	font-weight: var(--fw-med);
-	margin: 0 0 1em 0;
+    align-self: center;
 }
 
 .awards-item-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    display: grid;
+    grid-template-columns: 1fr auto;  /* Text takes up most space, date adjusts automatically */
+    align-items: start;  /* Align items to the top */
     margin: 0;
     padding: 0;
-    gap: 3em;
+    gap: 2em;  /* Space between text and date */
+}
+
+.awards-item-text {
+    text-align: left;  /* Force text to align left */
+    margin: 0;
+    padding: 0;
 }
 
 .awards-item-title {
     font-size: var(--fs-ml);
-	font-weight: var(--fw-med);
-	line-height: 1.6rem;
-    margin: 0.5em 0 -0.8em 0;
+    font-weight: var(--fw-med);
+    line-height: 1.6rem;
+    margin: 0.5em 0 0;
     padding: 0;
 }
 
 .awards-item-description {
-    flex: 1;
     margin: 0;
     padding: 0;
+    text-align: left;  /* Ensure left alignment */
+    list-style: none;  /* Remove bullet points if not needed */
 }
 
 .awards-item-date {
-    margin: 0;
-    padding: 0;
-    margin-left: 1em;
-    min-width: 6em;
+    justify-self: end;  /* Push date to the far right */
     text-align: right;
-    align-self: flex-start;
+    min-width: 8em;
+    align-self: flex-start;  /* Vertically align with text start */
+    margin: 0;
+}
+
+.awards-item-text {
+    border: 1px solid red;
+}
+.awards-item-date {
+    border: 1px solid blue;
 }
 
 .healthcare {
@@ -1265,7 +1258,7 @@ a {
 
 @media (min-width: 400px) {
 	.healthcare {
-		margin-bottom: 2em;
+		margin-bottom: 2.5em;
 	}
 }
 
@@ -1283,11 +1276,28 @@ a {
 	}
 }
 
+.research {
+	margin-bottom: 4em;
+}
+
+@media (min-width: 400px) {
+	.research {
+		margin-bottom: 2.5em;
+	}
+}
+
 .research-title {
+	text-align: center;
 	font-size: var(--fs-xl);
 	font-weight: var(--fw-med);
 	margin: 0 0 1em 0;
-	padding: 0;
+	width: 130%;
+}
+
+@media (min-width: 400px) {
+	.research-title {
+		width: 100%;
+	}
 }
 
 .experience-container {
