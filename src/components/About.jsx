@@ -58,7 +58,7 @@ function About(props) {
             <div className="about-container-1">
                 <img src="/images/profile-pic.png" alt="profile-pic" className="profile-image" />
                 <div className="about-container-1-text">
-                    <h2 className="about-subtitle">I'm a currently a UBC Bachelor of Computer Science (BCS) student based in Vancouver, Canada.</h2>
+                    <h2 className="about-subtitle">I'm a currently a UBC Bachelor of Computer Science (BCS) student based in Burnaby, BC, Canada.</h2>
                     <p className="about-description">
                         As a UBC Bachelor of Computer Science (BCS) second degree student with previous background in healthcare as a pharmacist,
                         I have a strong enthusiasm for technology, software development, web development, UX/UI design, artificial intelligence,
@@ -91,8 +91,8 @@ function About(props) {
                 <img src="/images/profile-cat.png" alt="profile-cat" className="profile-cat-image" />
                 <div className="about-container-3-text">
                     <p className="about-interests">
-                        In my downtime, you will often find me trying to craft the perfect cup of coffee or matcha latte, 
-                        listening to and playing music, immersing myself in a cozy video game, and spending quality time 
+                        In my downtime, you will often find me trying to craft the perfect glass of iced coffee or a matcha  
+                        latte, listening to and playing music, immersing myself in a cozy video game, and spending quality time 
                         with my loved ones. I also enjoy visiting new coffee shops, traveling, and uncovering hidden gems 
                         both in and out of the city, always in search of inspiration and new experiences. My creativity also 
                         finds its expression in photography, design, and digital art. I love capturing memories and the beauty 

@@ -1,6 +1,7 @@
 import React from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faCode } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
@@ -37,6 +38,14 @@ function Contact(props) {
                         <FontAwesomeIcon className="contact-icon" icon={faGithub} />
                         <span className="head-contact-label"><strong>Github </strong></span>
                         <span className="sm-contact-label">- www.github.com/steph-xue</span>
+                    </a>
+                    <a 
+                        className={props.darkMode ? "contact-button dark-button" : "contact-button light-button"}
+                        href="https://devpost.com/steph-xue"
+                    >
+                        <FontAwesomeIcon className="contact-icon" icon={faCode} />
+                        <span className="head-contact-label"><strong>Devpost </strong></span>
+                        <span className="sm-contact-label">- www.devpost.com/steph-xue</span>
                     </a>
                     <a 
                         className={props.darkMode ? "contact-button dark-button" : "contact-button light-button"}
