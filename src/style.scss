@@ -1051,17 +1051,23 @@ a {
 }
 
 .experiences-nav-link {
-	font-size: var(--fs-s);
+	font-size: var(--fs-xs);
 	font-weight: var(--fw-med);
 	line-height: 1.2em;
 	cursor: pointer;
 	transition: opacity 0.4s ease-in-out;
-	padding-left: 0.5em;
-	padding-right: 0.5em;
+	padding-left: 0em;
+	padding-right: 0em;
 	transition: transform 0.6s ease-in-out, color 0.6s ease-in-out;
 }
 
 @media (min-width: 400px) {
+	.experiences-nav-link {
+		font-size: var(--fs-s);
+	}
+}
+
+@media (min-width: 800px) {
 	.experiences-nav-link {
 		font-size: var(--fs-m);
 	}
