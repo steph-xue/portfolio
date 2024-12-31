@@ -64,7 +64,7 @@ function About(props) {
         <div className="about-page">
 
             {/* About main title */}
-            <h1 className="about-title">I'm Stephanie.</h1>
+            <h1 className="about-title">I'm Stephanie</h1>
 
             {/* About summary */}
             <div className="about-container-1">

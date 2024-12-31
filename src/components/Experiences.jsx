@@ -1,6 +1,7 @@
 import React from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
+import { faFile } from '@fortawesome/free-solid-svg-icons'
 import { faComputer } from '@fortawesome/free-solid-svg-icons'
 import { faAward } from '@fortawesome/free-solid-svg-icons'
 import { faUserGraduate } from '@fortawesome/free-solid-svg-icons'
@@ -93,6 +94,25 @@ function Experiences(props) {
     return (
         <div className="experiences-page">
             <h1 className="experiences-title">Experiences</h1>
+
+            {/* Navigation links */}
+            <div className={props.darkMode ? "experiences-nav nav-dark" : "experiences-nav nav-light"}>
+                <a href="#technical-skills" className="experiences-nav-link">Resume</a>
+                <a href="#technical-skills" className="experiences-nav-link">Technical Skills</a>
+                <a href="#education" className="experiences-nav-link">Education</a>
+                <a href="#awards" className="experiences-nav-link">Academic Awards</a>
+                <a href="#healthcare" className="experiences-nav-link">Healthcare Experience</a>
+                <a href="#research" className="experiences-nav-link">Research Experience</a>
+            </div>
+
+            {/* Resume section */}
+            <div className={props.darkMode ? "resume experiences-container-dark" : "resume experiences-container-light"}>
+                <h2 className="awards-title">
+                    Resume
+                    <FontAwesomeIcon className="skills-icon" icon={faFile} />
+                </h2>
+                <p>Click here to view!</p>
+            </div>
 
             {/* Technical skills section */}
             <div className={props.darkMode ? "technical-skills experiences-container-dark" : "technical-skills experiences-container-light"}>

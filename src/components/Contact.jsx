@@ -14,7 +14,7 @@ function Contact(props) {
         <div className="contact-page">
 
             {/* Contact title and description */}
-            <h1 className="contact-title">Contact Me.</h1>
+            <h1 className="contact-title">Contact Me</h1>
             <p className="contact-description">
                 If you'd like to get in touch, feel free to send me an email or connect with me on LinkedIn, Github, or Instagram. I'm always open to discussing new projects and networking with like-minded individuals.
             </p>
