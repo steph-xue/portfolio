@@ -593,6 +593,18 @@ a {
 	}
 }
 
+@media (min-width: 1500px) {
+	.travel-image, .food-image, .cat-image {
+		width: 10em;
+	}
+
+	.travel-image1, .travel-image2, .travel-image3, .travel-image4, .travel-image5, .travel-image6,
+	.food-image1, .food-image2, .food-image3, .food-image4, .food-image5, .food-image6,
+	.cat-image1, .cat-image2, .cat-image3, .cat-image4, .cat-image5, .cat-image6 {
+		width: 10em;
+	}
+}
+
 .travel-image1:hover, .travel-image1:focus, .travel-image2:hover, .travel-image2:focus, .travel-image3:hover, .travel-image3:focus,
 .travel-image4:hover, .travel-image4:focus, .travel-image5:hover, .travel-image5:focus, .travel-image6:hover, .travel-image6:focus,
 .food-image1:hover, .food-image1:focus, .food-image2:hover, .food-image2:focus, .food-image3:hover, .food-image3:focus,

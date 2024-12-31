@@ -140,7 +140,7 @@ export default [
     {
         id: 24,
         name: "cat24",
-        title: "Rhea debuggin her code",
+        title: "Rhea debugging her code",
         source: "/images/cat/cat24.jpg",
     },
     {
