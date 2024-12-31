@@ -31,7 +31,7 @@ export default [
         id: 5,
         name: "dean-pharm-sci-scholarship",
         title: "Dean of Pharmaceutical Sciences Scholarship",
-        dates: "Aug 2019",
+        dates: "Aug 2020",
         description: "$940 scholarship endowed by alumni and friends of the Faculty of Pharmaceutical Sciences for undergraduate students in the Faculty"
     },
     {
