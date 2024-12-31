@@ -55,7 +55,10 @@ function Gallery(props) {
                         {travelImagesElements}
                     </div>
                 </div>
-                <button className={props.darkMode ? "refresh-button dark-button" : "refresh-button light-button"}>
+                <button 
+                    className={props.darkMode ? "refresh-button dark-button" : "refresh-button light-button"}
+                    onClick={() => props.refreshImages("travel")}
+                >
                     <FontAwesomeIcon className="refresh-icon" icon={faArrowsRotate} />
                     Refresh
                 </button>
@@ -69,7 +72,10 @@ function Gallery(props) {
                         {foodImagesElements}
                     </div>
                 </div>
-                <button className={props.darkMode ? "refresh-button dark-button" : "refresh-button light-button"}>
+                <button 
+                    className={props.darkMode ? "refresh-button dark-button" : "refresh-button light-button"}
+                    onClick={() => props.refreshImages("food")}
+                >
                     <FontAwesomeIcon className="refresh-icon" icon={faArrowsRotate} />
                     Refresh
                 </button>
@@ -83,7 +89,10 @@ function Gallery(props) {
                         {catImagesElements}
                     </div> 
                     </div>
-                <button className={props.darkMode ? "refresh-button dark-button" : "refresh-button light-button"}>
+                <button 
+                    className={props.darkMode ? "refresh-button dark-button" : "refresh-button light-button"}
+                    onClick={() => props.refreshImages("cat")}
+                >
                     <FontAwesomeIcon className="refresh-icon" icon={faArrowsRotate} />
                     Refresh
                 </button>

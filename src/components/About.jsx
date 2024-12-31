@@ -34,6 +34,18 @@ function About(props) {
         return imagesArray;
     }
 
+    // Function to refresh the images in the gallery (randomize the images)
+    function refreshImages(dataType) {
+
+        if (dataType === "travel") {
+            setTravelImages(selectRandomImages(travelData));
+        } else if (dataType === "food") {
+            setFoodImages(selectRandomImages(foodData));
+        } else if (dataType === "cat") {
+            setCatImages(selectRandomImages(catData));
+        }
+    }
+
     // Function to toggle the selected image (as open full image or close full image)
     function toggleImage(imageSource, imageTitle) {
         if (showImage) {
@@ -115,6 +127,7 @@ function About(props) {
                 catImages={catImages}
                 toggleImage={toggleImage}
                 darkMode={props.darkMode}
+                refreshImages={refreshImages}
             /> 
 
             {/* Full image display if image is clicked on */}
