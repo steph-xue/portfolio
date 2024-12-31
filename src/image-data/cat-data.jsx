@@ -92,7 +92,7 @@ export default [
     {
         id: 16,
         name: "cat16",
-        title: "Rhea as a cute piece of toast",
+        title: "Rhea wearing a cute piece of toast",
         source: "/images/cat/cat16.jpg",
     },
     {

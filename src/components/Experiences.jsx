@@ -1,4 +1,4 @@
-import React, { useRef } from "react"
+import React from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import { faFile } from '@fortawesome/free-solid-svg-icons'
@@ -14,21 +14,19 @@ import aData from "../experiences-data/awards-data";
 
 function Experiences(props) {
 
-    const resumeRef = useRef(null);
-    const technicalSkillsRef = useRef(null);
-    const educationRef = useRef(null);
-    const awardsRef = useRef(null);
-    const healthcareRef = useRef(null);
-    const researchRef = useRef(null);
+    const resumeRef = React.useRef(null);
+    const technicalSkillsRef = React.useRef(null);
+    const educationRef = React.useRef(null);
+    const awardsRef = React.useRef(null);
+    const healthcareRef = React.useRef(null);
+    const researchRef = React.useRef(null);
 
-    const scrollToSection = (ref, offset = 100) => {
-        if (ref.current) {
-            const topPosition = ref.current.getBoundingClientRect().top + window.scrollY;
-            window.scrollTo({
-                top: topPosition - offset,
-                behavior: 'smooth',
-            });
-        }
+    function scrollToSection(ref, offset = 100) {
+        const topPosition = ref.current.getBoundingClientRect().top + window.scrollY;
+        window.scrollTo({
+            top: topPosition - offset,
+            behavior: 'smooth',
+        });
     };
 
     // Reverse the healthcare data array once during the initial state setup
