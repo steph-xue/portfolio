@@ -105,6 +105,9 @@ function About(props) {
                 </div>
             </div>
 
+            <h2 className="photography-gallery-title">Photography Gallery</h2>
+            <p className="gallery-description">(Click to view more details!)</p>
+
             {/* Image gallery */}
             <Gallery 
                 travelImages={travelImages} 
@@ -112,8 +115,6 @@ function About(props) {
                 catImages={catImages}
                 toggleImage={toggleImage}
             /> 
-            <p className="gallery-description g1">» Click on each image to view the full image and description</p>
-            <p className="gallery-description g2">» Reload the page to view more randomly generated photos</p>
 
             {/* Full image display if image is clicked on */}
             {

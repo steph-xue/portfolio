@@ -478,11 +478,25 @@ a {
 	}
 }
 
+.photography-gallery-title {
+	font-size: var(--fs-xl);
+	font-weight: var(--fw-bold);
+	text-align: center;
+	margin-top: 3em;
+	margin-bottom: 0;
+}
+
+.gallery-description {
+	text-align: center;
+	margin-top: -0.05em;
+	margin-bottom: 0em;
+}
+
 .gallery-section {
 	display: grid;
 	grid-template-columns: 1fr;
-	margin-top: 0;
-	margin-bottom: 4em;
+	margin-top: 1.5em;
+	margin-bottom: 10em;
 }
 
 .travel-title, .food-title, .cat-title {
@@ -551,7 +565,7 @@ a {
 	.gallery-section {
 		grid-template-columns: repeat(3, 1fr);
 		column-gap: 4em;
-		margin-top: 2em;
+		margin-top: 1em;
 	}
 
 	.travel-pics, .food-pics, .cat-pics {
@@ -584,22 +598,6 @@ a {
 
 .travel-pics:hover, .travel-pics:focus, .food-pics:hover, .food-pics:focus, .cat-pics:hover, .cat-pics:focus {
 	transform: scale(1.05);
-}
-
-.gallery-description {
-	text-align: center;
-	font-size: var(--fs-m);
-	font-style: italic;
-}
-
-.g1 {
-	margin-top: -1em;
-	margin-bottom: 0em;
-}
-
-.g2 {
-	margin-top: -0.3em;
-	margin-bottom: 3em;
 }
 
 .full-image-container {
