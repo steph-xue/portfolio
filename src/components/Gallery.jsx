@@ -1,4 +1,6 @@
 import React from "react"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowsRotate } from '@fortawesome/free-solid-svg-icons'
 
 function Gallery(props) {
 
@@ -47,26 +49,44 @@ function Gallery(props) {
 
             {/* Travel image gallery */}
             <div className="travel-gallery">
-                <h2 className="travel-title">Travel Photography</h2>
-                <div className="travel-pics">
-                    {travelImagesElements}
+                <div className="travel-info">
+                    <h2 className="travel-title">Travel Photography</h2>
+                    <div className="travel-pics">
+                        {travelImagesElements}
+                    </div>
                 </div>
+                <button className={props.darkMode ? "refresh-button dark-button" : "refresh-button light-button"}>
+                    <FontAwesomeIcon className="refresh-icon" icon={faArrowsRotate} />
+                    Refresh
+                </button>
             </div>
 
             {/* Food image gallery */}
             <div className="food-gallery">
-                <h2 className="food-title">Good Eats</h2>
-                <div className="food-pics">
-                    {foodImagesElements}
+                <div className="food-info">
+                    <h2 className="food-title">Good Eats</h2>
+                    <div className="food-pics">
+                        {foodImagesElements}
+                    </div>
                 </div>
+                <button className={props.darkMode ? "refresh-button dark-button" : "refresh-button light-button"}>
+                    <FontAwesomeIcon className="refresh-icon" icon={faArrowsRotate} />
+                    Refresh
+                </button>
             </div>
 
             {/* Cat image gallery */}
             <div className="cat-gallery">
-                <h2 className="cat-title">My Beloved Cat</h2>
-                <div className="cat-pics">
-                    {catImagesElements}
-                </div>
+                <div className="cat-info">
+                    <h2 className="cat-title">My Beloved Cat</h2>
+                    <div className="cat-pics">
+                        {catImagesElements}
+                    </div> 
+                    </div>
+                <button className={props.darkMode ? "refresh-button dark-button" : "refresh-button light-button"}>
+                    <FontAwesomeIcon className="refresh-icon" icon={faArrowsRotate} />
+                    Refresh
+                </button>
             </div>
 
         </div>

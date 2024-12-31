@@ -114,6 +114,7 @@ function About(props) {
                 foodImages={foodImages} 
                 catImages={catImages}
                 toggleImage={toggleImage}
+                darkMode={props.darkMode}
             /> 
 
             {/* Full image display if image is clicked on */}

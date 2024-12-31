@@ -31,6 +31,7 @@
 	--fs-xxl: 2.2rem;
 	--fs-xl: 1.5rem;
     --fs-l: 1.2rem;
+	--fs-ml: 1rem;
     --fs-m: 0.8rem;
     --fs-s: 0.6rem;
 
@@ -496,7 +497,14 @@ a {
 	display: grid;
 	grid-template-columns: 1fr;
 	margin-top: 1.5em;
-	margin-bottom: 10em;
+	margin-bottom: 8em;
+}
+
+.travel-gallery, .food-gallery, .cat-gallery {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .travel-title, .food-title, .cat-title {
@@ -560,7 +568,6 @@ a {
 	}
 }
 
-
 @media (min-width: 1100px) {
 	.gallery-section {
 		grid-template-columns: repeat(3, 1fr);
@@ -598,6 +605,44 @@ a {
 
 .travel-pics:hover, .travel-pics:focus, .food-pics:hover, .food-pics:focus, .cat-pics:hover, .cat-pics:focus {
 	transform: scale(1.05);
+}
+
+.refresh-icon {
+	font-size: var(--fs-s);
+	padding-right: 0.5em;
+}
+
+.refresh-button {
+	font-size: var(--fs-s);
+	align-self: center;
+	color: var(--color-white);
+	border-radius: 50px;
+	border: none;
+	cursor: pointer;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	padding-block: 0.8em;
+	margin-top: 0.5em;
+	margin-bottom: 0.2em;
+}
+
+@media (min-width: 800px) {
+	.refresh-icon {
+		font-size: var(--fs-m);
+	}
+
+	.refresh-button {
+		padding-block: 0.5em;
+		font-size: var(--fs-m);
+	}
+}
+
+@media (min-width: 1100px) {
+	.refresh-button {
+		padding-block: 1em;
+		margin-top: 1em;
+	}
+	
 }
 
 .full-image-container {
