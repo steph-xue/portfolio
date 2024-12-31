@@ -2,12 +2,14 @@ import React from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import { faComputer } from '@fortawesome/free-solid-svg-icons'
+import { faAward } from '@fortawesome/free-solid-svg-icons'
 import { faUserGraduate } from '@fortawesome/free-solid-svg-icons'
 import { faUserDoctor } from '@fortawesome/free-solid-svg-icons'
 import { faSuitcaseMedical } from '@fortawesome/free-solid-svg-icons'
 import { faBookOpen } from '@fortawesome/free-solid-svg-icons'
 import hData from "../experiences-data/healthcare-data";
 import rData from "../experiences-data/research-data";
+import aData from "../experiences-data/awards-data";
 
 function Experiences(props) {
 
@@ -16,6 +18,9 @@ function Experiences(props) {
 
     // Reverse the research data array once during the initial state setup
     const [researchData] = React.useState(() => rData.slice().reverse());
+
+    // Reverse the awards data array once during the initial state setup
+    const [awardsData] = React.useState(() => aData.slice().reverse());
 
     // Map the healthcare data to create the healthcare elements
     const healthcareDataElements = healthcareData.map((experience, index) => {
@@ -67,6 +72,23 @@ function Experiences(props) {
         );
     });
 
+    const awardsDataElements = awardsData.map((award, index) => {
+        return (
+            <div
+                className="awards-item-container"
+                key={award.title + index}
+            >
+                <div className="awards-item-text">
+                    <h2 className="awards-item-title">{award.title}</h2>
+                    <p className="awards-item-date">{award.dates}</p>
+                    <ul className="awards-item-description">
+                        <li>{award.description}</li>
+                    </ul>
+                </div>
+            </div>
+        );
+    });
+
     // Render the Experiences component
     return (
         <div className="experiences-page">
@@ -85,7 +107,7 @@ function Experiences(props) {
                     </div>
                     <div className="skills-category skills-frontend">
                         <h3 className="skills-category-title">Frontend</h3>
-                        <p className="skills-category-items">HTML5, CSS3, React.js, Vite, Bootstrap</p>
+                        <p className="skills-category-items">React.js, Vite, Bootstrap4, HTML5, CSS3</p>
                     </div>
                     <div className="skills-category skills-backend">
                         <h3 className="skills-category-title">Backend</h3>
@@ -93,7 +115,7 @@ function Experiences(props) {
                     </div>
                     <div className="skills-category skills-development">
                         <h3 className="skills-category-title">Development Practices/Tools</h3>
-                        <p className="skills-category-items">Git, Github Copilot, VS Code</p>
+                        <p className="skills-category-items">RESTful APIs, Git, Github Copilot, VS Code</p>
                     </div>
                     <div className="skills-category skills-storage">
                         <h3 className="skills-category-title">Databases</h3>
@@ -133,7 +155,7 @@ function Experiences(props) {
                         <div className="education-item-description">
                             <p className="education-item-title">Bachelor of Computer Science (BCS) </p>
                             <ul>
-                                <li className="education-item-info">Currently attending</li>
+                                <li className="education-item-info">Currently attending (expected graduation in 2027)</li>
                             </ul>
                         </div>
                         <p className="education-item-date">2024 - Present</p>
@@ -142,8 +164,7 @@ function Experiences(props) {
                         <div className="education-item-description">
                             <p className="education-item-title">Doctor of Pharmacy (PharmD) </p>
                             <ul>
-                                <li className="education-item-info">Awards & Scholarships: </li>
-                                <li className="awards">Dean’s Honours List (standing of at least 80%), Trek Excellence Scholarship (top 5% of the undergraduate year), London Drugs Limited 60th Anniversary Undergraduate Scholarship, Dean of Pharmaceutical Sciences Scholarship, Marion L. Pearson Scholarship in Pharmaceutical Sciences, James M. Orr Scholarship</li>
+                                <li className="education-item-info">Degree conferred in 2022</li>
                             </ul>
                         </div>
                         <p className="education-item-date">2018 - 2022</p>
@@ -153,13 +174,20 @@ function Experiences(props) {
                             <p className="education-item-title">Bachelor of Science -  Microbiology & Immunology</p>
                             <ul>
                                 <li className="education-item-info">Completed 2 years before entering the PharmD program</li>
-                                <li className="education-item-info">Awards & Scholarships: </li>
-                                <li className="awards">Dean’s Honours List (standing of at least 80%)</li>
                             </ul>
                         </div>
                         <p className="education-item-date">2016 - 2018</p>
                     </div>
                 </div>
+            </div>
+
+            {/* Academic Awards section */}
+            <div className={props.darkMode ? "awards experiences-container-dark" : "awards experiences-container-light"}>
+                <h2 className="awards-title">
+                    Academic Awards
+                    <FontAwesomeIcon className="skills-icon" icon={faAward} />
+                </h2>
+                {awardsDataElements}
             </div>
 
             {/* Healthcare experiences section */}
