@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useRef } from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import { faFile } from '@fortawesome/free-solid-svg-icons'
@@ -13,6 +13,23 @@ import rData from "../experiences-data/research-data";
 import aData from "../experiences-data/awards-data";
 
 function Experiences(props) {
+
+    const resumeRef = useRef(null);
+    const technicalSkillsRef = useRef(null);
+    const educationRef = useRef(null);
+    const awardsRef = useRef(null);
+    const healthcareRef = useRef(null);
+    const researchRef = useRef(null);
+
+    const scrollToSection = (ref, offset = 100) => {
+        if (ref.current) {
+            const topPosition = ref.current.getBoundingClientRect().top + window.scrollY;
+            window.scrollTo({
+                top: topPosition - offset,
+                behavior: 'smooth',
+            });
+        }
+    };
 
     // Reverse the healthcare data array once during the initial state setup
     const [healthcareData] = React.useState(() => hData.slice().reverse());
@@ -97,17 +114,20 @@ function Experiences(props) {
 
             {/* Navigation links */}
             <div className={props.darkMode ? "experiences-nav nav-dark" : "experiences-nav nav-light"}>
-                <a href="#technical-skills" className="experiences-nav-link">Resume</a>
-                <a href="#technical-skills" className="experiences-nav-link">Technical Skills</a>
-                <a href="#education" className="experiences-nav-link">Education</a>
-                <a href="#awards" className="experiences-nav-link">Academic Awards</a>
-                <a href="#healthcare" className="experiences-nav-link">Healthcare Experience</a>
-                <a href="#research" className="experiences-nav-link">Research Experience</a>
+                <p onClick={() => scrollToSection(resumeRef)} className="experiences-nav-link">Resume</p>
+                <p onClick={() => scrollToSection(technicalSkillsRef)} className="experiences-nav-link">Technical Skills</p>
+                <p onClick={() => scrollToSection(educationRef)} className="experiences-nav-link">Education</p>
+                <p onClick={() => scrollToSection(awardsRef)} className="experiences-nav-link">Academic Awards</p>
+                <p onClick={() => scrollToSection(healthcareRef)} className="experiences-nav-link">Healthcare Experience</p>
+                <p onClick={() => scrollToSection(researchRef)} className="experiences-nav-link">Research Experience</p>
             </div>
 
             {/* Resume section */}
-            <div className={props.darkMode ? "resume experiences-container-dark" : "resume experiences-container-light"}>
-                <h2 className="awards-title">
+            <div 
+                ref={resumeRef} 
+                className={props.darkMode ? "resume experiences-container-dark" : "resume experiences-container-light"}
+            >
+                <h2 className="resume-title">
                     Resume
                     <FontAwesomeIcon className="skills-icon" icon={faFile} />
                 </h2>
@@ -115,7 +135,10 @@ function Experiences(props) {
             </div>
 
             {/* Technical skills section */}
-            <div className={props.darkMode ? "technical-skills experiences-container-dark" : "technical-skills experiences-container-light"}>
+            <div 
+                ref={technicalSkillsRef} 
+                className={props.darkMode ? "technical-skills experiences-container-dark" : "technical-skills experiences-container-light"}
+            >
                 <h2 className="technical-skills-title">
                     Technical Skills
                     <FontAwesomeIcon className="skills-icon" icon={faComputer} />
@@ -157,7 +180,10 @@ function Experiences(props) {
             </div>
 
             {/* Education section */}
-            <div className={props.darkMode ? "education experiences-container-dark" : "education experiences-container-light"}>
+            <div 
+                ref={educationRef} 
+                className={props.darkMode ? "education experiences-container-dark" : "education experiences-container-light"}
+            >
                 <h2 className="education-title">
                     Education
                     <FontAwesomeIcon className="skills-icon" icon={faUserGraduate} />
@@ -202,7 +228,10 @@ function Experiences(props) {
             </div>
 
             {/* Academic Awards section */}
-            <div className={props.darkMode ? "awards experiences-container-dark" : "awards experiences-container-light"}>
+            <div 
+                ref={awardsRef} 
+                className={props.darkMode ? "awards experiences-container-dark" : "awards experiences-container-light"}
+            >
                 <h2 className="awards-title">
                     Academic Awards
                     <FontAwesomeIcon className="skills-icon" icon={faAward} />
@@ -211,7 +240,10 @@ function Experiences(props) {
             </div>
 
             {/* Healthcare experiences section */}
-            <div className={props.darkMode ? "healthcare experiences-container-dark" : "healthcare experiences-container-light"}>
+            <div 
+                ref={healthcareRef} 
+                className={props.darkMode ? "healthcare experiences-container-dark" : "healthcare experiences-container-light"}
+            >
                 <h2 className="healthcare-title">
                     Healthcare Experience
                     <FontAwesomeIcon className="skills-icon" icon={faUserDoctor} />
@@ -221,7 +253,10 @@ function Experiences(props) {
             </div>
 
             {/* Research experiences section */}
-            <div className={props.darkMode ? "research experiences-container-dark" : "research experiences-container-light"}>
+            <div 
+                ref={researchRef} 
+                className={props.darkMode ? "research experiences-container-dark" : "research experiences-container-light"}
+            >
                 <h2 className="research-title">
                     Research Experience
                     <FontAwesomeIcon className="skills-icon" icon={faBookOpen} />
