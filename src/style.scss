@@ -1338,7 +1338,7 @@ a {
     align-items: start;
     margin: 0;
     padding: 0;
-    gap: 0.5em; 
+    gap: 0.2em; 
 }
 
 .awards-item-text {
@@ -1351,6 +1351,12 @@ a {
 @media (min-width: 400px) {
 	.awards-item-text {
 		width: 52vw;
+	}
+}
+
+@media (min-width: 600px) {
+	.awards-item-text {
+		width: 56vw;
 	}
 }
 
