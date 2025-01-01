@@ -5,7 +5,6 @@ import { faFile } from '@fortawesome/free-solid-svg-icons'
 import { faComputer } from '@fortawesome/free-solid-svg-icons'
 import { faAward } from '@fortawesome/free-solid-svg-icons'
 import { faUserGraduate } from '@fortawesome/free-solid-svg-icons'
-import { faUserDoctor } from '@fortawesome/free-solid-svg-icons'
 import { faSuitcaseMedical } from '@fortawesome/free-solid-svg-icons'
 import { faBookOpen } from '@fortawesome/free-solid-svg-icons'
 import hData from "../experiences-data/healthcare-data";
@@ -249,7 +248,6 @@ function Experiences(props) {
             >
                 <h2 className="healthcare-title">
                     Healthcare Experience
-                    <FontAwesomeIcon className="skills-icon" icon={faUserDoctor} />
                     <FontAwesomeIcon className="skills-icon health-icon" icon={faSuitcaseMedical} />
                 </h2>
                 {healthcareDataElements}
