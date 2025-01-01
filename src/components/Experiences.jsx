@@ -129,7 +129,12 @@ function Experiences(props) {
                     Resume
                     <FontAwesomeIcon className="skills-icon" icon={faFile} />
                 </h2>
-                <p>Click here to view!</p>
+                <a 
+                    href="/files/resume.pdf"
+                    className="resume-text"
+                >
+                    Click here to view!
+                </a>
             </div>
 
             {/* Technical skills section */}

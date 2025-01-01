@@ -1177,6 +1177,22 @@ a {
 	}
 }
 
+.resume {
+	padding-bottom: 3em;
+}
+
+.resume-title {
+	font-size: var(--fs-xl);
+	font-weight: var(--fw-med);
+	margin: 0 0 0.5em 0;
+}
+
+.resume-text {
+	align-items: center;
+	font-size: var(--fs-ml);
+	text-decoration: underline;
+}
+
 .technical-skills-title {
 	font-size: var(--fs-xl);
 	font-weight: var(--fw-med);
