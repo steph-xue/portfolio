@@ -1502,13 +1502,19 @@ a {
 
 .contact-description {
 	text-align: center;
-	width: 2em;
+	width: 32em;
 	margin-bottom: 3em;
 	padding-left: 2em;
 	padding-right: 2em;
 }
 
 @media (min-width: 400px) {
+	.contact-description{
+		width: 34em;
+	}
+} 
+
+@media (min-width: 600px) {
 	.contact-description{
 		width: 38em;
 	}
