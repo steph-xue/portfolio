@@ -866,7 +866,7 @@ a {
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
-	width: 70vw;
+	width: 75vw;
 	height: 100%;
 	margin-block: 1em;
 }
@@ -907,7 +907,7 @@ a {
 	}
 
 	.gallery {
-		width: 23em;
+		width: 22em;
 	}
 
 	.gallery:hover, .gallery:focus {
@@ -916,6 +916,11 @@ a {
 
 	.project-languages, .project-additional-info1, .project-additional-info2, .project-github, .project-link {
 		font-size: var(--fs-m);
+	}
+}
+@media (min-width: 400px) {
+	.gallery {
+		width: 25em;
 	}
 }
 
