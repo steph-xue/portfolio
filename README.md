@@ -16,7 +16,7 @@ Can access on: https://stephxue.com/ or https://portfolio-steph-xue.netlify.app
 ## Sections You Can Navigate:
 
 **Homepage**
-  - The homepage displays an animated terminal-like welcome message to the user
+  - The homepage displays an animated console-like welcome message to the user
   - The user can toggle between light mode and dark mode using the toggle button at the top right of the navigation bar 
 <br><br>
 ![Homepage Light ](./images/homepage-light.png?raw=true "Homepage Light")
@@ -29,9 +29,9 @@ Homepage Dark Mode
 
 **About Me**
   - The about me page contains some information about myself, my background, and my interests
-  - The bottom of the about me page also contains a photo gallery of some pictures I have taken, including travel photos, food photos, and photos of my beloved cat, Rhea
-    - The image gallery generates a selection of random photos, so different photos are populated every time the page is refreshed
-    - When a photo is clicked on, the user can view a closer picture of the photo with its description
+  - The bottom of the about me page also contains a photography gallery of some pictures I have taken, including travel photos, food photos, and photos of my beloved cat, Rhea
+    - The photography gallery allows the viewer to generate a selection of random photos each time the refresh button is clicked on or the page is refreshed 
+    - When a photo is clicked on, the user can view it in full screen along with its description
 <br><br>
 ![About Me 1](./images/about-me-1.png?raw=true "About Me 1")
 About Me Page
@@ -43,7 +43,7 @@ About Me Page Continued With Photo Gallery
 
 **Projects**
   - The projects page showcases some of the projects I have been working on
-  - Each project contains some screenshot images that you can view in a carousel or slideshow, a descripion of the project and languages/tools used, a link to the github page, and an active web link if there is one avaliable
+  - Each project contains some screenshot images that you can view in a carousel or slideshow, a descripion of the project and languages/tools used, a link to the github page, and an active web link if there is one avaliable, and a devpost link if there is one avaliable
   - The screenshot carosel allows the user to scroll through thumbnails of different screenshot images of the project to view, open the image in full screen, as well as press play to view an animated slide show of all the project images
   - Clicking on the project container itself will bring the user to the associated github page
 <br><br>
@@ -53,16 +53,25 @@ Projects Page
 &nbsp;
 
 **Experiences**
- - The experiences page lists some of my experiences including my technical skills, education, as well as my previous healthcare and research experiences
+ - The experiences page lists some of my experiences including my resume, technical skills, education, academic awards, previous healthcare experience, and previous research experience
+ - Viewers can use the navigation bar at the top to automatically bring them to the desired section of experiences to view using smooth scrolling
 <br><br>
 ![Experiences](./images/experiences.png?raw=true "Experiences")
 Experiences Page
 <br><br>
 &nbsp;
 
+**Digital Art**
+ - The digital art page displays some pieces of art I have worked on with more to be coming soon!
+<br><br>
+![Digital Art](./images/digital-art.png?raw=true "Digital Art")
+Digital Art Page
+<br><br>
+&nbsp;
+
 **Contact Me**
  - The contact me page includes links to the following sites and social media accounts:
-   - Email, github, linkedin, instagram
+   - Email, Github, Devpost, Linkedin, Instagram
  - There is also a feature on the contact me page to send a message to my email
    - The user must enter their own name, email, and the message they want to send
 <br><br>
@@ -81,12 +90,14 @@ Contact Me Page
    - The photos, buttons, and containers have different hover and focus effects that give it a more interactive feel
  - Navbar scrolling animation
    - The navbar displays a seemless transition when the user scrolls down from the top of the page which changes the color of the background of the navbar and brings it along with the user
- - Image gallery
-   - The about me page contains an image gallery that generates a selection of random photos to view every time the page is refreshed
-   - Each photo when clicked on will bring a closer view of the image with its description
+ - Randomized photography gallery
+   - The about me page contains a photograph gallery that generates a selection of random photos to view every time the refresh button is pressed or the page is refreshed 
+   - Each photo when clicked on will bring up a full screen view of the image with its description
  - Projects screenshot carousel
    - The projects page contains a screenshot carousel for each project
    - The screenshot carosel allows the user to scroll through thumbnails of different screenshot images of the project to view, open the image in full screen, as well as press play to view an animated slide show of all the project images
+ - Experiences navigation bar
+   - Viewers can use the navigation bar at the top of the experiences bag to automatically bring them to the desired section of experiences to view using smooth scrolling
 <br><br>
 
 ## Languages & Frameworks
