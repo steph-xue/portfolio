@@ -301,7 +301,7 @@ a {
     justify-content: flex-start;
     align-items: center;
 	padding: 1em 2em;
-	margin-top: 24vh;
+	margin-top: 25vh;
 	width: 100%;
 	height: 100%;
 }
@@ -338,24 +338,29 @@ a {
 .homepage-description {
 	text-align: center;
 	width: 26em;
-	max-width: 90vw;
-	margin-top: 8vh;
-	margin-bottom: 8em;
+	margin-top: 10vh;
+	margin-bottom: 6em;
 	padding-left: 2em;
 	padding-right: 2em;
 }
 
 @media (min-width: 400px) {
 	.homepage-title {
+		width: 8em;
+	}
+
+	.homepage-description{
+		width: 35em;
+	}
+}
+
+@media (min-width: 600px) {
+	.homepage-title {
 		width: 12em;
-		height: 1em;
-		margin-top: 1em;
 	}
 
 	.homepage-description{
 		width: 45em;
-		margin-top: 38vh;
-		margin-bottom: 6em;
 	}
 }
 
