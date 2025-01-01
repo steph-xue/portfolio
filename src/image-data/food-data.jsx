@@ -230,7 +230,7 @@ export default [
     {
         id: 39,
         name: "takenaka",
-        title: "Takenake onigiri set",
+        title: "Takenaka onigiri set",
         source: "/images/food/takenaka.jpg",
     }, 
     {
