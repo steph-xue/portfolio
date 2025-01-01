@@ -1292,11 +1292,10 @@ a {
     align-items: flex-start;
     margin: 0;
     padding: 0;
-    gap: 3em;
+    gap: 2em;
 }
 
 .education-item-description {
-    flex: 1;
     margin: 0;
     padding: 0;
 }
@@ -1339,11 +1338,11 @@ a {
     align-items: start;
     margin: 0;
     padding: 0;
-    gap: 1em; 
+    gap: 0.5em; 
 }
 
 .awards-item-text {
-    width: 52vw;
+    width: 50vw;
 	text-align: left;  
     margin: 0;
     padding: 0;
@@ -1351,7 +1350,7 @@ a {
 
 @media (min-width: 400px) {
 	.awards-item-text {
-		width: 54vw;
+		width: 52vw;
 	}
 }
 
