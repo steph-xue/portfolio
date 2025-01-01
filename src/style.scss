@@ -1048,7 +1048,7 @@ a {
 	gap: 0em;
 	align-items: center;
 	text-align: center;
-	margin-top: 3em;
+	margin-top: 1em;
 	margin-bottom: 1em;
 	padding-block: 0.5em;
 	padding-left: 1em;
@@ -1544,18 +1544,102 @@ a {
 }
 
 .art-description {
+	font-size: var(--fs-l);
+	font-weight: var(--fw-bold);
 	text-align: center;
-	width: 30em;
-	margin-bottom: 3em;
-	padding-left: 2em;
-	padding-right: 2em;
+	margin-bottom: 2em;
+}
+
+.art-gallery {
+	display: grid;
+	grid-template-columns: 1fr;
+	margin-top: 1.5em;
+	margin-bottom: 10em;
+}
+
+@media (min-width: 800px) {
+	.art-gallery {
+		grid-template-columns: repeat(2, 1fr);
+		column-gap: 2em;
+	}
+}
+
+.art-light {
+	background-color: var(--color-white-opacity1);
+	border-radius: 20px;
+	width: 88vw;
+	padding: 2em 2em;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	transition: transform 0.6s ease-in-out, background-color 0.6s ease-in-out;
+}
+
+.art-light:hover, .art-light:focus {
+	background-color: var(--color-white-opacity2);
+	transform: scale(1.02);
+}
+
+.art-dark {
+	background-color: var(--color-dark-brown5);
+	color: var(--color-dark-brown3);
+	border-radius: 20px;
+	width: 88vw;
+	padding: 2em 2em;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	transition: transform 0.6s ease-in-out, background-color 0.6s ease-in-out;
+}
+
+.art-dark:hover, .art-dark:focus {
+	background-color: var(--color-brown-opacity3);
+	transform: scale(1.02);
+}
+
+.art-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	justify-content: center;
+    text-align: center;
+}
+
+.art-image-title {
+    font-size: var(--fs-ml);
+    font-weight: var(--fw-bold);
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 0.8em;
 }
 
 .art-image {
-	max-width: 50em;
-	max-height: 50em;
-	margin-left: 2em;
+	width: 60vw;
+	margin-left: 0.3em;
 	margin-bottom: 2em;
+	transition: transform 0.5s ease-in-out;
+}
+
+.art-image:hover, .art-image:focus {
+	transform: scale(1.02);
+}
+
+@media (min-width: 800px) {
+	.art-description {
+		font-size: var(--fs-xl);
+	}
+	
+	.art-image-title {
+		font-size: var(--fs-l);
+	}
+
+	.art-image {
+		width: 35vw;
+	}
+}
+
+@media (min-width: 1400px) {
+	.art-image-title {
+		font-size: var(--fs-xl);
+	}
 }
 
 

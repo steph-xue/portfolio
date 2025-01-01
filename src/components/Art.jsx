@@ -10,13 +10,12 @@ function Art(props) {
     const artDataElements = artData.map((art, index) => {
         return (
             <div 
-                className={props.darkMode ? "art-container-dark" : "art-container-light"} 
+                className="art-container" 
                 key={art.title + index} 
             >
-                <div className="art-item">
-                    <h2 className="art-title">{art.title}</h2>
-                    <img className="art-image" src={art.source} alt={art.title} />
-                </div>
+
+                <h2 className="art-image-title">{art.title}</h2>
+                <img className="art-image" src={art.source} alt={art.title} />
             </div>
         );
     });
@@ -33,7 +32,7 @@ function Art(props) {
             </p>
 
             {/* Art gallery */}
-            <div className="art-gallery">
+            <div className={props.darkMode ? "art-gallery art-dark" : "art-gallery art-light"}>
                 {artDataElements}
             </div>
 
