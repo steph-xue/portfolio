@@ -406,6 +406,18 @@ a {
 	width: 80vw;
 }
 
+@media (min-width: 1000px) {
+	.about-container-2-text {
+		width: 80vw;
+	}
+}
+
+@media (min-width: 1400px) {
+	.about-container-2-text {
+		width: 75vw;
+	}
+}
+
 .about-more-info {
 	width: 80vw;
 }

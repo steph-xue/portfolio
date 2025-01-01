@@ -626,7 +626,7 @@ export default [
     {
         id: 105,
         name: "raisu",
-        title: "Raisu deluxe seafood bowl and omakase aburi sushi",
+        title: "Raisu deluxe seafood bowl",
         source: "/images/food/raisu.jpg",
     }, 
     {
