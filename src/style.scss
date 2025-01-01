@@ -888,7 +888,7 @@ a {
 .project-languages, .project-additional-info1, .project-additional-info2, .project-github, .project-link {
 	margin: 0.2em;
 	text-align: center;
-	font-size: var(--fs-s);
+	font-size: var(--fs-xs);
 }
 
 .project-languages, .project-additional-info2 {
@@ -915,12 +915,16 @@ a {
 	}
 
 	.project-languages, .project-additional-info1, .project-additional-info2, .project-github, .project-link {
-		font-size: var(--fs-m);
+		font-size: var(--fs-s);
 	}
 }
 @media (min-width: 600px) {
 	.gallery {
 		width: 25em;
+	}
+
+	.project-languages, .project-additional-info1, .project-additional-info2, .project-github, .project-link {
+		font-size: var(--fs-m);
 	}
 }
 
