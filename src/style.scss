@@ -909,7 +909,7 @@ a {
 	margin: 0.5em 1em 2em 1em;
 }
 
-.project-languages, .project-additional-info1, .project-additional-info2, .project-github, .project-link {
+.project-languages, .project-additional-info1, .project-additional-info2, .project-github, .project-link, .devpost-link {
 	margin: 0.2em;
 	text-align: center;
 }
@@ -918,7 +918,7 @@ a {
 	font-size: var(--fs-s);
 }
 
-.project-github, .project-link {
+.project-github, .project-link, .devpost-link {
 	font-size: var(--fs-xs);
 }
 
@@ -945,7 +945,7 @@ a {
 		font-size: var(--fs-m);
 	}
 	
-	.project-github, .project-link {
+	.project-github, .project-link, .devpost-link {
 		font-size: var(--fs-s);
 	}
 }
@@ -958,7 +958,7 @@ a {
 		width: 25em;
 	}
 
-	.project-languages, .project-additional-info1, .project-additional-info2, .project-github, .project-link {
+	.project-languages, .project-additional-info1, .project-additional-info2, .project-github, .project-link, .devpost-link {
 		font-size: var(--fs-m);
 	}
 }
