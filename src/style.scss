@@ -1529,7 +1529,7 @@ a {
 
 .contact-description {
 	text-align: center;
-	width: 32em;
+	width: 30em;
 	margin-bottom: 3em;
 	padding-left: 2em;
 	padding-right: 2em;
@@ -1556,7 +1556,7 @@ a {
 }
 
 .contact-image {
-	width: 25em;
+	width: 20em;
 	height: auto;
 	margin-left: 2em;
 	margin-bottom: 2em;
@@ -1583,7 +1583,13 @@ a {
 
 @media (min-width: 400px) {
 	.contact-buttons {
-		width: 31em;
+		width: 28em;
+	}
+}
+
+@media (min-width: 800px) {
+	.contact-buttons {
+		width: 32em;
 	}
 }
 
