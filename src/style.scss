@@ -146,7 +146,7 @@ a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 1em;
+	padding-block: 1em;
 	margin:	0;
 	z-index: 100;
 }
@@ -169,6 +169,8 @@ a {
 	.navbar-list {
 		font-size: var(--fs-s);
 		gap: 0.2vw;
+		padding-right: 0.4em;
+		padding-left: 0.4em;
 	}
 }
 
@@ -176,6 +178,8 @@ a {
 	.navbar-list {
 		font-size: var(--fs-m);
 		gap: 0.6vw;
+		padding-right: 2em;
+		padding-left: 1em;
 	}
 }
 
@@ -1517,6 +1521,41 @@ a {
 .experience-date {
 	margin: 0 0 -0.2em 0;
 	padding: 0;
+}
+
+/* Digital Art Page */
+.art-page {
+	display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+	padding: 1em 2em;
+	padding-block: 0;
+	margin: 0;
+	flex-grow: 1;
+}
+
+.art-title {
+	font-size: var(--fs-xxl);
+	font-weight: var(--fw-bold);
+	text-align: center;
+	margin-top: 2em;
+	margin-bottom: 0;
+}
+
+.art-description {
+	text-align: center;
+	width: 30em;
+	margin-bottom: 3em;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+.art-image {
+	max-width: 50em;
+	max-height: 50em;
+	margin-left: 2em;
+	margin-bottom: 2em;
 }
 
 

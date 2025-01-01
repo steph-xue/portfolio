@@ -9,6 +9,7 @@ import Homepage from "./components/Homepage.jsx";
 import About from "./components/About.jsx";
 import Projects from "./components/Projects.jsx";
 import Experiences from "./components/Experiences.jsx";
+import Art from "./components/Art.jsx";
 import Contact from "./components/Contact.jsx";
 import Footer from "./components/Footer.jsx";
 import Error from "./components/Error.jsx";
@@ -35,6 +36,10 @@ const router = (darkMode, toggleDarkMode) => createBrowserRouter([
       {
         path: "/experiences",
         element: <Experiences darkMode={darkMode} toggleDarkMode={toggleDarkMode} />,
+      },
+      {
+        path: "/art",
+        element: <Art darkMode={darkMode} toggleDarkMode={toggleDarkMode} />,
       },
       {
         path: "/contact",
