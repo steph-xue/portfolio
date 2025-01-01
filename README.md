@@ -39,6 +39,9 @@ About Me Page
 ![About Me 2](./images/about-me-2.png?raw=true "About Me 2")
 About Me Page Continued With Photo Gallery
 <br><br>
+![Image Gallery](./images/image-gallery.png?raw=true "Image Gallery")
+Full Screen View of the a Photo in the Image Gallery
+<br><br>
 &nbsp;
 
 **Projects**
