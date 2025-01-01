@@ -120,6 +120,23 @@ function NavBar(props) {
                                     ? "navbar-list-link-dark"
                                     : "navbar-list-link-light"
                         }
+                        to="/art"
+                        onClick={resetTop}
+                    >
+                        Art
+                    </NavLink>
+                </li>
+                <li className="navbar-list-item">
+                    <NavLink 
+                        className={({ isActive }) => 
+                            isActive 
+                                ? props.darkMode 
+                                    ? "navbar-list-link-dark nav-active-dark" 
+                                    : "navbar-list-link-light nav-active-light"
+                                : props.darkMode 
+                                    ? "navbar-list-link-dark"
+                                    : "navbar-list-link-light"
+                        }
                         to="/contact"
                         onClick={resetTop}
                     >
