@@ -802,7 +802,7 @@ a {
 	text-align: center;
 	margin-top: 2em;
 	margin-bottom: 0;
-	width: 60vw;
+	width: 70vw;
 }
 
 .project-container-light {
@@ -897,7 +897,6 @@ a {
 
 @media (min-width: 400px) {
 	.project-container-light, .project-container-dark {
-		max-width: 100vw;
 		margin-left: 1em;
 		margin-right: 1em;
 	}
@@ -908,7 +907,7 @@ a {
 	}
 
 	.gallery {
-		width: 25em;
+		width: 23em;
 	}
 
 	.gallery:hover, .gallery:focus {
