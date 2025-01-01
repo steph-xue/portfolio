@@ -20,6 +20,7 @@ function Projects(props) {
                 <div className="project-text">
                     <a className="project-container-link" href={project.github}>
                         <h2 className="project-title">{project.title}</h2>
+                        <p className="project-type">{project.type}</p>
                         <p className="project-description">{project.description}</p>
                         <p className="project-languages">
                             <strong>Languages: </strong>

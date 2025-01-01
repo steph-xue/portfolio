@@ -5,7 +5,7 @@ export default [
         title: "Wiki Search",
         description: 
             "The wiki project allows the user to view, search, edit, and create encyclopedia entries on a wikipedia-like web application.",
-        type: "Personal Project",
+        type: "Academic Project",
         languages: "Python, JavaScript, HTML5, CSS3",
         additionalInfo: "Django, Bootstrap, SQLite",
         github: "https://github.com/steph-xue/wiki",
@@ -36,7 +36,7 @@ export default [
         title: "Email",
         description: 
             "The email project allows the user to view their mailbox and send emails in a email-based web application. The user can login, logout, or register for a new user account to send and view emails.",
-        type: "Personal Project",
+        type: "Academic Project",
         languages: "Python, JavaScript, HTML5, CSS3",
         additionalInfo: "Django, Bootstrap4, SQLite",
         github: "https://github.com/steph-xue/email",
@@ -83,7 +83,7 @@ export default [
         title: "Network",
         description: 
             "The network project allows the user to view, create, like, and dislike posts, as well as follow other users in a social media based networking web application. The user can login, logout, or register for a new user account for more functionality with the application.",
-        type: "Personal Project",
+        type: "Academic Project",
         languages: "Python, JavaScript, HTML5, CSS3",
         additionalInfo: "Django, Bootstrap4, SQLite",
         github: "https://github.com/steph-xue/network",
@@ -126,7 +126,7 @@ export default [
         title: "Auctions",
         description: 
             "The auctions project allows the user to view and create new auction listings, as well as bid for auctions in a web-based auction application. The user can login, logout, or register for a new user account for more functionality with the application.",
-        type: "Personal Project",
+        type: "Academic Project",
         languages: "Python, JavaScript, HTML5, CSS3",
         additionalInfo: "Django, Bootstrap4, SQLite",
         github: "https://github.com/steph-xue/auctions",
@@ -181,7 +181,7 @@ export default [
         title: "React Info",
         description: 
             "The react info project is a dynamic website that displays some fun facts about React. The user can use the toggle mode button on the top right hand side to switch between light and dark modes.",
-        type: "Personal Project",
+        type: "Academic Project",
         languages: "JavaScript, JSX, HTML5, CSS3",
         additionalInfo: "React.js, Vite, Netlify",
         github: "https://github.com/steph-xue/react-info",
@@ -204,7 +204,7 @@ export default [
         title: "Meme Generator",
         description: 
             "The meme generator project is a dynamic web application where the user can generate their own meme. When the user clicks the 'get a new meme image' button, a new random meme image is retrieved to be displayed on the user interface of the web application. Then the user can type in their choice of top and bottom text to be displayed on the meme image. The meme generator makes a call to the Imgflip API 'https://api.imgflip.com/get_memes' to get a selection of memes.",
-        type: "Personal Project",
+        type: "Academic Project",
         languages: "JavaScript, JSX, HTML5, CSS3",
         additionalInfo: "React.js, Vite, Imgflip API, Netlify",
         github: "https://github.com/steph-xue/meme-generator",
@@ -223,7 +223,7 @@ export default [
         title: "React Notes",
         description: 
             "The react notes project is a a dynamic notes web application. The user can create new notes, select notes to view, write and update the note (in markdown), preview notes (in html), as well as delete notes. The web application contains a markdown editor and markdown to html converter, which allows the user to toggle between 'write' and 'preview' tabs to write content in markdown and preview the content in html.",
-        type: "Personal Project",
+        type: "Academic Project",
         languages: "JavaScript, JSX, HTML5, CSS3",
         additionalInfo: "React.js, React-split, React-mde, Showdown, Vite, Firebase, Netlify",
         github: "https://github.com/steph-xue/react-notes-firebase",
