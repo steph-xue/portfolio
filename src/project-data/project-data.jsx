@@ -6,6 +6,7 @@ export default [
         description: 
             "The wiki project allows the user to view, search, edit, and create encyclopedia entries on a wikipedia-like web application.",
         type: "Academic Project",
+        category: "academic",
         languages: "Python, JavaScript, HTML5, CSS3",
         additionalInfo: "Django, Bootstrap, SQLite",
         github: "https://github.com/steph-xue/wiki",
@@ -37,6 +38,7 @@ export default [
         description: 
             "The email project allows the user to view their mailbox and send emails in a email-based web application. The user can login, logout, or register for a new user account to send and view emails.",
         type: "Academic Project",
+        category: "academic",
         languages: "Python, JavaScript, HTML5, CSS3",
         additionalInfo: "Django, Bootstrap4, SQLite",
         github: "https://github.com/steph-xue/email",
@@ -84,6 +86,7 @@ export default [
         description: 
             "The network project allows the user to view, create, like, and dislike posts, as well as follow other users in a social media based networking web application. The user can login, logout, or register for a new user account for more functionality with the application.",
         type: "Academic Project",
+        category: "academic",
         languages: "Python, JavaScript, HTML5, CSS3",
         additionalInfo: "Django, Bootstrap4, SQLite",
         github: "https://github.com/steph-xue/network",
@@ -127,6 +130,7 @@ export default [
         description: 
             "The auctions project allows the user to view and create new auction listings, as well as bid for auctions in a web-based auction application. The user can login, logout, or register for a new user account for more functionality with the application.",
         type: "Academic Project",
+        category: "academic",
         languages: "Python, JavaScript, HTML5, CSS3",
         additionalInfo: "Django, Bootstrap4, SQLite",
         github: "https://github.com/steph-xue/auctions",
@@ -182,6 +186,7 @@ export default [
         description: 
             "The react info project is a dynamic website that displays some fun facts about React. The user can use the toggle mode button on the top right hand side to switch between light and dark modes.",
         type: "Academic Project",
+        category: "academic",
         languages: "JavaScript, HTML5, CSS3",
         additionalInfo: "React.js, Vite, Netlify",
         github: "https://github.com/steph-xue/react-info",
@@ -205,6 +210,7 @@ export default [
         description: 
             "The meme generator project is a dynamic web application where the user can generate their own meme. When the user clicks the 'get a new meme image' button, a new random meme image is retrieved to be displayed on the user interface of the web application. Then the user can type in their choice of top and bottom text to be displayed on the meme image. The meme generator makes a call to the Imgflip API 'https://api.imgflip.com/get_memes' to get a selection of memes.",
         type: "Academic Project",
+        category: "academic",
         languages: "JavaScript, HTML5, CSS3",
         additionalInfo: "React.js, Vite, Imgflip API, Netlify",
         github: "https://github.com/steph-xue/meme-generator",
@@ -224,6 +230,7 @@ export default [
         description: 
             "The react notes project is a a dynamic notes web application. The user can create new notes, select notes to view, write and update the note (in markdown), preview notes (in html), as well as delete notes. The web application contains a markdown editor and markdown to html converter, which allows the user to toggle between 'write' and 'preview' tabs to write content in markdown and preview the content in html.",
         type: "Academic Project",
+        category: "academic",
         languages: "JavaScript, HTML5, CSS3",
         additionalInfo: "React.js, React-split, React-mde, Showdown, Vite, Netlify",
         github: "https://github.com/steph-xue/react-notes",
@@ -251,6 +258,7 @@ export default [
         description: 
             "The digital business card project is a static website that displays some information about myself and my interests, with links to my email, linkedin, and other social media platforms including twitter, facebook, instagram and github.",
         type: "Personal Project",
+        category: "personal",
         languages: "JavaScript, HTML5, CSS3",
         additionalInfo: "React.js, Bootstrap4, Vite, Netlify",
         github: "https://github.com/steph-xue/digital-business-card",
@@ -270,6 +278,7 @@ export default [
         description: 
             "The travel journal project is a static website that displays various travel destinations and I have visited in the past. Each destination displays a photo, the location city and country, a link to the location's Google Maps URL, travel dates, and a description with fun facts about the destination.",
         type: "Personal Project",
+        category: "personal",
         languages: "JavaScript, HTML5, CSS3",
         additionalInfo: "React.js, Vite, Netlify",
         github: "https://github.com/steph-xue/travel-journal",
@@ -289,6 +298,7 @@ export default [
         description: 
             "The tenzies game is a dynamic web application where players aim to roll matching dice as quickly as possible. The player who gets all dice on the same number and yells 'Tenzi!' the fastest is the winner. The game features a live timer and high score tracking for competitive play. You can play against other people or play against yourself and try to beat your best time. Clicking on each die will freeze it at its current value between rolls and clicking on the roll button will re-roll the unheld dice. ",
         type: "Personal Project",
+        category: "personal",
         languages: "JavaScript, HTML5, CSS3",
         additionalInfo: "React.js, React-confetti, NanoID, Vite, Netflify",
         github: "https://github.com/steph-xue/tenzies-game",
@@ -320,6 +330,7 @@ export default [
         description: 
             "The quizzical project generates random quiz questions for the player to answer. The player can choose their desired level of difficulty of quiz questions (easy, medium, hard) and a category of questions (from geography to pop culture). Then a set of 5 questions will be randomly generated for the player to answer (multiple choice or true/false). The player can then click on the 'check answers' button and the quiz will calculate their total score and display which questions the player had answered correctly and incorrectly. The Open Trivia Database API 'https://opentdb.com/api_config.php' was used to retrieve an array of random quiz questions from their database depending on the type of difficulty and category of questions selected. ",
         type: "Personal Project",
+        category: "personal",
         languages: "JavaScript, HTML5, CSS3",
         additionalInfo: "React.js, React-confetti, Html-entities, NanoID, Bootstrap4, Open Trivia Database API, Vite, Netlify",
         github: "https://github.com/steph-xue/quizzical",
@@ -355,6 +366,7 @@ export default [
         description: 
             "Cuisinable is your new personal culinary assistant, empowering individuals with food intolerances and allergies to enjoy diverse and delicious cuisines from around the world. This full-stack web application was built in a 11.5-hour hackathon. Users can select their food intolerances and allergies, and a preferred cuisine of their choice from a diverse selection ranging from Italian to Thai. The web application will then use the Spoonacular API found at  https://spoonacular.com/food-api to dynamically generate recipes based on user-specified intolerances, allergies, and cuisine preferences. Recipe cards with detailed information including an image, summary, ingredients needed, and step-by-step instructions will be displayed.",
         type: "Hackathon Project - Hackcamp 2024",
+        category: "hackathon",
         languages: "JavaScript, HTML5, CSS3",
         additionalInfo: "React.js, Node.js, Express.js, Vite, Figma, Render",
         github: "https://github.com/steph-xue/Cuisinable",
@@ -386,6 +398,7 @@ export default [
         description: 
             "My personal website is a component-first, dynamic web application built using the front-end JavaScript library, React. The website highlights my personal interests, projects, technical skills, experiences, digital art, and contact information, which you can view using the navigation bar at the top. The site features a variety of interactive elements including a dark/light mode toggle, a randomized image gallery showcasing my photography, multiple project slide show carousels, an animated console-style homepage, and a subtle animated gradient background that provide a more engaging user experience. The randomized photography gallery in the about me section allows the user to view a random selection of travel, food, and pet photography. The image carousels in the projects section allow users to scroll through project images, open images in full screen, and view them in a slide show mode.",
         type: "Personal Project",
+        category: "personal",
         languages: "JavaScript, HTML5, CSS3",
         additionalInfo: "React.js, React-router, React-image-gallery, Vite, Netlify",
         github: "https://github.com/steph-xue/portfolio",

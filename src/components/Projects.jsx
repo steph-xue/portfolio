@@ -5,11 +5,36 @@ import data from "../project-data/project-data";
 
 function Projects(props) {
 
-    // Reverse the project data array once during the initial state setup
-    const [projectData] = React.useState(() => data.slice().reverse());
+    // Get all the project data (reverse the project data array once during the initial state setup)
+    const [allProjectData] = React.useState(() => data.slice().reverse());
+
+    // Set the current project data filtered based on the selected category (default is all projects)
+    const [currentProjectData, setCurrentProjectData] = React.useState(allProjectData);
+
+    // Display a specific section when the user clicks on a category link (default is all projects)
+    const [projectCategory, setProjectCategory] = React.useState("all");
+
+    function updateProjectCategory(type) {
+        if (type === "all") {
+            setProjectCategory("all");
+            setCurrentProjectData(allProjectData);
+        } else if (type === "personal,") {
+            setProjectCategory("personal");
+            const personalProjects = allProjectData.filter(project => project.category === "personal");
+            setCurrentProjectData(personalProjects);
+        } else if (type === "academic") {
+            setProjectCategory("academic");
+            const academicProjects = allProjectData.filter(project => project.category === "academic");
+            setCurrentProjectData(academicProjects);
+        } else {
+            setProjectCategory("hackathon");
+            const hackathonProjects = allProjectData.filter(project => project.category === "hackathon");
+            setCurrentProjectData(hackathonProjects);
+        }
+    }
 
     // Map the project data to create the project elements
-    const projectDataElements = projectData.map((project, index) => {
+    const projectDataElements = currentProjectData.map((project, index) => {
         return (
             <div 
                 className={props.darkMode ? "project-container-dark" : "project-container-light"} 
@@ -77,6 +102,14 @@ function Projects(props) {
 
             {/* Projects subtitle */}
             <h2 className="projects-subtitle">Here are some of the projects I have been working on: </h2>
+
+            {/* Category links */}
+            <div className={props.darkMode ? "projects-nav nav-dark" : "projects-nav nav-light"}>
+                <p onClick={() => updateProjectCategory("all")} className="projects-nav-link">All Projects</p>
+                <p onClick={() => updateProjectCategory("personal,")} className="projects-nav-link">Personal Projects</p>
+                <p onClick={() => updateProjectCategory("academic")} className="projects-nav-link">Academic Projects</p>
+                <p onClick={() => updateProjectCategory("hackathon")} className="projects-nav-link">Hackathon Projects</p>
+            </div>
 
             {/* Project section */}
             {projectDataElements}
