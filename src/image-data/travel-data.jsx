@@ -146,7 +146,7 @@ export default [
     {
         id: 25,
         name: "kinkakuji",
-        title: "Kinaku-ji Golden Temple, Kyoto, Japan",
+        title: "Kinkaku-ji Golden Temple, Kyoto, Japan",
         source: "/images/travel/kinkakuji.jpg",
     },
     {
