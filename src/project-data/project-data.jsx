@@ -225,9 +225,9 @@ export default [
             "The react notes project is a a dynamic notes web application. The user can create new notes, select notes to view, write and update the note (in markdown), preview notes (in html), as well as delete notes. The web application contains a markdown editor and markdown to html converter, which allows the user to toggle between 'write' and 'preview' tabs to write content in markdown and preview the content in html.",
         type: "Academic Project",
         languages: "JavaScript, HTML5, CSS3",
-        additionalInfo: "React.js, React-split, React-mde, Showdown, Vite, Firebase, Netlify",
-        github: "https://github.com/steph-xue/react-notes-firebase",
-        activeLink: "https://react-notes-firebase-sx.netlify.app",
+        additionalInfo: "React.js, React-split, React-mde, Showdown, Vite, Netlify",
+        github: "https://github.com/steph-xue/react-notes",
+        activeLink: "https://react-notes-sx.netlify.app/",
         devpostLink: "",
         images: [
             {
