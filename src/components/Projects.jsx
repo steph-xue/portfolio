@@ -14,11 +14,12 @@ function Projects(props) {
     // Display a specific section when the user clicks on a category link (default is all projects)
     const [projectCategory, setProjectCategory] = React.useState("all");
 
+    // Function to update the project category based on the selected category link
     function updateProjectCategory(type) {
         if (type === "all") {
             setProjectCategory("all");
             setCurrentProjectData(allProjectData);
-        } else if (type === "personal,") {
+        } else if (type === "personal") {
             setProjectCategory("personal");
             const personalProjects = allProjectData.filter(project => project.category === "personal");
             setCurrentProjectData(personalProjects);
@@ -105,10 +106,22 @@ function Projects(props) {
 
             {/* Category links */}
             <div className={props.darkMode ? "projects-nav nav-dark" : "projects-nav nav-light"}>
-                <p onClick={() => updateProjectCategory("all")} className="projects-nav-link">All Projects</p>
-                <p onClick={() => updateProjectCategory("personal,")} className="projects-nav-link">Personal Projects</p>
-                <p onClick={() => updateProjectCategory("academic")} className="projects-nav-link">Academic Projects</p>
-                <p onClick={() => updateProjectCategory("hackathon")} className="projects-nav-link">Hackathon Projects</p>
+                <p className={projectCategory === "all" ? "projects-nav-link project-active" : "projects-nav-link"} 
+                    onClick={() => updateProjectCategory("all")}>
+                        All Projects
+                </p>
+                <p className={projectCategory === "personal" ? "projects-nav-link project-active" : "projects-nav-link"} 
+                   onClick={() => updateProjectCategory("personal")}>
+                    Personal Projects
+                </p>
+                <p className={projectCategory === "academic" ? "projects-nav-link project-active" : "projects-nav-link"} 
+                   onClick={() => updateProjectCategory("academic")}>
+                    Academic Projects
+                </p>
+                <p className={projectCategory === "hackathon" ? "projects-nav-link project-active" : "projects-nav-link"} 
+                   onClick={() => updateProjectCategory("hackathon")}>
+                    Hackathon Projects
+                </p>
             </div>
 
             {/* Project section */}

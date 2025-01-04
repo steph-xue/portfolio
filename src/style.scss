@@ -17,6 +17,7 @@
 	--color-brown-opacity2: rgba(117, 79, 47, 0.95);
 	--color-brown-opacity3: rgba(136, 91, 54, 0.95);
 	--color-brown-opacity4: rgba(188, 150, 104, 0.95);
+	--color-brown-opacity5: rgba(199, 162, 117, 0.95);
     --color-light-brown1: #cda478;
 	--color-light-brown2: rgb(200, 167, 127);
 	--color-light-brown3: #c39a6b;
@@ -835,7 +836,7 @@ a {
 
 .projects-nav {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	gap: 0em;
 	align-items: center;
 	text-align: center;
@@ -866,10 +867,16 @@ a {
 	font-weight: var(--fw-med);
 	line-height: 1.2em;
 	cursor: pointer;
-	transition: opacity 0.4s ease-in-out;
-	padding-left: 0em;
-	padding-right: 0em;
-	transition: transform 0.6s ease-in-out, color 0.6s ease-in-out;
+	padding: 1em;
+	border-radius: 50px;  /* Ensure consistent border-radius */
+	transition: 
+		opacity 0.4s ease-in-out,
+		transform 0.5s ease-in-out,
+		color 0.5s ease-in-out,
+		background 0.5s ease-in-out,
+		border-radius 0.5s ease-in-out,
+		box-shadow 0.5s ease-in-out;
+	overflow: hidden;
 }
 
 @media (min-width: 400px) {
@@ -884,9 +891,34 @@ a {
 	}
 }
 
-.projects-nav-link:hover, .projects-nav-link:focus {
+.projects-nav-link:hover,
+.projects-nav-link:focus {
 	color: var(--color-dark-brown3);
-	transform: scale(1.05);
+	background-color: var(--color-brown-opacity5);
+	border-radius: 50px;
+	transform: scale(1.03);
+}
+
+.project-active {
+	background: var(--color-brown-opacity5);
+	border-radius: 50px;
+	padding: 1em;
+	cursor: pointer;
+	overflow: hidden;  /* Ensures border-radius clipping */
+	transition: 
+		background 0.4s ease-in-out,
+		transform 0.4s ease-in-out,
+		border-radius 0.4s ease-in-out;
+}
+
+.project-active:hover,
+.project-active:focus {
+	background-color: var(--color-brown-opacity5);
+	transform: scale(1.02);
+}
+
+.navbar-list-active-dark {
+	background: var(--color-dark-brown3);
 }
 
 .project-container-light {
