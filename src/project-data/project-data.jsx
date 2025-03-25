@@ -411,7 +411,7 @@ export default [
             },
             {
                 original: "/images/projects/mentra/login.png",
-                thumbnail: "/images/projects/mentra/loging.png",
+                thumbnail: "/images/projects/mentra/login.png",
             },
             {
                 original: "/images/projects/mentra/register.png",
