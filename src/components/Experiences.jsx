@@ -148,11 +148,11 @@ function Experiences(props) {
                 <div className="skills-text">
                     <div className="skills-category skills-languages">
                         <h3 className="skills-category-title">Programming Languages</h3>
-                        <p className="skills-category-items">Java, JavaScript, Python, C</p>
+                        <p className="skills-category-items">Python, Java, JavaScript, C</p>
                     </div>
                     <div className="skills-category skills-frontend">
                         <h3 className="skills-category-title">Frontend</h3>
-                        <p className="skills-category-items">React.js, Vite, Bootstrap4, HTML5, CSS3</p>
+                        <p className="skills-category-items">React.js, Vite, Bootstrap4, HTML5, CSS3, Java Swing</p>
                     </div>
                     <div className="skills-category skills-backend">
                         <h3 className="skills-category-title">Backend</h3>
