@@ -393,6 +393,50 @@ export default [
     },
     {
         id: 13,
+        name: "mentra",
+        title: "Mentra",
+        description: 
+            "Mentra is an AI-powered journal chatbot for your personal well being - Mentor meets mantra. Our full-stack application was built in a 24-hour hackathon and revolutionizes the traditional journaling experience by integrating intelligent insights and advice tailored to the user's needs. It allows users to log their thoughts, emotions, and experiences while receiving thoughtful, insightful, or actionable responses that support self-reflection and encourage personal growth and well-being.",
+        type: "Hackathon Project - cmd-f Hackathon 2025",
+        category: "hackathon",
+        languages: "JavaScript, HTML5, CSS3",
+        additionalInfo: "Django, Python, Render, Google Gemini 2.0 Flash Generative AI API",
+        github: "https://github.com/steph-xue/mentra",
+        activeLink: "https://mentra.onrender.com",
+        devpostLink: "https://devpost.com/software/mentra",
+        images: [
+            {
+                original: "/images/projects/mentra/mentra.png",
+                thumbnail: "/images/projects/mentra/mentra.png",
+            },
+            {
+                original: "/images/projects/mentra/login.png",
+                thumbnail: "/images/projects/mentra/loging.png",
+            },
+            {
+                original: "/images/projects/mentra/register.png",
+                thumbnail: "/images/projects/mentra/register.png",
+            },
+            {
+                original: "/images/projects/mentra/chat.png",
+                thumbnail: "/images/projects/mentra/chat.png",
+            },
+            {
+                original: "/images/projects/mentra/response.png",
+                thumbnail: "/images/projects/mentra/response.png",
+            },
+            {
+                original: "/images/projects/mentra/history_category.png",
+                thumbnail: "/images/projects/mentra/history_category.png",
+            },
+            {
+                original: "/images/projects/mentra/history.png",
+                thumbnail: "/images/projects/mentra/history.png",
+            },
+        ]
+    },
+    {
+        id: 14,
         name: "portfolio",
         title: "My Personal Website",
         description: 
