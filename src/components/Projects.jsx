@@ -73,7 +73,7 @@ function Projects(props) {
                         { project.devpostLink &&
                             <p className="devpost-link">
                                 <strong>Devpost: </strong>
-                                <a className={props.darkMode ? "project-active-link dark-link" : "project-active-link light-link"} href={project.activeLink}>
+                                <a className={props.darkMode ? "project-active-link dark-link" : "project-active-link light-link"} href={project.devpostLink}>
                                     {project.activeLink}
                                 </a>
                             </p>
