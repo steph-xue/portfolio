@@ -74,7 +74,7 @@ function Projects(props) {
                             <p className="devpost-link">
                                 <strong>Devpost: </strong>
                                 <a className={props.darkMode ? "project-active-link dark-link" : "project-active-link light-link"} href={project.devpostLink}>
-                                    {project.activeLink}
+                                    {project.devpostLink}
                                 </a>
                             </p>
                         }
