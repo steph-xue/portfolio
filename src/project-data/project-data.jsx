@@ -396,10 +396,10 @@ export default [
         name: "mentra",
         title: "Mentra",
         description: 
-            "Mentra is an AI-powered journal chatbot for your personal well being - Mentor meets mantra. Our full-stack application was built in a 24-hour hackathon and revolutionizes the traditional journaling experience by integrating intelligent insights and advice tailored to the user's needs. It allows users to log their thoughts, emotions, and experiences while receiving thoughtful, insightful, or actionable responses that support self-reflection and encourage personal growth and well-being.",
+            "Mentra is an AI-powered journal chatbot for your personal well being - Mentor meets mantra. This full-stack application was built in a 24-hour hackathon and revolutionizes the traditional journaling experience by integrating intelligent insights and advice tailored to the user's needs. It allows users to log their thoughts, emotions, and experiences while receiving thoughtful, insightful, or actionable responses that support self-reflection and encourage personal growth and well-being.",
         type: "Hackathon Project - cmd-f Hackathon 2025",
         category: "hackathon",
-        languages: "Python JavaScript, HTML5, CSS3",
+        languages: "Python, JavaScript, HTML5, CSS3",
         additionalInfo: "Django, Render, Google Gemini 2.0 Flash Generative AI API",
         github: "https://github.com/steph-xue/mentra",
         activeLink: "https://mentra.onrender.com",
