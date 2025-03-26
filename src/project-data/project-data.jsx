@@ -400,7 +400,7 @@ export default [
         type: "Hackathon Project - cmd-f Hackathon 2025",
         category: "hackathon",
         languages: "Python, JavaScript, HTML5, CSS3",
-        additionalInfo: "Django, Render, Google Gemini 2.0 Flash Generative AI API",
+        additionalInfo: "Django, Google Gemini 2.0 Flash Generative AI API, Render",
         github: "https://github.com/steph-xue/mentra",
         activeLink: "https://mentra.onrender.com",
         devpostLink: "https://devpost.com/software/mentra",
