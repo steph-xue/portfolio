@@ -440,11 +440,11 @@ export default [
         name: "triage-mate",
         title: "TriageMate",
         description: 
-            "TriageMate is an AI-powered hospital triage assistant that streamlines symptom reporting - where smart tech meets compassionate care. This full-stack mobile application was built in a 24-hour hackathon and transforms the traditional triage experience by enabling users to describe their symptoms through voice or text in any language, which is then intelligently translated, analyzed, and structured into a concise report for healthcare providers to streamline efficiency and improve patient care.",
+            "TriageMate is an AI-powered hospital triage assistant that streamlines symptom reporting - where smart tech meets compassionate care. This full-stack mobile application was built in a 24-hour hackathon and transforms the traditional triage experience by enabling users to describe their symptoms through voice or text in any language, which is then intelligently translated, analyzed, and structured into a concise report for healthcare providers to streamline efficiency and improve patient care. Through TriageMate, we aim to empower individuals to speak freely in their native tongue and ensure that their needs are captured accurately and compassionately — helping healthcare professionals deliver the right care, faster.",
         type: "Hackathon Project - BCS Hackathon 2025",
         category: "hackathon",
         languages: "TypeScript, JavaScript",
-        additionalInfo: "React Native, Expo Go, Express.js, Node.js, MongdoDB, Google Gemini 2.0 Flash Generative AI API",
+        additionalInfo: "React Native, Expo Go, Node.js, Express.js, MongoDB, Google Gemini 2.0 Flash Generative AI API",
         github: "https://github.com/steph-xue/TriageMate",
         activeLink: "",
         devpostLink: "https://devpost.com/software/triagemate",
@@ -494,12 +494,12 @@ export default [
                 thumbnail: "/images/projects/triage-mate/success.jpg",
             },
             {
-                original: "/images/projects/triage-mate/chinese-input.jpg",
-                thumbnail: "/images/projects/triage-mate/chinese-input.jpg",
+                original: "/images/projects/triage-mate/chinese-input.png",
+                thumbnail: "/images/projects/triage-mate/chinese-input.png",
             },
             {
-                original: "/images/projects/triage-mate/chinese-result.jpg",
-                thumbnail: "/images/projects/triage-mate/chinese-result.jpg",
+                original: "/images/projects/triage-mate/chinese-result.png",
+                thumbnail: "/images/projects/triage-mate/chinese-result.png",
             },
         ]
     },
