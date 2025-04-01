@@ -88,7 +88,6 @@ function Projects(props) {
                             originalTitle={project.title}
                             thumbnailPosition="left"
                             slideInterval={4000}
-                            style={{ maxHeight: '500px', overflow: 'hidden' }}
                         />
                 </div>
             </div>
