@@ -396,7 +396,7 @@ export default [
         name: "mentra",
         title: "Mentra",
         description: 
-            "Mentra is an AI-powered journal chatbot for your personal well being - Mentor meets mantra. This full-stack application was built in a 24-hour hackathon and revolutionizes the traditional journaling experience by integrating intelligent insights and advice tailored to the user's needs. It allows users to log their thoughts, emotions, and experiences while receiving thoughtful, insightful, or actionable responses that support self-reflection and encourage personal growth and well-being integrating the Google Gemini 2.0 Flash Generative AI API for personalized user responses.",
+            "Mentra is an AI-powered journal chatbot for your personal well being - Mentor meets mantra. This full-stack web application was built in a 24-hour hackathon and revolutionizes the traditional journaling experience by integrating intelligent insights and advice tailored to the user's needs. It allows users to log their thoughts, emotions, and experiences while receiving thoughtful, insightful, or actionable responses that support self-reflection and encourage personal growth and well-being integrating the Google Gemini 2.0 Flash Generative AI API for personalized user responses.",
         type: "Hackathon Project - cmd-f Hackathon 2025",
         category: "hackathon",
         languages: "Python, JavaScript, HTML5, CSS3",
@@ -437,6 +437,74 @@ export default [
     },
     {
         id: 14,
+        name: "triage-mate",
+        title: "TriageMate",
+        description: 
+            "TriageMate is an AI-powered hospital triage assistant that streamlines symptom reporting - where smart tech meets compassionate care. This full-stack mobile application was built in a 24-hour hackathon and transforms the traditional triage experience by enabling users to describe their symptoms through voice or text in any language, which is then intelligently translated, analyzed, and structured into a concise report for healthcare providers to streamline efficiency and improve patient care.",
+        type: "Hackathon Project - BCS Hackathon 2025",
+        category: "hackathon",
+        languages: "TypeScript, JavaScript",
+        additionalInfo: "React Native, Expo Go, Express.js, Node.js, MongdoDB, Google Gemini 2.0 Flash Generative AI API",
+        github: "https://github.com/steph-xue/TriageMate",
+        activeLink: "",
+        devpostLink: "https://devpost.com/software/triagemate",
+        images: [
+            {
+                original: "/images/projects/triage-mate/logo.png",
+                thumbnail: "/images/projects/triage-mate/logo.png",
+            },
+            {
+                original: "/images/projects/triage-mate/layout1.png",
+                thumbnail: "/images/projects/triage-mate/layout1.png",
+            },
+            {
+                original: "/images/projects/triage-mate/layout2.png",
+                thumbnail: "/images/projects/triage-mate/layout2.png",
+            },
+            {
+                original: "/images/projects/triage-mate/landing.jpg",
+                thumbnail: "/images/projects/triage-mate/landing.jpg",
+            },
+            {
+                original: "/images/projects/triage-mate/profile.jpg",
+                thumbnail: "/images/projects/triage-mate/profile.jpg",
+            },
+            {
+                original: "/images/projects/triage-mate/input1.jpg",
+                thumbnail: "/images/projects/triage-mate/input1.jpg",
+            },
+            {
+                original: "/images/projects/triage-mate/input2.jpg",
+                thumbnail: "/images/projects/triage-mate/input2.jpg",
+            },
+            {
+                original: "/images/projects/triage-mate/processing.jpg",
+                thumbnail: "/images/projects/triage-mate/processing.jpg",
+            },
+            {
+                original: "/images/projects/triage-mate/results1.jpg",
+                thumbnail: "/images/projects/triage-mate/results1.jpg",
+            },
+            {
+                original: "/images/projects/triage-mate/results2.jpg",
+                thumbnail: "/images/projects/triage-mate/results2.jpg",
+            },
+            {
+                original: "/images/projects/triage-mate/success.jpg",
+                thumbnail: "/images/projects/triage-mate/success.jpg",
+            },
+            {
+                original: "/images/projects/triage-mate/chinese-input.jpg",
+                thumbnail: "/images/projects/triage-mate/chinese-input.jpg",
+            },
+            {
+                original: "/images/projects/triage-mate/chinese-result.jpg",
+                thumbnail: "/images/projects/triage-mate/chinese-result.jpg",
+            },
+        ]
+    },
+    {
+        id: 15,
         name: "portfolio",
         title: "My Personal Website",
         description: 
