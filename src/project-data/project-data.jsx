@@ -530,32 +530,32 @@ export default [
                 thumbnail: "/images/projects/primary-care-clinic/viewAllPatients.png",
             },
             {
-                original: "/images/projects/primary-care-clinic/newPatientEmpty1.jpg",
-                thumbnail: "/images/projects/primary-care-clinic/newPatientEmpty1.jpg",
+                original: "/images/projects/primary-care-clinic/newPatientEmpty1.png",
+                thumbnail: "/images/projects/primary-care-clinic/newPatientEmpty1.png",
             },
             {
-                original: "/images/projects/primary-care-clinic/newPatient1.jpg",
-                thumbnail: "/images/projects/primary-care-clinic/newPatient1.jpg",
+                original: "/images/projects/primary-care-clinic/newPatient1.png",
+                thumbnail: "/images/projects/primary-care-clinic/newPatient1.png",
             },
             {
-                original: "/images/projects/primary-care-clinic/profile1.jpg",
-                thumbnail: "/images/projects/primary-care-clinic/profile1.jpg",
+                original: "/images/projects/primary-care-clinic/profile1.png",
+                thumbnail: "/images/projects/primary-care-clinic/profile1.png",
             },
             {
-                original: "/images/projects/primary-care-clinic/profile2.jpg",
-                thumbnail: "/images/projects/primary-care-clinic/profile2.jpg",
+                original: "/images/projects/primary-care-clinic/profile2.png",
+                thumbnail: "/images/projects/primary-care-clinic/profile2.png",
             },
             {
-                original: "/images/projects/primary-care-clinic/addNoteEmpty.jpg",
-                thumbnail: "/images/projects/primary-care-clinic/addNoteEmpty.jpg",
+                original: "/images/projects/primary-care-clinic/addNoteEmpty.png",
+                thumbnail: "/images/projects/primary-care-clinic/addNoteEmpty.png",
             },
             {
-                original: "/images/projects/primary-care-clinic/addNote.jpg",
-                thumbnail: "/images/projects/primary-care-clinic/addNote.jpg",
+                original: "/images/projects/primary-care-clinic/addNote.png",
+                thumbnail: "/images/projects/primary-care-clinic/addNote.png",
             },
             {
-                original: "/images/projects/primary-care-clinic/save.jpg",
-                thumbnail: "/images/projects/primary-care-clinic/save.jpg",
+                original: "/images/projects/primary-care-clinic/save.png",
+                thumbnail: "/images/projects/primary-care-clinic/save.png",
             }
         ]
     },
