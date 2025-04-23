@@ -562,9 +562,9 @@ export default [
     {
         id: 16,
         name: "portfolio",
-        title: "My Personal Website",
+        title: "My Personal Portfolio Website",
         description: 
-            "My personal website is a component-first, dynamic web application built using the front-end JavaScript library, React. The website highlights my personal interests, projects, technical skills, experiences, digital art, and contact information, which you can view using the navigation bar at the top. The site features a variety of interactive elements including a dark/light mode toggle, a randomized image gallery showcasing my photography, multiple project slide show carousels, an animated console-style homepage, and a subtle animated gradient background that provide a more engaging user experience. The randomized photography gallery in the about me section allows the user to view a random selection of travel, food, and pet photography. The image carousels in the projects section allow users to scroll through project images, open images in full screen, and view them in a slide show mode.",
+            "My personal portfolio website is a component-first, dynamic web application crafted from scratch to showcase personal projects, technical skills, professional experience, and digital artwork. Every element of my website was intentionally designed and developed to reflect my own style, individuality, and creativity. The site features a variety of interactive elements including a dark/light mode toggle, a randomized image gallery showcasing my photography, multiple project slide show carousels, an animated console-style homepage, and a subtle animated gradient background that provide a more engaging user experience. The randomized photography gallery in the about me section allows the user to view a random selection of travel, food, and pet photography. The image carousels in the projects section allow users to scroll through project images, open images in full screen, and view them in a slide show mode.",
         type: "Personal Project",
         category: "personal",
         languages: "JavaScript, HTML5, CSS3",
