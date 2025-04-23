@@ -32,6 +32,7 @@
     --fs-xxxl: 2.4rem;
 	--fs-xxl: 2.2rem;
 	--fs-xl: 1.5rem;
+    --fs-l2: 1.3rem;
     --fs-l: 1.2rem;
 	--fs-ml: 1rem;
     --fs-m: 0.8rem;
@@ -341,6 +342,7 @@ a {
 }
 
 .homepage-description {
+    font-size: var(--fs-ml);
 	text-align: center;
 	width: 25em;
 	margin-top: 12vh;
@@ -365,14 +367,22 @@ a {
 	}
 
 	.homepage-description{
-		width: 45em;
+		width: 35em;
 		margin-bottom: 6em;
 	}
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1000px) {
+	.homepage-description{
+		width: 50em;
+        font-size: var(--fs-l);
+	}
+}
+
+@media (min-width: 1200px) {
 	.homepage-description{
 		width: 60em;
+        font-size: var(--fs-l2);
 	}
 } 
 
@@ -417,6 +427,10 @@ a {
 	.about-container-2-text {
 		width: 65vw;
 	}
+
+    .about-container-1, .about-container-2, .about-container-3 {
+        font-size: var(--fs-ml);
+    }
 }
 
 @media (min-width: 1400px) {
