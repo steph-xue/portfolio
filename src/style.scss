@@ -381,7 +381,7 @@ a {
 @media (min-width: 1200px) {
 	.homepage-description{
 		width: 60em;
-        font-size: var(--fs-l);
+        font-size: var(--fs-ml);
 	}
 } 
 
@@ -1388,15 +1388,15 @@ a {
 }
 
 .skills-development {
-	grid-area: c;
+	grid-area: d;
 }
 
 .skills-front-end {
-	grid-area: e;
+	grid-area: c;
 }
 
 .skills-back-end {
-	grid-area: g;
+	grid-area: e;
 }
 
 .skills-storage {
@@ -1404,15 +1404,15 @@ a {
 }
 
 .skills-design {
-	grid-area: d;
-}
-
-.skills-cloud {
 	grid-area: f;
 }
 
-.skills-collaboration {
+.skills-cloud {
 	grid-area: h;
+}
+
+.skills-mobile {
+	grid-area: g;
 }
 
 .skills-category-title {

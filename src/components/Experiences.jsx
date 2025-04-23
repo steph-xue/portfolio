@@ -142,29 +142,33 @@ function Experiences(props) {
                 className={props.darkMode ? "technical-skills experiences-container-dark" : "technical-skills experiences-container-light"}
             >
                 <h2 className="technical-skills-title">
-                    Technical Skills
+                    Technical Skills 
                     <FontAwesomeIcon className="skills-icon" icon={faComputer} />
                 </h2>
                 <div className="skills-text">
                     <div className="skills-category skills-languages">
                         <h3 className="skills-category-title">Programming Languages</h3>
-                        <p className="skills-category-items">Python, Java, JavaScript, C</p>
+                        <p className="skills-category-items">Python, Java, JavaScript, TypeScript, C++, C</p>
                     </div>
                     <div className="skills-category skills-frontend">
                         <h3 className="skills-category-title">Frontend</h3>
-                        <p className="skills-category-items">React.js, Vite, Bootstrap4, HTML5, CSS3, Java Swing</p>
+                        <p className="skills-category-items">React.js, Vite, Java Swing, Bootstrap4, HTML5, CSS3</p>
                     </div>
                     <div className="skills-category skills-backend">
                         <h3 className="skills-category-title">Backend</h3>
                         <p className="skills-category-items">Django, Flask</p>
                     </div>
-                    <div className="skills-category skills-development">
-                        <h3 className="skills-category-title">Development Practices/Tools</h3>
-                        <p className="skills-category-items">OOP, RESTful APIs, JUnit Testing, Git, Github Copilot, VS Code</p>
+                    <div className="skills-category skills-mobile">
+                        <h3 className="skills-category-title">Mobile</h3>
+                        <p className="skills-category-items">React Native, Expo Go</p>
                     </div>
                     <div className="skills-category skills-storage">
                         <h3 className="skills-category-title">Databases</h3>
                         <p className="skills-category-items">SQL (SQLite)</p>
+                    </div>
+                    <div className="skills-category skills-development">
+                        <h3 className="skills-category-title">Development Practices/Tools</h3>
+                        <p className="skills-category-items">OOP, RESTful APIs, JUnit Jupiter, Unit Testing, Git, Github, VS Code</p>
                     </div>
                     <div className="skills-category skills-design">
                         <h3 className="skills-category-title">Design Tools</h3>
@@ -173,10 +177,6 @@ function Experiences(props) {
                     <div className="skills-category skills-cloud">
                         <h3 className="skills-category-title">Cloud Hosting</h3>
                         <p className="skills-category-items">Netlify, Render</p>
-                    </div>
-                    <div className="skills-category skills-collaboration">
-                        <h3 className="skills-category-title">Collaboration</h3>
-                        <p className="skills-category-items">Github, Trello, Google Drive, Dropbox</p>
                     </div>
                 </div>
             </div>
