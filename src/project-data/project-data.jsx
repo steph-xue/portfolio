@@ -506,7 +506,7 @@ export default [
     {
         id: 15,
         name: "primary-care-clinic",
-        title: "Primary Care Clinic",
+        title: "Primary Care Clinic Application",
         description: 
             "The Primary Care Clinic application serves as an Electronic Health Record (EHR) system designed for primary care clinics, providing an efficient way to manage all patients currently registered at a clinic. It displays a comprehensive, alphabetically sorted list of patients by last and first name, and allows clinicians to add new patient profiles, update existing information, or remove patients from the system. Each patient record allows for the tracking of both demographic and clinical information, including first and last name, date of birth (DOB), age, personal health number (PHN), allergies, medications, and medical conditions. In addition, the application allows clinicians to create, edit, and delete clinical notes for patient visits, capturing key details such as the reason for the visit, visit summary, healthcare provider, and visit date.",
         type: "Academic Project",
