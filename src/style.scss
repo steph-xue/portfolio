@@ -153,7 +153,7 @@ a {
 }
 
 .navbar-list {
-    font-size: var(--fs-xs);
+    font-size: var(--fs-s);
 	font-weight: var(--fw-med);
 	list-style: none;
     display: flex;
@@ -863,7 +863,7 @@ a {
 }
 
 .projects-nav-link {
-	font-size: var(--fs-xs);
+	font-size: var(--fs-s);
 	font-weight: var(--fw-med);
 	line-height: 1.2em;
 	cursor: pointer;
@@ -881,13 +881,13 @@ a {
 
 @media (min-width: 400px) {
 	.projects-nav-link {
-		font-size: var(--fs-s);
+		font-size: var(--fs-m);
 	}
 }
 
 @media (min-width: 800px) {
 	.projects-nav-link {
-		font-size: var(--fs-m);
+		font-size: var(--fs-ml);
 	}
 }
 
@@ -1014,7 +1014,7 @@ a {
 }
 
 .project-github, .project-link, .devpost-link {
-	font-size: var(--fs-xs);
+	font-size: var(--fs-s);
 }
 
 .project-languages, .project-additional-info2 {
@@ -1213,7 +1213,7 @@ a {
 }
 
 .experiences-nav-link {
-	font-size: var(--fs-xs);
+	font-size: var(--fs-s);
 	font-weight: var(--fw-med);
 	line-height: 1.2em;
 	cursor: pointer;
