@@ -505,6 +505,62 @@ export default [
     },
     {
         id: 15,
+        name: "primary-care-clinic",
+        title: "Primary Care Clinic",
+        description: 
+            "The Primary Care Clinic application serves as an Electronic Health Record (EHR) system designed for primary care clinics, providing an efficient way to manage all patients currently registered at a clinic. It displays a comprehensive, alphabetically sorted list of patients by last and first name, and allows clinicians to add new patient profiles, update existing information, or remove patients from the system. Each patient record allows for the tracking of both demographic and clinical information, including first and last name, date of birth (DOB), age, personal health number (PHN), allergies, medications, and medical conditions. In addition, the application allows clinicians to create, edit, and delete clinical notes for patient visits, capturing key details such as the reason for the visit, visit summary, healthcare provider, and visit date. Clinicians can also view the full clinical history for any patient.",
+        type: "Academic Project",
+        category: "academic",
+        languages: "Java",
+        additionalInfo: "Java Swing, JUnit Jupiter, Unit Testing",
+        github: "https://github.com/steph-xue/PrimaryCareClinic",
+        activeLink: "",
+        devpostLink: "",
+        images: [
+            {
+                original: "/images/projects/primary-care-clinic/landing.png",
+                thumbnail: "/images/projects/primary-care-clinic/landing.png",
+            },
+            {
+                original: "/images/projects/primary-care-clinic/load.png",
+                thumbnail: "/images/projects/primary-care-clinic/load.png",
+            },
+            {
+                original: "/images/projects/primary-care-clinic/viewAllPatients.png",
+                thumbnail: "/images/projects/primary-care-clinic/viewAllPatients.png",
+            },
+            {
+                original: "/images/projects/primary-care-clinic/newPatientEmpty1.jpg",
+                thumbnail: "/images/projects/primary-care-clinic/newPatientEmpty1.jpg",
+            },
+            {
+                original: "/images/projects/primary-care-clinic/newPatient1.jpg",
+                thumbnail: "/images/projects/primary-care-clinic/newPatient1.jpg",
+            },
+            {
+                original: "/images/projects/primary-care-clinic/profile1.jpg",
+                thumbnail: "/images/projects/primary-care-clinic/profile1.jpg",
+            },
+            {
+                original: "/images/projects/primary-care-clinic/profile2.jpg",
+                thumbnail: "/images/projects/primary-care-clinic/profile2.jpg",
+            },
+            {
+                original: "/images/projects/primary-care-clinic/addNoteEmpty.jpg",
+                thumbnail: "/images/projects/primary-care-clinic/addNoteEmpty.jpg",
+            },
+            {
+                original: "/images/projects/primary-care-clinic/addNote.jpg",
+                thumbnail: "/images/projects/primary-care-clinic/addNote.jpg",
+            },
+            {
+                original: "/images/projects/primary-care-clinic/save.jpg",
+                thumbnail: "/images/projects/primary-care-clinic/save.jpg",
+            }
+        ]
+    },
+    {
+        id: 16,
         name: "portfolio",
         title: "My Personal Website",
         description: 
