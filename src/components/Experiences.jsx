@@ -203,7 +203,7 @@ function Experiences(props) {
                         <div className="education-item-description">
                             <p className="education-item-title">Bachelor of Computer Science (BCS) </p>
                             <ul>
-                                <li className="education-item-info">Currently attending (expected graduation in 2027)</li>
+                                <li className="education-item-info">Currently attending (expected graduation in 2026)</li>
                             </ul>
                         </div>
                         <p className="education-item-date">2024 - Present</p>
