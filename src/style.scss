@@ -156,6 +156,7 @@ a {
 
 .navbar-list {
 	font-weight: var(--fw-med);
+    font-size: var(--fs-xs);
 	list-style: none;
     display: flex;
 	gap: -0.2vw;
@@ -169,7 +170,6 @@ a {
 
 @media (min-width: 400px) {
 	.navbar-list {
-		font-size: var(--fs-xs);
 		padding-right: 0.4em;
 		padding-left: 0.4em;
 	}
