@@ -342,9 +342,9 @@ a {
 }
 
 .homepage-description {
-    font-size: var(--fs-ml);
+    font-size: var(--fs-m);
 	text-align: center;
-	width: 25em;
+	width: 24em;
 	margin-top: 12vh;
 	margin-bottom: 3em;
 	padding-left: 2em;
@@ -369,6 +369,7 @@ a {
 	.homepage-description{
 		width: 35em;
 		margin-bottom: 6em;
+        font-size: var(--fs-ml);
 	}
 }
 
@@ -381,7 +382,6 @@ a {
 @media (min-width: 1200px) {
 	.homepage-description{
 		width: 60em;
-        font-size: var(--fs-ml);
 	}
 } 
 
