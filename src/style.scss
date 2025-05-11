@@ -171,7 +171,7 @@ a {
 @media (min-width: 400px) {
 	.navbar-list {
 		font-size: var(--fs-s);
-		gap: 0.1vw;
+		gap: -0.1vw;
 		padding-right: 0.4em;
 		padding-left: 0.4em;
 	}
