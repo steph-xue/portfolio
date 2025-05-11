@@ -36,6 +36,7 @@
 	--fs-ml: 1rem;
     --fs-m: 0.8rem;
     --fs-s: 0.7rem;
+    --fs-xs: 0.6rem;
 
 	--gradient-light: linear-gradient(
 	-45deg, 
@@ -154,7 +155,7 @@ a {
 }
 
 .navbar-list {
-    font-size: var(--fs-s);
+    font-size: var(--fs-xs);
 	font-weight: var(--fw-med);
 	list-style: none;
     display: flex;
