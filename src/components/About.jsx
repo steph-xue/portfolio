@@ -137,7 +137,7 @@ function About(props) {
                 <div className={props.darkMode ? "full-image-container dark-container" : "full-image-container light-container"}>
                     <FontAwesomeIcon className="close-icon" icon={faCircleXmark} onClick={toggleImage} />
                     <p className="full-image-title">{imageTitle}</p>
-                    <img src={imageURL} alt="full-image" className="full-image" />
+                    <img src={imageURL} alt="full-image-photo" className="full-image-photo" />
                 </div>
             }
         </div>
