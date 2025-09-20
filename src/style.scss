@@ -889,9 +889,9 @@ a {
 	gap: 0em;
 	align-items: center;
 	text-align: center;
-	margin-top: 1em;
+	margin-top: 0em;
 	margin-bottom: 0;
-	padding-block: 0;
+	padding-block: 0em;
 	padding-left: 1em;
 	padding-right: 1em;
 	border-radius: 50px;
@@ -914,7 +914,7 @@ a {
 .projects-nav-link {
 	font-size: var(--fs-s);
 	font-weight: var(--fw-med);
-	line-height: 1.2em;
+	line-height: 0.5em;
 	cursor: pointer;
 	padding: 1em;
 	border-radius: 50px;  /* Ensure consistent border-radius */
@@ -1832,13 +1832,13 @@ a {
 
 @media (min-height: 400px) {
 	.full-image-art {
-		height: 30em;
+		height: 20em;
 	}
 }
 
 @media (min-height: 600px) {
 	.full-image-art {
-		height: 35em;
+		height: 30em;
 	}
 }
 
