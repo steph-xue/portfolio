@@ -777,7 +777,7 @@ a {
 }
 
 .full-image-title {
-	font-size: var(--fs-l);
+	font-size: var(--fs-ml);
 	font-weight: var(--fw-med);
 	text-align: center;
 	max-width: 50vw;
@@ -807,6 +807,10 @@ a {
 	.full-image-photo {
 		width: 24em;
 		height: 32em;
+	}
+
+    .full-image-title {
+		font-size: var(--fs-l);
 	}
 }
 
@@ -1846,19 +1850,19 @@ a {
 
 @media (min-height: 400px) {
 	.full-image-art {
-		height: 15em;
+		height: 12em;
 	}
 }
 
 @media (min-height: 600px) {
 	.full-image-art {
-		height: 20em;
+		height: 15em;
 	}
 }
 
 @media (min-height: 800px) {
 	.full-image-art {
-		height: 30em;
+		height: 20em;
 	}
 }
 
