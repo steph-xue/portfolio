@@ -191,6 +191,13 @@ a {
 	}
 }
 
+@media (min-width: 1400px) {
+	.navbar-list {
+		font-size: var(--fs-l);
+		gap: 1vw;
+	}
+}
+
 .navbar-list-active-light {
 	background: var(--color-brown-opacity1);
 }
@@ -921,15 +928,21 @@ a {
 	overflow: hidden;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 600px) {
 	.projects-nav-link {
 		font-size: var(--fs-m);
 	}
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1100px) {
 	.projects-nav-link {
 		font-size: var(--fs-ml);
+	}
+}
+
+@media (min-width: 1400px) {
+	.projects-nav-link {
+		font-size: var(--fs-l);
 	}
 }
 
@@ -1274,6 +1287,12 @@ a {
 @media (min-width: 800px) {
 	.experiences-nav-link {
 		font-size: var(--fs-ml);
+	}
+}
+
+@media (min-width: 1400px) {
+	.experiences-nav-link {
+		font-size: var(--fs-l);
 	}
 }
 
