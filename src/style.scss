@@ -1847,42 +1847,36 @@ a {
 }
 
 .full-image-art {
-	height: 12em;
-}
-
-@media (min-width: 400px) {
-	.full-image-art {
-		height: 14em;
-	}
+	height: 20em;
 }
 
 @media (min-width: 600px) {
 	.full-image-art {
-		height: 20em;
+		height: 25em;
 	}
 }
 
 @media (min-width: 800px) {
 	.full-image-art {
-		height: 28em;
+		height: 30em;
 	}
 }
 
 @media (min-width: 1000px) {
 	.full-image-art {
-		height: 40em;
+		height: 35em;
 	}
 }
 
 @media (min-width: 1200px) {
 	.full-image-art {
-		height: 45em;
+		height: 40em;
 	}
 }
 
 @media (min-width: 1400px) {
 	.full-image-art {
-		height: 48em;
+		height: 45em;
 	}
 }
 
