@@ -824,6 +824,13 @@ a {
 	}
 }
 
+@media (min-width: 1600px) {
+	.full-image {
+		width: 41em;
+		height: 52em;
+	}
+}
+
 .close-icon {
 	position: absolute;
 	top: 1em;
