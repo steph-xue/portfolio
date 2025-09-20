@@ -1832,37 +1832,43 @@ a {
 
 @media (min-height: 400px) {
 	.full-image-art {
-		height: 14em;
+		height: 12em;
 	}
 }
 
 @media (min-height: 600px) {
 	.full-image-art {
-		height: 20em;
+		height: 16em;
 	}
 }
 
 @media (min-height: 800px) {
 	.full-image-art {
-		height: 30em;
+		height: 25em;
 	}
 }
 
 @media (min-height: 1000px) {
 	.full-image-art {
-		height: 40em;
+		height: 35em;
 	}
 }
 
 @media (min-width: 1200px) {
 	.full-image-art {
-		height: 50em;
+		height: 40em;
+	}
+}
+
+@media (min-width: 1400px) {
+	.full-image-art {
+		height: 45em;
 	}
 }
 
 @media (min-width: 1600px) {
 	.full-image-art {
-		height: 60em;
+		height: 50em;
 	}
 }
 
