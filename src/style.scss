@@ -918,7 +918,7 @@ a {
 .projects-nav-link {
 	font-size: var(--fs-s);
 	font-weight: var(--fw-med);
-	line-height: 0.5em;
+	line-height: 1.2em;
 	cursor: pointer;
 	padding: 1em;
 	border-radius: 50px;  /* Ensure consistent border-radius */
@@ -934,12 +934,14 @@ a {
 
 @media (min-width: 600px) {
 	.projects-nav-link {
+        line-height: 0.8em;
 		font-size: var(--fs-m);
 	}
 }
 
 @media (min-width: 1100px) {
 	.projects-nav-link {
+        line-height: 0.5em;
 		font-size: var(--fs-ml);
 	}
 }
@@ -1862,7 +1864,7 @@ a {
 
 @media (min-height: 800px) {
 	.full-image-art {
-		height: 30em;
+		height: 35em;
 	}
 }
 
