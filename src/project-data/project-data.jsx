@@ -256,7 +256,7 @@ export default [
         name: "digital-business-card",
         title: "Digital Business Card",
         description: 
-            "The digital business card project is a static website that displays some information about myself and my interests, with links to my email, linkedin, and other social media platforms including twitter, facebook, instagram and github.",
+            "Digital Business Card project is a static site that showcases personal and professional information in a clean, modern format. It presents details about myself and my interests, with direct links to my email and social profiles such as LinkedIn, Twitter, GitHub, Facebook, and Instagram. The layout is designed to be straightforward and visually appealing, putting essential information front and center so that visitors can easily find ways to connect.",
         type: "Personal Project",
         category: "personal",
         languages: "JavaScript, HTML5, CSS3",
@@ -276,7 +276,7 @@ export default [
         name: "travel-journal",
         title: "Travel Journal",
         description: 
-            "The travel journal project is a static website that displays various travel destinations and I have visited in the past. Each destination displays a photo, the location city and country, a link to the location's Google Maps URL, travel dates, and a description with fun facts about the destination.",
+            "Travel Journal is an interactive site that showcases travel destinations visited in the past. Each destination features a photo, the city and country name, travel dates, a link to its Google Maps location, and a description with interesting facts. Notes are displayed in order of creation, encouraging visual exploration through imagery and geographic context. The layout is clean and visually engaging, helping visitors quickly scan places, dates, and highlights.",
         type: "Personal Project",
         category: "personal",
         languages: "JavaScript, HTML5, CSS3",
@@ -296,7 +296,7 @@ export default [
         name: "tenzies-game",
         title: "Tenzies Game",
         description: 
-            "The tenzies game is a dynamic web application where players aim to roll matching dice as quickly as possible. The player who gets all dice on the same number and yells 'Tenzi!' the fastest is the winner. The game features a live timer and high score tracking for competitive play. You can play against other people or play against yourself and try to beat your best time. Clicking on each die will freeze it at its current value between rolls and clicking on the roll button will re-roll the unheld dice. ",
+            "The tenzies game is a dynamic web application where players aim to roll matching dice as quickly as possible. The player who gets all dice on the same number and yells 'Tenzi!' the fastest is the winner. The game features a live timer and high score tracking for competitive play. You can play against other people or play against yourself and try to beat your best time. Clicking on each die will freeze it at its current value between rolls and clicking on the roll button will re-roll the unheld dice. The interface clearly distinguishes between held and unheld dice, making gameplay intuitive and visually engaging. The application demonstrates interactive state management and real-time score tracking within a simple game framework.",
         type: "Personal Project",
         category: "personal",
         languages: "JavaScript, HTML5, CSS3",
@@ -396,7 +396,7 @@ export default [
         name: "mentra",
         title: "Mentra",
         description: 
-            "Mentra is an AI-powered journal chatbot for your personal well being - Mentor meets mantra. This full-stack web application was built in a 24-hour hackathon and revolutionizes the traditional journaling experience by integrating intelligent insights and advice tailored to the user's needs. It allows users to log their thoughts, emotions, and experiences while receiving thoughtful, insightful, or actionable responses that support self-reflection and encourage personal growth and well-being integrating the Google Gemini 2.0 Flash Generative AI API for personalized user responses.",
+            "Mentra is an AI-powered journal chatbot for your personal well being – Mentor meets mantra. This full-stack web application was built in a 24-hour hackathon and revolutionizes the traditional journaling experience by integrating intelligent insights and advice tailored to the user's needs. It allows users to log their thoughts, emotions, and experiences while receiving thoughtful, insightful, or actionable responses that support self-reflection and encourage personal growth and well-being, integrating the Google Gemini 2.0 Flash Generative AI API for personalized user responses. The platform stores past journal entries so users can revisit earlier reflections and monitor changes in mood or perspective over time. Its design emphasizes a simple, conversational interface that makes journaling more approachable and engaging.",
         type: "Hackathon Project - cmd-f Hackathon 2025",
         category: "hackathon",
         languages: "Python, JavaScript, HTML5, CSS3",
