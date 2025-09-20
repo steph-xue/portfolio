@@ -35,9 +35,10 @@
 	--fs-xl: 1.5rem;
     --fs-l: 1.2rem;
 	--fs-ml: 1rem;
-    --fs-m: 0.8rem;
-    --fs-s: 0.7rem;
-    --fs-xs: 0.65rem;
+    --fs-m: 0.9rem;
+    --fs-s: 0.8rem;
+    --fs-xs: 0.7rem;
+    --fs-xxs: 0.65rem;
 
 	--gradient-light: linear-gradient(
 	-45deg, 
@@ -74,8 +75,8 @@
         --fs-xl: 1.5rem;
         --fs-l: 1.1rem;
         --fs-ml: 1rem;
-        --fs-m: 0.8rem;
-        --fs-s: 0.6rem;
+        --fs-s: 0.8rem;
+        --fs-xs: 0.6rem;
     }
 }
 
@@ -95,7 +96,7 @@ html, body {
 
 body {
     font-family: var(--ff-primary);
-    font-size: var(--fs-m);
+    font-size: var(--fs-s);
     line-height: 1.8;
 }
 
@@ -157,7 +158,7 @@ a {
 
 .navbar-list {
 	font-weight: var(--fw-med);
-    font-size: var(--fs-xs);
+    font-size: var(--fs-xxs);
 	list-style: none;
     display: flex;
 	gap: -0.2vw;
@@ -178,7 +179,7 @@ a {
 
 @media (min-width: 600px) {
 	.navbar-list {
-		font-size: var(--fs-m);
+		font-size: var(--fs-s);
 		gap: 0.6vw;
 		padding-right: 2em;
 		padding-left: 1em;
@@ -349,7 +350,7 @@ a {
 }
 
 .homepage-description {
-    font-size: var(--fs-m);
+    font-size: var(--fs-s);
 	text-align: center;
 	width: 24em;
 	margin-top: 12vh;
@@ -580,7 +581,7 @@ a {
 }
 
 .travel-title, .food-title, .cat-title {
-	font-size: var(--fs-m);
+	font-size: var(--fs-s);
 	font-weight: var(--fw-bold);
 	text-align: center;
 	margin-top: 1em;
@@ -716,12 +717,12 @@ a {
 }
 
 .refresh-icon {
-	font-size: var(--fs-s);
+	font-size: var(--fs-xs);
 	padding-right: 0.5em;
 }
 
 .refresh-button {
-	font-size: var(--fs-s);
+	font-size: var(--fs-xs);
 	align-self: center;
 	color: var(--color-white);
 	border-radius: 50px;
@@ -736,12 +737,12 @@ a {
 
 @media (min-width: 800px) {
 	.refresh-icon {
-		font-size: var(--fs-m);
+		font-size: var(--fs-s);
 	}
 
 	.refresh-button {
 		padding-block: 0.5em;
-		font-size: var(--fs-m);
+		font-size: var(--fs-s);
 	}
 }
 
@@ -917,7 +918,7 @@ a {
 }
 
 .projects-nav-link {
-	font-size: var(--fs-s);
+	font-size: var(--fs-xs);
 	font-weight: var(--fw-med);
 	line-height: 1.2em;
 	cursor: pointer;
@@ -936,7 +937,7 @@ a {
 @media (min-width: 600px) {
 	.projects-nav-link {
         line-height: 0.8em;
-		font-size: var(--fs-m);
+		font-size: var(--fs-s);
 	}
 }
 
@@ -1072,11 +1073,11 @@ a {
 }
 
 .project-languages, .project-additional-info1, .project-additional-info2 {
-	font-size: var(--fs-s);
+	font-size: var(--fs-xs);
 }
 
 .project-github, .project-link, .devpost-link {
-	font-size: var(--fs-s);
+	font-size: var(--fs-xs);
 }
 
 .project-languages, .project-additional-info2 {
@@ -1099,11 +1100,11 @@ a {
 	}
 
 	.project-languages, .project-additional-info1, .project-additional-info2 {
-		font-size: var(--fs-m);
+		font-size: var(--fs-s);
 	}
 	
 	.project-github, .project-link, .devpost-link {
-		font-size: var(--fs-s);
+		font-size: var(--fs-xs);
 	}
 }
 
@@ -1117,7 +1118,7 @@ a {
 	}
 
 	.project-description, .project-languages, .project-additional-info1, .project-additional-info2, .project-github, .project-link, .devpost-link {
-		font-size: var(--fs-m);
+		font-size: var(--fs-s);
 	}
 }
 
@@ -1131,7 +1132,7 @@ a {
 	}
 
 	.project-description, .project-languages, .project-additional-info1, .project-additional-info2, .project-github, .project-link, .devpost-link {
-		font-size: var(--fs-ml);
+		font-size: var(--fs-m);
 	}
 }
 
@@ -1291,7 +1292,7 @@ a {
 }
 
 .experiences-nav-link {
-	font-size: var(--fs-s);
+	font-size: var(--fs-xs);
 	font-weight: var(--fw-med);
 	line-height: 1.2em;
 	cursor: pointer;
@@ -1303,7 +1304,7 @@ a {
 
 @media (min-width: 400px) {
 	.experiences-nav-link {
-		font-size: var(--fs-s);
+		font-size: var(--fs-xs);
 	}
 }
 
@@ -1526,13 +1527,13 @@ a {
 }
 
 .education-university-location {
-	font-size: var(--fs-m);
+	font-size: var(--fs-s);
 	margin: 0;
 	padding: 0;
 }
 
 .location-icon {
-	font-size: var(--fs-m);
+	font-size: var(--fs-s);
 	margin-right: 0.5em;
 }
 
@@ -1708,7 +1709,7 @@ a {
 }
 
 .experience-title {
-	font-size: var(--fs-m);
+	font-size: var(--fs-s);
 	font-weight: var(--fw-med);
 	margin: 0 0 0 0;
 }
@@ -1924,7 +1925,7 @@ a {
 }
 
 .contact-description {
-    font-size: var(--fs-m);
+    font-size: var(--fs-s);
 	text-align: center;
 	width: 30em;
 	margin-bottom: 3em;
@@ -2035,7 +2036,7 @@ a {
 }
 
 .head-contact-label {
-	font-size: var(--fs-m);
+	font-size: var(--fs-s);
 	font-weight: var(--fw-med);
 }
 
@@ -2046,7 +2047,7 @@ a {
 }
 
 .sm-contact-label {
-	font-size: var(--fs-m);
+	font-size: var(--fs-s);
 	font-weight: var(--fw-thin);
 }
 
@@ -2138,7 +2139,7 @@ a {
 }
 
 .contact-form-label {
-	font-size: var(--fs-m);
+	font-size: var(--fs-s);
 	font-weight: var(--fw-med);
 	margin-top: 1em;
 	text-align: left;
@@ -2241,7 +2242,7 @@ a {
 }
 
 .copyright {
-	font-size: var(--fs-s);
+	font-size: var(--fs-xs);
 	letter-spacing: 0.1em;
 }
 
