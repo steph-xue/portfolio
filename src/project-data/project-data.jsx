@@ -8,7 +8,7 @@ export default [
         type: "Academic Project",
         category: "academic",
         languages: "Python, JavaScript, HTML5, CSS3",
-        additionalInfo: "Django, Bootstrap, SQLite",
+        additionalInfo: "Django, Bootstrap4, SQLite",
         github: "https://github.com/steph-xue/wiki",
         activeLink: "",
         devpostLink: "",
