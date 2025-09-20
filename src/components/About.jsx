@@ -72,12 +72,15 @@ function About(props) {
                 <div className="about-container-1-text">
                     <h2 className="about-subtitle">I'm a currently a UBC Bachelor of Computer Science (BCS) student based in Vancouver, BC, Canada.</h2>
                     <p className="about-description">
-                        As a UBC Bachelor of Computer Science (BCS) student with a background in healthcare as a pharmacist,
-                        I have a strong enthusiasm for software development, UX/UI design, artificial intelligence, healthcare innovation, 
-                        and creative problem solving. I am passionate about leveraging technology to help streamline processes, automate tasks, 
-                        bridge gaps, and develop innovative solutions to address real-world problems. As a life-long learner, I am always excited
-                        to explore new ideas, expand my skillset, and push the boundaries of my knowledge. I thrive on challenging myself through
-                        pursing new projects and collaborating with like-minded individuals to foster both personal and professional growth.
+                        As a UBC Bachelor of Computer Science (BCS) student with a background in healthcare as a pharmacist, I have a strong enthusiasm
+                        for full-stack software development and system architecture, artificial intelligence, cloud computing, UX/UI design, and creative
+                        problem solving. I am currently interning as a Software Developer on the Medical Device Software UI team at Kardium, where I am
+                        implementing tools and building automated test suites in Java to help streamline feature development for the Globe Pulsed Field 
+                        System, an advanced catheter technology designed to treat atrial fibrillation through high-definition mapping, single-shot
+                        pulmonary vein isolation, and atrial ablation. I am passionate about leveraging technology to help streamline processes, 
+                        automate tasks, bridge gaps, and develop innovative solutions to address real-world problems. As a life-long learner, I am 
+                        always excited to explore new ideas, expand my skillset, and push the boundaries of my knowledge. I thrive on challenging myself
+                        through pursing new projects and collaborating with like-minded individuals to foster both personal and professional growth.
                     </p>
                 </div>
             </div>
@@ -93,7 +96,7 @@ function About(props) {
                     to leverage technology in ways that can help address real-world challenges and make a meaningful impact in our society. I am
                     motivated by the idea that thoughtful innovation can empower individuals and communities to achieve more and overcome existing
                     barriers. By blending my past experiences, problem-solving skills, technical expertise, and creativity, I hope to create systems
-                    that inspire meaningful change, enhance efficiency, and contribute to a more collaborative future.
+                    that can enhance operational efficiency and inspire meaningful change.
                 </p>
             </div>
 
@@ -102,16 +105,15 @@ function About(props) {
                 <img src="/images/profile-cat.png" alt="profile-cat" className="profile-cat-image" />
                 <div className="about-container-3-text">
                     <p className="about-interests">
-                        In my downtime, you will often find me trying to craft the perfect glass of iced coffee or a matcha  
-                        latte, listening to and playing music, immersing myself in a cozy video game, and spending quality time 
-                        with my loved ones. I also enjoy visiting new coffee shops, traveling, and uncovering hidden gems 
-                        both in and out of the city, always in search of inspiration and new experiences. My creativity also 
-                        finds its expression in photography, design, and digital art. I love capturing memories and the beauty 
-                        of the world around me in photos, whether that be food, scenery, or cherished moments with loved ones. 
-                        I also enjoy art and design as a medium for bringing my ideas to life, and have been trying to learn and 
-                        experiment with new digital art styles and techniques. Additionally, I have an adorable cat named Rhea who is 
-                        an American Shorthair and Maine Coon mix. She has an endearing and loving personality, who loves to spending
-                        her time cuddling, taking naps, snacking on yummy treats, and basking in the sun.
+                        In my downtime, you will often find me trying to craft the perfect glass of iced coffee or a matcha latte, listening to and
+                        playing music, immersing myself in a cozy video game, and spending quality time with my loved ones. I also enjoy visiting
+                        new coffee shops, traveling, and uncovering hidden gems both in and out of the city, always in search of inspiration and 
+                        new experiences. My creativity also finds its expression in photography, design, and digital art. I love capturing memories
+                        and the beauty of the world around me in photos, whether that be food, scenery, or cherished moments with loved ones. I also
+                        enjoy art and design as a medium for bringing my ideas to life, and have been trying to learn and experiment with new digital
+                        art styles and techniques. Additionally, I have an adorable cat named Rhea who is an American Shorthair and Maine Coon mix. 
+                        She has an endearing and loving personality, who loves to spending her time cuddling, taking naps, snacking on yummy treats,
+                        and basking in the sun.
                     </p>
                 </div>
             </div>
