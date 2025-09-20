@@ -36,7 +36,7 @@ export default [
         name: "email",
         title: "Email",
         description: 
-            "The Email project delivers a full-featured web mailbox simulator: users can log in or register, browse their inbox, open individual messages, send new emails, and archive or unarchive correspondences. The interface organizes mailboxes like “Inbox,” “Sent,” and “Archived,” and messages are ordered so the newest appear first. When viewing an email, the sender, recipients, subject, content, and timestamp are all clearly displayed, and users can reply or toggle read/unread status.",
+            "The Email project delivers a full-featured web mailbox simulator where users can log in or register, browse their inbox, open individual messages, send new emails, and archive or unarchive correspondences. The interface organizes mailboxes into Inbox, Sent, and Archived, with messages ordered so the newest appear first. When viewing an email, the sender, recipients, subject, content, and timestamp are clearly displayed, and users can reply or toggle read and unread status.",
         type: "Academic Project",
         category: "academic",
         languages: "Python, JavaScript, HTML5, CSS3",
@@ -84,7 +84,7 @@ export default [
         name: "network",
         title: "Network",
         description: 
-            "The Network project is a social-media style web application where users can engage with posts and each other. Anyone can explore all posts sorted by newest first, view individual user profiles, and see how many followers and followees each person has. Once logged in, users can create posts of their own, edit their past posts, and interact with others’ content by liking or disliking (and removing those reactions). They can also follow or unfollow other users, and filter their feed to see only posts from people they follow. Pagination is used throughout to keep long lists manageable.",
+            "The Network project is a social-media style web application where users can engage with posts and each other. Anyone can explore all posts sorted by newest first, view individual user profiles, and see how many followers and followers each person has. Once logged in, users can create posts, edit past posts, and interact with others’ content by liking or disliking. They can also follow or unfollow other users and filter their feed to see only posts from people they follow. Pagination is used throughout to keep long lists manageable.",
         type: "Academic Project",
         category: "academic",
         languages: "Python, JavaScript, HTML5, CSS3",
@@ -128,7 +128,7 @@ export default [
         name: "auctions",
         title: "Auctions",
         description: 
-            "The Auctions project is an online marketplace platform where registered users can list items for auction, place bids, and engage via comments. Visitors can browse active auctions sorted by title, view detailed pages for each listing (with image, description, category, owner info, current bid, and comment history), and add items to a personal watchlist. Logged-in users gain extra capabilities: creating new auction listings, closing one’s own auctions, seeing auctions they’ve won, tracking bids they hold, and managing their own listings (active or inactive). Auction listings support features like bidding higher than the current highest bid, viewable bid ownership, and clear displays of listings.",
+            "The Auctions project is an online marketplace platform where registered users can list items for auction, place bids, and engage through comments. Visitors can browse active auctions sorted by title, view detailed pages for each listing with image, description, category, owner information, current bid, and comment history, and add items to a personal watchlist. Logged-in users gain additional capabilities such as creating new auction listings, closing their own auctions, viewing auctions they have won, tracking bids they hold, and managing their active or inactive listings. Auction listings support features like bidding higher than the current highest bid, viewable bid ownership, and clear displays of listing details.",
         type: "Academic Project",
         category: "academic",
         languages: "Python, JavaScript, HTML5, CSS3",
@@ -208,7 +208,7 @@ export default [
         name: "meme-generator",
         title: "Meme Generator",
         description: 
-            "The meme generator project is a dynamic web application where the user can generate their own meme. When the user clicks the 'get a new meme image' button, a new random meme image is retrieved to be displayed on the user interface of the web application. Then the user can type in their choice of top and bottom text to be displayed on the meme image. The meme generator makes a call to the Imgflip API 'https://api.imgflip.com/get_memes' to get a selection of memes.",
+            "The Meme Generator project is a dynamic web application where the user can generate their own meme. When the user clicks the 'get a new meme image' button, a new random meme image is retrieved to be displayed on the user interface of the web application. Then the user can type in their choice of top and bottom text to be displayed on the meme image. The meme generator makes a call to the Imgflip API 'https://api.imgflip.com/get_memes' to get a selection of memes.",
         type: "Academic Project",
         category: "academic",
         languages: "JavaScript, HTML5, CSS3",
@@ -256,7 +256,7 @@ export default [
         name: "digital-business-card",
         title: "Digital Business Card",
         description: 
-            "Digital Business Card project is a static site that showcases personal and professional information in a clean, modern format. It presents details about myself and my interests, with direct links to my email and social profiles such as LinkedIn, Twitter, GitHub, Facebook, and Instagram. The layout is designed to be straightforward and visually appealing, putting essential information front and center so that visitors can easily find ways to connect.",
+            "The Digital Business Card project is a static site that showcases personal and professional information in a clean, modern format. It presents details about myself and my interests, with direct links to my email and social profiles such as LinkedIn, Twitter, GitHub, Facebook, and Instagram. The layout is designed to be straightforward and visually appealing, putting essential information front and center so that visitors can easily find ways to connect.",
         type: "Personal Project",
         category: "personal",
         languages: "JavaScript, HTML5, CSS3",
@@ -296,7 +296,7 @@ export default [
         name: "tenzies-game",
         title: "Tenzies Game",
         description: 
-            "The tenzies game is a dynamic web application where players aim to roll matching dice as quickly as possible. The player who gets all dice on the same number and yells 'Tenzi!' the fastest is the winner. The game features a live timer and high score tracking for competitive play. You can play against other people or play against yourself and try to beat your best time. Clicking on each die will freeze it at its current value between rolls and clicking on the roll button will re-roll the unheld dice. The interface clearly distinguishes between held and unheld dice, making gameplay intuitive and visually engaging. The application demonstrates interactive state management and real-time score tracking within a simple game framework.",
+            "The Tenzies Game is a dynamic web application where players aim to roll matching dice as quickly as possible. The player who gets all dice on the same number and yells 'Tenzi!' the fastest is the winner. The game features a live timer and high score tracking for competitive play. You can play against other people or play against yourself and try to beat your best time. Clicking on each die will freeze it at its current value between rolls and clicking on the roll button will re-roll the unheld dice. The interface clearly distinguishes between held and unheld dice, making gameplay intuitive and visually engaging. The application demonstrates interactive state management and real-time score tracking within a simple game framework.",
         type: "Personal Project",
         category: "personal",
         languages: "JavaScript, HTML5, CSS3",
@@ -328,7 +328,7 @@ export default [
         name: "quizzical",
         title: "Quizzical",
         description: 
-            "The quizzical project generates random quiz questions for the player to answer. The player can choose their desired level of difficulty of quiz questions (easy, medium, hard) and a category of questions (from geography to pop culture). Then a set of 5 questions will be randomly generated for the player to answer (multiple choice or true/false). The player can then click on the 'check answers' button and the quiz will calculate their total score and display which questions the player had answered correctly and incorrectly. The Open Trivia Database API 'https://opentdb.com/api_config.php' was used to retrieve an array of random quiz questions from their database depending on the type of difficulty and category of questions selected. ",
+            "The Quizzical Project generates random quiz questions for the player to answer. The player can choose their desired level of difficulty of quiz questions (easy, medium, hard) and a category of questions (from geography to pop culture). Then a set of 5 questions will be randomly generated for the player to answer (multiple choice or true/false). The player can then click on the 'check answers' button and the quiz will calculate their total score and display which questions the player had answered correctly and incorrectly. The Open Trivia Database API 'https://opentdb.com/api_config.php' was used to retrieve an array of random quiz questions from their database depending on the type of difficulty and category of questions selected. ",
         type: "Personal Project",
         category: "personal",
         languages: "JavaScript, HTML5, CSS3",
@@ -508,7 +508,7 @@ export default [
         name: "arduino",
         title: "Arduino Autonomous Robot",
         description: 
-            "This project involved the design and development of an Arduino-powered autonomous robot capable of solving mazes and completing goal-finding tasks. The robot utilized photoresistors for line detection, applying threshold filtering and averaging techniques to ensure smooth path following. For wall-following, ultrasonic sensors were paired with PID control and Bayesian probability modeling, enabling accurate prediction of corners and responsive navigation in complex environments. A 360° object detection system was implemented using ultrasonic scanning and probabilistic modeling to locate and approach target objects within a bounded arena. Averaging filters were applied to reduce sensor noise, and multiple sensing strategies were combined into a unified control framework. The integration of line-following, wall-following, and object-detection modules allowed for adaptive transitions between navigation modes during a model tournament.",
+            "This project involves the design and development of an Arduino-powered autonomous robot capable of solving mazes and completing goal-finding tasks. The robot utilized photoresistors for line detection, applying threshold filtering and averaging techniques to ensure smooth path following. For wall-following, ultrasonic sensors were paired with PID control and Bayesian probability modeling, enabling accurate prediction of corners and responsive navigation in complex environments. A 360° object detection system was implemented using ultrasonic scanning and probabilistic modeling to locate and approach target objects within a bounded arena. Averaging filters were applied to reduce sensor noise, and multiple sensing strategies were combined into a unified control framework. The integration of line-following, wall-following, and object-detection modules allowed for adaptive transitions between navigation modes during a model tournament.",
         type: "Academic Project",
         category: "academic",
         languages: "C++",
@@ -584,7 +584,7 @@ export default [
         name: "portfolio",
         title: "My Personal Portfolio Website",
         description: 
-            "My personal portfolio website is a component-first, dynamic web application crafted from scratch to showcase personal projects, technical skills, professional experience, and digital artwork. Every element of my website was intentionally designed and developed to reflect my own style, individuality, and creativity. The site features a variety of interactive elements including a dark/light mode toggle, a randomized image gallery showcasing my photography, multiple project slide show carousels, an animated console-style homepage, and a subtle animated gradient background that provide a more engaging user experience. The randomized photography gallery in the about me section allows the user to view a random selection of travel, food, and pet photography. The image carousels in the projects section allow users to scroll through project images, open images in full screen, and view them in a slide show mode.",
+            "My Personal Portfolio Website is a component-first, dynamic web application crafted from scratch to showcase personal projects, technical skills, professional experience, and digital artwork. Every element of my website was intentionally designed and developed to reflect my own style, individuality, and creativity. The site features a variety of interactive elements including a dark/light mode toggle, a randomized image gallery showcasing my photography, multiple project slide show carousels, an animated console-style homepage, and a subtle animated gradient background that provide a more engaging user experience. The randomized photography gallery in the about me section allows the user to view a random selection of travel, food, and pet photography. The image carousels in the projects section allow users to scroll through project images, open images in full screen, and view them in a slide show mode.",
         type: "Personal Project",
         category: "personal",
         languages: "JavaScript, HTML5, CSS3",
