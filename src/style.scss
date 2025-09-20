@@ -825,6 +825,10 @@ a {
 }
 
 @media (min-width: 1600px) {
+    .full-image-title {
+	margin-top: 0.2em;
+    }
+
 	.full-image {
 		width: 40em;
 		height: 51em;
