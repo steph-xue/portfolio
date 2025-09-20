@@ -128,7 +128,7 @@ export default [
         name: "auctions",
         title: "Auctions",
         description: 
-            "The auctions project allows the user to view and create new auction listings, as well as bid for auctions in a web-based auction application. The user can login, logout, or register for a new user account for more functionality with the application.",
+            "The Auctions project is an online marketplace platform where registered users can list items for auction, place bids, and engage via comments. Visitors can browse active auctions sorted by title, view detailed pages for each listing (with image, description, category, owner info, current bid, and comment history), and add items to a personal watchlist. Logged-in users gain extra capabilities: creating new auction listings, closing one’s own auctions, seeing auctions they’ve won, tracking bids they hold, and managing their own listings (active or inactive). Auction listings support features like bidding higher than the current highest bid, viewable bid ownership, and clear displays of listings.",
         type: "Academic Project",
         category: "academic",
         languages: "Python, JavaScript, HTML5, CSS3",
@@ -184,7 +184,7 @@ export default [
         name: "react-info",
         title: "React Info",
         description: 
-            "The react info project is a dynamic website that displays some fun facts about React. The user can use the toggle mode button on the top right hand side to switch between light and dark modes.",
+            "React Info is an interactive web application that presents a collection of fun facts about React. Built with a dynamic front-end structure, the app responds instantly to user interactions, such as switching between light and dark display modes with a toggle in the header. The content updates seamlessly without reloading the page, reflecting the responsiveness and state-driven behavior of a modern single-page application.",
         type: "Academic Project",
         category: "academic",
         languages: "JavaScript, HTML5, CSS3",
@@ -228,7 +228,7 @@ export default [
         name: "react-notes",
         title: "React Notes",
         description: 
-            "The react notes project is a a dynamic notes web application. The user can create new notes, select notes to view, write and update the note (in markdown), preview notes (in html), as well as delete notes. The web application contains a markdown editor and markdown to html converter, which allows the user to toggle between 'write' and 'preview' tabs to write content in markdown and preview the content in html.",
+            "React Notes is a dynamic note-taking application that allows users to write, edit, preview, and delete notes in Markdown format. It features an integrated editor and a Markdown-to-HTML converter, enabling seamless toggling between the write tab for composing content and the preview tab for instantly viewing the rendered output. Notes are saved locally, ensuring persistence between sessions without relying on a remote server. A sidebar provides easy navigation, allowing users to create new notes or select existing ones to view or update. Notes are automatically ordered with the most recently created or edited displayed first, and each entry clearly shows its title, derived from the content, along with the body text.",
         type: "Academic Project",
         category: "academic",
         languages: "JavaScript, HTML5, CSS3",
