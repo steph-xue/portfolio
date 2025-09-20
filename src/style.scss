@@ -642,6 +642,10 @@ a {
 }
 
 @media (min-width: 800px) {
+    .travel-title, .food-title, .cat-title {
+        font-size: var(--fs-ml);
+    }
+
 	.travel-image, .food-image, .cat-image {
 		width: 8em;
 	}
@@ -679,6 +683,18 @@ a {
 }
 
 @media (min-width: 1300px) {
+    .photography-gallery-title {
+        font-size: var(--fs-xxl);
+    }
+
+    .gallery-description {
+        font-size: var(--fs-ml);
+    }
+
+    .travel-title, .food-title, .cat-title {
+        font-size: var(--fs-l);
+    }
+
 	.travel-image, .food-image, .cat-image {
 		width: 10em;
 	}
@@ -750,8 +766,8 @@ a {
 	.refresh-button {
 		padding-block: 1em;
 		margin-top: 1em;
+        font-size: var(--fs-ml);
 	}
-	
 }
 
 .full-image-container {
