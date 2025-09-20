@@ -506,7 +506,7 @@ export default [
     {
         id: 15,
         name: "arduino",
-        title: "Arduino",
+        title: "Arduino Autonomous Robot",
         description: 
             "This project involved the design and development of an Arduino-powered autonomous robot capable of solving mazes and completing goal-finding tasks. The robot utilized photoresistors for line detection, applying threshold filtering and averaging techniques to ensure smooth path following. For wall-following, ultrasonic sensors were paired with PID control and Bayesian probability modeling, enabling accurate prediction of corners and responsive navigation in complex environments. A 360° object detection system was implemented using ultrasonic scanning and probabilistic modeling to locate and approach target objects within a bounded arena. Averaging filters were applied to reduce sensor noise, and multiple sensing strategies were combined into a unified control framework. The integration of line-following, wall-following, and object-detection modules allowed for adaptive transitions between navigation modes during a model tournament.",
         type: "Academic Project",
