@@ -1829,6 +1829,7 @@ a {
 }
 
 .contact-description {
+    font-size: var(--fs-m);
 	text-align: center;
 	width: 30em;
 	margin-bottom: 3em;
@@ -1838,6 +1839,7 @@ a {
 
 @media (min-width: 600px) {
 	.contact-description{
+        font-size: var(--fs-ml);
 		width: 38em;
 	}
 } 
@@ -1890,7 +1892,7 @@ a {
 
 @media (min-width: 800px) {
 	.contact-buttons {
-		width: 32em;
+		width: 34em;
 	}
 }
 
@@ -1938,24 +1940,24 @@ a {
 }
 
 .head-contact-label {
-	font-size: var(--fs-s);
+	font-size: var(--fs-m);
 	font-weight: var(--fw-med);
 }
 
-@media (min-width: 400px) {
+@media (min-width: 800px) {
 	.head-contact-label {
-		font-size: var(--fs-m);
+		font-size: var(--fs-l);
 	}
 }
 
 .sm-contact-label {
-	font-size: var(--fs-s);
+	font-size: var(--fs-m);
 	font-weight: var(--fw-thin);
 }
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
 	.sm-contact-label {
-		font-size: var(--fs-m);
+		font-size: var(--fs-ml);
 	}
 }
 
@@ -2017,12 +2019,26 @@ a {
 }
 
 @media (min-width: 800px) {
-	.contact-form-input-container {
+	.contact-form-title {
+        font-size: var(--fs-xl);
+    }
+
+    .contact-form-input-container {
 		width: 40em;
 	}
 
 	.contact-line {
 		width: 30em;
+	}
+}
+
+@media (min-width: 1400px) {
+    .contact-form-input-container {
+		width: 50em;
+	}
+
+	.contact-line {
+		width: 50em;
 	}
 }
 
@@ -2064,6 +2080,20 @@ a {
 .arrow-icon {
 	font-size: 1.2rem;
 	margin-left: 0.8em;
+}
+
+@media (min-width: 800px) {
+	.contact-form-label {
+        font-size: var(--fs-l);
+    }
+
+    .contact-form-input {
+		font-size: var(--fs-l);
+	}
+
+	.contact-form-button {
+		font-size: var(--fs-l);
+	}
 }
 
 
