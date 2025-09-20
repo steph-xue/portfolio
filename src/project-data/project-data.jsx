@@ -505,6 +505,26 @@ export default [
     },
     {
         id: 15,
+        name: "arduino",
+        title: "Arduino",
+        description: 
+            "This project involved the design and development of an Arduino-powered autonomous robot capable of solving mazes and completing goal-finding tasks. The robot utilized photoresistors for line detection, applying threshold filtering and averaging techniques to ensure smooth path following. For wall-following, ultrasonic sensors were paired with PID control and Bayesian probability modeling, enabling accurate prediction of corners and responsive navigation in complex environments. A 360° object detection system was implemented using ultrasonic scanning and probabilistic modeling to locate and approach target objects within a bounded arena. Averaging filters were applied to reduce sensor noise, and multiple sensing strategies were combined into a unified control framework. The integration of line-following, wall-following, and object-detection modules allowed for adaptive transitions between navigation modes during a model tournament.",
+        type: "Academic Project",
+        category: "academic",
+        languages: "C++",
+        additionalInfo: "Arduino IDE, photoresistors, ultrasonic sensors, PID control, Bayesian probability modeling",
+        github: "",
+        activeLink: "",
+        devpostLink: "",
+        images: [
+            {
+                original: "/images/projects/arduino/arduino.jpeg",
+                thumbnail: "/images/projects/arduino/arduino.jpeg",
+            }
+        ]
+    },
+    {
+        id: 16,
         name: "primary-care-clinic",
         title: "Primary Care Clinic Application",
         description: 
@@ -560,7 +580,7 @@ export default [
         ]
     },
     {
-        id: 16,
+        id: 17,
         name: "portfolio",
         title: "My Personal Portfolio Website",
         description: 

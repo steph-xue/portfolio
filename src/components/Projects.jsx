@@ -53,15 +53,17 @@ function Projects(props) {
                             {project.languages}
                         </p>
                         <div>
-                            <p className="project-additional-info1"><strong>Frameworks/Dependencies/Databases/APIs/Cloud Services: </strong></p>
+                            <p className="project-additional-info1"><strong>Frameworks/Dependencies/Tools/Databases/APIs/Cloud Services: </strong></p>
                             <p className="project-additional-info2">{project.additionalInfo}</p>
                         </div>
-                        <p className="project-github">
-                            <strong>Github Link: </strong>
-                            <a className={props.darkMode ? "github-active-link dark-github" : "github-active-link light-github"} href={project.github}>
-                                {project.github}
-                            </a>
-                        </p>
+                        { project.github &&
+                            <p className="project-github">
+                                <strong>Github Link: </strong>
+                                <a className={props.darkMode ? "github-active-link dark-github" : "github-active-link light-github"} href={project.github}>
+                                    {project.github}
+                                </a>
+                            </p>
+                        }
                         { project.activeLink &&
                             <p className="project-link">
                                 <strong>Try It Out Here: </strong>
