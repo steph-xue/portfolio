@@ -4,7 +4,7 @@ export default [
         name: "wiki",
         title: "Wiki Search",
         description: 
-            "The wiki project allows the user to view, search, edit, and create encyclopedia entries on a wikipedia-like web application.",
+            "The Wiki Search project is a web-based encyclopedia tool that allows users to view, search, and manage entries in a straightforward, Wikipedia-like format. It supports browsing all available pages through an index, running searches that return both exact and partial matches, and exploring content through a random entry feature. Users can contribute by creating new pages or editing existing ones, ensuring that information remains flexible and up to date. A clean, minimal interface organizes navigation links, search results, and page content in a way that emphasizes readability and ease of use.",
         type: "Academic Project",
         category: "academic",
         languages: "Python, JavaScript, HTML5, CSS3",
@@ -36,7 +36,7 @@ export default [
         name: "email",
         title: "Email",
         description: 
-            "The email project allows the user to view their mailbox and send emails in a email-based web application. The user can login, logout, or register for a new user account to send and view emails.",
+            "The Email project delivers a full-featured web mailbox simulator: users can log in or register, browse their inbox, open individual messages, send new emails, and archive or unarchive correspondences. The interface organizes mailboxes like “Inbox,” “Sent,” and “Archived,” and messages are ordered so the newest appear first. When viewing an email, the sender, recipients, subject, content, and timestamp are all clearly displayed, and users can reply or toggle read/unread status.",
         type: "Academic Project",
         category: "academic",
         languages: "Python, JavaScript, HTML5, CSS3",
@@ -84,7 +84,7 @@ export default [
         name: "network",
         title: "Network",
         description: 
-            "The network project allows the user to view, create, like, and dislike posts, as well as follow other users in a social media based networking web application. The user can login, logout, or register for a new user account for more functionality with the application.",
+            "The Network project is a social-media style web application where users can engage with posts and each other. Anyone can explore all posts sorted by newest first, view individual user profiles, and see how many followers and followees each person has. Once logged in, users can create posts of their own, edit their past posts, and interact with others’ content by liking or disliking (and removing those reactions). They can also follow or unfollow other users, and filter their feed to see only posts from people they follow. Pagination is used throughout to keep long lists manageable.",
         type: "Academic Project",
         category: "academic",
         languages: "Python, JavaScript, HTML5, CSS3",
