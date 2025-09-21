@@ -1619,7 +1619,7 @@ a {
 }
 
 @media (min-width: 1200px) {
-    .education-university-name, .location-icon, .education-university-location {
+    .education-university-name{
         font-size: var(--fs-xl);
     }
 
@@ -1627,7 +1627,7 @@ a {
         font-size: var(--fs-l);
     }
 
-	.education-text{
+	.education-text, .location-icon, .education-university-location {
 		font-size: var(--fs-ml);
 	}
 }
