@@ -147,16 +147,16 @@ function Experiences(props) {
                 </h2>
                 <div className="skills-text">
                     <div className="skills-category skills-languages">
-                        <h3 className="skills-category-title">Programming Languages</h3>
-                        <p className="skills-category-items">Python, Java, JavaScript, TypeScript, C++, C</p>
+                        <h3 className="skills-category-title">Languages</h3>
+                        <p className="skills-category-items">Python, Java, JavaScript, TypeScript, C++, C, HTML5, CSS3</p>
                     </div>
                     <div className="skills-category skills-frontend">
                         <h3 className="skills-category-title">Frontend</h3>
-                        <p className="skills-category-items">React.js, Vite, Java Swing, Bootstrap4, HTML5, CSS3</p>
+                        <p className="skills-category-items">React.js, React Router, Vite, Bootstrap4, Java Swing</p>
                     </div>
                     <div className="skills-category skills-backend">
                         <h3 className="skills-category-title">Backend</h3>
-                        <p className="skills-category-items">Django, Flask</p>
+                        <p className="skills-category-items">Node.js, Express,js, Django, Flask</p>
                     </div>
                     <div className="skills-category skills-mobile">
                         <h3 className="skills-category-title">Mobile</h3>
@@ -166,13 +166,21 @@ function Experiences(props) {
                         <h3 className="skills-category-title">Databases</h3>
                         <p className="skills-category-items">SQL (SQLite)</p>
                     </div>
+                    <div className="skills-category skills-ci-cd">
+                        <h3 className="skills-category-title">CI/CD</h3>
+                        <p className="skills-category-items">TeamCity</p>
+                    </div>
                     <div className="skills-category skills-development">
-                        <h3 className="skills-category-title">Development Practices/Tools</h3>
-                        <p className="skills-category-items">OOP, RESTful APIs, JUnit Jupiter, Unit Testing, Git, Github, VS Code</p>
+                        <h3 className="skills-category-title">Development Tools</h3>
+                        <p className="skills-category-items">Git, Github, Bitbucket, Gradle, JUnit Jupiter, Visual Studio Code, IntelliJ IDEA, Ardunio IDE, Bash/Shell</p>
+                    </div>
+                    <div className="skills-category skills-practices">
+                        <h3 className="skills-category-title">Programming Practices</h3>
+                        <p className="skills-category-items">OOP, RESTful APIs, Unit Testing, Debugging, Agile Development</p>
                     </div>
                     <div className="skills-category skills-design">
                         <h3 className="skills-category-title">Design Tools</h3>
-                        <p className="skills-category-items">Figma, Canva, Adobe Photoshop, Procreate</p>
+                        <p className="skills-category-items">Figma, Canva, Adobe Photoshop, Procreate, Aseprite</p>
                     </div>
                     <div className="skills-category skills-cloud">
                         <h3 className="skills-category-title">Cloud Hosting</h3>
@@ -203,10 +211,11 @@ function Experiences(props) {
                         <div className="education-item-description">
                             <p className="education-item-title">Bachelor of Computer Science (BCS) </p>
                             <ul>
-                                <li className="education-item-info">Currently attending (expected graduation in 2027)</li>
+                                <li className="education-item-info">Relevant coursework: Software Construction, Computer Systems, Data Structures & Algorithms, Models of Computation</li>
+                                <li className="education-item-info">Organizations: UBC Science Co-op, UBC Tri-Mentorship Program</li>
                             </ul>
                         </div>
-                        <p className="education-item-date">2024 - Present</p>
+                        <p className="education-item-date">2024 - May 2027 (expected)</p>
                     </div>
                     <div className="education-item-section">
                         <div className="education-item-description">

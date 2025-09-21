@@ -6,7 +6,7 @@ export default [
         location: "University of Calgary, Calgary, AB, Canada",
         dates: "Jul 2017 – Aug 2018",
         description: [
-            "Received training in a research-intensive microbiology lab over 2 summer terms under the supervision of Dr. Tao Dong, Assistant Professor at the University of Calgary and Canada Research Chair in Molecular Ecology of Waterborne Microbes",
+            "Received training in a research-intensive microbiology lab over 2 summer terms under the supervision of Dr. Tao Dong, Professor at the University of Calgary and Canada Research Chair in Molecular Ecology of Waterborne Microbes",
             "Engaged in the Advancing Canadian Wastewater Assets project to determine whether the city of Calgary’s wastewater treatment strategy was effective in reducing the spread of waterborne pathogens and the transfer of genetic materials",
             "Assisted with a summer undergraduate student research project that aimed to screen wastewater and stormwater fecal bacteria for characteristics like antibiotic resistance, pathogenesis, and biofilm production, the results of which were presented at the Summer Undergraduate Research Experience Research Symposium",
             "Involved in incubating bacteria isolates, using various antibiotic plates to test for antibiotic resistance, performing crystal violet assays to test for biofilm formation, conducting feeding assays using Caenorhabditis elegans to test for pathogenesis, preparing PCRs, conducting gel electrophoresis, and sequencing DNA"
