@@ -1548,6 +1548,7 @@ a {
 	font-weight: var(--fw-med);
 	margin: 0 0 1em 0;
 }
+
 .work-container {
   display: flex;
   flex-direction: column;
@@ -1583,7 +1584,7 @@ a {
   font-size: var(--fs-ml);
   font-weight: var(--fw-med);
   text-align: center;
-  width: 100em;
+  width: 70%;
   margin-top: 0em;
   margin-bottom: 0em;
   padding: 0;
@@ -1625,6 +1626,7 @@ a {
 @media (min-width: 600px) {
     .work-subtitle {
         font-size: var(--fs-ml);
+        width: 80%;
     }
 
     .work-image {
@@ -1635,6 +1637,7 @@ a {
 @media (min-width: 1000px) {
     .work-subtitle {
         font-size: var(--fs-l);
+        width: 90%
     }
 
     .work-image {
