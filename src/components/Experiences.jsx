@@ -3,23 +3,28 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import { faFile } from '@fortawesome/free-solid-svg-icons'
 import { faComputer } from '@fortawesome/free-solid-svg-icons'
+import { faLaptop } from '@fortawesome/free-solid-svg-icons'
 import { faAward } from '@fortawesome/free-solid-svg-icons'
 import { faUserGraduate } from '@fortawesome/free-solid-svg-icons'
 import { faSuitcaseMedical } from '@fortawesome/free-solid-svg-icons'
 import { faBookOpen } from '@fortawesome/free-solid-svg-icons'
+import wData from "../tech-work-data/tech-work.jsx";
+import aData from "../experiences-data/awards-data.jsx";
 import hData from "../experiences-data/healthcare-data.jsx";
 import rData from "../experiences-data/research-data.jsx";
-import aData from "../experiences-data/awards-data.jsx";
 
 function Experiences(props) {
 
+    // References to each section for smooth scrolling
     const resumeRef = React.useRef(null);
     const technicalSkillsRef = React.useRef(null);
+    const workRef = React.useRef(null);
     const educationRef = React.useRef(null);
     const awardsRef = React.useRef(null);
     const healthcareRef = React.useRef(null);
     const researchRef = React.useRef(null);
 
+    // Function to scroll to a specific section with an optional offset
     function scrollToSection(ref, offset = 100) {
         const topPosition = ref.current.getBoundingClientRect().top + window.scrollY;
         window.scrollTo({
@@ -28,24 +33,87 @@ function Experiences(props) {
         });
     };
 
+    // Reverse the work data array once during the initial state setup
+    const [workData] = React.useState(() => wData.slice().reverse());
+
+    // Reverse the awards data array once during the initial state setup
+    const [awardsData] = React.useState(() => aData.slice().reverse());
+
     // Reverse the healthcare data array once during the initial state setup
     const [healthcareData] = React.useState(() => hData.slice().reverse());
 
     // Reverse the research data array once during the initial state setup
     const [researchData] = React.useState(() => rData.slice().reverse());
 
-    // Reverse the awards data array once during the initial state setup
-    const [awardsData] = React.useState(() => aData.slice().reverse());
+    // Map the work data to create the work elements
+    const workDataElements = workData.map((experience, index) => {
+        return (
+            <div
+                className="work-container"
+                key={experience.title + index}
+            >
+                {/* Work text */}
+                <div className="work-text">
+                    <h2 className="work-subtitle">{experience.title}</h2>
+                    <div className="work-location">
+                        <FontAwesomeIcon className="location-icon" icon={faLocationDot} />
+                        {experience.location}
+                    </div>
+                    <p className="work-date">{experience.dates}</p>
+                    <ul className="work-description">
+                        {experience.description.map((point, index) => (
+                            <li key={point + index} className="work-point">{point}</li>
+                        ))}
+                    </ul>
+                    <p className="work-languages">
+                            <strong>Languages: </strong>
+                            {experience.languages}
+                    </p>
+                        <div>
+                            <p className="work-tools1"><strong>Frameworks/Dependencies/Tools/Databases/APIs/Cloud Services: </strong></p>
+                            <p className="work-tools2">{experience.tools}</p>
+                        </div>
+                </div>
+
+                {/* Work image */}
+                <img 
+                    src={experience.image} 
+                    alt={experience.name} 
+                    className="work-image"
+                />
+        </div>
+        );
+    });
+
+    // Map the awards data to create the awards elements
+    const awardsDataElements = awardsData.map((award, index) => {
+        return (
+            <div
+                className="awards-container"
+                key={award.title + index}
+            >
+                <div className="awards-text">
+                    <h2 className="awards-subtitle">{award.title}</h2>
+                    <ul className="awards-description">
+                        <li>{award.description}</li>
+                    </ul>
+                </div>
+                <p className="awards-date">{award.dates}</p>
+            </div>
+        );
+    });
 
     // Map the healthcare data to create the healthcare elements
     const healthcareDataElements = healthcareData.map((experience, index) => {
+        const isLast = index === healthcareData.length - 1;
+
         return (
             <div
                 className="experience-container"
                 key={experience.title + index}
             >
                 <div className="experience-text">
-                    <h2 className="experience-title">{experience.title}</h2>
+                    <h2 className="experience-subtitle">{experience.title}</h2>
                     <div className="experience-location">
                         <FontAwesomeIcon className="location-icon" icon={faLocationDot} />
                         {experience.location}
@@ -56,7 +124,7 @@ function Experiences(props) {
                             <li key={point + index} className="experience-point">{point}</li>
                         ))}
                     </ul>
-                    <div className="separator-line2"></div>
+                    {!isLast && <div className="separator-line2" aria-hidden="true"></div>}
                 </div>
             </div>
         );
@@ -64,13 +132,15 @@ function Experiences(props) {
 
     // Map the research data to create the research elements
     const researchDataElements = researchData.map((experience, index) => {
+        const isLast = index === researchData.length - 1;
+
         return (
             <div
                 className="experience-container"
                 key={experience.title + index}
             >
                 <div className="experience-text">
-                    <h2 className="experience-title">{experience.title}</h2>
+                    <h2 className="experience-subtitle">{experience.title}</h2>
                     <div className="experience-location">
                         <FontAwesomeIcon className="location-icon" icon={faLocationDot} />
                         {experience.location}
@@ -81,25 +151,8 @@ function Experiences(props) {
                             <li key={point + index} className="experience-point">{point}</li>
                         ))}
                     </ul>
-                    <div className="separator-line2"></div>
+                    {!isLast && <div className="separator-line2" aria-hidden="true"></div>}
                 </div>
-            </div>
-        );
-    });
-
-    const awardsDataElements = awardsData.map((award, index) => {
-        return (
-            <div
-                className="awards-item-container"
-                key={award.title + index}
-            >
-                <div className="awards-item-text">
-                    <h2 className="awards-item-title">{award.title}</h2>
-                    <ul className="awards-item-description">
-                        <li>{award.description}</li>
-                    </ul>
-                </div>
-                <p className="awards-item-date">{award.dates}</p>
             </div>
         );
     });
@@ -113,8 +166,8 @@ function Experiences(props) {
             <div className={props.darkMode ? "experiences-nav nav-dark" : "experiences-nav nav-light"}>
                 <p onClick={() => scrollToSection(resumeRef)} className="experiences-nav-link">Resume</p>
                 <p onClick={() => scrollToSection(technicalSkillsRef)} className="experiences-nav-link">Technical Skills</p>
-                <p onClick={() => scrollToSection(educationRef)} className="experiences-nav-link">Education</p>
-                <p onClick={() => scrollToSection(awardsRef)} className="experiences-nav-link">Academic Awards</p>
+                <p onClick={() => scrollToSection(workRef)} className="experiences-nav-link">Work Experience</p>
+                <p onClick={() => scrollToSection(educationRef)} className="experiences-nav-link">Education & Awards</p>
                 <p onClick={() => scrollToSection(healthcareRef)} className="experiences-nav-link">Healthcare Experience</p>
                 <p onClick={() => scrollToSection(researchRef)} className="experiences-nav-link">Research Experience</p>
             </div>
@@ -145,6 +198,7 @@ function Experiences(props) {
                     Technical Skills 
                     <FontAwesomeIcon className="skills-icon" icon={faComputer} />
                 </h2>
+                <div className="separator-line1"></div>
                 <div className="skills-text">
                     <div className="skills-category skills-languages">
                         <h3 className="skills-category-title">Languages</h3>
@@ -189,6 +243,19 @@ function Experiences(props) {
                 </div>
             </div>
 
+            {/* Work Experience section */}
+            <div 
+                ref={workRef} 
+                className={props.darkMode ? "work experiences-container-dark" : "work experiences-container-light"}
+            >
+                <h2 className="work-title">
+                    Work Experience
+                    <FontAwesomeIcon className="skills-icon laptop-icon" icon={faLaptop} />
+                </h2>
+                <div className="separator-line1"></div>
+                {workDataElements}
+            </div>
+
             {/* Education section */}
             <div 
                 ref={educationRef} 
@@ -198,6 +265,7 @@ function Experiences(props) {
                     Education
                     <FontAwesomeIcon className="skills-icon" icon={faUserGraduate} />
                 </h2>
+                <div className="separator-line1"></div>
                 <div className="education-text">
                     <div className="education-university-title">
                         <h3 className="education-university-name">The University of British Columbia (UBC)</h3>
@@ -206,34 +274,33 @@ function Experiences(props) {
                             Vancouver, BC, Canada
                         </p>
                     </div>
-                    <div className="separator-line1"></div>
-                    <div className="education-item-section">
-                        <div className="education-item-description">
-                            <p className="education-item-title">Bachelor of Computer Science (BCS) </p>
+                    <div className="education-section">
+                        <div className="education-description">
+                            <p className="education-subtitle">Bachelor of Computer Science (BCS) </p>
                             <ul>
-                                <li className="education-item-info">Relevant coursework: Software Construction, Computer Systems, Data Structures & Algorithms, Models of Computation</li>
-                                <li className="education-item-info">Organizations: UBC Science Co-op, UBC Tri-Mentorship Program</li>
+                                <li className="education-info">Relevant coursework: Software Construction, Computer Systems, Data Structures & Algorithms, Models of Computation</li>
+                                <li className="education-info">Organizations: UBC Science Co-op, UBC Tri-Mentorship Program</li>
                             </ul>
                         </div>
-                        <p className="education-item-date">2024 - May 2027 (expected)</p>
+                        <p className="education-date">2024 - May 2027</p>
                     </div>
-                    <div className="education-item-section">
-                        <div className="education-item-description">
-                            <p className="education-item-title">Doctor of Pharmacy (PharmD) </p>
+                    <div className="education-section">
+                        <div className="education-description">
+                            <p className="education-subtitle">Doctor of Pharmacy (PharmD) </p>
                             <ul>
-                                <li className="education-item-info">Degree conferred in 2022</li>
+                                <li className="education-info">Degree conferred in 2022</li>
                             </ul>
                         </div>
-                        <p className="education-item-date">2018 - 2022</p>
+                        <p className="education-date">2018 - 2022</p>
                     </div>
-                    <div className="education-item-section">
-                        <div className="education-item-description">
-                            <p className="education-item-title">Bachelor of Science -  Microbiology & Immunology</p>
+                    <div className="education-section">
+                        <div className="education-description">
+                            <p className="education-subtitle">Bachelor of Science -  Microbiology & Immunology</p>
                             <ul>
-                                <li className="education-item-info">Completed 2 years before entering the PharmD program</li>
+                                <li className="education-info">Completed 2 years before entering the PharmD program</li>
                             </ul>
                         </div>
-                        <p className="education-item-date">2016 - 2018</p>
+                        <p className="education-date">2016 - 2018</p>
                     </div>
                 </div>
             </div>
@@ -247,6 +314,7 @@ function Experiences(props) {
                     Academic Awards
                     <FontAwesomeIcon className="skills-icon" icon={faAward} />
                 </h2>
+                <div className="separator-line1"></div>
                 {awardsDataElements}
             </div>
 
@@ -259,6 +327,7 @@ function Experiences(props) {
                     Healthcare Experience
                     <FontAwesomeIcon className="skills-icon health-icon" icon={faSuitcaseMedical} />
                 </h2>
+                <div className="separator-line1"></div>
                 {healthcareDataElements}
             </div>
 
@@ -271,6 +340,7 @@ function Experiences(props) {
                     Research Experience
                     <FontAwesomeIcon className="skills-icon" icon={faBookOpen} />
                 </h2>
+                <div className="separator-line1"></div>
                 {researchDataElements}
             </div>
         </div>

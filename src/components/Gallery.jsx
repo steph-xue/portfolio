@@ -4,6 +4,7 @@ import { faArrowsRotate } from '@fortawesome/free-solid-svg-icons'
 
 function Gallery(props) {
 
+    // Map the travel images to create the travel image elements
     const travelImagesElements = props.travelImages.map((image, index) => {
         return (
             <div className="travel-image" key={image.name + index}>
@@ -17,6 +18,7 @@ function Gallery(props) {
         )
     })
 
+    // Map the food images to create the food image elements
     const foodImagesElements = props.foodImages.map((image, index) => {
         return (
             <div className="food-image" key={image.name + index}>
@@ -30,6 +32,7 @@ function Gallery(props) {
         )
     })
 
+    // Map the cat images to create the cat image elements
     const catImagesElements = props.catImages.map((image, index) => {
         return (
             <div className="cat-image" key={image.name + index}>
