@@ -33,7 +33,7 @@ function NavBar(props) {
 
     // Render the NavBar component
     return (
-        <nav className={props.darkMode ? "navbar dark": "navbar"} >
+        <nav className="navbar">
 
             {/* Navbar */}
             <ul 
@@ -46,8 +46,8 @@ function NavBar(props) {
                         className={({ isActive }) => 
                             isActive 
                                 ? props.darkMode 
-                                    ? "navbar-list-link-dark nav-active-dark" 
-                                    : "navbar-list-link-light nav-active-light"
+                                    ? "navbar-list-link-dark navbar-list-link-active-dark" 
+                                    : "navbar-list-link-light navbar-list-link-active-light"
                                 : props.darkMode 
                                     ? "navbar-list-link-dark"
                                     : "navbar-list-link-light"
@@ -63,8 +63,8 @@ function NavBar(props) {
                         className={({ isActive }) => 
                             isActive 
                                 ? props.darkMode 
-                                    ? "navbar-list-link-dark nav-active-dark" 
-                                    : "navbar-list-link-light nav-active-light"
+                                    ? "navbar-list-link-dark navbar-list-link-active-dark" 
+                                    : "navbar-list-link-light navbar-list-link-active-light"
                                 : props.darkMode 
                                     ? "navbar-list-link-dark"
                                     : "navbar-list-link-light"
@@ -80,8 +80,8 @@ function NavBar(props) {
                         className={({ isActive }) => 
                             isActive 
                                 ? props.darkMode 
-                                    ? "navbar-list-link-dark nav-active-dark" 
-                                    : "navbar-list-link-light nav-active-light"
+                                    ? "navbar-list-link-dark navbar-list-link-active-dark" 
+                                    : "navbar-list-link-light navbar-list-link-active-light"
                                 : props.darkMode 
                                     ? "navbar-list-link-dark"
                                     : "navbar-list-link-light"
@@ -97,8 +97,8 @@ function NavBar(props) {
                         className={({ isActive }) => 
                             isActive 
                                 ? props.darkMode 
-                                    ? "navbar-list-link-dark nav-active-dark" 
-                                    : "navbar-list-link-light nav-active-light"
+                                    ? "navbar-list-link-dark navbar-list-link-active-dark" 
+                                    : "navbar-list-link-light navbar-list-link-active-light"
                                 : props.darkMode 
                                     ? "navbar-list-link-dark"
                                     : "navbar-list-link-light"
@@ -114,8 +114,8 @@ function NavBar(props) {
                         className={({ isActive }) => 
                             isActive 
                                 ? props.darkMode 
-                                    ? "navbar-list-link-dark nav-active-dark" 
-                                    : "navbar-list-link-light nav-active-light"
+                                    ? "navbar-list-link-dark navbar-list-link-active-dark" 
+                                    : "navbar-list-link-light navbar-list-link-active-light"
                                 : props.darkMode 
                                     ? "navbar-list-link-dark"
                                     : "navbar-list-link-light"
@@ -131,8 +131,8 @@ function NavBar(props) {
                         className={({ isActive }) => 
                             isActive 
                                 ? props.darkMode 
-                                    ? "navbar-list-link-dark nav-active-dark" 
-                                    : "navbar-list-link-light nav-active-light"
+                                    ? "navbar-list-link-dark navbar-list-link-active-dark" 
+                                    : "navbar-list-link-light navbar-list-link-active-light"
                                 : props.darkMode 
                                     ? "navbar-list-link-dark"
                                     : "navbar-list-link-light"
@@ -146,11 +146,11 @@ function NavBar(props) {
 
                 {/* Dark mode toggler */}
                 <div className="toggler">
-                    <FontAwesomeIcon className="toggler-light" icon={faSun} />
-                    <div className="toggler-slider" onClick={props.toggleDarkMode}>
-                        <div className="toggler-slider-circle"></div>
+                    <FontAwesomeIcon className={props.darkMode ? "tog-sun tog-symb-dark": "tog-sun tog-symb-light"} icon={faSun} />
+                    <div className={props.darkMode ? "tog-slider tog-slider-dark" : "tog-slider tog-slider-light"} onClick={props.toggleDarkMode}>
+                        <div className={props.darkMode ? "tog-circle tog-circle-dark" : "tog-circle tog-circle-light"}></div>
                     </div>
-                    <FontAwesomeIcon className="toggler-dark" icon={faMoon} />
+                    <FontAwesomeIcon className={props.darkMode ? "tog-moon tog-symb-dark" : "tog-moon tog-symb-light"} icon={faMoon} />
                 </div>
             </ul>
         </nav>

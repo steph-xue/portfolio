@@ -78,7 +78,7 @@ function App() {
   }
 
   return (
-    <main className={darkMode ? "dark-page page-container" : "light-page page-container"}>
+    <main className={darkMode ? "page-container dark-page " : "page-container light-page"}>
       <RouterProvider router={router(darkMode, toggleDarkMode)} />
     </main>
   );
