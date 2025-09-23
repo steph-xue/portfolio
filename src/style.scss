@@ -1586,7 +1586,7 @@ a {
   text-align: center;
   width: 70%;
   margin-top: 0em;
-  margin-bottom: 0em;
+  margin-bottom: 1em;
   padding: 0;
 }
 
@@ -1626,6 +1626,7 @@ a {
 @media (min-width: 600px) {
     .work-subtitle {
         font-size: var(--fs-ml);
+        margin-bottom: 0em;
         width: 80%;
     }
 
