@@ -864,16 +864,10 @@ a {
 	transform: scale(1.05);
 }
 
-@media (min-width: 400px) {
-	.nav-link {
-		font-size: var(--fs-xxs);
-	}
-}
-
 @media (min-width: 600px) {
 	.nav-link {
         line-height: 0.8em;
-		font-size: var(--fs-xs);
+		font-size: var(--fs-xxs);
 	}
 }
 
@@ -1204,7 +1198,13 @@ a {
 
 .experiences-nav-link {
     line-height: 1.4em;
-	padding: 0.5em 0.3em 0.5em 0.3em;
+	padding: 0.5em 0.1em 0.5em 0.1em;
+}
+
+@media (min-width: 600px) {
+    .experiences-nav-link {
+        padding: 0.5em 0.3em 0.5em 0.3em;
+    }
 }
 
 @media (min-width: 800px) {
