@@ -846,7 +846,6 @@ a {
 .nav-link {
 	font-size: var(--fs-xs);
 	font-weight: var(--fw-med);
-	padding: 1em;
 	border-radius: 50px;  
     cursor: pointer;
     overflow: hidden;
@@ -1190,7 +1189,13 @@ a {
 
 .experiences-nav-link {
     line-height: 1.4em;
-	padding: 0.5em 1em 0.5em 1em;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+@media (min-width: 800px) {
+    .experiences-nav-link {
+        padding: 0.5em 1em 0.5em 1em;
+    }
 }
 
 .experiences-container {
