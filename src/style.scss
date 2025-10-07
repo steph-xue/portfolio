@@ -1188,12 +1188,14 @@ a {
 }
 
 .experiences-nav-link {
+    font-size: var(--fs-xxs);
     line-height: 1.4em;
 	padding: 0.5em 0.5em 0.5em 0.5em;
 }
 
 @media (min-width: 800px) {
     .experiences-nav-link {
+        font-size: var(--fs-xs);
         padding: 0.5em 1em 0.5em 1em;
     }
 }
