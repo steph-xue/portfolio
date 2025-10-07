@@ -44,6 +44,7 @@
     --fs-s: 0.8rem;
     --fs-xs: 0.7rem;
     --fs-xxs: 0.65rem;
+    --fs-xxxs: 0.5rem;
 
     // Gradients (light mode)
 	--gradient-light: linear-gradient(
@@ -88,6 +89,7 @@
         --fs-s: 0.8rem;
         --fs-xs: 0.6rem;
         --fs-xxs: 0.5rem;
+        --fs-xxxs: 0.4rem;
     }
 }
 
@@ -844,7 +846,7 @@ a {
 }
 
 .nav-link {
-	font-size: var(--fs-xs);
+	font-size: var(--fs-xxxs);
 	font-weight: var(--fw-med);
 	border-radius: 50px;  
     cursor: pointer;
@@ -864,11 +866,18 @@ a {
 
 @media (min-width: 400px) {
 	.nav-link {
-		font-size: var(--fs-xs);
+		font-size: var(--fs-xxs);
 	}
 }
 
 @media (min-width: 600px) {
+	.nav-link {
+        line-height: 0.8em;
+		font-size: var(--fs-xs);
+	}
+}
+
+@media (min-width: 800px) {
 	.nav-link {
         line-height: 0.8em;
 		font-size: var(--fs-s);
@@ -1195,7 +1204,7 @@ a {
 
 .experiences-nav-link {
     line-height: 1.4em;
-	padding: 0.5em 0.5em 0.5em 0.5em;
+	padding: 0.5em 0.3em 0.5em 0.3em;
 }
 
 @media (min-width: 800px) {
