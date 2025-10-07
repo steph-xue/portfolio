@@ -57,7 +57,7 @@ function Homepage(props) {
         <div className="homepage">
 
             {/* Homepage title and description */}
-            <div className={props.darkMode ? "homepage-title title-dark" : "homepage-title title-light"}>
+            <div className={props.darkMode ? "homepage-title" : "homepage-title"}>
                 <span id="text"></span>
                 <div className="console-underscore" id="console">&#95;</div>
             </div>

@@ -68,7 +68,7 @@ function About(props) {
 
             {/* About summary */}
             <div className="about-container-1">
-                <img src="/images/profile-pic.png" alt="profile-pic" className="profile-image" />
+                <img className="profile-image" src="/images/profile-pic.png" alt="profile-pic" />
                 <div className="about-container-1-text">
                     <h2 className="about-subtitle">I'm a currently a UBC Bachelor of Computer Science (BCS) student based in Vancouver, BC, Canada.</h2>
                     <p className="about-description">
@@ -102,9 +102,8 @@ function About(props) {
 
             {/* About interests */}
             <div className="about-container-3">
-                <img src="/images/profile-cat.png" alt="profile-cat" className="profile-cat-image" />
-                <div className="about-container-3-text">
-                    <p className="about-interests">
+                <img className="profile-cat-image" src="/images/profile-cat.png" alt="profile-cat" />
+                <p className="about-container-3-text">
                         In my downtime, you will often find me trying to craft the perfect glass of iced coffee or a matcha latte, listening to and
                         playing music, immersing myself in a cozy video game, and spending quality time with my loved ones. I also enjoy visiting
                         new coffee shops, traveling, and uncovering hidden gems both in and out of the city, always in search of inspiration and 
@@ -114,8 +113,7 @@ function About(props) {
                         art styles and techniques. Additionally, I have an adorable cat named Rhea who is an American Shorthair and Maine Coon mix. 
                         She has an endearing and loving personality, who loves to spending her time cuddling, taking naps, snacking on yummy treats,
                         and basking in the sun.
-                    </p>
-                </div>
+                </p>
             </div>
 
             <h2 className="photography-gallery-title">Photography Gallery</h2>
@@ -134,7 +132,7 @@ function About(props) {
             {/* Full image display if image is clicked on */}
             {
                 showImage &&
-                <div className={props.darkMode ? "full-image-container dark-container" : "full-image-container light-container"}>
+                <div className={props.darkMode ? "full-image-container dark-image-container" : "full-image-container light-image-container"}>
                     <FontAwesomeIcon className="close-icon" icon={faCircleXmark} onClick={toggleImage} />
                     <p className="full-image-title">{imageTitle}</p>
                     <img src={imageURL} alt="full-image-photo" className="full-image-photo" />

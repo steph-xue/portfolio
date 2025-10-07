@@ -38,7 +38,7 @@ function Projects(props) {
     const projectDataElements = currentProjectData.map((project, index) => {
         return (
             <div 
-                className={props.darkMode ? "project-container-dark" : "project-container-light"} 
+                className={props.darkMode ? "project-container item-container-dark" : "project-container item-container-light"} 
                 key={project.title + index} 
             >
 
@@ -59,7 +59,7 @@ function Projects(props) {
                         { project.github &&
                             <p className="project-github">
                                 <strong>Github Link: </strong>
-                                <a className={props.darkMode ? "github-active-link dark-github" : "github-active-link light-github"} href={project.github}>
+                                <a className={props.darkMode ? "github-active-link dark-link" : "github-active-link light-link"} href={project.github}>
                                     {project.github}
                                 </a>
                             </p>
@@ -108,19 +108,19 @@ function Projects(props) {
 
             {/* Category links */}
             <div className={props.darkMode ? "projects-nav nav-dark" : "projects-nav nav-light"}>
-                <p className={projectCategory === "all" ? "projects-nav-link project-active" : "projects-nav-link"} 
+                <p className={projectCategory === "all" ? "nav-link projects-nav-link project-active" : "nav-link projects-nav-link"} 
                     onClick={() => updateProjectCategory("all")}>
                         All Projects
                 </p>
-                <p className={projectCategory === "personal" ? "projects-nav-link project-active" : "projects-nav-link"} 
+                <p className={projectCategory === "personal" ? "nav-link projects-nav-link project-active" : "nav-link projects-nav-link"} 
                    onClick={() => updateProjectCategory("personal")}>
                     Personal Projects
                 </p>
-                <p className={projectCategory === "academic" ? "projects-nav-link project-active" : "projects-nav-link"} 
+                <p className={projectCategory === "academic" ? "nav-link projects-nav-link project-active" : "nav-link projects-nav-link"} 
                    onClick={() => updateProjectCategory("academic")}>
                     Academic Projects
                 </p>
-                <p className={projectCategory === "hackathon" ? "projects-nav-link project-active" : "projects-nav-link"} 
+                <p className={projectCategory === "hackathon" ? "nav-link projects-nav-link project-active" : "nav-link projects-nav-link"} 
                    onClick={() => updateProjectCategory("hackathon")}>
                     Hackathon Projects
                 </p>

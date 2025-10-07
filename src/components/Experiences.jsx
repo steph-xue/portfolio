@@ -164,18 +164,18 @@ function Experiences(props) {
 
             {/* Navigation links */}
             <div className={props.darkMode ? "experiences-nav nav-dark" : "experiences-nav nav-light"}>
-                <p onClick={() => scrollToSection(resumeRef)} className="experiences-nav-link">Resume</p>
-                <p onClick={() => scrollToSection(technicalSkillsRef)} className="experiences-nav-link">Technical Skills</p>
-                <p onClick={() => scrollToSection(workRef)} className="experiences-nav-link">Work Experience</p>
-                <p onClick={() => scrollToSection(educationRef)} className="experiences-nav-link">Education & Awards</p>
-                <p onClick={() => scrollToSection(healthcareRef)} className="experiences-nav-link">Healthcare Experience</p>
-                <p onClick={() => scrollToSection(researchRef)} className="experiences-nav-link">Research Experience</p>
+                <p onClick={() => scrollToSection(resumeRef)} className="nav-link experiences-nav-link">Resume</p>
+                <p onClick={() => scrollToSection(technicalSkillsRef)} className="nav-link experiences-nav-link">Technical Skills</p>
+                <p onClick={() => scrollToSection(workRef)} className="nav-link experiences-nav-link">Work Experience</p>
+                <p onClick={() => scrollToSection(educationRef)} className="nav-link experiences-nav-link">Education & Awards</p>
+                <p onClick={() => scrollToSection(healthcareRef)} className="nav-link experiences-nav-link">Healthcare Experience</p>
+                <p onClick={() => scrollToSection(researchRef)} className="nav-link experiences-nav-link">Research Experience</p>
             </div>
 
             {/* Resume section */}
             <div 
                 ref={resumeRef} 
-                className={props.darkMode ? "resume experiences-container-dark" : "resume experiences-container-light"}
+                className={props.darkMode ? "resume experiences-container item-container-dark" : "resume experiences-container item-container-light"}
             >
                 <h2 className="resume-title">
                     Resume
@@ -192,7 +192,7 @@ function Experiences(props) {
             {/* Technical skills section */}
             <div 
                 ref={technicalSkillsRef} 
-                className={props.darkMode ? "technical-skills experiences-container-dark" : "technical-skills experiences-container-light"}
+                className={props.darkMode ? "technical-skills experiences-container item-container-dark" : "technical-skills experiences-container item-container-light"}
             >
                 <h2 className="technical-skills-title">
                     Technical Skills 
@@ -246,7 +246,7 @@ function Experiences(props) {
             {/* Work Experience section */}
             <div 
                 ref={workRef} 
-                className={props.darkMode ? "work experiences-container-dark" : "work experiences-container-light"}
+                className={props.darkMode ? "work experiences-container item-container-dark" : "work experiences-container item-container-light"}
             >
                 <h2 className="work-title">
                     Work Experience
@@ -259,7 +259,7 @@ function Experiences(props) {
             {/* Education section */}
             <div 
                 ref={educationRef} 
-                className={props.darkMode ? "education experiences-container-dark" : "education experiences-container-light"}
+                className={props.darkMode ? "education experiences-container item-container-dark" : "education experiences-container item-container-light"}
             >
                 <h2 className="education-title">
                     Education
@@ -308,7 +308,7 @@ function Experiences(props) {
             {/* Academic Awards section */}
             <div 
                 ref={awardsRef} 
-                className={props.darkMode ? "awards experiences-container-dark" : "awards experiences-container-light"}
+                className={props.darkMode ? "awards experiences-container item-container-dark" : "awards experiences-container item-container-light"}
             >
                 <h2 className="awards-title">
                     Academic Awards
@@ -321,7 +321,7 @@ function Experiences(props) {
             {/* Healthcare experiences section */}
             <div 
                 ref={healthcareRef} 
-                className={props.darkMode ? "healthcare experiences-container-dark" : "healthcare experiences-container-light"}
+                className={props.darkMode ? "healthcare experiences-container item-container-dark" : "healthcare experiences-container item-container-light"}
             >
                 <h2 className="healthcare-title">
                     Healthcare Experience
@@ -334,7 +334,7 @@ function Experiences(props) {
             {/* Research experiences section */}
             <div 
                 ref={researchRef} 
-                className={props.darkMode ? "research experiences-container-dark" : "research experiences-container-light"}
+                className={props.darkMode ? "research experiences-container item-container-dark" : "research experiences-container item-container-light"}
             >
                 <h2 className="research-title">
                     Research Experience
