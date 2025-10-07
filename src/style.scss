@@ -862,6 +862,12 @@ a {
 	transform: scale(1.05);
 }
 
+@media (min-width: 400px) {
+	.nav-link {
+		font-size: var(--fs-xs);
+	}
+}
+
 @media (min-width: 600px) {
 	.nav-link {
         line-height: 0.8em;
@@ -1188,14 +1194,12 @@ a {
 }
 
 .experiences-nav-link {
-    font-size: var(--fs-xxs);
     line-height: 1.4em;
 	padding: 0.5em 0.5em 0.5em 0.5em;
 }
 
 @media (min-width: 800px) {
     .experiences-nav-link {
-        font-size: var(--fs-xs);
         padding: 0.5em 1em 0.5em 1em;
     }
 }
@@ -1373,7 +1377,7 @@ a {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  width: 80vw;
+  width: 90vw;
   height: 100%;
 }
 
@@ -1623,6 +1627,10 @@ a {
 }
 
 @media (min-width: 1000px) {
+    .work-text {
+        width: 80vw;
+    }
+    
     .work-subtitle {
         font-size: var(--fs-l);
         width: 90%
