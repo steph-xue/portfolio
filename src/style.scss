@@ -1198,12 +1198,12 @@ a {
 
 .experiences-nav-link {
     line-height: 1.4em;
-	padding: 0.5em 0em 0.5em 0em;
+	padding: 0.5em 0.3em 0.5em 0.3em;
 }
 
 @media (min-width: 800px) {
     .experiences-nav-link {
-        padding: 0.5em 0.3em 0.5em 0.3em;
+        padding: 0.5em 0.5em 0.5em 0.5em;
     }
 }
 
@@ -1868,11 +1868,18 @@ a {
 }
 
 .full-image-art {
-	max-height: 35em;
-    max-width: 28em;
+	max-height: 30em;
+    max-width: 25em;
 }
 
 @media (min-width: 400px) {
+	.full-image-art {
+		max-height: 34em;
+        max-width: 28em;
+	}
+}
+
+@media (min-width: 500px) {
 	.full-image-art {
 		max-height: 38em;
         max-width: 32em;
