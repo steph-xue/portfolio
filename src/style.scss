@@ -1869,13 +1869,20 @@ a {
 
 .full-image-art {
 	max-height: 35em;
-    max-width: 30em;
+    max-width: 35em;
+}
+
+@media (min-width: 400px) {
+	.full-image-art {
+		max-height: 38em;
+        max-width: 40em;
+	}
 }
 
 @media (min-width: 600px) {
 	.full-image-art {
-		max-height: 40em;
-        max-width: 40em;
+		max-height: 42em;
+        max-width: 45em;
 	}
 }
 
@@ -1902,15 +1909,15 @@ a {
 
 @media (min-width: 1400px) {
 	.full-image-art {
-		max-height: 55em;
+		max-height: 54em;
         max-width: 80em;
 	}
 }
 
 @media (min-width: 1600px) {
 	.full-image-art {
-		max-height: 60em;
-        max-width: 90em;
+		max-height: 56em;
+        max-width: 85em;
 	}
 }
 
