@@ -1198,16 +1198,10 @@ a {
 
 .experiences-nav-link {
     line-height: 1.4em;
-	padding: 0.5em 0.3em 0.5em 0.3em;
+	padding: 0.5em 0.5em 0.5em 0.5em;
 }
 
 @media (min-width: 800px) {
-    .experiences-nav-link {
-        padding: 0.5em 0.5em 0.5em 0.5em;
-    }
-}
-
-@media (min-width: 1000px) {
     .experiences-nav-link {
         padding: 0.5em 1em 0.5em 1em;
     }
