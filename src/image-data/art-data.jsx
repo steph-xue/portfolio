@@ -41,4 +41,16 @@ export default [
         title: "Autumn Whiskers",
         source: "/images/art/brown-cat.jpg",
     },
+    {
+        id: 8,
+        name: "capy-night",
+        title: "Moonlit Patch",
+        source: "/images/art/capy-night.jpg",
+    },
+    {
+        id: 9,
+        name: "capy-sunset",
+        title: "Pumpkins at Dusk",
+        source: "/images/art/capy-sunset.jpg",
+    },
 ]
