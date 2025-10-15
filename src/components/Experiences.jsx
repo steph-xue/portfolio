@@ -168,8 +168,8 @@ function Experiences(props) {
                 <p onClick={() => scrollToSection(technicalSkillsRef)} className="nav-link experiences-nav-link">Technical Skills</p>
                 <p onClick={() => scrollToSection(workRef)} className="nav-link experiences-nav-link">Work Experience</p>
                 <p onClick={() => scrollToSection(educationRef)} className="nav-link experiences-nav-link">Education & Awards</p>
-                <p onClick={() => scrollToSection(healthcareRef)} className="nav-link experiences-nav-link">Healthcare Experience</p>
-                <p onClick={() => scrollToSection(researchRef)} className="nav-link experiences-nav-link">Research Experience</p>
+                <p onClick={() => scrollToSection(healthcareRef)} className="nav-link experiences-nav-link">Healthcare</p>
+                <p onClick={() => scrollToSection(researchRef)} className="nav-link experiences-nav-link">Research</p>
             </div>
 
             {/* Resume section */}
