@@ -8,7 +8,7 @@ export default [
         languages: "Java",
         tools: "IntelliJ IDEA, Bitbucket, Gradle, TeamCity, Manuscript",
         description: [
-            "Collaborating with software developers and UI/UX designers to design and implement UI tools and build automated test suites using Java, IntelliJ IDEA, Gradle, Bitbucket, and TeamCity, to help streamline feature development for the Globe Pulsed Field System, an innovative medical technology designed to treat atrial fibrillation through high-definition mapping, single-shot pulmonary vein isolation, and atrial ablation"
+            "Collaborating with a cross-functional team of software developers and UX/UI designers to design and implement UI tools and automated test suites using Java, IntelliJ IDEA, Gradle, Bitbucket, and TeamCity, streamlining feature development workflows for the Globe Pulsed Field System, an advanced medical device technology designed to treat atrial fibrillation through high-definition cardiac mapping, single-shot pulmonary vein isolation, and atrial ablation."
         ],
         image: "/images/work/kardium.jpeg"
     }
