@@ -226,11 +226,11 @@ function Experiences(props) {
                     </div>
                     <div className="skills-category skills-development">
                         <h3 className="skills-category-title">Development Tools</h3>
-                        <p className="skills-category-items">Git, Github, Bitbucket, Gradle, JUnit Jupiter, Visual Studio Code, IntelliJ IDEA, Ardunio IDE, Bash/Shell</p>
+                        <p className="skills-category-items">Gradle, JUnit Jupiter, Git, Github, Bitbucket, VS Code, IntelliJ IDEA, Arduino IDE, Bash/Shell</p>
                     </div>
                     <div className="skills-category skills-practices">
                         <h3 className="skills-category-title">Programming Practices</h3>
-                        <p className="skills-category-items">OOP, RESTful APIs, Unit Testing, Debugging, Agile Development</p>
+                        <p className="skills-category-items">OOP, Data Structures & Algorithms, RESTful APIs, Unit Testing, Debugging, Multithreading, Agile Development</p>
                     </div>
                     <div className="skills-category skills-design">
                         <h3 className="skills-category-title">Design Tools</h3>
