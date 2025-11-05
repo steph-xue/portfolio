@@ -1365,7 +1365,7 @@ a {
 
 .work-image {
   border-radius: 10px;
-  width: 15em;
+  width: 20em;
   padding: 0;
   margin-block: 2em;
   transition: transform 0.5s ease-in-out;
@@ -1706,7 +1706,6 @@ a {
         grid-area: a;
         margin-left: 4em;
         margin-right: 0em;
-        width: 35em;
     }
 
     .work-text {
@@ -1721,10 +1720,6 @@ a {
     .work-text {
         width: 45vw;
         margin-left: 5em;
-    }
-
-    .work-image {
-        width: 40em;
     }
 }
 
