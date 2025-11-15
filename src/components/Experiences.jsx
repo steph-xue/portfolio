@@ -202,42 +202,42 @@ function Experiences(props) {
                 <div className="skills-text">
                     <div className="skills-category skills-languages">
                         <h3 className="skills-category-title">Languages</h3>
-                        <p className="skills-category-items">Python, Java, JavaScript, TypeScript, C++, C, HTML5, CSS3</p>
+                        <p className="skills-category-items">Python, Java, JavaScript, TypeScript, C++, C, HTML5, CSS3, XML</p>
                     </div>
                     <div className="skills-category skills-frontend">
-                        <h3 className="skills-category-title">Frontend</h3>
+                        <h3 className="skills-category-title">Frontend Technologies</h3>
                         <p className="skills-category-items">React.js, React Router, Vite, Bootstrap4, Java Swing</p>
                     </div>
                     <div className="skills-category skills-backend">
-                        <h3 className="skills-category-title">Backend</h3>
+                        <h3 className="skills-category-title">Backend Technologies</h3>
                         <p className="skills-category-items">Node.js, Express,js, Django, Flask</p>
                     </div>
                     <div className="skills-category skills-mobile">
-                        <h3 className="skills-category-title">Mobile</h3>
+                        <h3 className="skills-category-title">Mobile Development</h3>
                         <p className="skills-category-items">React Native, Expo Go</p>
                     </div>
                     <div className="skills-category skills-storage">
-                        <h3 className="skills-category-title">Databases</h3>
+                        <h3 className="skills-category-title">Database Technologies</h3>
                         <p className="skills-category-items">SQL (SQLite)</p>
                     </div>
                     <div className="skills-category skills-ci-cd">
-                        <h3 className="skills-category-title">CI/CD</h3>
+                        <h3 className="skills-category-title">CI/CD Tools</h3>
                         <p className="skills-category-items">TeamCity</p>
                     </div>
                     <div className="skills-category skills-development">
                         <h3 className="skills-category-title">Development Tools</h3>
-                        <p className="skills-category-items">Gradle, JUnit Jupiter, Git, Github, Bitbucket, VS Code, IntelliJ IDEA, Arduino IDE, Bash/Shell</p>
+                        <p className="skills-category-items">Gradle, Launch4j, JUnit (4 & 5/Jupiter), Git, Github, Bitbucket, VS Code, IntelliJ IDEA, Arduino IDE, Bash/Shell</p>
                     </div>
                     <div className="skills-category skills-practices">
                         <h3 className="skills-category-title">Programming Practices</h3>
                         <p className="skills-category-items">OOP, Data Structures & Algorithms, RESTful APIs, Unit Testing, Debugging, Multithreading, Agile Development</p>
                     </div>
                     <div className="skills-category skills-design">
-                        <h3 className="skills-category-title">Design Tools</h3>
+                        <h3 className="skills-category-title">Design & Creative Tools</h3>
                         <p className="skills-category-items">Figma, Canva, Adobe Photoshop, Procreate, Aseprite</p>
                     </div>
                     <div className="skills-category skills-cloud">
-                        <h3 className="skills-category-title">Cloud Hosting</h3>
+                        <h3 className="skills-category-title">Cloud Deployment & Hosting</h3>
                         <p className="skills-category-items">Netlify, Render</p>
                     </div>
                 </div>
