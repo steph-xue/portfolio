@@ -206,7 +206,7 @@ function Experiences(props) {
                     </div>
                     <div className="skills-category skills-frontend">
                         <h3 className="skills-category-title">Frontend Technologies</h3>
-                        <p className="skills-category-items">React.js, React Router, Vite, Bootstrap4, Java Swing</p>
+                        <p className="skills-category-items">React.js, Vite, Bootstrap4, Java Swing</p>
                     </div>
                     <div className="skills-category skills-backend">
                         <h3 className="skills-category-title">Backend Technologies</h3>
@@ -226,7 +226,7 @@ function Experiences(props) {
                     </div>
                     <div className="skills-category skills-development">
                         <h3 className="skills-category-title">Development Tools</h3>
-                        <p className="skills-category-items">Gradle, Launch4j, JUnit (4 & 5/Jupiter), Git, Github, Bitbucket, VS Code, IntelliJ IDEA, Arduino IDE, Bash/Shell</p>
+                        <p className="skills-category-items">Gradle, Launch4j, JUnit Jupiter, Git, Github, Bitbucket, VS Code, IntelliJ IDEA, Arduino IDE, Bash/Shell</p>
                     </div>
                     <div className="skills-category skills-practices">
                         <h3 className="skills-category-title">Programming Practices</h3>
