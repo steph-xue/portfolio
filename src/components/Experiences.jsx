@@ -230,7 +230,7 @@ function Experiences(props) {
                     </div>
                     <div className="skills-category skills-practices">
                         <h3 className="skills-category-title">Programming Practices</h3>
-                        <p className="skills-category-items">OOP, Data Structures & Algorithms, RESTful APIs, Unit Testing, Debugging, Multithreading, Agile Development</p>
+                        <p className="skills-category-items">Object Oriented Programming, Data Structures & Algorithms, RESTful APIs, Unit Testing, Debugging, Multithreading, Agile Development</p>
                     </div>
                     <div className="skills-category skills-design">
                         <h3 className="skills-category-title">Design & Creative Tools</h3>
