@@ -202,7 +202,7 @@ function Experiences(props) {
                 <div className="skills-text">
                     <div className="skills-category skills-languages">
                         <h3 className="skills-category-title">Languages</h3>
-                        <p className="skills-category-items">Python, Java, JavaScript, TypeScript, C++, C, XML, HTML5, CSS3</p>
+                        <p className="skills-category-items">Java, Python, C++, C, JavaScript, TypeScript, XML, HTML5, CSS3</p>
                     </div>
                     <div className="skills-category skills-frontend">
                         <h3 className="skills-category-title">Frontend Technologies</h3>
@@ -226,7 +226,7 @@ function Experiences(props) {
                     </div>
                     <div className="skills-category skills-development">
                         <h3 className="skills-category-title">Development Tools</h3>
-                        <p className="skills-category-items">Gradle, Launch4j, SCons, JUnit Jupiter, Git, Github, Bitbucket, VS Code, IntelliJ IDEA, Arduino IDE, Bash/Shell</p>
+                        <p className="skills-category-items">Gradle, Launch4j, SCons, JUnit Jupiter, Git, Github, Bitbucket, VS Code, IntelliJ IDEA, Arduino IDE, Bash/Shell, Windows Batch</p>
                     </div>
                     <div className="skills-category skills-practices">
                         <h3 className="skills-category-title">Programming Practices</h3>
