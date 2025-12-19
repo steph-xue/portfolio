@@ -226,7 +226,7 @@ function Experiences(props) {
                     </div>
                     <div className="skills-category skills-development">
                         <h3 className="skills-category-title">Development Tools</h3>
-                        <p className="skills-category-items">Gradle, JUnit Jupiter, Launch4j, SCons, Git, GitHub, Bitbucket, VS Code, IntelliJ IDEA, Arduino IDE, Bash/Shell, Windows Batch</p>
+                        <p className="skills-category-items">Gradle, JUnit, Launch4j, SCons, Git, GitHub, Bitbucket, VS Code, IntelliJ IDEA, Arduino IDE, Bash/Shell, Windows Batch</p>
                     </div>
                     <div className="skills-category skills-practices">
                         <h3 className="skills-category-title">Programming Practices</h3>
