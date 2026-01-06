@@ -13,6 +13,7 @@ import Art from "./components/Art.jsx";
 import Contact from "./components/Contact.jsx";
 import Footer from "./components/Footer.jsx";
 import Error from "./components/Error.jsx";
+import FluidCursor from "./components/FluidCursor.jsx"; 
 
 // Router configuration
 const router = (darkMode, toggleDarkMode) => createBrowserRouter([
@@ -56,13 +57,17 @@ const router = (darkMode, toggleDarkMode) => createBrowserRouter([
 // Render a Layout component that includes the Navbar, Footer, and a placeholder (Outlet) for the routed content
 function Layout(props) {
   return (
-    <div>
-      <NavBar darkMode={props.darkMode} toggleDarkMode={props.toggleDarkMode} />
-      <div className="content">
-        <Outlet /> 
+    <>
+      <FluidCursor />
+
+      <div>
+        <NavBar darkMode={props.darkMode} toggleDarkMode={props.toggleDarkMode} />
+        <div className="content">
+          <Outlet />
+        </div>
+        <Footer darkMode={props.darkMode} toggleDarkMode={props.toggleDarkMode} />
       </div>
-      <Footer darkMode={props.darkMode} toggleDarkMode={props.toggleDarkMode} />
-    </div>
+    </>
   );
 }
 

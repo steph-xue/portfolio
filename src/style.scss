@@ -160,6 +160,16 @@ a {
 	min-height: 100%;
 }
 
+.fluid-cursor {
+    inset: 0;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    z-index: 999;
+    opacity: 0.35;    
+}
+
 
 /* NavBar */
 .navbar {

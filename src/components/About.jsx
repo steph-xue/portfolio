@@ -1,10 +1,10 @@
 import React from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleXmark } from '@fortawesome/free-solid-svg-icons'
-import travelData from "../image-data/travel-data.jsx"
-import foodData from "../image-data/food-data.jsx"
-import catData from "../image-data/cat-data.jsx"
-import Gallery from "./Gallery.jsx"
+import travelData from "@/image-data/travel-data"
+import foodData from "@/image-data/food-data"
+import catData from "@/image-data/cat-data"
+import Gallery from "@/components/Gallery"
 
 function About(props) {
 

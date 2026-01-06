@@ -1,7 +1,7 @@
 import React from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleXmark } from '@fortawesome/free-solid-svg-icons'
-import aData from "../image-data/art-data.jsx"
+import aData from "@/image-data/art-data"
 
 function Art(props) {   
 

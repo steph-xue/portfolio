@@ -8,10 +8,10 @@ import { faAward } from '@fortawesome/free-solid-svg-icons'
 import { faUserGraduate } from '@fortawesome/free-solid-svg-icons'
 import { faSuitcaseMedical } from '@fortawesome/free-solid-svg-icons'
 import { faBookOpen } from '@fortawesome/free-solid-svg-icons'
-import wData from "../tech-work-data/tech-work.jsx";
-import aData from "../experiences-data/awards-data.jsx";
-import hData from "../experiences-data/healthcare-data.jsx";
-import rData from "../experiences-data/research-data.jsx";
+import wData from "@/tech-work-data/tech-work";
+import aData from "@/experiences-data/awards-data";
+import hData from "@/experiences-data/healthcare-data";
+import rData from "@/experiences-data/research-data";
 
 function Experiences(props) {
 
