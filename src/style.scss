@@ -144,6 +144,14 @@ a {
 	animation: gradient 15s ease-in-out infinite;
 }
 
+.light-page ::selection {
+    background-color: var(--color-light-brown1);
+}
+
+.dark-page ::selection {
+    background-color: var(--color-dark-brown1);
+}
+
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
@@ -169,7 +177,6 @@ a {
     z-index: 999;
     opacity: 0.35;    
 }
-
 
 /* NavBar */
 .navbar {
