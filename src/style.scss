@@ -1844,7 +1844,7 @@ a {
 
 .art-dark {
 	background-color: var(--color-light-brown5);
-	color: var(--color-light-brown5);
+	color: var(--color-dark-brown3);
 	transition: all 0.5s ease-in-out;
 }
 
@@ -1864,7 +1864,6 @@ a {
 .art-image-title {
     font-size: var(--fs-ml);
     font-weight: var(--fw-bold);
-    color: var(--color-dark-brown3);
     margin-top: 2em;
     margin-bottom: 0.8em;
 }
