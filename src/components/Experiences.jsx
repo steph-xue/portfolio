@@ -1,4 +1,5 @@
 import React from "react"
+import PropTypes from "prop-types";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import { faFile } from '@fortawesome/free-solid-svg-icons'
@@ -346,5 +347,11 @@ function Experiences(props) {
         </div>
     );
  }
+
+ // Prop validation for Experiences component.
+ // Ensures `darkMode` is provided as a boolean
+ Experiences.propTypes = {
+   darkMode: PropTypes.bool.isRequired,
+ };
 
 export default Experiences;

@@ -1,4 +1,5 @@
 import React from "react"
+import PropTypes from "prop-types";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleXmark } from '@fortawesome/free-solid-svg-icons'
 import aData from "@/image-data/art-data"
@@ -67,7 +68,7 @@ function Art(props) {
                 showImage &&
                 <div className={props.darkMode ? "full-image-container dark-image-container" : "full-image-container light-image-container"}>
                     <FontAwesomeIcon className="close-icon" icon={faCircleXmark} onClick={toggleImage} />
-                    <p className="full-image-title">{imageTitle}</p>
+                    <p className="full-image-title-art">{imageTitle}</p>
                     <img src={imageURL} alt="full-image-art" className="full-image-art" />
                 </div>
             }
@@ -75,5 +76,11 @@ function Art(props) {
         </div>
     );
 }
+
+// Prop validation for Art component.
+// Ensures `darkMode` is provided as a boolean
+Art.propTypes = {
+  darkMode: PropTypes.bool.isRequired,
+};
 
 export default Art;

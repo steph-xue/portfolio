@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 function Homepage(props) {
 
@@ -68,5 +69,11 @@ function Homepage(props) {
         </div>
     );
 }
+
+// Prop validation for Homepage component.
+ // Ensures `darkMode` is provided as a boolean
+ Homepage.propTypes = {
+   darkMode: PropTypes.bool.isRequired,
+ };
 
 export default Homepage;

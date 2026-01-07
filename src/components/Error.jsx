@@ -1,6 +1,4 @@
-import React from "react"
-
-function Error(props) {
+function Error() {
     // Render the Error component
   return (
     <div className="error-page">

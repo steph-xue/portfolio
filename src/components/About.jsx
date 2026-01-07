@@ -1,4 +1,5 @@
 import React from "react"
+import PropTypes from "prop-types";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleXmark } from '@fortawesome/free-solid-svg-icons'
 import travelData from "@/image-data/travel-data"
@@ -64,13 +65,13 @@ function About(props) {
         <div className="about-page">
 
             {/* About main title */}
-            <h1 className="about-title">I'm Stephanie</h1>
+            <h1 className="about-title">I&apos;m Stephanie</h1>
 
             {/* About summary */}
             <div className="about-container-1">
                 <img className="profile-image" src="/images/profile-pic.png" alt="profile-pic" />
                 <div className="about-container-1-text">
-                    <h2 className="about-subtitle">I'm a currently a UBC Bachelor of Computer Science (BCS) student based in Vancouver, BC, Canada.</h2>
+                    <h2 className="about-subtitle">I&apos;m a currently a UBC Bachelor of Computer Science (BCS) student based in Vancouver, BC, Canada.</h2>
                     <p className="about-description">
                         As a UBC Bachelor of Computer Science (BCS) student with a background in healthcare as a pharmacist, I have a strong enthusiasm
                         for full-stack software development and system architecture, artificial intelligence, cloud computing, UX/UI design, and creative
@@ -134,12 +135,18 @@ function About(props) {
                 showImage &&
                 <div className={props.darkMode ? "full-image-container dark-image-container" : "full-image-container light-image-container"}>
                     <FontAwesomeIcon className="close-icon" icon={faCircleXmark} onClick={toggleImage} />
-                    <p className="full-image-title">{imageTitle}</p>
+                    <p className="full-image-title-photos">{imageTitle}</p>
                     <img src={imageURL} alt="full-image-photo" className="full-image-photo" />
                 </div>
             }
         </div>
     );
 }
+
+// Prop validation for About component.
+// Ensures `darkMode` is provided as a boolean
+About.propTypes = {
+  darkMode: PropTypes.bool.isRequired,
+};
 
 export default About;

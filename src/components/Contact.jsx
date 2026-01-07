@@ -1,4 +1,4 @@
-import React from "react"
+import PropTypes from "prop-types";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faCode } from '@fortawesome/free-solid-svg-icons'
@@ -16,7 +16,7 @@ function Contact(props) {
             {/* Contact title and description */}
             <h1 className="contact-title">Contact Me</h1>
             <p className="contact-description">
-                If you'd like to get in touch, feel free to send me an email or connect with me on LinkedIn, Github, or Instagram. I'm always open to discussing new projects and networking with like-minded individuals.
+                If you&apos;d like to get in touch, feel free to send me an email or connect with me on LinkedIn, GitHub, or Instagram. I&apos;m always open to discussing new projects and networking with like-minded individuals.
             </p>
 
             {/* Contact buttons and image */}
@@ -87,7 +87,7 @@ function Contact(props) {
                         <textarea className="contact-form-input textarea" name="message" id="contact-message" placeholder="Message" required />
                     </div>
 
-                    <button className="contact-form-button" type="submit">
+                    <button className={props.darkMode ? "contact-form-button dark-button" : "contact-form-button light-button"} type="submit">
                         Submit
                         <FontAwesomeIcon className="arrow-icon" icon={faArrowRight} />
                     </button>
@@ -96,5 +96,11 @@ function Contact(props) {
         </div>
     );
 }
+
+// Prop validation for Contact component.
+// Ensures `darkMode` is provided as a boolean
+Contact.propTypes = {
+  darkMode: PropTypes.bool.isRequired,
+};
 
 export default Contact;

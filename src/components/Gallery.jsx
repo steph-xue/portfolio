@@ -1,4 +1,4 @@
-import React from "react"
+import PropTypes from "prop-types";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowsRotate } from '@fortawesome/free-solid-svg-icons'
 
@@ -104,5 +104,39 @@ function Gallery(props) {
         </div>
     );
 }
+
+// Prop validation for Gallery component.
+// Defines the expected structure of image data and callback functions
+// used for image selection, refreshing galleries, and dark mode styling.
+Gallery.propTypes = {
+  travelImages: PropTypes.arrayOf(
+    PropTypes.shape({
+      name: PropTypes.string.isRequired,
+      source: PropTypes.string.isRequired,
+      title: PropTypes.string,
+    })
+  ).isRequired,
+
+  foodImages: PropTypes.arrayOf(
+    PropTypes.shape({
+      name: PropTypes.string.isRequired,
+      source: PropTypes.string.isRequired,
+      title: PropTypes.string,
+    })
+  ).isRequired,
+
+  catImages: PropTypes.arrayOf(
+    PropTypes.shape({
+      name: PropTypes.string.isRequired,
+      source: PropTypes.string.isRequired,
+      title: PropTypes.string,
+    })
+  ).isRequired,
+
+  toggleImage: PropTypes.func.isRequired,
+  refreshImages: PropTypes.func.isRequired,
+  darkMode: PropTypes.bool.isRequired,
+};
+
 
 export default Gallery;

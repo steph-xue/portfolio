@@ -1,4 +1,5 @@
 import React from "react"
+import PropTypes from "prop-types";
 import ImageGallery from "react-image-gallery"
 import "react-image-gallery/styles/css/image-gallery.css"
 import data from "@/project-data/project-data";
@@ -131,5 +132,11 @@ function Projects(props) {
         </div>
     );
 }
+
+// Prop validation for Projects component.
+ // Ensures `darkMode` is provided as a boolean
+ Projects.propTypes = {
+   darkMode: PropTypes.bool.isRequired,
+ };
 
 export default Projects;

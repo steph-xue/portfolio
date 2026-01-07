@@ -1,4 +1,5 @@
 import React from "react"
+import PropTypes from "prop-types";
 import { NavLink } from "react-router-dom"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMoon } from '@fortawesome/free-regular-svg-icons'
@@ -156,5 +157,13 @@ function NavBar(props) {
         </nav>
     );
 }
+
+// Prop validation for NavBar component.
+// Ensures `darkMode` controls styling correctly and `toggleDarkMode` is a function
+// used to switch between light/dark themes from the toggle UI.
+NavBar.propTypes = {
+  darkMode: PropTypes.bool.isRequired,
+  toggleDarkMode: PropTypes.func.isRequired,
+};
 
 export default NavBar;

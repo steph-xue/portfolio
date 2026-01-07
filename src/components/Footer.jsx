@@ -1,4 +1,4 @@
-import React from "react"
+import PropTypes from "prop-types";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faCode } from '@fortawesome/free-solid-svg-icons'
@@ -33,5 +33,11 @@ function Footer(props) {
         </footer>
     );
 }
+
+// Prop validation for Footer component.
+// Ensures `darkMode` is provided as a boolean
+Footer.propTypes = {
+  darkMode: PropTypes.bool.isRequired,
+};
 
 export default Footer;

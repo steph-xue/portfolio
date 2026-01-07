@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import {
   createBrowserRouter,
   RouterProvider,
@@ -70,6 +71,14 @@ function Layout(props) {
     </>
   );
 }
+
+// Define prop types for Layout to validate incoming props at runtime.
+// This helps catch bugs early by ensuring `darkMode` is a boolean
+// and `toggleDarkMode` is a function when the component is used.
+Layout.propTypes = {
+  darkMode: PropTypes.bool.isRequired,
+  toggleDarkMode: PropTypes.func.isRequired,
+};
 
 // Render the App component with the router configuration
 function App() {
