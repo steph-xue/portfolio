@@ -11,7 +11,7 @@ function Footer(props) {
     // Render the Footer component
     return (
         <footer className={props.darkMode ? "footer footer-dark" : "footer footer-light"}>
-            <p className="copyright">© 2025 - Stephanie Xue</p>
+            <p className="copyright">© 2026 - Stephanie Xue</p>
             <div className="icons">
                 <a className="icon-link" href="https://devpost.com/steph-xue">
                     <FontAwesomeIcon className="icon" icon={faCode} />
