@@ -135,14 +135,15 @@ function About(props) {
                 className={[
                  "full-image-overlay",
                  props.darkMode ? "dark-image-container" : "light-image-container",
-                 showImage && "is-open"
+                 showImage && imageURL && "is-open"
                  ].filter(Boolean).join(" ")}
-                 onClick={toggleImage}
             >
                 <div className="full-image-modal" onClick={e => e.stopPropagation()}>
                     <FontAwesomeIcon className="close-icon" icon={faCircleXmark} onClick={toggleImage} />
                     <p className="full-image-title-photos">{imageTitle}</p>
-                    <img src={imageURL} alt="full-image-photo" className="full-image-photo" />
+                    {imageURL && (
+                        <img src={imageURL} alt="full-image-photo" className="full-image-photo" />
+                    )}
                 </div>
             </div>
         </div>
