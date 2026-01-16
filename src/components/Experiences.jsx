@@ -206,12 +206,12 @@ function Experiences(props) {
                         <p className="skills-category-items">Java, Python, C++, C, JavaScript, TypeScript, XML, HTML5, CSS3</p>
                     </div>
                     <div className="skills-category skills-frontend">
-                        <h3 className="skills-category-title">Frontend Technologies</h3>
-                        <p className="skills-category-items">React.js, Vite, Bootstrap4, Java Swing</p>
+                        <h3 className="skills-category-title">Web Development</h3>
+                        <p className="skills-category-items">React.js, Vite, Node.js, Express,js, Django, Flask, Bootstrap4, Tailwind CSS</p>
                     </div>
                     <div className="skills-category skills-backend">
-                        <h3 className="skills-category-title">Backend Technologies</h3>
-                        <p className="skills-category-items">Node.js, Express,js, Django, Flask</p>
+                        <h3 className="skills-category-title">Game Development</h3>
+                        <p className="skills-category-items">Phaser.js</p>
                     </div>
                     <div className="skills-category skills-mobile">
                         <h3 className="skills-category-title">Mobile Development</h3>

@@ -1786,7 +1786,7 @@ a {
 	.skills-text {
 		grid-template-areas: 
 		"a c b d h"
-		"e g i f j";
+		"g e i f j";
         grid-template-columns: repeat(5, 1fr);
         grid-column-gap: 1em;
 	}

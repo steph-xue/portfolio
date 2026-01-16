@@ -6,7 +6,7 @@ export default [
         location: "Burnaby, BC, Canada (Hybrid)",
         dates: "Sept 2025 – Present",
         languages: "Java, XML (Launch4j/IntelliJ run configurations), Kotlin (Gradle DSL)",
-        tools: "Gradle, JUnit, Launch4j, Windows Batch, TeamCity, Bitbucket, IntelliJ IDEA, Manuscript (formerly Fogbugz)",
+        tools: "Gradle, JUnit, Launch4j, Windows Batch, TeamCity, Bitbucket, IntelliJ IDEA",
         description: [
             "Collaborating with a cross functional team of software developers and UX/UI designers to build tools and automated test suites using Java, Gradle, JUnit, IntelliJ IDEA, Bitbucket, and TeamCity, streamlining feature development for the Globe Pulsed Field System, an advanced medical technology designed to treat atrial fibrillation through high-definition cardiac mapping, single shot pulmonary vein isolation, and atrial ablation",
             "Developing a configuration management tool using MVVM architecture that parses a large-scale multi-module Gradle codebase, leveraging static analysis and symbol solving to perform abstract syntax tree parsing, type inference, and reference resolution to successfully extract, interpret, and classify 98.6% of software configuration data",
