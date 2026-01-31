@@ -89,7 +89,7 @@ export default [
         name: "shoppers-burnaby",
         title: "Shoppers Drug Mart #2127 – Pharmacist (Casual)",
         location: "4303 Hastings Street, Burnaby, BC, Canada",
-        dates: "Mar 2024 – Present",
+        dates: "Mar 2024 – Feb 2026",
         description: [
             "Actively engaged in clinical consults, prescribed for minor ailments after appropriate patient assessment, conducted medication review services to enhance patients’ understanding of their medications, and administered vaccinations",
             "Utilized Healthwatch pharmacy software for prescription data entry, assisted with telephone and in-person patient inquiries, counselled on medications, and collaborated with healthcare professionals to improve patient care outcomes "
