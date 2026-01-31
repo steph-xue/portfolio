@@ -203,15 +203,15 @@ function Experiences(props) {
                 <div className="skills-text">
                     <div className="skills-category skills-languages">
                         <h3 className="skills-category-title">Languages</h3>
-                        <p className="skills-category-items">Java, Python, C++, C, JavaScript, TypeScript, XML, HTML5, CSS3</p>
+                        <p className="skills-category-items">Java, Python, TypeScript, JavaScript, C++, C, XML, HTML5, CSS3</p>
                     </div>
                     <div className="skills-category skills-frontend">
                         <h3 className="skills-category-title">Web Development</h3>
-                        <p className="skills-category-items">React.js, Vite, Node.js, Express,js, Django, Flask, Bootstrap4, Tailwind CSS</p>
+                        <p className="skills-category-items">Next.js, React, Vite, Node.js, Express.js, Django, Flask, Bootstrap, Tailwind CSS</p>
                     </div>
                     <div className="skills-category skills-backend">
                         <h3 className="skills-category-title">Game Development</h3>
-                        <p className="skills-category-items">Phaser.js</p>
+                        <p className="skills-category-items">Phaser</p>
                     </div>
                     <div className="skills-category skills-mobile">
                         <h3 className="skills-category-title">Mobile Development</h3>
@@ -227,7 +227,7 @@ function Experiences(props) {
                     </div>
                     <div className="skills-category skills-development">
                         <h3 className="skills-category-title">Development Tools</h3>
-                        <p className="skills-category-items">Gradle, JUnit, Launch4j, Git, GitHub, Bitbucket, VS Code, IntelliJ IDEA, Arduino IDE, Bash/Shell, Windows Batch</p>
+                        <p className="skills-category-items">Gradle, JUnit, Launch4j, Git, GitHub, Bitbucket, VS Code, IntelliJ IDEA, Arduino IDE, Bash, Windows Batch</p>
                     </div>
                     <div className="skills-category skills-practices">
                         <h3 className="skills-category-title">Programming Practices</h3>
@@ -238,8 +238,8 @@ function Experiences(props) {
                         <p className="skills-category-items">Figma, Canva, Adobe Photoshop, Procreate, Aseprite</p>
                     </div>
                     <div className="skills-category skills-cloud">
-                        <h3 className="skills-category-title">Cloud Deployment & Hosting</h3>
-                        <p className="skills-category-items">Netlify, Render</p>
+                        <h3 className="skills-category-title">Cloud & Deployment</h3>
+                        <p className="skills-category-items">AWS, Netlify, Render</p>
                     </div>
                 </div>
             </div>
@@ -279,7 +279,7 @@ function Experiences(props) {
                         <div className="education-description">
                             <p className="education-subtitle">Bachelor of Computer Science (BCS) </p>
                             <ul>
-                                <li className="education-info">Relevant coursework: Software Construction, Computer Systems, Data Structures & Algorithms, Models of Computation</li>
+                                <li className="education-info">Relevant coursework: Software Construction, Computer Systems, Data Structures & Algorithms, Models of Computation, Understanding and Designing Cognitive Systems</li>
                                 <li className="education-info">Organizations: UBC Science Co-op, UBC Tri-Mentorship Program</li>
                             </ul>
                         </div>
