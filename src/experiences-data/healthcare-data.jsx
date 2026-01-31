@@ -87,7 +87,7 @@ export default [
     {
         id: 8,
         name: "shoppers-burnaby",
-        title: "Shoppers Drug Mart #2127 – Pharmacist (Casual)",
+        title: "Shoppers Drug Mart #2127 – Pharmacist",
         location: "4303 Hastings Street, Burnaby, BC, Canada",
         dates: "Mar 2024 – Feb 2026",
         description: [
