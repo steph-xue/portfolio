@@ -185,8 +185,8 @@ export default [
         title: "React Info",
         description: 
             "React Info is an interactive web application that presents a collection of fun facts about React. Built with a dynamic front-end structure, the app responds instantly to user interactions, such as switching between light and dark display modes with a toggle in the header. The content updates seamlessly without reloading the page, reflecting the responsiveness and state-driven behavior of a modern single-page application.",
-        type: "Academic Project",
-        category: "academic",
+        type: "Personal Project",
+        category: "personal",
         languages: "JavaScript, HTML5, CSS3",
         additionalInfo: "React.js, Vite, Netlify",
         github: "https://github.com/steph-xue/react-info",
@@ -209,8 +209,8 @@ export default [
         title: "Meme Generator",
         description: 
             "The Meme Generator project is a dynamic web application where the user can generate their own meme. When the user clicks the 'get a new meme image' button, a new random meme image is retrieved to be displayed on the user interface of the web application. Then the user can type in their choice of top and bottom text to be displayed on the meme image. The meme generator makes a call to the Imgflip API 'https://api.imgflip.com/get_memes' to get a selection of memes.",
-        type: "Academic Project",
-        category: "academic",
+        type: "Personal Project",
+        category: "personal",
         languages: "JavaScript, HTML5, CSS3",
         additionalInfo: "React.js, Vite, Imgflip API, Netlify",
         github: "https://github.com/steph-xue/meme-generator",
@@ -229,8 +229,8 @@ export default [
         title: "React Notes",
         description: 
             "React Notes is a dynamic note-taking application that allows users to write, edit, preview, and delete notes in Markdown format. It features an integrated editor and a Markdown-to-HTML converter, enabling seamless toggling between the write tab for composing content and the preview tab for instantly viewing the rendered output. Notes are saved locally, ensuring persistence between sessions without relying on a remote server. A sidebar provides easy navigation, allowing users to create new notes or select existing ones to view or update. Notes are automatically ordered with the most recently created or edited displayed first, and each entry clearly shows its title, derived from the content, along with the body text.",
-        type: "Academic Project",
-        category: "academic",
+        type: "Personal Project",
+        category: "personal",
         languages: "JavaScript, HTML5, CSS3",
         additionalInfo: "React.js, React-split, React-mde, Showdown, Vite, Netlify",
         github: "https://github.com/steph-xue/react-notes",
