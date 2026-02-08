@@ -89,8 +89,8 @@ function Projects(props) {
                         <ImageGallery 
                             items={project.images} 
                             originalTitle={project.title}
-                            thumbnailPosition="left"
-                            slideInterval={4000}
+                            showThumbnails={false}
+                            slideInterval={2000}
                         />
                 </div>
             </div>

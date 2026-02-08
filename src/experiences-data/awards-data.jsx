@@ -52,7 +52,7 @@ export default [
         id: 8,
         name: "deans-honour-list",
         title: "Dean's Honours List",
-        dates: "2016 - Present",
+        dates: "Sept 2016 - Present",
         description: "Students at UBC with a standing of at least 80%"
     },
 ]

@@ -283,7 +283,7 @@ function Experiences(props) {
                                 <li className="education-info">Organizations: UBC Science Co-op, UBC Tri-Mentorship Program</li>
                             </ul>
                         </div>
-                        <p className="education-date">2024 - May 2027</p>
+                        <p className="education-date">Sept 2024 - Apr 2027</p>
                     </div>
                     <div className="education-section">
                         <div className="education-description">
@@ -292,7 +292,7 @@ function Experiences(props) {
                                 <li className="education-info">Degree conferred in 2022</li>
                             </ul>
                         </div>
-                        <p className="education-date">2018 - 2022</p>
+                        <p className="education-date">Sept 2018 - Apr 2022</p>
                     </div>
                     <div className="education-section">
                         <div className="education-description">
@@ -301,7 +301,7 @@ function Experiences(props) {
                                 <li className="education-info">Completed 2 years before entering the PharmD program</li>
                             </ul>
                         </div>
-                        <p className="education-date">2016 - 2018</p>
+                        <p className="education-date">Sept 2016 - Apr 2018</p>
                     </div>
                 </div>
             </div>

@@ -581,54 +581,74 @@ export default [
     },
     {
         id: 17,
-        name: "portfolio",
-        title: "My Personal Portfolio Website",
+        name: "overhacked",
+        title: "Overhacked!",
         description: 
-            "My Personal Portfolio Website is a component-first, dynamic web application crafted from scratch to showcase personal projects, technical skills, professional experience, and digital artwork. Every element of my website was intentionally designed and developed to reflect my own style, individuality, and creativity. The site features a variety of interactive elements including a dark/light mode toggle, a randomized image gallery showcasing my photography, multiple project slide show carousels, an animated console-style homepage, and a subtle animated gradient background that provide a more engaging user experience. The randomized photography gallery in the about me section allows the user to view a random selection of travel, food, and pet photography. The image carousels in the projects section allow users to scroll through project images, open images in full screen, and view them in a slide show mode.",
-        type: "Personal Project",
-        category: "personal",
-        languages: "JavaScript, HTML5, CSS3",
-        additionalInfo: "React.js, React-router, React-image-gallery, Vite, Netlify",
-        github: "https://github.com/steph-xue/portfolio",
-        activeLink: "https://stephxue.com/",
-        devpostLink: "",
+            "Overhacked! is a fast paced hackathon-themed game inspired by Overcooked that transforms the dynamic energy of a real hackathon into an engaging and interactive learning experience. Players navigate a virtual hackathon environment, interact with teammates, and solve interactive object oriented programming (OOP) coding mini-games, with a mentor agent guiding them along the way. Each completed challenge advances the progress bar as the player races to fill it before the timer runs out.",
+        type: "Hackathon Project - nwHacks 2026",
+        category: "hackathon",
+        languages: "TypeScript, Python",
+        additionalInfo: "Phaser, Next.js, React, Vite, Tailwind CSS, FastAPI, CrewAI, OpenAI API",
+        github: "https://github.com/steph-xue/overhacked",
+        activeLink: "",
+        devpostLink: "https://devpost.com/software/overhacked",
         images: [
             {
-                original: "/images/projects/portfolio/homepage-light.png",
-                thumbnail: "/images/projects/portfolio/homepage-light.png",
+                original: "/images/projects/overhacked/landing-page.png",
+                thumbnail: "/images/projects/overhacked/landing-page.png",
             },
             {
-                original: "/images/projects/portfolio/homepage-dark.png",
-                thumbnail: "/images/projects/portfolio/homepage-dark.png",
+                original: "/images/projects/overhacked/user-form.png",
+                thumbnail: "/images/projects/overhacked/user-form.png",
             },
             {
-                original: "/images/projects/portfolio/about-me-1.png",
-                thumbnail: "/images/projects/portfolio/about-me-1.png",
+                original: "/images/projects/overhacked/game-scene.png",
+                thumbnail: "/images/projects/overhacked/game-scene.png",
             },
             {
-                original: "/images/projects/portfolio/about-me-2.png",
-                thumbnail: "/images/projects/portfolio/about-me-2.png",
+                original: "/images/projects/overhacked/talk-with-team.png",
+                thumbnail: "/images/projects/overhacked/talk-with-team.png",
             },
             {
-                original: "/images/projects/portfolio/image-gallery.png",
-                thumbnail: "/images/projects/portfolio/image-gallery.png",
+                original: "/images/projects/overhacked/mentor-popup.png",
+                thumbnail: "/images/projects/overhacked/mentor-popup.png",
             },
             {
-                original: "/images/projects/portfolio/projects.png",
-                thumbnail: "/images/projects/portfolio/projects.png",
+                original: "/images/projects/overhacked/multiple-choice1.png",
+                thumbnail: "/images/projects/overhacked/multiple-choice1.png",
             },
             {
-                original: "/images/projects/portfolio/experiences.png",
-                thumbnail: "/images/projects/portfolio/experiences.png",
+                original: "/images/projects/overhacked/multiple-choice1-correct.png",
+                thumbnail: "/images/projects/overhacked/multiple-choice1-correct.png",
             },
             {
-                original: "/images/projects/portfolio/digital-art.png",
-                thumbnail: "/images/projects/portfolio/digital-art.png",
+                original: "/images/projects/overhacked/multiple-choice2.png",
+                thumbnail: "/images/projects/overhacked/multiple-choice2.png",
             },
             {
-                original: "/images/projects/portfolio/contact-me.png",
-                thumbnail: "/images/projects/portfolio/contact-me.png",
+                original: "/images/projects/overhacked/multiple-choice2-incorrect.png",
+                thumbnail: "/images/projects/overhacked/multiple-choice2-incorrect.png",
             },
+            {
+                original: "/images/projects/overhacked/drag-and-drop.png",
+                thumbnail: "/images/projects/overhacked/drag-and-drop.png",
+            },
+            {
+                original: "/images/projects/overhacked/drag-and-drop-correct.png",
+                thumbnail: "/images/projects/overhacked/drag-and-drop-correct.png",
+            },
+            {
+                original: "/images/projects/overhacked/drag-and-drop-incorrect.png",
+                thumbnail: "/images/projects/overhacked/drag-and-drop-incorrect.png",
+            },
+            {
+                original: "/images/projects/overhacked/win.png",
+                thumbnail: "/images/projects/overhacked/win.png",
+            },
+            {
+                original: "/images/projects/overhacked/game-over.png",
+                thumbnail: "/images/projects/overhacked/game-over.png",
+            }
         ]
-    },
+    }
 ]
