@@ -202,12 +202,12 @@ function Experiences(props) {
                 <div className="separator-line1"></div>
                 <div className="skills-text">
                     <div className="skills-category skills-languages">
-                        <h3 className="skills-category-title">Languages</h3>
+                        <h3 className="skills-category-title">Programming & Markup Languages</h3>
                         <p className="skills-category-items">Java, Python, TypeScript, JavaScript, C++, C, XML, HTML5, CSS3</p>
                     </div>
                     <div className="skills-category skills-frontend">
                         <h3 className="skills-category-title">Web Development</h3>
-                        <p className="skills-category-items">Next.js, React, Vite, Node.js, Express.js, Django, Flask, Bootstrap, Tailwind CSS</p>
+                        <p className="skills-category-items">React, Vite, Next.js, Node.js, Express.js, Django, Flask, Bootstrap, Tailwind CSS</p>
                     </div>
                     <div className="skills-category skills-backend">
                         <h3 className="skills-category-title">Game Development</h3>
@@ -219,7 +219,7 @@ function Experiences(props) {
                     </div>
                     <div className="skills-category skills-storage">
                         <h3 className="skills-category-title">Database Technologies</h3>
-                        <p className="skills-category-items">SQL (SQLite)</p>
+                        <p className="skills-category-items">SQLite</p>
                     </div>
                     <div className="skills-category skills-ci-cd">
                         <h3 className="skills-category-title">CI/CD Tools</h3>
@@ -227,11 +227,11 @@ function Experiences(props) {
                     </div>
                     <div className="skills-category skills-development">
                         <h3 className="skills-category-title">Development Tools</h3>
-                        <p className="skills-category-items">Gradle, JUnit, Launch4j, Git, GitHub, Bitbucket, VS Code, IntelliJ IDEA, Arduino IDE, Bash, Windows Batch</p>
+                        <p className="skills-category-items">Gradle, JUnit Jupiter, REST APIs, Launch4j, Git, GitHub, Bitbucket, VS Code, IntelliJ IDEA, Arduino IDE, Bash, Windows Batch</p>
                     </div>
                     <div className="skills-category skills-practices">
                         <h3 className="skills-category-title">Programming Practices</h3>
-                        <p className="skills-category-items">Object Oriented Programming, Data Structures & Algorithms, RESTful APIs, Unit Testing, Debugging, Multithreading, Agile Development</p>
+                        <p className="skills-category-items">Object Oriented Design, SOLID Principles, Data Structures & Algorithms, Multithreading, Unit Testing, Debugging, Agile Development</p>
                     </div>
                     <div className="skills-category skills-design">
                         <h3 className="skills-category-title">Design & Creative Tools</h3>
