@@ -4,7 +4,7 @@ My own personal portfolio website crafted from scratch to showcase personal proj
 - There is a navigation bar at the top that allows you to move between different sections of the web application, including the homepage, the about me page, the projects page, the experiences page, the digital art page, and the contact me page.
 - The homepage displays an animated console-like welcome message to the viewer. The about me page contains some information about myself, my background, and my interests. This page also contains a photography gallery of some pictures I have taken, including travel photos, food photos, and photos of my beloved cat, Rhea. The viewer can refresh the photography gallery to randomly generate new photos to view.
 - The projects page showcases some of the projects I have been working on. Each project contains some screenshot images that you can view in a carousel, a descripion of the project, languages/tools used, and any project links.
-- The experiences page showcases some of my experiences including my resume, technical skills, education, academic awards healthcare experience, and research experience.
+- The experiences page showcases some of my experiences including my technical skills, education, academic awards healthcare experience, and research experience.
 - The digital art page showcases some art pieces I have drawn with more to be coming soon!
 - The contact me page includes links to my social media and projects. There is also a messaging feature on the contact me page that allows viewers to send a message to my email.
 - There is also a toggle button at the top right of the navigation bar that allows you to switch between light mode and dark mode.
@@ -56,7 +56,7 @@ Projects Page
 &nbsp;
 
 **Experiences**
- - The experiences page lists some of my experiences including my resume, technical skills, education, academic awards, previous healthcare experience, and previous research experience
+ - The experiences page lists some of my experiences including my technical skills, education, academic awards, previous healthcare experience, and previous research experience
  - Viewers can use the navigation bar at the top to automatically bring them to the desired section of experiences to view using smooth scrolling
 <br><br>
 ![Experiences](./images/experiences.png?raw=true "Experiences")

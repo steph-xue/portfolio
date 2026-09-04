@@ -2,7 +2,6 @@ import React from "react"
 import PropTypes from "prop-types";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
-import { faFile } from '@fortawesome/free-solid-svg-icons'
 import { faComputer } from '@fortawesome/free-solid-svg-icons'
 import { faLaptop } from '@fortawesome/free-solid-svg-icons'
 import { faAward } from '@fortawesome/free-solid-svg-icons'
@@ -17,7 +16,6 @@ import rData from "@/experiences-data/research-data";
 function Experiences(props) {
 
     // References to each section for smooth scrolling
-    const resumeRef = React.useRef(null);
     const technicalSkillsRef = React.useRef(null);
     const workRef = React.useRef(null);
     const educationRef = React.useRef(null);
@@ -165,29 +163,11 @@ function Experiences(props) {
 
             {/* Navigation links */}
             <div className={props.darkMode ? "experiences-nav nav-dark" : "experiences-nav nav-light"}>
-                <p onClick={() => scrollToSection(resumeRef)} className="nav-link experiences-nav-link">Resume</p>
                 <p onClick={() => scrollToSection(technicalSkillsRef)} className="nav-link experiences-nav-link">Technical Skills</p>
                 <p onClick={() => scrollToSection(workRef)} className="nav-link experiences-nav-link">Work Experience</p>
                 <p onClick={() => scrollToSection(educationRef)} className="nav-link experiences-nav-link">Education & Awards</p>
                 <p onClick={() => scrollToSection(healthcareRef)} className="nav-link experiences-nav-link">Healthcare</p>
                 <p onClick={() => scrollToSection(researchRef)} className="nav-link experiences-nav-link">Research</p>
-            </div>
-
-            {/* Resume section */}
-            <div 
-                ref={resumeRef} 
-                className={props.darkMode ? "resume experiences-container item-container-dark" : "resume experiences-container item-container-light"}
-            >
-                <h2 className="resume-title">
-                    Resume
-                    <FontAwesomeIcon className="skills-icon" icon={faFile} />
-                </h2>
-                <a 
-                    href="/files/resume.pdf"
-                    className="resume-text"
-                >
-                    Click here to view!
-                </a>
             </div>
 
             {/* Technical skills section */}
