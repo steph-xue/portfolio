@@ -650,5 +650,193 @@ export default [
                 thumbnail: "/images/projects/overhacked/game-over.png",
             }
         ]
+    },
+    {
+        id: 18,
+        name: "hearth",
+        title: "Hearth",
+        description:
+            "Hearth is a full-stack, privacy-first mobile communication and translation tool designed for women's shelter residents and staff, powered by a speech-to-text, translation, and text-to-speech pipeline driven by Cohere's Tiny Aya, a compact multilingual AI model optimized for low-resource languages. Residents and staff can speak or type in their own language, with speech and text transcribed and translated in real time, keeping the conversation moving naturally between both sides. Guided prompts tailored to shelter environments can help staff navigate sensitive topics like safety, wellbeing, and immediate needs, and harmful language detection runs in the background to support timely follow-up when needed. Transcripts are saved locally on-device, keeping conversations private and the tool low-friction for shared-device use.",
+        type: "Hackathon Project - youCode 2026 🏆 1st Place in the Community Women's Initiative (CWI) Experienced Stream · 🥇 Diversity in CS Project Hub Winner",
+        category: "hackathon",
+        languages: "TypeScript, CSS, Python",
+        additionalInfo: "Next.js, React, Progressive Web Application (PWA), FastAPI, OpenAI Whisper, Cohere Tiny Aya, Web Speech API, Twilio API",
+        github: "https://github.com/steph-xue/hearth",
+        activeLink: "",
+        devpostLink: "https://devpost.com/software/hearth-pvngm3",
+        images: [
+            {
+                original: "/images/projects/hearth/landing.png",
+                thumbnail: "/images/projects/hearth/landing.png",
+            },
+            {
+                original: "/images/projects/hearth/layout.png",
+                thumbnail: "/images/projects/hearth/layout.png",
+            },
+            {
+                original: "/images/projects/hearth/translation.png",
+                thumbnail: "/images/projects/hearth/translation.png",
+            },
+            {
+                original: "/images/projects/hearth/transcript.png",
+                thumbnail: "/images/projects/hearth/transcript.png",
+            },
+            {
+                original: "/images/projects/hearth/prompt.png",
+                thumbnail: "/images/projects/hearth/prompt.png",
+            },
+            {
+                original: "/images/projects/hearth/support.png",
+                thumbnail: "/images/projects/hearth/support.png",
+            },
+            {
+                original: "/images/projects/hearth/harmful-language-detection.png",
+                thumbnail: "/images/projects/hearth/harmful-language-detection.png",
+            },
+            {
+                original: "/images/projects/hearth/alert.png",
+                thumbnail: "/images/projects/hearth/alert.png",
+            }
+        ]
+    },
+    {
+        id: 19,
+        name: "credit-card-default-risk-predictor",
+        title: "Credit Card Default Risk Predictor",
+        description:
+            "The Credit Card Default Risk Predictor is an interactive machine learning web application for predicting credit card default risk and exploring the financial patterns behind each result. Users can generate predictions for a single client by completing a form or for multiple clients by uploading a CSV file, selecting from four trained models: Logistic Regression, SVM, Random Forest, and XGBoost. Results include each client's predicted default status and estimated probability of default for the following month, alongside a summarized analysis with key insights and visualizations. Users can also explore background information on the dataset, feature engineering process, and training methodology behind each model.",
+        type: "Academic Project",
+        category: "academic",
+        languages: "Python",
+        additionalInfo: "Streamlit, NumPy, pandas, SciPy, scikit-learn, joblib, Plotly, Matplotlib, unittest, Streamlit Community Cloud",
+        github: "https://github.com/steph-xue/credit-card-default-risk-predictor",
+        activeLink: "https://credit-card-default-risk-predictor.streamlit.app",
+        devpostLink: "",
+        images: [
+            {
+                original: "/images/projects/credit-card-default-risk-predictor/landing.png",
+                thumbnail: "/images/projects/credit-card-default-risk-predictor/landing.png",
+            },
+            {
+                original: "/images/projects/credit-card-default-risk-predictor/user-form.png",
+                thumbnail: "/images/projects/credit-card-default-risk-predictor/user-form.png",
+            },
+            {
+                original: "/images/projects/credit-card-default-risk-predictor/single-client.png",
+                thumbnail: "/images/projects/credit-card-default-risk-predictor/single-client.png",
+            },
+            {
+                original: "/images/projects/credit-card-default-risk-predictor/single-prediction-results.png",
+                thumbnail: "/images/projects/credit-card-default-risk-predictor/single-prediction-results.png",
+            },
+            {
+                original: "/images/projects/credit-card-default-risk-predictor/single-key-insights.png",
+                thumbnail: "/images/projects/credit-card-default-risk-predictor/single-key-insights.png",
+            },
+            {
+                original: "/images/projects/credit-card-default-risk-predictor/single-bill-payment-plot.png",
+                thumbnail: "/images/projects/credit-card-default-risk-predictor/single-bill-payment-plot.png",
+            },
+            {
+                original: "/images/projects/credit-card-default-risk-predictor/single-repayment-plot.png",
+                thumbnail: "/images/projects/credit-card-default-risk-predictor/single-repayment-plot.png",
+            },
+            {
+                original: "/images/projects/credit-card-default-risk-predictor/single-shap-plot.png",
+                thumbnail: "/images/projects/credit-card-default-risk-predictor/single-shap-plot.png",
+            },
+            {
+                original: "/images/projects/credit-card-default-risk-predictor/multiple-clients.png",
+                thumbnail: "/images/projects/credit-card-default-risk-predictor/multiple-clients.png",
+            },
+            {
+                original: "/images/projects/credit-card-default-risk-predictor/multiple-prediction-results.png",
+                thumbnail: "/images/projects/credit-card-default-risk-predictor/multiple-prediction-results.png",
+            },
+            {
+                original: "/images/projects/credit-card-default-risk-predictor/multiple-key-insights.png",
+                thumbnail: "/images/projects/credit-card-default-risk-predictor/multiple-key-insights.png",
+            },
+            {
+                original: "/images/projects/credit-card-default-risk-predictor/multiple-default-status-plot.png",
+                thumbnail: "/images/projects/credit-card-default-risk-predictor/multiple-default-status-plot.png",
+            },
+            {
+                original: "/images/projects/credit-card-default-risk-predictor/multiple-default-probability-plot.png",
+                thumbnail: "/images/projects/credit-card-default-risk-predictor/multiple-default-probability-plot.png",
+            },
+            {
+                original: "/images/projects/credit-card-default-risk-predictor/info-dataset.png",
+                thumbnail: "/images/projects/credit-card-default-risk-predictor/info-dataset.png",
+            },
+            {
+                original: "/images/projects/credit-card-default-risk-predictor/info-model-training.png",
+                thumbnail: "/images/projects/credit-card-default-risk-predictor/info-model-training.png",
+            },
+            {
+                original: "/images/projects/credit-card-default-risk-predictor/info-test-performance.png",
+                thumbnail: "/images/projects/credit-card-default-risk-predictor/info-test-performance.png",
+            },
+            {
+                original: "/images/projects/credit-card-default-risk-predictor/info-about-models.png",
+                thumbnail: "/images/projects/credit-card-default-risk-predictor/info-about-models.png",
+            }
+        ]
+    },
+    {
+        id: 20,
+        name: "ai-mock-interview-coach",
+        title: "AI Mock Interview Coach",
+        description:
+            "AI Mock Interview Coach is a full-stack, multi-agent AI web application that delivers real-time, hands-free speech-to-speech interview practice for students preparing for internship, co-op, and new grad roles. The experience is fully personalized, with interview questions, practice guidance, and feedback all shaped by the student's uploaded resume and target job description. Students can choose Practice Mode, which offers tailored guidance drawn from their own experiences, or Live Mode, which simulates a realistic virtual interview without assistance. After the interview, students receive a personalized feedback report covering detailed scoring, question-specific strengths and improvements, and next steps.",
+        type: "Hackathon Project - UBC CIC Hackathon 2026 🏆 1st Place Winner",
+        category: "hackathon",
+        languages: "TypeScript, Python, HTML5, CSS3",
+        additionalInfo: "React, Vite, FastAPI, OpenAI gpt-oss, Amazon Nova 2 Sonic, WebSocket, Docker, AWS (Bedrock, AgentCore, Lambda, CDK, S3, CloudFront, Amplify, DynamoDB, CloudWatch, SNS, Budgets)",
+        github: "https://github.com/steph-xue/ai-mock-interview-coach",
+        activeLink: "https://main.dvppliwnm6u9g.amplifyapp.com",
+        devpostLink: "",
+        images: [
+            {
+                original: "/images/projects/ai-mock-interview-coach/upload-screen-empty.png",
+                thumbnail: "/images/projects/ai-mock-interview-coach/upload-screen-empty.png",
+            },
+            {
+                original: "/images/projects/ai-mock-interview-coach/upload-screen-filled.png",
+                thumbnail: "/images/projects/ai-mock-interview-coach/upload-screen-filled.png",
+            },
+            {
+                original: "/images/projects/ai-mock-interview-coach/resume-processing.png",
+                thumbnail: "/images/projects/ai-mock-interview-coach/resume-processing.png",
+            },
+            {
+                original: "/images/projects/ai-mock-interview-coach/interview-practice-mode.png",
+                thumbnail: "/images/projects/ai-mock-interview-coach/interview-practice-mode.png",
+            },
+            {
+                original: "/images/projects/ai-mock-interview-coach/interview-live-mode.png",
+                thumbnail: "/images/projects/ai-mock-interview-coach/interview-live-mode.png",
+            },
+            {
+                original: "/images/projects/ai-mock-interview-coach/demo-feedback-each-question.gif",
+                thumbnail: "/images/projects/ai-mock-interview-coach/demo-feedback-each-question.gif",
+            },
+            {
+                original: "/images/projects/ai-mock-interview-coach/feedback-report.png",
+                thumbnail: "/images/projects/ai-mock-interview-coach/feedback-report.png",
+            },
+            {
+                original: "/images/projects/ai-mock-interview-coach/feedback-summary.png",
+                thumbnail: "/images/projects/ai-mock-interview-coach/feedback-summary.png",
+            },
+            {
+                original: "/images/projects/ai-mock-interview-coach/feedback-questions.png",
+                thumbnail: "/images/projects/ai-mock-interview-coach/feedback-questions.png",
+            },
+            {
+                original: "/images/projects/ai-mock-interview-coach/feedback-next-steps.png",
+                thumbnail: "/images/projects/ai-mock-interview-coach/feedback-next-steps.png",
+            }
+        ]
     }
 ]
