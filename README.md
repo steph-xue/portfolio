@@ -2,7 +2,7 @@
 
 My own personal portfolio website crafted from scratch to showcase personal projects, technical skills, professional experience, and digital artwork. Every element of my portfolio website was intentionally designed and developed to reflect my own style, individuality, and creativity. This dynamic single-page web application was built using the front-end JavaScript library, React.
 - There is a navigation bar at the top that allows you to move between different sections of the web application, including the homepage, the about me page, the projects page, the experiences page, the digital art page, and the contact me page.
-- The homepage displays an animated console-like welcome message to the viewer. The about me page contains some information about myself, my background, and my interests. This page also contains a photography gallery of some pictures I have taken, including travel photos, food photos, and photos of my beloved cat, Rhea. The viewer can refresh the photography gallery to randomly generate new photos to view.
+- The homepage displays an animated console-like welcome message to the viewer. The about me page contains some information about myself, my background, and my interests. This page also contains a photography gallery of some pictures I have taken, including travel photos, food photos, and photos of my sweet cat, Rhea. The viewer can refresh the photography gallery to randomly generate new photos to view.
 - The projects page showcases some of the projects I have been working on. Each project contains some screenshot images that you can view in a carousel, a descripion of the project, languages/tools used, and any project links.
 - The experiences page showcases some of my experiences including my technical skills, education, academic awards healthcare experience, and research experience.
 - The digital art page showcases some art pieces I have drawn with more to be coming soon!
@@ -29,7 +29,7 @@ Homepage Dark Mode
 
 **About Me**
   - The about me page contains some information about myself, my background, and my interests
-  - The bottom of the about me page also contains a photography gallery of some pictures I have taken, including travel photos, food photos, and photos of my beloved cat, Rhea
+  - The bottom of the about me page also contains a photography gallery of some pictures I have taken, including travel photos, food photos, and photos of my sweet cat, Rhea
     - The photography gallery allows the viewer to generate a selection of random photos each time the refresh button is clicked on or the page is refreshed 
     - When a photo is clicked on, the user can view it in full screen along with its description
 <br><br>

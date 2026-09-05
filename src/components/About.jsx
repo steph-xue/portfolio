@@ -73,47 +73,31 @@ function About(props) {
                 <div className="about-container-1-text">
                     <h2 className="about-subtitle">I&apos;m currently a UBC Bachelor of Computer Science (BCS) student based in Vancouver, BC, Canada.</h2>
                     <p className="about-description">
-                        As a UBC Bachelor of Computer Science (BCS) student with a background in healthcare as a pharmacist, I have a strong enthusiasm
-                        for full-stack software development and system architecture, artificial intelligence, cloud computing, UX/UI design, and creative
-                        problem solving. I am currently interning as a Software Developer on the Medical Device Software UI team at Kardium, where I am
-                        implementing tools and building automated test suites in Java to help streamline feature development for the Globe Pulsed Field 
-                        System, an advanced catheter technology designed to treat atrial fibrillation through high-definition mapping, single-shot
-                        pulmonary vein isolation, and atrial ablation. I am passionate about leveraging technology to help streamline processes, 
-                        automate tasks, bridge gaps, and develop innovative solutions to address real-world problems. As a life-long learner, I am 
-                        always excited to explore new ideas, expand my skillset, and push the boundaries of my knowledge. I thrive on challenging myself
-                        through pursing new projects and collaborating with like-minded individuals to foster both personal and professional growth.
+                        Before pursuing computer science, I graduated from UBC with a Doctor of Pharmacy (PharmD) in 2022 and worked as a pharmacist
+                        across various healthcare settings. These experiences gave me firsthand insight into how fragmented systems and manual processes 
+                        can impact patient care, which sparked my interest in building software that can solve practical problems. Over time, that interest 
+                        grew into a genuine passion for software development and led me to pursue it as a career. Most recently, I have worked at Kardium as
+                        a Software Developer Intern on the Globe Pulsed Field System, an advanced medical device designed to treat atrial fibrillation through
+                        high-definition cardiac mapping and pulsed field ablation. In this role, I developed a software tool to streamline configuration 
+                        management and feature development for the Globe System. I also helped refactor the host interface to centralize styling and reduce 
+                        duplication across shared components, improving consistency, modularity, and maintainability across the production codebase.
                     </p>
                 </div>
             </div>
 
-            {/* About more info */}
-            <div className="about-container-2">
-                <p className="about-container-2-text">
-                    Given my healthcare background, I have had various experiences in community, hospital, ambulatory care, and research
-                    settings across multiple therapeutic areas such as cardiology, neurology, mental health, and diabetes. These experiences have
-                    equipped me with valuable direct patient care experiences and have allowed me to gain a comprehensive understanding of different
-                    healthcare software and emerging technologies. My previous experiences have provided me with a unique perspective on how 
-                    technology can be harnessed to enhance patient care and improve operational efficiency. This perspective fuels my commitment
-                    to leverage technology in ways that can help address real-world challenges and make a meaningful impact in our society. I am
-                    motivated by the idea that thoughtful innovation can empower individuals and communities to achieve more and overcome existing
-                    barriers. By blending my past experiences, problem-solving skills, technical expertise, and creativity, I hope to create systems
-                    that can enhance operational efficiency and inspire meaningful change.
-                </p>
-            </div>
-
             {/* About interests */}
-            <div className="about-container-3">
+            <div className="about-container-2">
                 <img className="profile-cat-image" src="/images/profile-cat.png" alt="profile-cat" />
-                <p className="about-container-3-text">
-                        In my downtime, you will often find me trying to craft the perfect glass of iced coffee or a matcha latte, listening to and
-                        playing music, immersing myself in a cozy video game, and spending quality time with my loved ones. I also enjoy visiting
-                        new coffee shops, traveling, and uncovering hidden gems both in and out of the city, always in search of inspiration and 
-                        new experiences. My creativity also finds its expression in photography, design, and digital art. I love capturing memories
-                        and the beauty of the world around me in photos, whether that be food, scenery, or cherished moments with loved ones. I also
-                        enjoy art and design as a medium for bringing my ideas to life, and have been trying to learn and experiment with new digital
-                        art styles and techniques. Additionally, I have an adorable cat named Rhea who is an American Shorthair and Maine Coon mix. 
-                        She has an endearing and loving personality, who loves to spending her time cuddling, taking naps, snacking on yummy treats,
-                        and basking in the sun.
+                <p className="about-container-2-text">
+                        My technical interests include full-stack development, software architecture, cloud infrastructure, and agentic AI systems. I enjoy 
+                        creative problem-solving, turning innovative ideas into practical solutions, and building software that is purposeful, intuitive to
+                        use, and thoughtfully designed. In my downtime, you&apos;ll often find me making a cup of coffee or a matcha latte, unwinding with 
+                        a cozy video game, or spending quality time with my loved ones. I also enjoy exploring new coffee shops, traveling, and uncovering 
+                        hidden gems in and out of the city, always in search of inspiration. My creativity also finds its expression in photography, design, 
+                        and digital art. I love capturing memories in photos, whether that be food, scenery, or cherished moments with loved ones. I also 
+                        enjoy art and design as a medium for bringing my ideas to life and have been trying to learn new digital art styles and techniques.
+                        Additionally, I have an adorable cat named Rhea who loves cozy naps, warm blankets, and cuddles.
+                      
                 </p>
             </div>
 

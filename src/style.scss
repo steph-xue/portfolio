@@ -28,13 +28,13 @@
 
     // Gradients (light mode)
 	--gradient-light: linear-gradient(
-	-45deg, 
-	#ccb296, 
+	-45deg,
+	#ccb296,
 	#d0a679,
-	#d0a679, 
-	#b58a5b, 
-	#bb835c, 
-	#ac7e4b 
+	#d0a679,
+	#b58a5b,
+	#bb835c,
+	#ac7e4b
 	);
 
     // Gradients (dark mode)
@@ -157,8 +157,23 @@ a {
 	}
 }
 
+.page-body {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
 .content {
-	min-height: 100%;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+/* Keeps the canvas wrapper out of the page flex flow, so it cannot absorb
+   space-between free space and push the page content down */
+.fluid-cursor-wrapper {
+	display: contents;
 }
 
 .fluid-cursor {
@@ -244,16 +259,16 @@ a {
     justify-content: flex-start;
 	align-items: center;
 	box-sizing: content-box;
-    width: 20px;
-	height: 10px;
+    width: 30px;
+	height: 16px;
 	border-radius: 2rem;
 	margin-inline: 0.4em;
     cursor: pointer;
 }
 
 .tog-circle {
-	height: 10px;
-	width: 10px;
+	height: 16px;
+	width: 16px;
 	border-radius: 50%;
 }
 
@@ -289,17 +304,6 @@ a {
     .navbar-list {
         padding-right: 0.4em;
         padding-left: 0.6em;
-    }
-
-    .tog-slider {
-        width: 30px;
-        height: 16px;
-        margin-inline: 0.4em;
-    }
-
-    .tog-circle {
-        height: 16px;
-        width: 16px;
     }
 }
 
@@ -337,9 +341,9 @@ a {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	gap: 5px;
-	width: 2.2em;
-	height: 2.2em;
+	gap: 6px;
+	width: 2.6rem;
+	height: 2.6rem;
 	padding: 0em;
 	border: none;
 	background: none;
@@ -349,8 +353,8 @@ a {
 
 .hamburger-line {
 	display: block;
-	width: 22px;
-	height: 2px;
+	width: 27px;
+	height: 2.5px;
 	border-radius: 2px;
 	transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.25s ease, background-color 0.3s ease;
 }
@@ -364,7 +368,7 @@ a {
 }
 
 .hamburger-line-top-open {
-	transform: translateY(7px) rotate(45deg);
+	transform: translateY(8.5px) rotate(45deg);
 }
 
 .hamburger-line-middle-open {
@@ -372,11 +376,26 @@ a {
 }
 
 .hamburger-line-bottom-open {
-	transform: translateY(-7px) rotate(-45deg);
+	transform: translateY(-8.5px) rotate(-45deg);
 }
 
 .mobile-toggler {
 	margin-left: 0em;
+}
+
+.mobile-toggler .tog-sun, .mobile-toggler .tog-moon {
+	font-size: 1.15rem;
+}
+
+.mobile-toggler .tog-slider {
+	width: 36px;
+	height: 19px;
+	margin-inline: 0.5em;
+}
+
+.mobile-toggler .tog-circle {
+	width: 19px;
+	height: 19px;
 }
 
 .mobile-menu-backdrop {
@@ -444,8 +463,9 @@ a {
 @media (max-width: 699px) {
 	.navbar {
 		justify-content: space-between;
-		padding-inline: 1.75rem;
-		padding-block: 1.5rem;
+		padding-left: 2.25rem;
+		padding-right: 1.1rem;
+		padding-block: 1.75rem;
 	}
 
 	.navbar-list {
@@ -460,29 +480,39 @@ a {
 }
 
 /* Homepage */
+/* The description is pinned just above the footer, and the title fills all the
+   space above it so its text sits centered in that area. The typed phrase can
+   wrap without moving the description, since the text grows about its centre. */
 .homepage {
 	display: flex;
+	flex: 1;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: flex-end;
     align-items: center;
-	padding: 1em 2em;
-	margin-top: 28vh;
+	padding: 1rem clamp(1.25rem, 4vw, 3rem) clamp(1.5rem, 3.5vh, 2.5rem);
 	width: 100%;
-	height: 100%;
 }
 
 .hidden {
 	opacity: 0;
 }
 
+/* Grows to fill the space above the description and centres the typed text
+   within it. min-height is the reserve for the tallest phrase, so the text
+   never collapses or overflows on short viewports. */
 .homepage-title {
-    display: block;
-	font-size: var(--fs-xxxxxl);
+    display: flex;
+	flex: 1;
+	align-items: center;
+	justify-content: center;
+	font-size: clamp(2.4rem, 1.4rem + 3.4vw, 3.7rem);
 	font-weight: var(--fw-bold);
 	text-align: center;
-	height: 5em;
+	min-height: 5.5em;
 	width: 6.5em;
-	margin: auto;
+	margin: 0em auto;
+	/* Shifts the centred text up by half this amount */
+	padding-bottom: clamp(3rem, 9vh, 7rem);
 }
 
 .console-underscore {
@@ -492,21 +522,18 @@ a {
 }
 
 .homepage-description {
-    font-size: var(--fs-s);
+    font-size: clamp(0.85rem, 0.78rem + 0.3vw, 1.05rem);
 	text-align: center;
-	width: 24em;
-	margin-top: 12vh;
-	margin-bottom: 3em;
-	padding-inline: 2em;
+	width: min(88vw, 73ch);
+	margin-top: 0em;
+	margin-bottom: 0em;
+	padding-inline: 1em;
 }
 
 @media (min-width: 400px) {
 	.homepage-title {
 		width: 8em;
-	}
-
-	.homepage-description{
-		width: 30em;
+		min-height: 3.7em;
 	}
 }
 
@@ -514,17 +541,13 @@ a {
 	.homepage-title {
 		width: 12em;
 	}
-
-	.homepage-description {
-        font-size: var(--fs-ml);
-		width: 35em;
-		margin-bottom: 6em;
-	}
 }
 
-@media (min-width: 1000px) {
-	.homepage-description{
-		width: 46em;
+/* Wide enough for the longest typed phrase to stay on one line */
+@media (min-width: 1200px) {
+	.homepage-title {
+		width: 13.6em;
+		min-height: 1.9em;
 	}
 }
 
@@ -535,38 +558,46 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-	padding: 1em 2em;
+	width: 100%;
+	max-width: 1400px;
+	margin-inline: auto;
+	padding: 1em clamp(1.25rem, 4vw, 4rem);
 }
 
 .about-title {
-	font-size: var(--fs-xxxxl);
+	font-size: clamp(2rem, 1.3rem + 2.8vw, 3.5rem);
 	font-weight: var(--fw-bold);
 	text-align: center;
-	margin-top: 2em;
+	margin-top: clamp(2rem, 6vh, 4rem);
 	margin-bottom: 0em;
 }
 
 .about-subtitle {
+	font-size: clamp(1rem, 0.9rem + 0.55vw, 1.45rem);
 	text-align: center;
-	margin-bottom: 0.5em;
+	max-width: 46ch;
+	margin-inline: auto;
+	margin-bottom: 0.8em;
 }
 
-.about-container-1, .about-container-2, .about-container-3 {
+.about-container-1, .about-container-2 {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-    font-size: var(--fs-s);
-	margin-block: 1em;
+	gap: clamp(2rem, 5.5vw, 6.5rem);
+    font-size: clamp(0.85rem, 0.78rem + 0.32vw, 1.05rem);
+	margin-block: clamp(1.5rem, 4vh, 3.5rem);
 }
 
-.about-container-1-text, .about-container-2-text, .about-container-3-text {
-	width: 80vw;
+.about-container-1-text, .about-container-2-text {
+	max-width: 80ch;
 }
 
 .profile-image, .profile-cat-image {
-	width: 20em;
+	width: clamp(12rem, 22vw, 20rem);
 	height: auto;
+	flex-shrink: 0;
 	padding: 0em;
 	margin: 0em;
 	transition: all 0.5s ease-in-out;
@@ -577,84 +608,32 @@ a {
 	filter: brightness(110%);
 }
 
-@media (min-width: 1200px) {
-    .about-subtitle {
-		width: 25em;
+@media (min-width: 900px) {
+	.about-container-1 {
+		flex-direction: row;
 	}
 
-    .about-container-1, .about-container-2, .about-container-3 {
-        font-size: var(--fs-ml);
-    }
-
-	.about-container-1, .about-container-3 {
-		display: grid;
-		grid-template-areas: 
-			"a b"
-			"c d";
-		width: 90vw;
+	.about-container-2 {
+		flex-direction: row-reverse;
 	}
 
-	.about-container-1-text, .about-container-3-text {
+	.about-container-1-text, .about-container-2-text {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		align-items: center;
-		width: 52vw;
-		margin-left: 4em;
-		margin-right: 2em;
-	}
-
-    .about-container-2-text {
-		width: 80vw;
-	}
-
-    .profile-image {
-		grid-area: a;
-		margin-left: 3em;
-	}
-
-	.profile-cat-image {
-		grid-area: b;
-		margin-right: 3em;
-		margin-left: 2em;
-	}
-}
-
-@media (min-width: 1400px) {
-    .about-container-2-text {
-		width: 75vw;
-	}
-}
-
-@media (min-width: 1600px) {
-    .about-container-1-text {
-        width: 60vw;
-    }
-
-    .about-container-2-text {
-		width: 80vw;
-	}
-
-	.about-container-3-text {
-		width: 60vw;
-	}
-}
-
-@media (min-width: 1800px) {
-    .about-container-2-text {
-		width: 78vw;
 	}
 }
 
 .photography-gallery-title {
-	font-size: var(--fs-xxl);
+	font-size: clamp(1.5rem, 1.2rem + 1.2vw, 2.4rem);
 	font-weight: var(--fw-bold);
 	text-align: center;
-	margin-top: 3em;
+	margin-top: clamp(2.5rem, 7vh, 5rem);
 	margin-bottom: 0;
 }
 
 .gallery-description {
+	font-size: clamp(0.85rem, 0.78rem + 0.3vw, 1.1rem);
 	text-align: center;
 	margin-block: 0em;
 }
@@ -847,14 +826,6 @@ a {
 }
 
 @media (min-width: 1300px) {
-    .photography-gallery-title {
-        font-size: var(--fs-xxl);
-    }
-
-    .gallery-description {
-        font-size: var(--fs-ml);
-    }
-
     .travel-title, .food-title, .cat-title {
         font-size: var(--fs-l);
     }
@@ -2361,16 +2332,18 @@ a {
 }
 
 .copyright {
-	font-size: var(--fs-s);
+	font-size: clamp(0.7rem, 0.65rem + 0.2vw, 0.85rem);
 	letter-spacing: 0.1em;
+	line-height: 1.4;
+	margin-block: clamp(0.4rem, 0.35rem + 0.15vw, 0.55rem) clamp(0.2rem, 0.15rem + 0.1vw, 0.3rem);
 }
 
 .icons {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: 2.5em;
-	padding-bottom: 1em;
+	gap: clamp(1.5rem, 1.3rem + 0.5vw, 2rem);
+	padding-bottom: clamp(0.4rem, 0.35rem + 0.15vw, 0.55rem);
 }
 
 .icon-link {
@@ -2378,13 +2351,7 @@ a {
 }
 
 .icon {
-	font-size: var(--fs-l);
-}
-
-@media (min-width: 1000px) {
-    .icon {
-	font-size: var(--fs-xl);
-}
+	font-size: clamp(0.95rem, 0.88rem + 0.3vw, 1.3rem);
 }
 
 .icon-link:focus, .icon:hover, .icon:focus {

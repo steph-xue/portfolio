@@ -63,7 +63,7 @@ function Homepage(props) {
                 <div className="console-underscore" id="console">&#95;</div>
             </div>
             <p className="homepage-description">
-                I am a UBC Bachelor of Computer Science (BCS) student with a background in healthcare and 
+                I'm a UBC Bachelor of Computer Science (BCS) student with a background in healthcare and 
                 a passion for building software that is purposeful, intuitive, and thoughtfully designed.
             </p>
         </div>

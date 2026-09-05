@@ -61,7 +61,7 @@ function Layout(props) {
     <>
       <FluidCursor />
 
-      <div>
+      <div className="page-body">
         <NavBar darkMode={props.darkMode} toggleDarkMode={props.toggleDarkMode} />
         <div className="content">
           <Outlet />
