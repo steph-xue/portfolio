@@ -71,7 +71,7 @@ function About(props) {
             <div className="about-container-1">
                 <img className="profile-image" src="/images/profile-pic.png" alt="profile-pic" />
                 <div className="about-container-1-text">
-                    <h2 className="about-subtitle">I&apos;m a currently a UBC Bachelor of Computer Science (BCS) student based in Vancouver, BC, Canada.</h2>
+                    <h2 className="about-subtitle">I&apos;m currently a UBC Bachelor of Computer Science (BCS) student based in Vancouver, BC, Canada.</h2>
                     <p className="about-description">
                         As a UBC Bachelor of Computer Science (BCS) student with a background in healthcare as a pharmacist, I have a strong enthusiasm
                         for full-stack software development and system architecture, artificial intelligence, cloud computing, UX/UI design, and creative
