@@ -268,7 +268,7 @@ function Experiences(props) {
                                 <li className="education-info">Degree conferred in 2022</li>
                             </ul>
                         </div>
-                        <p className="education-date">Sept 2018 - Apr 2022</p>
+                        <p className="education-date">Sept 2018 - May 2022</p>
                     </div>
                     <div className="education-section">
                         <div className="education-description">
