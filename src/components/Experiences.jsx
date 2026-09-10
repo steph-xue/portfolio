@@ -64,14 +64,10 @@ function Experiences(props) {
                             <li key={point + index} className="work-point">{point}</li>
                         ))}
                     </ul>
-                    <p className="work-languages">
-                            <strong>Languages: </strong>
-                            {experience.languages}
+                    <p className="work-tech-stack">
+                        <strong>Tech Stack: </strong>
+                        {experience.techStack}
                     </p>
-                        <div>
-                            <p className="work-tools1"><strong>Frameworks/Dependencies/Tools/Databases/APIs/Cloud Services: </strong></p>
-                            <p className="work-tools2">{experience.tools}</p>
-                        </div>
                 </div>
 
                 {/* Work image */}
@@ -163,16 +159,29 @@ function Experiences(props) {
 
             {/* Navigation links */}
             <div className={props.darkMode ? "experiences-nav nav-dark" : "experiences-nav nav-light"}>
-                <p onClick={() => scrollToSection(technicalSkillsRef)} className="nav-link experiences-nav-link">Technical Skills</p>
                 <p onClick={() => scrollToSection(workRef)} className="nav-link experiences-nav-link">Work Experience</p>
+                <p onClick={() => scrollToSection(technicalSkillsRef)} className="nav-link experiences-nav-link">Technical Skills</p>
                 <p onClick={() => scrollToSection(educationRef)} className="nav-link experiences-nav-link">Education & Awards</p>
                 <p onClick={() => scrollToSection(healthcareRef)} className="nav-link experiences-nav-link">Healthcare</p>
                 <p onClick={() => scrollToSection(researchRef)} className="nav-link experiences-nav-link">Research</p>
             </div>
 
+            {/* Work Experience section */}
+            <div
+                ref={workRef}
+                className={props.darkMode ? "work experiences-container item-container-dark" : "work experiences-container item-container-light"}
+            >
+                <h2 className="work-title">
+                    Work Experience
+                    <FontAwesomeIcon className="skills-icon laptop-icon" icon={faLaptop} />
+                </h2>
+                <div className="separator-line1"></div>
+                {workDataElements}
+            </div>
+
             {/* Technical skills section */}
-            <div 
-                ref={technicalSkillsRef} 
+            <div
+                ref={technicalSkillsRef}
                 className={props.darkMode ? "technical-skills experiences-container item-container-dark" : "technical-skills experiences-container item-container-light"}
             >
                 <h2 className="technical-skills-title">
@@ -182,12 +191,12 @@ function Experiences(props) {
                 <div className="separator-line1"></div>
                 <div className="skills-text">
                     <div className="skills-category skills-languages">
-                        <h3 className="skills-category-title">Programming & Markup Languages</h3>
-                        <p className="skills-category-items">Java, Python, TypeScript, JavaScript, C++, C, XML, HTML5, CSS3</p>
+                        <h3 className="skills-category-title">Languages</h3>
+                        <p className="skills-category-items">Java, Python, TypeScript, JavaScript, C++, C, SQL, HTML, CSS</p>
                     </div>
                     <div className="skills-category skills-frontend">
                         <h3 className="skills-category-title">Web Development</h3>
-                        <p className="skills-category-items">React, Vite, Next.js, Node.js, Express.js, Django, Flask, Bootstrap, Tailwind CSS</p>
+                        <p className="skills-category-items">React, Vite, Next.js, Node.js, Express.js, FastAPI, Django, Flask, Streamlit, Bootstrap, Tailwind CSS</p>
                     </div>
                     <div className="skills-category skills-backend">
                         <h3 className="skills-category-title">Game Development</h3>
@@ -199,42 +208,29 @@ function Experiences(props) {
                     </div>
                     <div className="skills-category skills-storage">
                         <h3 className="skills-category-title">Database Technologies</h3>
-                        <p className="skills-category-items">SQLite</p>
+                        <p className="skills-category-items">MongoDB, SQLite</p>
                     </div>
                     <div className="skills-category skills-ci-cd">
-                        <h3 className="skills-category-title">CI/CD Tools</h3>
-                        <p className="skills-category-items">TeamCity</p>
+                        <h3 className="skills-category-title">CI/CD & DevOps</h3>
+                        <p className="skills-category-items">Docker, TeamCity</p>
+                    </div>
+                    <div className="skills-category skills-ai">
+                        <h3 className="skills-category-title">ML & AI Tools</h3>
+                        <p className="skills-category-items">NumPy, pandas, scikit-learn, Matplotlib, Plotly, GitHub Copilot, Claude Code, Codex, Cursor</p>
                     </div>
                     <div className="skills-category skills-development">
-                        <h3 className="skills-category-title">Development Tools</h3>
-                        <p className="skills-category-items">Gradle, JUnit Jupiter, REST APIs, Launch4j, Git, GitHub, Bitbucket, VS Code, IntelliJ IDEA, Arduino IDE, Bash, Windows Batch</p>
+                        <h3 className="skills-category-title">Development Tools & Testing</h3>
+                        <p className="skills-category-items">Gradle, JUnit Jupiter, REST APIs, Postman, Launch4j, Git, GitHub, Bitbucket, VS Code, IntelliJ IDEA, Arduino IDE, Bash, Windows Batch</p>
                     </div>
                     <div className="skills-category skills-practices">
                         <h3 className="skills-category-title">Programming Practices</h3>
                         <p className="skills-category-items">Object Oriented Design, SOLID Principles, Data Structures & Algorithms, Multithreading, Unit Testing, Debugging, Agile Development</p>
                     </div>
-                    <div className="skills-category skills-design">
-                        <h3 className="skills-category-title">Design & Creative Tools</h3>
-                        <p className="skills-category-items">Figma, Canva, Adobe Photoshop, Procreate, Aseprite</p>
-                    </div>
                     <div className="skills-category skills-cloud">
-                        <h3 className="skills-category-title">Cloud & Deployment</h3>
+                        <h3 className="skills-category-title">Cloud Technologies</h3>
                         <p className="skills-category-items">AWS, Netlify, Render</p>
                     </div>
                 </div>
-            </div>
-
-            {/* Work Experience section */}
-            <div 
-                ref={workRef} 
-                className={props.darkMode ? "work experiences-container item-container-dark" : "work experiences-container item-container-light"}
-            >
-                <h2 className="work-title">
-                    Work Experience
-                    <FontAwesomeIcon className="skills-icon laptop-icon" icon={faLaptop} />
-                </h2>
-                <div className="separator-line1"></div>
-                {workDataElements}
             </div>
 
             {/* Education section */}
@@ -259,11 +255,11 @@ function Experiences(props) {
                         <div className="education-description">
                             <p className="education-subtitle">Bachelor of Computer Science (BCS) </p>
                             <ul>
-                                <li className="education-info">Relevant coursework: Software Construction, Computer Systems, Data Structures & Algorithms, Models of Computation, Understanding and Designing Cognitive Systems</li>
+                                <li className="education-info">Relevant coursework: Data Structures & Algorithms, Software Engineering, Operating Systems, Machine Learning, Cognitive Systems</li>
                                 <li className="education-info">Organizations: UBC Science Co-op, UBC Tri-Mentorship Program</li>
                             </ul>
                         </div>
-                        <p className="education-date">Sept 2024 - Apr 2027</p>
+                        <p className="education-date">Sept 2024 - Dec 2027</p>
                     </div>
                     <div className="education-section">
                         <div className="education-description">

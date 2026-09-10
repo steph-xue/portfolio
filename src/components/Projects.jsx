@@ -48,15 +48,18 @@ function Projects(props) {
                     <a className="project-container-link" href={project.github}>
                         <h2 className="project-title">{project.title}</h2>
                         <p className="project-type">{project.type}</p>
+                        { project.awards &&
+                            <ul className="project-awards">
+                                {project.awards.map(award => (
+                                    <li className="project-award" key={award}>{award}</li>
+                                ))}
+                            </ul>
+                        }
                         <p className="project-description">{project.description}</p>
-                        <p className="project-languages">
-                            <strong>Languages: </strong>
-                            {project.languages}
+                        <p className="project-tech-stack">
+                            <strong>Tech Stack: </strong>
+                            {project.techStack}
                         </p>
-                        <div>
-                            <p className="project-additional-info1"><strong>Frameworks/Dependencies/Tools/Databases/APIs/Cloud Services: </strong></p>
-                            <p className="project-additional-info2">{project.additionalInfo}</p>
-                        </div>
                         { project.github &&
                             <p className="project-github">
                                 <strong>Github Link: </strong>

@@ -1167,16 +1167,30 @@ a {
 	margin-bottom: 0.5em;
 }
 
+.project-awards {
+	list-style: none;
+	text-align: center;
+	margin: -0.25em 0em 0.5em 0em;
+	padding: 0em;
+}
+
+.project-award {
+	font-size: var(--fs-ml);
+	font-weight: var(--fw-med);
+}
+
 .project-description {
 	margin: 0.5em 1em 2em 1em;
 }
 
-.project-languages, .project-additional-info1, .project-additional-info2, .project-github, .project-link, .devpost-link {
+.project-tech-stack, .project-github, .project-link, .devpost-link {
     font-size: var(--fs-xs);
     margin: 0.2em;
 }
 
-.project-languages, .project-additional-info2 {
+.project-tech-stack {
+	max-width: 85%;
+	margin-inline: auto;
 	margin-bottom: 1em;
 }
 
@@ -1224,7 +1238,7 @@ a {
 		gap: 1em;
 	}
 
-	.project-languages, .project-additional-info1, .project-additional-info2 {
+	.project-tech-stack {
 		font-size: var(--fs-s);
 	}
 
@@ -1248,7 +1262,7 @@ a {
 }
 
 @media (min-width: 1000px) {
-	.project-description, .project-languages, .project-additional-info1, .project-additional-info2, .project-github, .project-link, .devpost-link {
+	.project-description, .project-tech-stack, .project-github, .project-link, .devpost-link {
 		font-size: var(--fs-m);
 	}
 }
@@ -1431,11 +1445,12 @@ a {
 	width: 100%;
 }
 
+/* Left column: a c e g i   |   Right column: b d f h j */
 .skills-languages {
 	grid-area: a;
 }
 
-.skills-development {
+.skills-cloud {
 	grid-area: b;
 }
 
@@ -1443,23 +1458,23 @@ a {
 	grid-area: c;
 }
 
-.skills-practices {
+.skills-ci-cd {
 	grid-area: d;
 }
 
-.skills-back-end {
+.skills-mobile {
 	grid-area: e;
 }
 
-.skills-ci-cd {
+.skills-ai {
 	grid-area: f;
 }
 
-.skills-mobile {
+.skills-backend {
 	grid-area: g;
 }
 
-.skills-design {
+.skills-development {
 	grid-area: h;
 }
 
@@ -1467,7 +1482,7 @@ a {
 	grid-area: i;
 }
 
-.skills-cloud {
+.skills-practices {
 	grid-area: j;
 }
 
@@ -1548,7 +1563,7 @@ a {
   margin: 0.5em 1em 2em 1em;
 }
 
-.work-languages, .work-tools1, .work-tools2 {
+.work-tech-stack {
   font-size: var(--fs-s);
   text-align: center;
   margin: 0.2em;
@@ -1781,7 +1796,7 @@ a {
         width: 35em;
     }
 
-    .work-location, .work-date, .work-description, .work-languages, .work-tools1, .work-tools2 {
+    .work-location, .work-date, .work-description, .work-tech-stack {
         font-size: var(--fs-ml);
     }
 
@@ -1863,9 +1878,9 @@ a {
 
 @media (min-width: 1600px) {
 	.skills-text {
-		grid-template-areas: 
-		"a c b d h"
-		"g e i f j";
+		grid-template-areas:
+		"a c e g i"
+		"b d f h j";
         grid-template-columns: repeat(5, 1fr);
         grid-column-gap: 1em;
 	}
