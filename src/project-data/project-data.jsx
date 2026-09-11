@@ -778,7 +778,7 @@ export default [
         title: "AI Mock Interview Coach",
         description:
             "AI Mock Interview Coach is a full-stack, multi-agent AI web application that delivers real-time, hands-free speech-to-speech interview practice for students preparing for internship, co-op, and new grad roles. The experience is fully personalized, with interview questions, practice guidance, and feedback all shaped by the student's uploaded resume and target job description. Students can choose Practice Mode, which offers tailored guidance drawn from their own experiences, or Live Mode, which simulates a realistic virtual interview without assistance. After the interview, students receive a personalized feedback report covering detailed scoring, question-specific strengths and improvements, and next steps.",
-        type: "Hackathon Project - UBC CIC Hackathon 2026",
+        type: "Hackathon Project - UBC Cloud Innovation Center Summer Hackathon 2026",
         awards: [
             "🏆 1st Place Winner"
         ],
